@@ -1,32 +1,34 @@
 # 🔥 LinkedIn — Can Öncül — Remote Creative Strategy & AI Roles
-*Last updated: 2026-09-09 16:50 UTC*
+*Last updated: 2026-09-09 17:57 UTC*
 
-**6 new role(s)** since last run · 6 total in last 1h
+**7 new role(s)** since last run · 7 total in last 1h
 
-### [Associate Creative Director](https://www.linkedin.com/jobs/view/4465074509/) — FirstDay Foundation
-- 📍 **Location:** San Antonio, Texas Metropolitan Area
+### [Editorial Content Strategist, Digital & Insights](https://www.linkedin.com/jobs/view/4454307254/) — FTI Consulting
+- 📍 **Location:** New York, NY
 - 🕒 **Posted:** 2026-09-09
 
-### [Head of Integrated Marketing & Campaigns](https://www.linkedin.com/jobs/view/4465076631/) — The Carlyle Group
+### [Creative Director - Copy - VP](https://www.linkedin.com/jobs/view/4463897560/) — OLIXIR New York
 - 📍 **Location:** New York, NY
-- 💰 **Salary:** $220,000 to $250,000
 - 🕒 **Posted:** 2026-09-09
 
-### [Associate Creative Director, Copy](https://www.linkedin.com/jobs/view/4436806851/) — GSW, powered by Syneos Health
+### [Design Director - Women’s Swimwear](https://www.linkedin.com/jobs/view/4465086458/) — SBH Fashion
 - 📍 **Location:** New York, NY
-- 💰 **Salary:** $140,000 to $160,000
 - 🕒 **Posted:** 2026-09-09
 
-### [Associate Creative Director, Art](https://www.linkedin.com/jobs/view/4465061660/) — Big Spaceship
+### [Account Director](https://www.linkedin.com/jobs/view/4453409430/) — Digitas North America
 - 📍 **Location:** New York, NY
-- 💰 **Salary:** $135,000.00/yr - $170,000.00/yr
+- 💰 **Salary:** USD $97,375.00 - USD $149,296.00/Annually
 - 🕒 **Posted:** 2026-09-09
 
-### [Product Design Director (Individual Contributor),  Customer Acquisitions and Management](https://www.linkedin.com/jobs/view/4437800276/) — Capital One
+### [Senior Art Director (Contract)](https://www.linkedin.com/jobs/view/4443642411/) — Spin Master
 - 📍 **Location:** New York, NY
-- 💰 **Salary:** $230,400 - $263,000
 - 🕒 **Posted:** 2026-09-09
 
-### [Principal AI Creative Director, POD](https://www.linkedin.com/jobs/view/4455920043/) — Amazon
+### [Principal Brand Strategist, Amazon Ads, Amazon Ads Marketing](https://www.linkedin.com/jobs/view/4455937275/) — Amazon
+- 📍 **Location:** New York, United States
+- 🕒 **Posted:** 2026-09-09
+
+### [Content Strategist](https://www.linkedin.com/jobs/view/4463049523/) — Ztek Consulting
 - 📍 **Location:** New York, NY
+- 💰 **Salary:** $100,000.00/yr - $110,000.00/yr
 - 🕒 **Posted:** 2026-09-09
