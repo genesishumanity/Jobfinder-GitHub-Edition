@@ -57,6 +57,31 @@ def fit(job):
     )))
 
 
+def international_remote_status(job):
+    """Conservative eligibility label; never infer UAE eligibility from 'remote' alone."""
+    text = " ".join(str(job.get(key, "")) for key in (
+        "title", "location", "description", "work_arrangement"
+    )).lower()
+
+    worldwide = (
+        "worldwide", "work from anywhere", "work anywhere", "anywhere in the world",
+        "international contractor", "global contractor", "contractor worldwide",
+        "global remote", "remote - global"
+    )
+    restricted = (
+        "u.s. only", "us only", "usa only", "remote, us", "united states only",
+        "must be based in the us", "right to work in the us", "us work authorization",
+        "uk only", "united kingdom only", "right to work in the uk",
+        "eu only", "european union only", "must be based in canada",
+        "canada only", "australia only"
+    )
+    if any(term in text for term in worldwide):
+        return "✅ Uluslararası / contractor uygunluğu açık"
+    if any(term in text for term in restricted):
+        return "⛔ Ülke kısıtı var — UAE'den uygun görünmüyor"
+    return "⚪ UAE/uluslararası uygunluğu ilanda net değil"
+
+
 def label(job):
     salary = str(job.get("salary", "")).strip()
     location = str(job.get("location", "")).strip() or "Remote details not stated"
@@ -68,8 +93,8 @@ def label(job):
         f"{job.get('title', 'Untitled')} — {job.get('company', 'Unknown company')}",
         f"Kaynak: {source} · Yeni keşif",
         f"Konum: {location}",
+        international_remote_status(job),
         f"Maaş: {salary or 'belirtilmemiş'}",
-        "Not: ülke/contractor uygunluğunu başvurmadan önce doğrula.",
         url,
     ])
 
