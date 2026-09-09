@@ -63,10 +63,10 @@ def label(job):
     source = str(job.get("ats", "")).strip() or "source"
     url = str(job.get("direct_url", "")).strip() or str(job.get("url", "")).strip()
     return "\n".join([
-        "🟢 REMOTE FIRSAT",
+        "🔎 YENİ FIRSAT",
         "",
         f"{job.get('title', 'Untitled')} — {job.get('company', 'Unknown company')}",
-        f"Uygunluk: {fit(job)}/100 · Kaynak: {source}",
+        f"Kaynak: {source} · Yeni keşif",
         f"Konum: {location}",
         f"Maaş: {salary or 'belirtilmemiş'}",
         "Not: ülke/contractor uygunluğunu başvurmadan önce doğrula.",
