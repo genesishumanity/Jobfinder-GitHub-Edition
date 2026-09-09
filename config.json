@@ -1,0 +1,116 @@
+{
+  "_README": "Can Öncül remote job-search configuration. Public preferences only; never place CV text, API tokens or personal contact information here.",
+  "profile": {
+    "title": "Can Öncül — Remote Creative Strategy & AI",
+    "subtitle": "Worldwide · EMEA · contractor-friendly",
+    "emoji": "🌍"
+  },
+  "keywords": {
+    "include": [
+      "creative strategist", "senior creative strategist", "creative lead",
+      "creative director", "associate creative director", "integrated creative",
+      "brand strategist", "brand creative", "creative innovation",
+      "creative technologist", "creative producer", "campaign strategist",
+      "performance creative", "growth creative", "content strategist",
+      "creative operations", "fractional creative", "freelance creative",
+      "ai creative", "ai content"
+    ],
+    "exclude": [
+      "intern", "internship", "junior", "graduate", "entry level",
+      "instructional", "product designer", "ux designer", "ui designer",
+      "customer success", "customer support", "sales development",
+      "project coordinator", "veeva", "clinical", "medical", "batch release",
+      "video editor", "videographer", "graphic designer", "social media manager",
+      "content creator", "media buyer"
+    ],
+    "fuzzy_seniority": [],
+    "fuzzy_domain": [],
+    "fuzzy_exclude": []
+  },
+  "search_terms": {
+    "linkedin": [
+      "creative strategist", "creative lead", "creative director",
+      "brand strategist", "performance creative", "creative producer",
+      "creative technologist", "fractional creative"
+    ],
+    "indeed": [
+      "creative strategist", "creative lead", "creative director",
+      "brand strategist", "performance creative", "creative producer"
+    ],
+    "glassdoor": [
+      "creative strategist", "creative lead", "creative director",
+      "brand strategist", "performance creative", "creative producer"
+    ],
+    "ziprecruiter": ["creative strategist", "creative lead", "brand strategist"],
+    "google_jobs": ["creative strategist remote", "creative lead remote", "brand strategist remote"],
+    "hiring_cafe": ["creative strategist", "creative lead", "brand strategist"],
+    "calcareers": [],
+    "usajobs": [],
+    "governmentjobs": [],
+    "workday": ["creative strategist", "creative lead", "creative director"]
+  },
+  "locations": {
+    "linkedin": [
+      {"name": "Remote", "location": "Remote", "geoId": ""},
+      {"name": "United Kingdom", "location": "United Kingdom", "geoId": ""},
+      {"name": "Europe", "location": "European Economic Area", "geoId": ""},
+      {"name": "UAE", "location": "United Arab Emirates", "geoId": ""}
+    ],
+    "indeed": [
+      {"location": "Remote", "country": "USA"},
+      {"location": "Remote", "country": "United Kingdom"}
+    ],
+    "glassdoor": [
+      {"location": "Remote", "country": "USA"},
+      {"location": "Remote", "country": "United Kingdom"}
+    ],
+    "ziprecruiter": [{"location": "Remote", "country": "USA"}],
+    "google_jobs": [
+      {"location": "Remote", "country": "USA"},
+      {"location": "Remote", "country": "United Kingdom"}
+    ],
+    "hiring_cafe": [{"location": "Remote"}],
+    "linkedin_partitions": {"states": [], "high_volume": {"locations": [], "day_slices": false}}
+  },
+  "location_filter": {
+    "terms": [
+      "remote", "worldwide", "anywhere", "global", "distributed", "async",
+      "emea", "europe", "united kingdom", "uk", "ireland", "uae",
+      "united arab emirates", "dubai"
+    ]
+  },
+  "google_jobs": {"queries": [], "serpapi_api_key": "", "oxylabs_username": "", "oxylabs_password": ""},
+  "jobspy": {"proxies": [], "user_agent": ""},
+  "hiring_cafe": {"max_pages": 2},
+  "employers": {
+    "priority": [
+      "Canva", "GitLab", "Automattic", "Buffer", "Webflow", "HubSpot",
+      "Notion", "Figma", "Miro", "Zapier", "Vercel", "Deel", "Remote",
+      "WPP", "Media.Monks", "Monks", "Superside", "Dentsu", "Monzo"
+    ],
+    "exclude": []
+  },
+  "priority_topics": {
+    "terms": [
+      ["AI creative", "ai[\\s-]?(creative|content|workflow|production|strategy)"],
+      ["strategy", "creative strategy|brand strategy|campaign strategy"],
+      ["contractor-friendly", "contract|contractor|freelance|fractional|retainer"]
+    ]
+  },
+  "role_categories": {
+    "terms": [
+      ["Creative Strategy", "creative strateg|campaign strateg|integrated creative"],
+      ["Creative Leadership", "creative lead|creative director|associate creative director"],
+      ["Brand", "brand strateg|brand creative"],
+      ["AI / Creative Tech", "creative technologist|ai creative|ai content"],
+      ["Production / Operations", "creative producer|creative operations"],
+      ["Performance Creative", "performance creative|growth creative"]
+    ]
+  },
+  "notify": {
+    "min_fit": 58,
+    "telegram_min_fit": 58,
+    "daily_cap": 10,
+    "weekly_digest": {"enabled": false, "days": 7}
+  }
+}
