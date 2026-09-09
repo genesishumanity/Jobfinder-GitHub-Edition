@@ -1,5 +1,5 @@
 # ☕ HiringCafe — Can Öncül — Remote Creative Strategy & AI Roles
-*Last updated: 2026-09-09 22:01 UTC*
+*Last updated: 2026-09-09 23:01 UTC*
 
 **0 new role(s)** since last run · 18 total in last 30d
 
