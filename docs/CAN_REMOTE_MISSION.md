@@ -49,3 +49,14 @@ Telegram no longer applies a second score, remote-text, or daily-cap gate. Sourc
 - Telegram is now a broad delivery layer: source scrapers decide discovery and title matching, then every new, de-duplicated result is sent.
 - The old 0–100 keyword score was not a delivery decision, but it was still displayed on cards. Expanded role titles could therefore show `0/100` even when they were deliberately delivered.
 - The misleading number has been removed from Telegram cards. Cards now show the source, location, salary when supplied, and the direct application link.
+
+
+## International remote eligibility labels — 2026-09-09
+
+Telegram cards now distinguish three facts that job boards frequently blur:
+
+- `✅ Uluslararası / contractor uygunluğu açık`: the listing explicitly says worldwide, global remote, work-from-anywhere, or international/global contractor.
+- `⛔ Ülke kısıtı var`: the listing explicitly requires a location or work authorization such as US-only, UK-only, EU-only, Canada-only, or Australia-only.
+- `⚪ UAE/uluslararası uygunluğu ilanda net değil`: remote may be real, but the text does not prove that Can can work from UAE as an international contractor.
+
+Unknown listings are still delivered so viable roles are not silently lost. They are not represented as confirmed UAE-compatible work.
