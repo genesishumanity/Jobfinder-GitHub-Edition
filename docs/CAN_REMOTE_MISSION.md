@@ -32,3 +32,8 @@ Discovery now covers 45 senior/adjacent titles: creative direction and strategy,
 ## Source expansion — 2026-09-09
 
 Google Jobs is now a Telegram delivery source alongside LinkedIn, Indeed and Glassdoor. It shares the same remote eligibility check, fit threshold and 10-per-day delivery cap.
+
+
+## Throughput correction — 2026-09-09
+
+Scheduled LinkedIn, Indeed, Glassdoor and Google Jobs workflows previously shared one concurrency group. A long LinkedIn run blocked or cancelled other sources. They now use separate source queues. Telegram discovery threshold is 25/100 and the daily delivery cap is 200 to support a high-volume discovery phase. This intentionally trades selectivity for coverage; remote and role-family exclusions remain.
