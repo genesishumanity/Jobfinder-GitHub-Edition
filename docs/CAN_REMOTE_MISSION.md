@@ -27,3 +27,8 @@ Initial manual runs showed that strict title matching and a 58/100 Telegram thre
 ## Expansion — 2026-09-09
 
 Discovery now covers 45 senior/adjacent titles: creative direction and strategy, art/design/visual direction, brand leadership, campaign and integrated marketing, content leadership, creative innovation/AI, production, creative services, and agency client leadership. This is discovery widening, not a claim that every role is an ideal match. Junior, commodity production and unrelated role exclusions remain in force.
+
+
+## Source expansion — 2026-09-09
+
+Google Jobs is now a Telegram delivery source alongside LinkedIn, Indeed and Glassdoor. It shares the same remote eligibility check, fit threshold and 10-per-day delivery cap.
