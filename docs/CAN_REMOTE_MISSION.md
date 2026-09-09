@@ -37,3 +37,8 @@ Google Jobs is now a Telegram delivery source alongside LinkedIn, Indeed and Gla
 ## Throughput correction — 2026-09-09
 
 Scheduled LinkedIn, Indeed, Glassdoor and Google Jobs workflows previously shared one concurrency group. A long LinkedIn run blocked or cancelled other sources. They now use separate source queues. Telegram discovery threshold is 25/100 and the daily delivery cap is 200 to support a high-volume discovery phase. This intentionally trades selectivity for coverage; remote and role-family exclusions remain.
+
+
+## Delivery simplification — 2026-09-09
+
+Telegram no longer applies a second score, remote-text, or daily-cap gate. Source workflows perform discovery and title/location filtering; Telegram delivers every new, deduplicated result from LinkedIn, Indeed, Glassdoor and Google Jobs. The displayed fit score remains explanatory only.
