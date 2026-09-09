@@ -15,7 +15,7 @@ on:
         default: false
 
 concurrency:
-  group: job-scraper-commit-push
+  group: jobfinder-glassdoor
   cancel-in-progress: false
 
 jobs:
@@ -60,7 +60,6 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          TELEGRAM_DAILY_CAP: ${{ vars.TELEGRAM_DAILY_CAP }}
 
       - name: Record workflow run
         run: |
