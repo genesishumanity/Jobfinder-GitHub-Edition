@@ -22,3 +22,8 @@ Keep secrets (Telegram token, chat ID, API keys, CV text and contact data) in Gi
 ## Calibration — 2026-09-09
 
 Initial manual runs showed that strict title matching and a 58/100 Telegram threshold produced too few leads. The discovery role set was broadened across senior creative, art direction, brand, campaigns, content and creative operations. Telegram delivery threshold is now 40/100, while the daily cap remains 10. Glassdoor returning zero listings is an upstream/source result, not an alert filter decision.
+
+
+## Expansion — 2026-09-09
+
+Discovery now covers 45 senior/adjacent titles: creative direction and strategy, art/design/visual direction, brand leadership, campaign and integrated marketing, content leadership, creative innovation/AI, production, creative services, and agency client leadership. This is discovery widening, not a claim that every role is an ideal match. Junior, commodity production and unrelated role exclusions remain in force.
