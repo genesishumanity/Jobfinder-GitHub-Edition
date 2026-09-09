@@ -374,9 +374,9 @@
     ]
   },
   "notify": {
-    "min_fit": 40,
-    "telegram_min_fit": 40,
-    "daily_cap": 10,
+    "min_fit": 25,
+    "telegram_min_fit": 25,
+    "daily_cap": 200,
     "weekly_digest": {
       "enabled": false,
       "days": 7
