@@ -110,12 +110,12 @@ def main():
         state = {"date": today, "ids": []}
 
     sent_ids = set(state.get("ids", []))
-    minimum = int(os.environ.get("TELEGRAM_MIN_FIT", config().get("telegram_min_fit", 58)))
-    cap = int(os.environ.get("TELEGRAM_DAILY_CAP", config().get("daily_cap", 10)))
-    candidates = [job for job in new_jobs if remote_plausible(job) and identity(job) not in sent_ids and fit(job) >= minimum]
+    # Discovery and title filtering belong to the source scrapers. Telegram is
+    # deliberately a delivery layer: every newly-discovered, not-yet-sent job
+    # reaches Can without a second score, remote-text, or daily-cap gate.
+    candidates = [job for job in new_jobs if identity(job) not in sent_ids]
     candidates.sort(key=lambda job: (fit(job), bool(job.get("salary")), bool(job.get("direct_url"))), reverse=True)
-    remaining = max(0, cap - len(sent_ids))
-    chosen = candidates[:remaining]
+    chosen = candidates
 
     for job in chosen:
         if send(label(job)):
@@ -126,7 +126,7 @@ def main():
     os.makedirs(OUTPUT, exist_ok=True)
     with open(STATE_PATH, "w", encoding="utf-8") as handle:
         json.dump(state, handle, ensure_ascii=False, indent=2)
-    print(f"Telegram: {len(chosen)} qualifying job(s), {len(sent_ids)}/{cap} daily slots used.")
+    print(f"Telegram: delivered {len(chosen)} new job(s); {len(sent_ids)} unique job(s) remembered.")
     return 0
 
 
