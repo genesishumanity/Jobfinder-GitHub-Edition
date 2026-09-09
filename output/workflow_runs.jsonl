@@ -3600,3 +3600,4 @@
 {"job_count": 10, "run_attempt": "1", "run_id": "34391808723", "timestamp": "2026-09-09T18:54:41Z", "workflow": "indeed"}
 {"job_count": 18, "run_attempt": "1", "run_id": "34392478176", "timestamp": "2026-09-09T19:00:57Z", "workflow": "hiringcafe"}
 {"job_count": 14, "run_attempt": "1", "run_id": "34389908500", "timestamp": "2026-09-09T19:01:03Z", "workflow": "linkedin"}
+{"job_count": 0, "run_attempt": "1", "run_id": "34394055135", "timestamp": "2026-09-09T19:16:51Z", "workflow": "glassdoor"}
