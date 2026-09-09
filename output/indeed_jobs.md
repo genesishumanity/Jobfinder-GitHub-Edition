@@ -1,16 +1,11 @@
 # 🟦 Indeed — Can Öncül — Remote Creative Strategy & AI Roles
-*Last updated: 2026-09-09 22:53 UTC*
+*Last updated: 2026-09-09 23:53 UTC*
 
-**2 new role(s)** since last run · 8 total in last 24h
+**1 new role(s)** since last run · 9 total in last 24h
 
-### [Senior Partner Account Director - Digital Advertising (Remote - EST/CST)](https://www.indeed.com/viewjob?jk=001eba72fe8f093c) — Yelp
+### [Marketing & Brand Strategist](https://www.indeed.com/viewjob?jk=87a793f75844d831) — HDA Financial Firm
 - 📍 **Location:** Remote, US
-- 💰 **Salary:** $110k–$220k/yr
+- 💰 **Salary:** $40–$60/hr
 - **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-09-04
-
-### [Freelance Creative Marketing Translators & Transcreators | Spanish (Puerto Rico)](https://www.indeed.com/viewjob?jk=bdf8f36420127640) — Acclaro
-- 📍 **Location:** Ponce, PR, US
-- **Work mode:** Remote in-state eligible
+- **Job type:** contract
 - 🕒 **Posted:** 2026-09-09
