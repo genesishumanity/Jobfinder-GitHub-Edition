@@ -42,3 +42,10 @@ Scheduled LinkedIn, Indeed, Glassdoor and Google Jobs workflows previously share
 ## Delivery simplification — 2026-09-09
 
 Telegram no longer applies a second score, remote-text, or daily-cap gate. Source workflows perform discovery and title/location filtering; Telegram delivers every new, deduplicated result from LinkedIn, Indeed, Glassdoor and Google Jobs. The displayed fit score remains explanatory only.
+
+
+## Telegram score display correction — 2026-09-09
+
+- Telegram is now a broad delivery layer: source scrapers decide discovery and title matching, then every new, de-duplicated result is sent.
+- The old 0–100 keyword score was not a delivery decision, but it was still displayed on cards. Expanded role titles could therefore show `0/100` even when they were deliberately delivered.
+- The misleading number has been removed from Telegram cards. Cards now show the source, location, salary when supplied, and the direct application link.
