@@ -1,7 +1,6 @@
-name: Test Pushover Notification
+name: Test Telegram Notification
 
-# Manually trigger from the Actions tab to send a single test push to your
-# phone — confirms PUSHOVER_TOKEN / PUSHOVER_USER are set correctly on GitHub.
+# Manually trigger from the Actions tab to send one Telegram test message.
 on:
   workflow_dispatch:
 
@@ -18,8 +17,8 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Send test Pushover notification
-        run: python notify.py --test
+      - name: Send test Telegram notification
+        run: python telegram_notify.py --test
         env:
-          PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
-          PUSHOVER_USER: ${{ secrets.PUSHOVER_USER }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
