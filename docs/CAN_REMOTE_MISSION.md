@@ -17,3 +17,8 @@ This repository is the active JobFinder system. The old Cloudflare Worker is not
 ## Operating rule
 
 Keep secrets (Telegram token, chat ID, API keys, CV text and contact data) in GitHub Actions Secrets only. Do not commit them to this public repository.
+
+
+## Calibration — 2026-09-09
+
+Initial manual runs showed that strict title matching and a 58/100 Telegram threshold produced too few leads. The discovery role set was broadened across senior creative, art direction, brand, campaigns, content and creative operations. Telegram delivery threshold is now 40/100, while the daily cap remains 10. Glassdoor returning zero listings is an upstream/source result, not an alert filter decision.
