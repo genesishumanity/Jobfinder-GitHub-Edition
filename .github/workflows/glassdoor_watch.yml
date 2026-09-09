@@ -60,7 +60,6 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          TELEGRAM_MIN_FIT: ${{ vars.TELEGRAM_MIN_FIT }}
           TELEGRAM_DAILY_CAP: ${{ vars.TELEGRAM_DAILY_CAP }}
 
       - name: Record workflow run
