@@ -1,5 +1,5 @@
 # 🟦 Indeed — Can Öncül — Remote Creative Strategy & AI Roles
-*Last updated: 2026-09-10 20:53 UTC*
+*Last updated: 2026-09-10 21:52 UTC*
 
 **0 new role(s)** since last run · 9 total in last 24h
 
