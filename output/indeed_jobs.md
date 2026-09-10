@@ -1,11 +1,11 @@
 # 🟦 Indeed — Can Öncül — Remote Creative Strategy & AI Roles
-*Last updated: 2026-09-09 23:53 UTC*
+*Last updated: 2026-09-10 00:58 UTC*
 
-**1 new role(s)** since last run · 9 total in last 24h
+**1 new role(s)** since last run · 8 total in last 24h
 
-### [Marketing & Brand Strategist](https://www.indeed.com/viewjob?jk=87a793f75844d831) — HDA Financial Firm
-- 📍 **Location:** Remote, US
-- 💰 **Salary:** $40–$60/hr
+### [Operations Specialist, Creative Services *Remote*](https://www.indeed.com/viewjob?jk=40b2add7a255d952) — Compassion & Choices
+- 📍 **Location:** Washington, DC, US
+- 💰 **Salary:** $70k–$90k/yr
 - **Work mode:** Remote in-state eligible
-- **Job type:** contract
-- 🕒 **Posted:** 2026-09-09
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-09-08
