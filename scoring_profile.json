@@ -1,37 +1,118 @@
 {
-  "version": 1,
   "description": "Can Öncül — remote creative strategy, creative leadership and AI-enabled creative work. Scores opportunity credibility, not title prestige.",
-  "settings": {
-    "title_multiplier": 2,
-    "body_multiplier": 1,
-    "score_multiplier": 1.25,
-    "generic_cap": 40,
-    "standout_threshold": 58
-  },
   "fit_terms": [
-    {"pattern": "\\b(senior )?creative strategist\\b|\\bcreative strategy\\b", "weight": 18},
-    {"pattern": "\\bcreative lead\\b|\\bcreative director\\b|\\bassociate creative director\\b", "weight": 17},
-    {"pattern": "\\bintegrated creative\\b|\\bcampaign strategist\\b|\\bcampaign strategy\\b", "weight": 14},
-    {"pattern": "\\bbrand strategist\\b|\\bbrand strategy\\b|\\bbrand creative\\b", "weight": 13},
-    {"pattern": "\\bcreative technologist\\b|\\bcreative innovation\\b|\\bai[- ]?(creative|content|workflow|production)\\b", "weight": 13},
-    {"pattern": "\\bperformance creative\\b|\\bgrowth creative\\b|\\bcreative testing\\b", "weight": 10},
-    {"pattern": "\\bcreative producer\\b|\\bcreative operations\\b", "weight": 9},
-    {"pattern": "\\bfractional\\b|\\bcontract(or)?\\b|\\bfreelance\\b|\\bretainer\\b", "weight": 8},
-    {"pattern": "\\bremote\\b|\\bworldwide\\b|\\bdistributed\\b|\\basync\\b", "weight": 8},
-    {"pattern": "\\bclient communication\\b|\\bstakeholder\\b|\\bcreative direction\\b|\\bstorytelling\\b", "weight": 6}
-  ],
-  "signature_terms": [
-    "\\bcreative strateg", "\\bcreative lead\\b", "\\bcreative director\\b",
-    "\\bbrand strateg", "\\bintegrated creative\\b", "\\bcreative technologist\\b",
-    "\\bcreative producer\\b", "\\bperformance creative\\b", "\\bfractional creative\\b"
+    {
+      "pattern": "\\b(senior )?creative strategist\\b|\\bcreative strategy\\b",
+      "weight": 18
+    },
+    {
+      "pattern": "\\bcreative lead\\b|\\bcreative director\\b|\\bassociate creative director\\b",
+      "weight": 17
+    },
+    {
+      "pattern": "\\bintegrated creative\\b|\\bcampaign strategist\\b|\\bcampaign strategy\\b",
+      "weight": 14
+    },
+    {
+      "pattern": "\\bbrand strategist\\b|\\bbrand strategy\\b|\\bbrand creative\\b",
+      "weight": 13
+    },
+    {
+      "pattern": "\\bcreative technologist\\b|\\bcreative innovation\\b|\\bai[- ]?(creative|content|workflow|production)\\b",
+      "weight": 13
+    },
+    {
+      "pattern": "\\bperformance creative\\b|\\bgrowth creative\\b|\\bcreative testing\\b",
+      "weight": 10
+    },
+    {
+      "pattern": "\\bcreative producer\\b|\\bcreative operations\\b",
+      "weight": 9
+    },
+    {
+      "pattern": "\\bfractional\\b|\\bcontract(or)?\\b|\\bfreelance\\b|\\bretainer\\b",
+      "weight": 8
+    },
+    {
+      "pattern": "\\bclient communication\\b|\\bstakeholder\\b|\\bcreative direction\\b|\\bstorytelling\\b",
+      "weight": 6
+    },
+    {
+      "pattern": "\\bworldwide\\b|\\bwork from anywhere\\b|\\bglobal remote\\b|\\bfully distributed\\b",
+      "weight": 20
+    },
+    {
+      "pattern": "\\binternational contractor\\b|\\bcontractor[- ]friendly\\b|\\bindependent contractor\\b",
+      "weight": 18
+    },
+    {
+      "pattern": "\\bEMEA\\b|\\bEurope remote\\b|\\bUK remote\\b|\\bUnited Kingdom remote\\b",
+      "weight": 12
+    },
+    {
+      "pattern": "\\bfractional\\b|\\bcontract(or)?\\b|\\bfreelance\\b|\\bretainer\\b",
+      "weight": 10
+    }
   ],
   "poor_fit_terms": [
-    {"pattern": "\\bintern(ship)?\\b|\\bjunior\\b|\\bgraduate\\b|\\bentry[ -]level\\b", "penalty": 32},
-    {"pattern": "\\binstructional\\b|\\bveeva\\b|\\bbatch release\\b|\\bclinical\\b|\\bmedical\\b", "penalty": 45},
-    {"pattern": "\\bproduct designer\\b|\\bux designer\\b|\\bui designer\\b", "penalty": 22},
-    {"pattern": "\\bcustomer success\\b|\\bcustomer support\\b|\\bsales development\\b", "penalty": 30},
-    {"pattern": "\\bvideo editor\\b|\\bvideographer\\b|\\bgraphic designer\\b|\\bsocial media manager\\b|\\bcontent creator\\b|\\bmedia buyer\\b", "penalty": 24},
-    {"pattern": "\\bon[- ]site\\b|\\bin office\\b|\\brelocation required\\b", "penalty": 35},
-    {"pattern": "\\bmust (be|reside|live) (in|within) (the )?(us|usa|united states)\\b|\\bus work authorization required\\b", "penalty": 20}
-  ]
+    {
+      "pattern": "\\bintern(ship)?\\b|\\bjunior\\b|\\bgraduate\\b|\\bentry[ -]level\\b",
+      "penalty": 32
+    },
+    {
+      "pattern": "\\binstructional\\b|\\bveeva\\b|\\bbatch release\\b|\\bclinical\\b|\\bmedical\\b",
+      "penalty": 45
+    },
+    {
+      "pattern": "\\bproduct designer\\b|\\bux designer\\b|\\bui designer\\b",
+      "penalty": 22
+    },
+    {
+      "pattern": "\\bcustomer success\\b|\\bcustomer support\\b|\\bsales development\\b",
+      "penalty": 30
+    },
+    {
+      "pattern": "\\bvideo editor\\b|\\bvideographer\\b|\\bgraphic designer\\b|\\bsocial media manager\\b|\\bcontent creator\\b|\\bmedia buyer\\b",
+      "penalty": 24
+    },
+    {
+      "pattern": "\\bon[- ]site\\b|\\bin office\\b|\\brelocation required\\b",
+      "penalty": 35
+    },
+    {
+      "pattern": "\\bmust (be|reside|live) (in|within) (the )?(us|usa|united states)\\b|\\bus work authorization required\\b",
+      "penalty": 20
+    },
+    {
+      "pattern": "\\bremote,?\\s*(us|usa|united states)\\b|\\bus[- ]only\\b|\\bunited states only\\b|\\bus work authorization\\b|\\bauthorized to work in the us\\b",
+      "penalty": 70
+    },
+    {
+      "pattern": "\\bmust (reside|live|be located) in (the )?(us|usa|united states)\\b|\\bwithin the united states\\b",
+      "penalty": 65
+    },
+    {
+      "pattern": "\\bcalifornia\\b|\\bnew york\\b|\\bwashington,? dc\\b|\\bmassachusetts\\b|\\barizona\\b",
+      "penalty": 35
+    }
+  ],
+  "settings": {
+    "body_multiplier": 1,
+    "generic_cap": 32,
+    "score_multiplier": 1.25,
+    "standout_threshold": 50,
+    "title_multiplier": 2
+  },
+  "signature_terms": [
+    "\\bcreative strateg",
+    "\\bcreative lead\\b",
+    "\\bcreative director\\b",
+    "\\bbrand strateg",
+    "\\bintegrated creative\\b",
+    "\\bcreative technologist\\b",
+    "\\bcreative producer\\b",
+    "\\bperformance creative\\b",
+    "\\bfractional creative\\b"
+  ],
+  "version": 1
 }
