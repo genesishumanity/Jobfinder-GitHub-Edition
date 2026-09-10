@@ -1,73 +1,59 @@
 {
   "_README": "Can Öncül remote job-search configuration. Public preferences only; never place CV text, API tokens or personal contact information here.",
-  "profile": {
-    "title": "Can Öncül — Remote Creative Strategy & AI",
-    "subtitle": "Worldwide · EMEA · contractor-friendly",
-    "emoji": "🌍"
+  "employers": {
+    "exclude": [],
+    "priority": [
+      "Canva",
+      "GitLab",
+      "Automattic",
+      "Buffer",
+      "Webflow",
+      "HubSpot",
+      "Notion",
+      "Figma",
+      "Miro",
+      "Zapier",
+      "Vercel",
+      "Deel",
+      "Remote",
+      "WPP",
+      "Media.Monks",
+      "Monks",
+      "Superside",
+      "Dentsu",
+      "Monzo"
+    ]
+  },
+  "google_jobs": {
+    "oxylabs_password": "",
+    "oxylabs_username": "",
+    "queries": [
+      "creative strategist worldwide remote jobs",
+      "creative strategist EMEA remote jobs",
+      "creative strategist international contractor jobs",
+      "creative strategy director worldwide remote jobs",
+      "creative lead EMEA remote jobs",
+      "creative director international contractor jobs",
+      "brand strategist remote Europe jobs",
+      "brand strategy consultant remote jobs",
+      "fractional creative director remote jobs",
+      "creative producer worldwide remote jobs",
+      "creative technologist remote EMEA jobs",
+      "AI creative remote worldwide jobs",
+      "performance creative strategist remote EMEA jobs",
+      "creative operations contractor remote jobs",
+      "creative studio lead distributed remote jobs"
+    ],
+    "serpapi_api_key": ""
+  },
+  "hiring_cafe": {
+    "max_pages": 2
+  },
+  "jobspy": {
+    "proxies": [],
+    "user_agent": ""
   },
   "keywords": {
-    "include": [
-      "creative strategist",
-      "senior creative strategist",
-      "creative strategy director",
-      "creative lead",
-      "head of creative",
-      "creative director",
-      "executive creative director",
-      "group creative director",
-      "associate creative director",
-      "art director",
-      "art direction",
-      "design director",
-      "visual director",
-      "integrated creative",
-      "brand strategist",
-      "brand strategy director",
-      "brand creative",
-      "brand director",
-      "head of brand",
-      "brand lead",
-      "brand manager",
-      "campaign strategist",
-      "campaign director",
-      "campaign manager",
-      "integrated marketing",
-      "marketing creative",
-      "creative innovation",
-      "innovation strategist",
-      "creative technologist",
-      "creative ai",
-      "ai creative",
-      "ai content",
-      "creative producer",
-      "executive producer",
-      "content strategist",
-      "content strategy director",
-      "content director",
-      "content lead",
-      "creative operations",
-      "creative services",
-      "creative services director",
-      "agency lead",
-      "client partner",
-      "account director",
-      "account lead",
-      "fractional creative",
-      "freelance creative",
-      "creative strategist contract",
-      "creative lead contract",
-      "creative director contract",
-      "fractional creative director",
-      "creative strategy consultant",
-      "brand strategy consultant",
-      "creative studio lead",
-      "executive producer branded content",
-      "performance creative strategist",
-      "paid social creative strategist",
-      "creative innovation lead",
-      "AI content strategist",
-      "creative operations AI"
-    ],
     "exclude": [
       "intern",
       "internship",
@@ -91,308 +77,74 @@
       "graphic designer",
       "social media manager",
       "content creator",
-      "media buyer"
+      "media buyer",
+      "account director",
+      "account lead",
+      "client partner",
+      "brand manager",
+      "campaign manager",
+      "environmental",
+      "scientist",
+      "sales"
     ],
-    "fuzzy_seniority": [],
     "fuzzy_domain": [],
-    "fuzzy_exclude": []
-  },
-  "search_terms": {
-    "linkedin": [
+    "fuzzy_exclude": [],
+    "fuzzy_seniority": [],
+    "include": [
       "creative strategist",
+      "senior creative strategist",
       "creative strategy director",
       "creative lead",
+      "head of creative",
       "creative director",
+      "executive creative director",
+      "associate creative director",
       "art director",
+      "design director",
+      "integrated creative",
       "brand strategist",
+      "brand strategy director",
+      "brand creative",
       "brand director",
       "head of brand",
       "campaign strategist",
-      "integrated marketing",
-      "creative producer",
-      "content strategist",
-      "creative operations",
       "creative innovation",
+      "innovation strategist",
       "creative technologist",
-      "AI creative"
-    ],
-    "indeed": [
-      "creative strategist",
-      "creative strategy director",
-      "creative lead",
-      "creative director",
-      "art director",
-      "brand strategist",
-      "brand director",
-      "head of brand",
-      "campaign strategist",
-      "integrated marketing",
+      "creative ai",
+      "ai creative",
+      "ai content",
       "creative producer",
+      "executive producer",
       "content strategist",
+      "content strategy director",
+      "content director",
+      "content lead",
       "creative operations",
-      "creative innovation",
-      "creative technologist",
-      "AI creative",
-      "creative strategist contract",
-      "creative lead contract",
-      "creative director contract",
-      "fractional creative director",
+      "creative services director",
+      "fractional creative",
+      "freelance creative",
       "creative strategy consultant",
       "brand strategy consultant",
       "creative studio lead",
-      "creative services director",
-      "executive producer branded content",
       "performance creative strategist",
       "paid social creative strategist",
       "creative innovation lead",
-      "AI content strategist",
-      "creative operations AI",
-      "content strategy director",
-      "creative strategist remote EMEA",
-      "creative lead worldwide",
-      "creative director international contractor",
-      "brand strategist remote Europe",
-      "creative strategy consultant remote",
-      "fractional creative director remote"
-    ],
-    "glassdoor": [
-      "creative strategist",
-      "creative strategy director",
-      "creative lead",
-      "creative director",
-      "art director",
-      "brand strategist",
-      "brand director",
-      "head of brand",
-      "campaign strategist",
-      "integrated marketing",
-      "creative producer",
-      "content strategist",
-      "creative operations",
-      "creative innovation",
-      "creative technologist",
-      "AI creative",
-      "fractional creative director",
-      "creative strategy consultant",
-      "brand strategy consultant",
-      "creative studio lead",
-      "creative services director",
-      "executive producer branded content",
-      "performance creative strategist",
-      "paid social creative strategist",
-      "creative innovation lead",
-      "AI content strategist",
-      "creative operations AI",
-      "content strategy director",
-      "creative strategist remote EMEA",
-      "creative lead worldwide",
-      "creative director international contractor",
-      "brand strategist remote Europe",
-      "creative strategy consultant remote",
-      "fractional creative director remote"
-    ],
-    "ziprecruiter": [
-      "creative strategist",
-      "creative strategy director",
-      "creative lead",
-      "creative director",
-      "art director",
-      "brand strategist",
-      "brand director",
-      "head of brand",
-      "campaign strategist",
-      "integrated marketing",
-      "creative producer",
-      "content strategist",
-      "creative operations",
-      "creative innovation",
-      "creative technologist",
-      "AI creative",
-      "creative strategist contract",
-      "creative lead contract",
-      "creative director contract",
-      "fractional creative director",
-      "creative strategy consultant",
-      "brand strategy consultant",
-      "creative studio lead",
-      "creative services director",
-      "executive producer branded content",
-      "performance creative strategist",
-      "paid social creative strategist",
-      "creative innovation lead",
-      "AI content strategist",
-      "creative operations AI",
-      "content strategy director",
-      "creative strategist remote EMEA",
-      "creative lead worldwide",
-      "creative director international contractor",
-      "brand strategist remote Europe",
-      "creative strategy consultant remote",
-      "fractional creative director remote"
-    ],
-    "google_jobs": [
-      "creative strategist remote",
-      "creative strategy director remote",
-      "creative lead remote",
-      "creative director remote",
-      "art director remote",
-      "brand strategist remote",
-      "brand director remote",
-      "head of brand remote",
-      "campaign strategist remote",
-      "integrated marketing remote",
-      "creative producer remote",
-      "content strategist remote",
-      "creative operations remote",
-      "creative innovation remote",
-      "creative technologist remote",
-      "AI creative remote",
-      "creative strategist contract remote",
-      "creative lead contract remote",
-      "creative director contract remote",
-      "fractional creative director remote",
-      "creative strategy consultant remote",
-      "brand strategy consultant remote",
-      "creative studio lead remote",
-      "creative services director remote",
-      "executive producer branded content remote",
-      "performance creative strategist remote",
-      "paid social creative strategist remote",
-      "creative innovation lead remote",
-      "AI content strategist remote",
-      "creative operations AI remote",
-      "content strategy director remote",
-      "creative strategist remote EMEA",
-      "creative lead worldwide",
-      "creative director international contractor",
-      "brand strategist remote Europe"
-    ],
-    "hiring_cafe": [
-      "creative strategist",
-      "creative strategy director",
-      "creative lead",
-      "creative director",
-      "art director",
-      "brand strategist",
-      "brand director",
-      "head of brand",
-      "campaign strategist",
-      "integrated marketing",
-      "creative producer",
-      "content strategist",
-      "creative operations",
-      "creative innovation",
-      "creative technologist",
-      "AI creative",
-      "creative strategist contract",
-      "creative lead contract",
-      "creative director contract",
-      "fractional creative director",
-      "creative strategy consultant",
-      "brand strategy consultant",
-      "creative studio lead",
-      "creative services director",
-      "executive producer branded content",
-      "performance creative strategist",
-      "paid social creative strategist",
-      "creative innovation lead",
-      "AI content strategist",
-      "creative operations AI",
-      "content strategy director",
-      "creative strategist remote EMEA",
-      "creative lead worldwide",
-      "creative director international contractor",
-      "brand strategist remote Europe",
-      "creative strategy consultant remote",
-      "fractional creative director remote"
-    ],
-    "calcareers": [],
-    "usajobs": [],
-    "governmentjobs": [],
-    "workday": [
-      "creative strategist",
-      "creative lead",
-      "creative director"
+      "ai content strategist",
+      "creative operations ai"
     ]
-  },
-  "locations": {
-    "linkedin": [
-      {
-        "name": "Remote",
-        "location": "Remote",
-        "geoId": ""
-      },
-      {
-        "name": "United Kingdom",
-        "location": "United Kingdom",
-        "geoId": ""
-      },
-      {
-        "name": "Europe",
-        "location": "European Economic Area",
-        "geoId": ""
-      },
-      {
-        "name": "UAE",
-        "location": "United Arab Emirates",
-        "geoId": ""
-      }
-    ],
-    "indeed": [
-      {
-        "location": "Remote",
-        "country": "USA"
-      },
-      {
-        "location": "Remote",
-        "country": "United Kingdom"
-      }
-    ],
-    "glassdoor": [
-      {
-        "location": "Remote",
-        "country": "USA"
-      },
-      {
-        "location": "Remote",
-        "country": "United Kingdom"
-      }
-    ],
-    "ziprecruiter": [
-      {
-        "location": "Remote",
-        "country": "USA"
-      }
-    ],
-    "google_jobs": [
-      {
-        "location": "Remote",
-        "country": "USA"
-      },
-      {
-        "location": "Remote",
-        "country": "United Kingdom"
-      }
-    ],
-    "hiring_cafe": [
-      {
-        "location": "Remote"
-      }
-    ],
-    "linkedin_partitions": {
-      "states": [],
-      "high_volume": {
-        "locations": [],
-        "day_slices": false
-      }
-    }
   },
   "location_filter": {
     "terms": [
-      "remote",
       "worldwide",
+      "work from anywhere",
       "anywhere",
       "global",
+      "international",
+      "international contractor",
+      "contractor",
+      "freelance",
+      "fractional",
       "distributed",
       "async",
       "emea",
@@ -402,65 +154,73 @@
       "ireland",
       "uae",
       "united arab emirates",
-      "dubai"
+      "dubai",
+      "remote"
     ]
   },
-  "google_jobs": {
-    "queries": [
-      "creative strategist contract remote",
-      "creative lead contract remote",
-      "creative director contract remote",
-      "fractional creative director remote",
-      "creative strategy consultant remote",
-      "brand strategy consultant remote",
-      "creative studio lead remote",
-      "creative services director remote",
-      "executive producer branded content remote",
-      "performance creative strategist remote",
-      "paid social creative strategist remote",
-      "creative innovation lead remote",
-      "AI content strategist remote",
-      "creative operations AI remote",
-      "content strategy director remote",
-      "creative strategist remote EMEA",
-      "creative lead worldwide",
-      "creative director international contractor",
-      "brand strategist remote Europe"
+  "locations": {
+    "glassdoor": [
+      {
+        "country": "GB",
+        "location": "Remote"
+      }
     ],
-    "serpapi_api_key": "",
-    "oxylabs_username": "",
-    "oxylabs_password": ""
-  },
-  "jobspy": {
-    "proxies": [],
-    "user_agent": ""
-  },
-  "hiring_cafe": {
-    "max_pages": 2
-  },
-  "employers": {
-    "priority": [
-      "Canva",
-      "GitLab",
-      "Automattic",
-      "Buffer",
-      "Webflow",
-      "HubSpot",
-      "Notion",
-      "Figma",
-      "Miro",
-      "Zapier",
-      "Vercel",
-      "Deel",
-      "Remote",
-      "WPP",
-      "Media.Monks",
-      "Monks",
-      "Superside",
-      "Dentsu",
-      "Monzo"
+    "google_jobs": [
+      {
+        "country": "GB",
+        "location": "Remote"
+      }
     ],
-    "exclude": []
+    "hiring_cafe": [
+      {
+        "location": "Remote"
+      }
+    ],
+    "indeed": [
+      {
+        "country": "GB",
+        "location": "Remote"
+      }
+    ],
+    "linkedin": [
+      {
+        "geoId": "",
+        "location": "Remote",
+        "name": "Remote"
+      },
+      {
+        "geoId": "",
+        "location": "United Kingdom",
+        "name": "United Kingdom"
+      },
+      {
+        "geoId": "",
+        "location": "European Economic Area",
+        "name": "Europe"
+      },
+      {
+        "geoId": "",
+        "location": "United Arab Emirates",
+        "name": "UAE"
+      }
+    ],
+    "linkedin_partitions": {
+      "high_volume": {
+        "day_slices": false,
+        "locations": []
+      },
+      "states": []
+    },
+    "ziprecruiter": []
+  },
+  "notify": {
+    "daily_cap": 30,
+    "min_fit": 45,
+    "telegram_min_fit": 45,
+    "weekly_digest": {
+      "days": 7,
+      "enabled": false
+    }
   },
   "priority_topics": {
     "terms": [
@@ -477,6 +237,11 @@
         "contract|contractor|freelance|fractional|retainer"
       ]
     ]
+  },
+  "profile": {
+    "emoji": "🌍",
+    "subtitle": "Worldwide · EMEA · contractor-friendly",
+    "title": "Can Öncül — Remote Creative Strategy & AI"
   },
   "role_categories": {
     "terms": [
@@ -506,13 +271,117 @@
       ]
     ]
   },
-  "notify": {
-    "min_fit": 25,
-    "telegram_min_fit": 25,
-    "daily_cap": 200,
-    "weekly_digest": {
-      "enabled": false,
-      "days": 7
-    }
+  "search_terms": {
+    "calcareers": [],
+    "glassdoor": [
+      "creative strategist worldwide remote",
+      "creative strategist EMEA remote",
+      "creative strategist international contractor",
+      "creative strategy director worldwide remote",
+      "creative lead EMEA remote",
+      "creative director international contractor",
+      "brand strategist remote Europe",
+      "brand strategy consultant remote",
+      "fractional creative director remote",
+      "creative producer worldwide remote",
+      "creative technologist remote EMEA",
+      "AI creative remote worldwide",
+      "performance creative strategist remote EMEA",
+      "creative operations contractor remote",
+      "creative studio lead distributed remote"
+    ],
+    "google_jobs": [
+      "creative strategist worldwide remote",
+      "creative strategist EMEA remote",
+      "creative strategist international contractor",
+      "creative strategy director worldwide remote",
+      "creative lead EMEA remote",
+      "creative director international contractor",
+      "brand strategist remote Europe",
+      "brand strategy consultant remote",
+      "fractional creative director remote",
+      "creative producer worldwide remote",
+      "creative technologist remote EMEA",
+      "AI creative remote worldwide",
+      "performance creative strategist remote EMEA",
+      "creative operations contractor remote",
+      "creative studio lead distributed remote"
+    ],
+    "governmentjobs": [],
+    "hiring_cafe": [
+      "creative strategist worldwide remote",
+      "creative strategist EMEA remote",
+      "creative strategist international contractor",
+      "creative strategy director worldwide remote",
+      "creative lead EMEA remote",
+      "creative director international contractor",
+      "brand strategist remote Europe",
+      "brand strategy consultant remote",
+      "fractional creative director remote",
+      "creative producer worldwide remote",
+      "creative technologist remote EMEA",
+      "AI creative remote worldwide",
+      "performance creative strategist remote EMEA",
+      "creative operations contractor remote",
+      "creative studio lead distributed remote"
+    ],
+    "indeed": [
+      "creative strategist worldwide remote",
+      "creative strategist EMEA remote",
+      "creative strategist international contractor",
+      "creative strategy director worldwide remote",
+      "creative lead EMEA remote",
+      "creative director international contractor",
+      "brand strategist remote Europe",
+      "brand strategy consultant remote",
+      "fractional creative director remote",
+      "creative producer worldwide remote",
+      "creative technologist remote EMEA",
+      "AI creative remote worldwide",
+      "performance creative strategist remote EMEA",
+      "creative operations contractor remote",
+      "creative studio lead distributed remote"
+    ],
+    "linkedin": [
+      "creative strategist",
+      "creative strategy director",
+      "creative lead",
+      "creative director",
+      "art director",
+      "brand strategist",
+      "brand director",
+      "head of brand",
+      "campaign strategist",
+      "integrated marketing",
+      "creative producer",
+      "content strategist",
+      "creative operations",
+      "creative innovation",
+      "creative technologist",
+      "AI creative"
+    ],
+    "usajobs": [],
+    "workday": [
+      "creative strategist",
+      "creative lead",
+      "creative director"
+    ],
+    "ziprecruiter": [
+      "creative strategist worldwide remote",
+      "creative strategist EMEA remote",
+      "creative strategist international contractor",
+      "creative strategy director worldwide remote",
+      "creative lead EMEA remote",
+      "creative director international contractor",
+      "brand strategist remote Europe",
+      "brand strategy consultant remote",
+      "fractional creative director remote",
+      "creative producer worldwide remote",
+      "creative technologist remote EMEA",
+      "AI creative remote worldwide",
+      "performance creative strategist remote EMEA",
+      "creative operations contractor remote",
+      "creative studio lead distributed remote"
+    ]
   }
 }
