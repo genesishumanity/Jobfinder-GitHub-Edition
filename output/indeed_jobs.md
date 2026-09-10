@@ -1,15 +1,22 @@
 # 🟦 Indeed — Can Öncül — Remote Creative Strategy & AI Roles
-*Last updated: 2026-09-10 03:55 UTC*
+*Last updated: 2026-09-10 15:54 UTC*
 
-**2 new role(s)** since last run · 9 total in last 24h
+**3 new role(s)** since last run · 9 total in last 24h
 
-### [Freelance Creative Marketing Translators & Transcreators | Spanish (Puerto Rico)](https://www.indeed.com/viewjob?jk=9b192002c3910529) — Acclaro
-- 📍 **Location:** Mayagüez, PR, US
+### [Brand Manager](https://www.indeed.com/viewjob?jk=b978a4c42f0fd0b2) — Tekion
+- 📍 **Location:** Remote, US
+- 💰 **Salary:** $84k–$139k/yr
 - **Work mode:** Remote in-state eligible
-- 🕒 **Posted:** 2026-09-09
+- 🕒 **Posted:** 2026-09-10
 
-### [Brand Manager](https://uk.indeed.com/viewjob?jk=6403ea2124d2a703) — Unknown
-- 📍 **Location:** Remote, GB
+### [Account Director, Media](https://www.indeed.com/viewjob?jk=8d407ccbea800bd3) — OpenAI
+- 📍 **Location:** Remote, US
+- 💰 **Salary:** $189k–$240k/yr
+- **Work mode:** Remote in-state eligible
+- 🕒 **Posted:** 2026-09-10
+
+### [Account Director](https://www.indeed.com/viewjob?jk=40b42ecc849fc515) — PathLabs
+- 📍 **Location:** Remote, US
 - **Work mode:** Remote in-state eligible
 - **Job type:** fulltime
 - 🕒 **Posted:** 2026-09-09
