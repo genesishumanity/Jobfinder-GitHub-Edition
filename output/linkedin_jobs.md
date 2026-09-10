@@ -1,18 +1,28 @@
 # 🔥 LinkedIn — Can Öncül — Remote Creative Strategy & AI Roles
-*Last updated: 2026-09-10 18:21 UTC*
+*Last updated: 2026-09-10 18:58 UTC*
 
-**3 new role(s)** since last run · 3 total in last 1h
+**5 new role(s)** since last run · 5 total in last 1h
 
-### [Associate Creative Director - Art](https://www.linkedin.com/jobs/view/4464565416/) — AREA 23
+### [Vice President, Brand Strategy Director](https://www.linkedin.com/jobs/view/4382822652/) — Publicis Health
 - 📍 **Location:** New York, NY
-- 💰 **Salary:** $150,000- $170,000
+- 💰 **Salary:** USD $129,485.00 - USD $207,324.00/Annually
 - 🕒 **Posted:** 2026-09-10
 
-### [Executive Creative Director, Creative Development - Temporary Worker](https://www.linkedin.com/jobs/view/4464558361/) — dentsu
-- 📍 **Location:** New York, United States
-- 💰 **Salary:** $197,225-$263,062
+### [Global Creative Director, GQ](https://www.linkedin.com/jobs/view/4455451429/) — Condé Nast
+- 📍 **Location:** New York, NY
+- 💰 **Salary:** $225K - $275K
 - 🕒 **Posted:** 2026-09-10
 
-### [AI Creative Producer](https://www.linkedin.com/jobs/view/4428898912/) — ElevenLabs
-- 📍 **Location:** Ukraine
+### [Creative Director, Design](https://www.linkedin.com/jobs/view/4446438609/) — BBH USA
+- 📍 **Location:** New York, NY
+- 💰 **Salary:** USD $159,695.00 - USD $255,645.00/Annually
+- 🕒 **Posted:** 2026-09-10
+
+### [Senior Creative Strategist, Direct Mail & Customer Engagement](https://www.linkedin.com/jobs/view/4464568861/) — EXL
+- 📍 **Location:** California, United States
+- 🕒 **Posted:** 2026-09-10
+
+### [Associate Creative Director, Copy](https://www.linkedin.com/jobs/view/4455461540/) — Digitas Health
+- 📍 **Location:** New York, NY
+- 💰 **Salary:** USD $106,780.00 - USD $146,100.00/Annually
 - 🕒 **Posted:** 2026-09-10
