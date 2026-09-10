@@ -1,5 +1,5 @@
 # 🟩 Glassdoor — Can Öncül — Remote Creative Strategy & AI Roles
-*Last updated: 2026-09-10 03:19 UTC*
+*Last updated: 2026-09-10 16:18 UTC*
 
 **0 new role(s)** since last run · 0 total in last 24h
 
