@@ -35,11 +35,20 @@ def config():
 def remote_plausible(job):
     arrangement = str(job.get("work_arrangement", "")).lower()
     text = " ".join(str(job.get(k, "")) for k in ("location", "description", "title")).lower()
-    if "on-site" in arrangement or "on site" in arrangement:
+    if any(term in arrangement for term in ("on-site", "on site", "onsite", "hybrid")):
         return False
     return job.get("is_remote") is True or any(word in text for word in (
         "remote", "worldwide", "anywhere", "distributed", "async", "work from home"
     ))
+
+
+
+def target_location_allowed(job):
+    """Only requested European locations; do not infer location from company HQ."""
+    location = str(job.get("location", "")).lower()
+    allowed = r"\b(london|amsterdam|germany|deutschland|hungary|portugal|spain|españa|berlin|munich|münchen|hamburg|frankfurt|cologne|köln|düsseldorf|stuttgart|budapest|lisbon|lisboa|porto|madrid|barcelona|valencia|sevilla|seville|malaga|málaga)\b"
+    us = r"\b(united states|usa|u\.s\.|us|new york|california)\b"
+    return bool(re.search(allowed, location)) and not re.search(us, location)
 
 
 def identity(job):
@@ -136,9 +145,11 @@ def main():
 
     sent_ids = set(state.get("ids", []))
     # Discovery and title filtering belong to the source scrapers. Telegram is
-    # deliberately a delivery layer: every newly-discovered, not-yet-sent job
-    # reaches Can without a second score, remote-text, or daily-cap gate.
-    candidates = [job for job in new_jobs if identity(job) not in sent_ids]
+    # a delivery layer with the requested geography and remote gates.
+    # No additional score threshold or daily cap is applied.
+    candidates = [job for job in new_jobs if identity(job) not in sent_ids
+                  and target_location_allowed(job) and remote_plausible(job)
+                  and not international_remote_status(job).startswith("⛔")]
     candidates.sort(key=lambda job: (fit(job), bool(job.get("salary")), bool(job.get("direct_url"))), reverse=True)
     chosen = candidates
 
