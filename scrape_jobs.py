@@ -95,6 +95,9 @@ def _load_config() -> dict:
 from discovery_lanes import expand_config, target_location
 _seed_data = _read_json(os.path.join(OUTPUT_DIR, "all_jobs.json")) or {}
 _seed_jobs = _seed_data.get("jobs", []) if isinstance(_seed_data, dict) else _seed_data
+import query_metrics
+from telegram_notify import identity as _metric_identity
+query_metrics.BASELINE.update(_metric_identity(j) for j in _seed_jobs)
 CONFIG = expand_config(_load_config(), _seed_jobs)
 
 
@@ -684,11 +687,14 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
                         if not html.strip():
                             print(f"  ⛔ Still empty after retry; stopping \"{term}\" in {geo['name']} "
                                   f"at start={start}")
+                            query_metrics.record("LinkedIn", term, geo["location"], 0, [], error=True)
                             break
                     else:
                         break
                 consecutive_empty = 0
                 parsed, raw_count = _parse_linkedin_cards(html)
+                query_metrics.record("LinkedIn", term, geo["location"], raw_count,
+                    [dict(p, url=f"https://www.linkedin.com/jobs/view/{p['id']}/") for p in parsed if role_is_relevant(p["title"], p["company"])])
                 total_raw_cards += raw_count
                 pages_fetched += 1
                 if pages_fetched % 10 == 0:
@@ -1205,10 +1211,15 @@ def _scrape_jobspy_board(*, label: str, site_name: str, geos: list, terms: list,
             )
         except Exception as e:
             errored_terms += 1
+            query_metrics.record(label, term, geo.get("location", ""), 0, [], error=True)
             print(f"  ⚠️  {label} ({geo['location']} · {term!r}): {e}")
             continue
         ok_terms += 1
-        raw_rows += _ingest_jobspy_df(df, label=label, jobs_by_id=jobs_by_id)
+        per_query = {}
+        count = _ingest_jobspy_df(df, label=label, jobs_by_id=per_query)
+        query_metrics.record(label, term, geo.get("location", ""), count, list(per_query.values()))
+        jobs_by_id.update(per_query)
+        raw_rows += count
     jobs = list(jobs_by_id.values())
     print(
         f"  📊 {label}: {len(geos)}×{len(terms)} queries → "
@@ -1618,10 +1629,15 @@ def scrape_google_jobs_recent(hours_old: int | None = None) -> list:
             )
         except Exception as e:
             errored_terms += 1
+            query_metrics.record("GoogleJobs", query, _geo.get("location", ""), 0, [], error=True)
             print(f"  ⚠️  GoogleJobs ({query!r}): {e}")
             continue
         ok_terms += 1
-        raw_rows += _ingest_jobspy_df(df, label="GoogleJobs", jobs_by_id=jobs_by_id)
+        per_query = {}
+        count = _ingest_jobspy_df(df, label="GoogleJobs", jobs_by_id=per_query)
+        query_metrics.record("GoogleJobs", query, _geo.get("location", ""), count, list(per_query.values()))
+        jobs_by_id.update(per_query)
+        raw_rows += count
 
     jobs = list(jobs_by_id.values())
     print(
