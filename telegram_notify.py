@@ -160,6 +160,10 @@ def main():
     sent_ids = set(state.get("ids", []))
     records = state.setdefault("records", {})
     counts = dict(discovered=len(new_jobs), duplicate=0, geography=0, remote=0, restricted=0, delivered=0, failed=0)
+    from delivery_ledger import Ledger, receipt_key
+    ledger = Ledger() if os.environ.get("GITHUB_ACTIONS") == "true" else None
+    counts["pending_reconciliation"] = 0
+    counts["ledger_errors"] = 0
     candidates = []
     for job in new_jobs:
         if not target_location_allowed(job):
@@ -177,15 +181,34 @@ def main():
         if (previous and previous["material"] == fingerprint) or (identity(job) in sent_ids and not previous):
             counts["duplicate"] += 1
             continue
+        receipt = receipt_key(key, fingerprint)
+        if ledger:
+            try:
+                claim = ledger.claim(receipt)
+            except Exception as exc:
+                counts["ledger_errors"] += 1
+                print("::error::Shared delivery claim failed: " + type(exc).__name__)
+                continue
+            if claim != "claimed":
+                counts["duplicate" if claim == "sent" else "pending_reconciliation"] += 1
+                continue
         text = label(job)
         if previous:
             text = text.replace("YENİ FIRSAT", "İLAN GÜNCELLEMESİ")
         if send(text):
             counts["delivered"] += 1
+            if ledger:
+                try:
+                    ledger.finish(receipt)
+                except Exception:
+                    counts["pending_reconciliation"] += 1
+                    print("::error::Telegram accepted message but ledger finalization failed; do not resend automatically")
             sent_ids.add(identity(job))
             records[key] = {"material": fingerprint, "last_sent": datetime.now(timezone.utc).isoformat()}
         else:
             counts["failed"] += 1
+            if ledger:
+                counts["pending_reconciliation"] += 1
     state["ids"] = sorted(sent_ids)
     state["last_run"] = {"source_file": os.path.basename(sys.argv[1]), **counts}
     os.makedirs(OUTPUT, exist_ok=True)
@@ -196,7 +219,7 @@ def main():
     if summary:
         with open(summary, "a", encoding="utf-8") as handle:
             handle.write("\n### Telegram delivery\n" + "\n".join(f"- {k}: {v}" for k,v in counts.items()) + "\n")
-    return 0  # Persist successful sends even when another delivery failed.
+    return 0  # Allow successful delivery state and metrics to persist.
 
 
 if __name__ == "__main__":
