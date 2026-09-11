@@ -1,6 +1,6 @@
 # 🔥 LinkedIn — Can Öncül — Remote Creative Strategy & AI Roles
-*Last updated: 2026-09-11 22:46 UTC*
+*Last updated: 2026-09-11 23:43 UTC*
 
-**0 new role(s)** since last run · 1 total in last 1h
+**0 new role(s)** since last run · 0 total in last 1h
 
 No new roles since the last run.
