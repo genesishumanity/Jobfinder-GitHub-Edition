@@ -23,6 +23,8 @@ def expand_config(config, jobs=(), slot=None):
     companies = sorted({str(j.get("company", "")).strip() for j in seeds if j.get("company")})
     lanes.append([c + " creative remote" for c in companies[:30]])
     extra = [lane[slot % len(lane)] for lane in lanes if lane]
+    import query_metrics
+    query_metrics.EXPERIMENTS.update(extra)
     for source in ("linkedin", "indeed", "glassdoor", "google_jobs"):
         terms = config.setdefault("search_terms", {}).get(source, [])
         config["search_terms"][source] = list(dict.fromkeys(terms + extra))
