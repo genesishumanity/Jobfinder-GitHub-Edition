@@ -19,7 +19,7 @@
     }
   },
   "last_run": {
-    "source_file": "glassdoor_jobs.json",
+    "source_file": "google_jobs.json",
     "discovered": 0,
     "duplicate": 0,
     "geography": 0,
