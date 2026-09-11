@@ -1,6 +1,7 @@
 {
   "date": "2026-09-11",
   "ids": [
+    "2aff894afff7bfddfea60abec6665c7c050ca40fca63a12511a440fcbb2b54f6",
     "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466009878",
     "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466013766",
     "dentsu|seniorartdirectorsocialtemporaryworker||httpswwwlinkedincomjobsview4456067070",
@@ -11,15 +12,20 @@
     "thelab|creativedirectordesign||httpswwwlinkedincomjobsview4466320239",
     "veronicabeard|associateartdirector||httpswwwlinkedincomjobsview4466314085"
   ],
-  "records": {},
+  "records": {
+    "bilderfest gmbh|creative producer:in|münchen, by, de": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-11T18:54:25.965543+00:00"
+    }
+  },
   "last_run": {
-    "source_file": "google_jobs.json",
-    "discovered": 0,
+    "source_file": "indeed_jobs.json",
+    "discovered": 2,
     "duplicate": 0,
-    "geography": 0,
+    "geography": 1,
     "remote": 0,
     "restricted": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
