@@ -24,10 +24,10 @@
     }
   },
   "last_run": {
-    "source_file": "google_jobs.json",
-    "discovered": 0,
+    "source_file": "indeed_jobs.json",
+    "discovered": 1,
     "duplicate": 0,
-    "geography": 0,
+    "geography": 1,
     "remote": 0,
     "restricted": 0,
     "delivered": 0,
