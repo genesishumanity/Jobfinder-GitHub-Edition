@@ -134,7 +134,13 @@
       "paid social creative strategist",
       "creative innovation lead",
       "ai content strategist",
-      "creative operations ai"
+      "creative operations ai",
+      "kreativdirektor",
+      "markenstratege",
+      "director creativo",
+      "estratega de marca",
+      "diretor criativo",
+      "kreatív stratégia"
     ]
   },
   "location_filter": {
@@ -436,5 +442,28 @@
     ],
     "exclude_us": true,
     "require_remote": true
+  },
+  "discovery_lanes": {
+    "enabled": true,
+    "description_phrases": [
+      "brand storytelling creative remote",
+      "campaign concepts creative remote",
+      "creative testing strategist remote",
+      "integrated campaigns creative remote"
+    ],
+    "contracts": [
+      "freelance creative strategist remote",
+      "fractional creative lead remote",
+      "brand strategy consultant remote",
+      "creative direction retainer remote"
+    ],
+    "local_titles": [
+      "Kreativdirektor remote",
+      "Markenstratege remote",
+      "director creativo remoto",
+      "estratega de marca remoto",
+      "diretor criativo remoto",
+      "kreatív stratégia remote"
+    ]
   }
 }
