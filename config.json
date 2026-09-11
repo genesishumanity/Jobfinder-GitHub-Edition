@@ -28,21 +28,24 @@
     "oxylabs_password": "",
     "oxylabs_username": "",
     "queries": [
-      "creative strategist worldwide remote jobs",
-      "creative strategist EMEA remote jobs",
-      "creative strategist international contractor jobs",
-      "creative strategy director worldwide remote jobs",
-      "creative lead EMEA remote jobs",
-      "creative director international contractor jobs",
-      "brand strategist remote Europe jobs",
-      "brand strategy consultant remote jobs",
-      "fractional creative director remote jobs",
-      "creative producer worldwide remote jobs",
-      "creative technologist remote EMEA jobs",
-      "AI creative remote worldwide jobs",
-      "performance creative strategist remote EMEA jobs",
-      "creative operations contractor remote jobs",
-      "creative studio lead distributed remote jobs"
+      "creative strategist remote jobs London, United Kingdom",
+      "creative director remote jobs London, United Kingdom",
+      "brand strategist remote jobs London, United Kingdom",
+      "creative strategist remote jobs Amsterdam, Netherlands",
+      "creative director remote jobs Amsterdam, Netherlands",
+      "brand strategist remote jobs Amsterdam, Netherlands",
+      "creative strategist remote jobs Germany",
+      "creative director remote jobs Germany",
+      "brand strategist remote jobs Germany",
+      "creative strategist remote jobs Hungary",
+      "creative director remote jobs Hungary",
+      "brand strategist remote jobs Hungary",
+      "creative strategist remote jobs Portugal",
+      "creative director remote jobs Portugal",
+      "brand strategist remote jobs Portugal",
+      "creative strategist remote jobs Spain",
+      "creative director remote jobs Spain",
+      "brand strategist remote jobs Spain"
     ],
     "serpapi_api_key": ""
   },
@@ -136,39 +139,68 @@
   },
   "location_filter": {
     "terms": [
-      "worldwide",
-      "work from anywhere",
-      "anywhere",
-      "global",
-      "international",
-      "international contractor",
-      "contractor",
-      "freelance",
-      "fractional",
-      "distributed",
-      "async",
-      "emea",
-      "europe",
-      "united kingdom",
-      "uk",
-      "ireland",
-      "uae",
-      "united arab emirates",
-      "dubai",
-      "remote"
+      "london",
+      "amsterdam",
+      "germany",
+      "deutschland",
+      "hungary",
+      "magyar",
+      "portugal",
+      "spain",
+      "españa"
     ]
   },
   "locations": {
     "glassdoor": [
       {
-        "country": "GB",
-        "location": "Remote"
+        "location": "London, United Kingdom",
+        "country": "GB"
+      },
+      {
+        "location": "Amsterdam, Netherlands",
+        "country": "Netherlands"
+      },
+      {
+        "location": "Germany",
+        "country": "Germany"
+      },
+      {
+        "location": "Hungary",
+        "country": "Hungary"
+      },
+      {
+        "location": "Portugal",
+        "country": "Portugal"
+      },
+      {
+        "location": "Spain",
+        "country": "Spain"
       }
     ],
     "google_jobs": [
       {
-        "country": "GB",
-        "location": "Remote"
+        "location": "London, United Kingdom",
+        "country": "GB"
+      },
+      {
+        "location": "Amsterdam, Netherlands",
+        "country": "Netherlands"
+      },
+      {
+        "location": "Germany",
+        "country": "Germany"
+      },
+      {
+        "location": "Hungary",
+        "country": "Hungary"
+      },
+      {
+        "location": "Portugal",
+        "country": "Portugal"
+      },
+      {
+        "location": "Spain",
+        "country": "Spain"
       }
     ],
     "hiring_cafe": [
@@ -178,30 +210,60 @@
     ],
     "indeed": [
       {
-        "country": "GB",
-        "location": "Remote"
+        "location": "London, United Kingdom",
+        "country": "GB"
+      },
+      {
+        "location": "Amsterdam, Netherlands",
+        "country": "Netherlands"
+      },
+      {
+        "location": "Germany",
+        "country": "Germany"
+      },
+      {
+        "location": "Hungary",
+        "country": "Hungary"
+      },
+      {
+        "location": "Portugal",
+        "country": "Portugal"
+      },
+      {
+        "location": "Spain",
+        "country": "Spain"
       }
     ],
     "linkedin": [
       {
-        "geoId": "",
-        "location": "Remote",
-        "name": "Remote"
+        "location": "London, United Kingdom",
+        "name": "London, United Kingdom",
+        "geoId": ""
       },
       {
-        "geoId": "",
-        "location": "United Kingdom",
-        "name": "United Kingdom"
+        "location": "Amsterdam, Netherlands",
+        "name": "Amsterdam, Netherlands",
+        "geoId": ""
       },
       {
-        "geoId": "",
-        "location": "European Economic Area",
-        "name": "Europe"
+        "location": "Germany",
+        "name": "Germany",
+        "geoId": ""
       },
       {
-        "geoId": "",
-        "location": "United Arab Emirates",
-        "name": "UAE"
+        "location": "Hungary",
+        "name": "Hungary",
+        "geoId": ""
+      },
+      {
+        "location": "Portugal",
+        "name": "Portugal",
+        "geoId": ""
+      },
+      {
+        "location": "Spain",
+        "name": "Spain",
+        "geoId": ""
       }
     ],
     "linkedin_partitions": {
@@ -240,7 +302,7 @@
   },
   "profile": {
     "emoji": "🌍",
-    "subtitle": "Worldwide · EMEA · contractor-friendly",
+    "subtitle": "Remote · London · Amsterdam · Germany · Hungary · Portugal · Spain",
     "title": "Can Öncül — Remote Creative Strategy & AI"
   },
   "role_categories": {
@@ -274,38 +336,24 @@
   "search_terms": {
     "calcareers": [],
     "glassdoor": [
-      "creative strategist worldwide remote",
-      "creative strategist EMEA remote",
-      "creative strategist international contractor",
-      "creative strategy director worldwide remote",
-      "creative lead EMEA remote",
-      "creative director international contractor",
-      "brand strategist remote Europe",
-      "brand strategy consultant remote",
-      "fractional creative director remote",
-      "creative producer worldwide remote",
-      "creative technologist remote EMEA",
-      "AI creative remote worldwide",
-      "performance creative strategist remote EMEA",
-      "creative operations contractor remote",
-      "creative studio lead distributed remote"
+      "creative strategist remote",
+      "creative director remote",
+      "creative lead remote",
+      "brand strategist remote",
+      "creative producer remote",
+      "creative technologist remote",
+      "AI creative remote",
+      "content strategist remote"
     ],
     "google_jobs": [
-      "creative strategist worldwide remote",
-      "creative strategist EMEA remote",
-      "creative strategist international contractor",
-      "creative strategy director worldwide remote",
-      "creative lead EMEA remote",
-      "creative director international contractor",
-      "brand strategist remote Europe",
-      "brand strategy consultant remote",
-      "fractional creative director remote",
-      "creative producer worldwide remote",
-      "creative technologist remote EMEA",
-      "AI creative remote worldwide",
-      "performance creative strategist remote EMEA",
-      "creative operations contractor remote",
-      "creative studio lead distributed remote"
+      "creative strategist remote",
+      "creative director remote",
+      "creative lead remote",
+      "brand strategist remote",
+      "creative producer remote",
+      "creative technologist remote",
+      "AI creative remote",
+      "content strategist remote"
     ],
     "governmentjobs": [],
     "hiring_cafe": [
@@ -326,21 +374,14 @@
       "creative studio lead distributed remote"
     ],
     "indeed": [
-      "creative strategist worldwide remote",
-      "creative strategist EMEA remote",
-      "creative strategist international contractor",
-      "creative strategy director worldwide remote",
-      "creative lead EMEA remote",
-      "creative director international contractor",
-      "brand strategist remote Europe",
-      "brand strategy consultant remote",
-      "fractional creative director remote",
-      "creative producer worldwide remote",
-      "creative technologist remote EMEA",
-      "AI creative remote worldwide",
-      "performance creative strategist remote EMEA",
-      "creative operations contractor remote",
-      "creative studio lead distributed remote"
+      "creative strategist remote",
+      "creative director remote",
+      "creative lead remote",
+      "brand strategist remote",
+      "creative producer remote",
+      "creative technologist remote",
+      "AI creative remote",
+      "content strategist remote"
     ],
     "linkedin": [
       "creative strategist",
@@ -383,5 +424,17 @@
       "creative operations contractor remote",
       "creative studio lead distributed remote"
     ]
+  },
+  "target_geography": {
+    "locations": [
+      "London, United Kingdom",
+      "Amsterdam, Netherlands",
+      "Germany",
+      "Hungary",
+      "Portugal",
+      "Spain"
+    ],
+    "exclude_us": true,
+    "require_remote": true
   }
 }
