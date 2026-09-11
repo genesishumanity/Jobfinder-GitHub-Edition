@@ -24,7 +24,7 @@
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "glassdoor_jobs.json",
     "discovered": 0,
     "duplicate": 0,
     "geography": 0,
