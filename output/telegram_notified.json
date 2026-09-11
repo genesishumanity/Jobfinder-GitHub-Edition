@@ -1,14 +1,27 @@
 {
   "date": "2026-09-11",
   "ids": [
-    "driftai|creativedirectorbrand||httpswwwlinkedincomjobsview4466314316",
-    "snapinc|associatecreativestrategist||httpswwwlinkedincomjobsview4466001008",
-    "golinketchum|associatecreativedirector||httpswwwlinkedincomjobsview4464808195",
-    "fileneresearchinstitute|audiencecontentstrategydirectorfilenewitxorco||httpswwwlinkedincomjobsview4463919758",
-    "veronicabeard|associateartdirector||httpswwwlinkedincomjobsview4466314085",
-    "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466013766",
-    "thelab|creativedirectordesign||httpswwwlinkedincomjobsview4466320239",
     "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466009878",
-    "dentsu|seniorartdirectorsocialtemporaryworker||httpswwwlinkedincomjobsview4456067070"
-  ]
+    "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466013766",
+    "dentsu|seniorartdirectorsocialtemporaryworker||httpswwwlinkedincomjobsview4456067070",
+    "driftai|creativedirectorbrand||httpswwwlinkedincomjobsview4466314316",
+    "fileneresearchinstitute|audiencecontentstrategydirectorfilenewitxorco||httpswwwlinkedincomjobsview4463919758",
+    "golinketchum|associatecreativedirector||httpswwwlinkedincomjobsview4464808195",
+    "snapinc|associatecreativestrategist||httpswwwlinkedincomjobsview4466001008",
+    "thelab|creativedirectordesign||httpswwwlinkedincomjobsview4466320239",
+    "veronicabeard|associateartdirector||httpswwwlinkedincomjobsview4466314085"
+  ],
+  "records": {},
+  "last_run": {
+    "source_file": "google_jobs.json",
+    "discovered": 0,
+    "duplicate": 0,
+    "geography": 0,
+    "remote": 0,
+    "restricted": 0,
+    "delivered": 0,
+    "failed": 0,
+    "pending_reconciliation": 0,
+    "ledger_errors": 0
+  }
 }
