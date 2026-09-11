@@ -1,13 +1,12 @@
 # 🔥 LinkedIn — Can Öncül — Remote Creative Strategy & AI Roles
-*Last updated: 2026-09-11 18:57 UTC*
+*Last updated: 2026-09-11 19:47 UTC*
 
 **2 new role(s)** since last run · 2 total in last 1h
 
-### [Content Strategist](https://www.linkedin.com/jobs/view/4464234462/) — Talent Groups
-- 📍 **Location:** New York, NY
+### [Senior Art Director (Creative Team)](https://www.linkedin.com/jobs/view/4419025362/) — Klick
+- 📍 **Location:** London, England, United Kingdom
 - 🕒 **Posted:** 2026-09-11
 
-### [Art Director](https://www.linkedin.com/jobs/view/4446427684/) — Publicis Health
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** USD $66,120.00 - USD $101,790.00/Annually
+### [Freelance Creative Producer DACH](https://www.linkedin.com/jobs/view/4466340737/) — SCRL
+- 📍 **Location:** Berlin, Germany
 - 🕒 **Posted:** 2026-09-11
