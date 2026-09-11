@@ -92,7 +92,10 @@ def _load_config() -> dict:
     return _deep_merge(base, user)
 
 
-CONFIG = _load_config()
+from discovery_lanes import expand_config, target_location
+_seed_data = _read_json(os.path.join(OUTPUT_DIR, "all_jobs.json")) or {}
+_seed_jobs = _seed_data.get("jobs", []) if isinstance(_seed_data, dict) else _seed_data
+CONFIG = expand_config(_load_config(), _seed_jobs)
 
 
 def _cfg(path: str, default):
@@ -323,23 +326,7 @@ _US_STATE_NAMES = [
 
 
 def is_target_location(location: str) -> bool:
-    if not location:
-        return False
-    loc = location.lower()
-    # If a US state full name matches, accept immediately — this handles
-    # "New Mexico" (contains "mexico") and "Indiana" (contains "india")
-    # which would otherwise be rejected by the country check below.
-    if any(state in loc for state in _US_STATE_NAMES):
-        return True
-    # Reject non-US countries — prevents ", ca" matching "Canada", etc.
-    # Multi-word countries: substring match (safe, distinctive phrases).
-    if any(country in loc for country in NON_US_COUNTRIES_MULTI):
-        return False
-    # Single-word countries: word-boundary match (prevents "india" matching
-    # "Indiana", "mexico" matching "New Mexico", etc.).
-    if _NON_US_COUNTRY_RE.search(loc):
-        return False
-    return any(place in loc for place in TARGET_LOCATIONS)
+    return target_location(location)
 
 
 def _parse_posted_at(value: str, *, now: datetime | None = None) -> datetime | None:
@@ -3749,3 +3736,4 @@ if __name__ == "__main__":
     print(f"🕒 Freshness filter (last 24h): {before} → {len(all_jobs)} roles")
 
     save_results(all_jobs)
+
