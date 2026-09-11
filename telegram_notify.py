@@ -5,6 +5,7 @@ Safe by default: this is a no-op unless both TELEGRAM_BOT_TOKEN and
 TELEGRAM_CHAT_ID are GitHub Actions secrets. It never applies for the user,
 uses no login/captcha bypass, and only sends direct links supplied by sources.
 """
+import hashlib
 import json
 import os
 import re
@@ -37,23 +38,36 @@ def remote_plausible(job):
     text = " ".join(str(job.get(k, "")) for k in ("location", "description", "title")).lower()
     if any(term in arrangement for term in ("on-site", "on site", "onsite", "hybrid")):
         return False
+    if re.search(r"\b(not remote|no remote|hybrid|on-site|onsite)\b", text):
+        return False
     return job.get("is_remote") is True or any(word in text for word in (
-        "remote", "worldwide", "anywhere", "distributed", "async", "work from home"
+        "remote", "worldwide", "work from anywhere", "work from home"
     ))
 
 
 
 def target_location_allowed(job):
-    """Only requested European locations; do not infer location from company HQ."""
-    location = str(job.get("location", "")).lower()
-    allowed = r"\b(london|amsterdam|germany|deutschland|hungary|portugal|spain|españa|berlin|munich|münchen|hamburg|frankfurt|cologne|köln|düsseldorf|stuttgart|budapest|lisbon|lisboa|porto|madrid|barcelona|valencia|sevilla|seville|malaga|málaga)\b"
-    us = r"\b(united states|usa|u\.s\.|us|new york|california)\b"
-    return bool(re.search(allowed, location)) and not re.search(us, location)
+    from discovery_lanes import target_location
+    return target_location(job.get("location", ""))
 
 
 def identity(job):
-    raw = "|".join(str(job.get(k, "")).strip().lower() for k in ("company", "title", "direct_url", "url"))
-    return re.sub(r"[^a-z0-9|]", "", raw)
+    # Prefer the employer link; strip tracking without discarding job identifiers.
+    url = str(job.get("direct_url") or job.get("url") or "").strip()
+    parts = urllib.parse.urlsplit(url)
+    query = [(k, v) for k, v in urllib.parse.parse_qsl(parts.query)
+             if not k.lower().startswith("utm_") and k.lower() not in ("trk", "ref", "source")]
+    canonical = urllib.parse.urlunsplit((parts.scheme.lower(), parts.netloc.lower(), parts.path.rstrip("/"), urllib.parse.urlencode(sorted(query)), ""))
+    raw = canonical or "|".join(str(job.get(k, "")).strip().casefold() for k in ("company", "title", "location"))
+    return hashlib.sha256(raw.encode()).hexdigest()
+
+
+def role_key(job):
+    return "|".join(re.sub(r"\s+", " ", str(job.get(k, "")).strip().casefold()) for k in ("company", "title", "location"))
+
+
+def material(job):
+    return "|".join(str(job.get(k, "")).strip() for k in ("salary", "work_arrangement", "is_remote"))
 
 
 def fit(job):
@@ -84,10 +98,10 @@ def international_remote_status(job):
         "eu only", "european union only", "must be based in canada",
         "canada only", "australia only"
     )
-    if any(term in text for term in worldwide):
-        return "✅ Uluslararası / contractor uygunluğu açık"
     if any(term in text for term in restricted):
         return "⛔ Ülke kısıtı var — UAE'den uygun görünmüyor"
+    if any(term in text for term in worldwide):
+        return "✅ Uluslararası / contractor uygunluğu açık"
     return "⚪ UAE/uluslararası uygunluğu ilanda net değil"
 
 
@@ -104,8 +118,16 @@ def label(job):
         f"Konum: {location}",
         international_remote_status(job),
         f"Maaş: {salary or 'belirtilmemiş'}",
+        "Yayın: " + str(job.get("posted_at") or job.get("date_posted") or "belirtilmemiş"),
+        language_status(job),
         url,
     ])
+
+
+def language_status(job):
+    text = str(job.get("description", ""))
+    requirements = re.findall(r"[^.!?\n]*(?:German|Dutch|Hungarian|Portuguese|Spanish|English)[^.!?\n]*(?:required|mandatory|fluent|native)[^.!?\n]*|[^.!?\n]*(?:required|mandatory|fluent|native)[^.!?\n]*(?:German|Dutch|Hungarian|Portuguese|Spanish|English)[^.!?\n]*", text, re.I)
+    return "Dil şartı: " + ("; ".join(requirements)[:350] if requirements else "ilan metninden doğrulanamadı")
 
 
 def send(text):
@@ -117,11 +139,11 @@ def send(text):
     data = urllib.parse.urlencode({"chat_id": chat_id, "text": text, "disable_web_page_preview": "true"}).encode()
     try:
         with urllib.request.urlopen(urllib.request.Request(API.format(token=token), data=data), timeout=20) as response:
-            ok = 200 <= response.status < 300
+            ok = 200 <= response.status < 300 and json.load(response).get("ok") is True
             print(f"Telegram response: HTTP {response.status}")
             return ok
     except Exception as exc:
-        print(f"Telegram delivery failed: {exc}")
+        print(f"Telegram delivery failed: {type(exc).__name__}")
         return False
 
 
@@ -134,37 +156,49 @@ def main():
         return 2
     data = load_json(sys.argv[1], {})
     new_jobs = data.get("new_jobs", [])
-    if not new_jobs:
-        print("No new jobs to deliver.")
-        return 0
-
-    state = load_json(STATE_PATH, {"date": "", "ids": []})
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    if state.get("date") != today:
-        state = {"date": today, "ids": []}
-
+    state = load_json(STATE_PATH, {"ids": [], "records": {}})
     sent_ids = set(state.get("ids", []))
-    # Discovery and title filtering belong to the source scrapers. Telegram is
-    # a delivery layer with the requested geography and remote gates.
-    # No additional score threshold or daily cap is applied.
-    candidates = [job for job in new_jobs if identity(job) not in sent_ids
-                  and target_location_allowed(job) and remote_plausible(job)
-                  and not international_remote_status(job).startswith("⛔")]
-    candidates.sort(key=lambda job: (fit(job), bool(job.get("salary")), bool(job.get("direct_url"))), reverse=True)
-    chosen = candidates
-
-    for job in chosen:
-        if send(label(job)):
+    records = state.setdefault("records", {})
+    counts = dict(discovered=len(new_jobs), duplicate=0, geography=0, remote=0, restricted=0, delivered=0, failed=0)
+    candidates = []
+    for job in new_jobs:
+        if not target_location_allowed(job):
+            counts["geography"] += 1
+        elif not remote_plausible(job):
+            counts["remote"] += 1
+        elif international_remote_status(job).startswith("⛔"):
+            counts["restricted"] += 1
+        else:
+            candidates.append(job)
+    candidates.sort(key=lambda j: (fit(j), bool(j.get("salary"))), reverse=True)
+    for job in candidates:
+        key, fingerprint = role_key(job), material(job)
+        previous = records.get(key)
+        if (previous and previous["material"] == fingerprint) or (identity(job) in sent_ids and not previous):
+            counts["duplicate"] += 1
+            continue
+        text = label(job)
+        if previous:
+            text = text.replace("YENİ FIRSAT", "İLAN GÜNCELLEMESİ")
+        if send(text):
+            counts["delivered"] += 1
             sent_ids.add(identity(job))
-
-    state["ids"] = list(sent_ids)[-300:]
-    state["date"] = today
+            records[key] = {"material": fingerprint, "last_sent": datetime.now(timezone.utc).isoformat()}
+        else:
+            counts["failed"] += 1
+    state["ids"] = sorted(sent_ids)
+    state["last_run"] = {"source_file": os.path.basename(sys.argv[1]), **counts}
     os.makedirs(OUTPUT, exist_ok=True)
     with open(STATE_PATH, "w", encoding="utf-8") as handle:
         json.dump(state, handle, ensure_ascii=False, indent=2)
-    print(f"Telegram: delivered {len(chosen)} new job(s); {len(sent_ids)} unique job(s) remembered.")
-    return 0
+    print("Telegram delivery summary: " + json.dumps(counts))
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary:
+        with open(summary, "a", encoding="utf-8") as handle:
+            handle.write("\n### Telegram delivery\n" + "\n".join(f"- {k}: {v}" for k,v in counts.items()) + "\n")
+    return 0  # Persist successful sends even when another delivery failed.
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
