@@ -60,6 +60,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GH_TOKEN: ${{ github.token }}
 
       - name: Record workflow run
         run: |
@@ -88,6 +89,7 @@ jobs:
         run: |
           git config user.name  "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
+          if [ -d output/query_metrics ]; then git add -f output/query_metrics; fi
           git add -f output/glassdoor_jobs.json output/glassdoor_jobs.md output/glassdoor_jobs.html output/workflow_runs.jsonl output/all_jobs.json output/notified.json output/telegram_notified.json
           git diff --cached --quiet || git commit -m "chore: update glassdoor listings [$(date -u '+%Y-%m-%d %H:%MZ')]"
           git pull --rebase -X ours origin main
