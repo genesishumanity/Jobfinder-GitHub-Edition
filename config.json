@@ -165,27 +165,19 @@
   "locations": {
     "glassdoor": [
       {
-        "location": "London, United Kingdom",
-        "country": "GB"
+        "location": "London",
+        "country": "UK"
       },
       {
-        "location": "Amsterdam, Netherlands",
+        "location": "Amsterdam",
         "country": "Netherlands"
       },
       {
-        "location": "Germany",
+        "location": "Berlin",
         "country": "Germany"
       },
       {
-        "location": "Hungary",
-        "country": "Hungary"
-      },
-      {
-        "location": "Portugal",
-        "country": "Portugal"
-      },
-      {
-        "location": "Spain",
+        "location": "Madrid",
         "country": "Spain"
       }
     ],
@@ -476,5 +468,8 @@
       "creative direction retainer remote"
     ],
     "local_titles": []
+  },
+  "source_notes": {
+    "glassdoor": "JobSpy Glassdoor supports UK, Netherlands, Germany and Spain. Hungary and Portugal remain covered by LinkedIn, Indeed and Google Jobs."
   }
 }
