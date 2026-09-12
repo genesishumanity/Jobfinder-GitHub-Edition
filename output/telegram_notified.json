@@ -24,11 +24,11 @@
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
-    "discovered": 0,
+    "source_file": "linkedin_jobs.json",
+    "discovered": 1,
     "duplicate": 0,
     "geography": 0,
-    "remote": 0,
+    "remote": 1,
     "restricted": 0,
     "language": 0,
     "dead_link": 0,
