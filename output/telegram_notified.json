@@ -24,7 +24,7 @@
     }
   },
   "last_run": {
-    "source_file": "google_jobs.json",
+    "source_file": "indeed_jobs.json",
     "discovered": 0,
     "duplicate": 0,
     "geography": 0,
