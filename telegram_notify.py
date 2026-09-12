@@ -47,8 +47,8 @@ def remote_plausible(job):
 
 
 def target_location_allowed(job):
-    from discovery_lanes import target_location
-    return target_location(job.get("location", ""))
+    from final_filter import eligible_location
+    return eligible_location(job)
 
 
 def identity(job):
@@ -159,7 +159,7 @@ def main():
     state = load_json(STATE_PATH, {"ids": [], "records": {}})
     sent_ids = set(state.get("ids", []))
     records = state.setdefault("records", {})
-    counts = dict(discovered=len(new_jobs), duplicate=0, geography=0, remote=0, restricted=0, delivered=0, failed=0)
+    counts = dict(discovered=len(new_jobs), duplicate=0, geography=0, remote=0, restricted=0, language=0, dead_link=0, delivered=0, failed=0)
     from delivery_ledger import Ledger, receipt_key
     ledger = Ledger() if os.environ.get("GITHUB_ACTIONS") == "true" else None
     counts["pending_reconciliation"] = 0
@@ -173,7 +173,13 @@ def main():
         elif international_remote_status(job).startswith("⛔"):
             counts["restricted"] += 1
         else:
-            candidates.append(job)
+            from final_filter import language_blocked, dead_link
+            if language_blocked(job):
+                counts["language"] += 1
+            elif dead_link(job):
+                counts["dead_link"] += 1
+            else:
+                candidates.append(job)
     candidates.sort(key=lambda j: (fit(j), bool(j.get("salary"))), reverse=True)
     for job in candidates:
         key, fingerprint = role_key(job), material(job)
