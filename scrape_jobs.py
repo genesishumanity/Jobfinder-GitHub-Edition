@@ -351,6 +351,13 @@ def is_target_location(location: str) -> bool:
     return target_location(location)
 
 
+def scoped_cached_jobs(jobs: list[dict]) -> list[dict]:
+    """Do not keep stale out-of-scope board data alive after a failed refresh."""
+    return [job for job in jobs
+            if target_location(str(job.get("location", "")))
+            and title_matches_keywords(str(job.get("title", "")))]
+
+
 def _parse_posted_at(value: str, *, now: datetime | None = None) -> datetime | None:
     """
     Parse ATS posting dates into UTC datetimes.
@@ -1676,10 +1683,10 @@ def scrape_google_jobs_recent(hours_old: int | None = None) -> list:
                 f"{fallback_raw} raw, {len(fallback_jobs)} matched"
             )
             return fallback_jobs
-        prev = _load_prev_jobs(os.path.join(OUTPUT_DIR, "google_jobs.json"))
+        prev = scoped_cached_jobs(_load_prev_jobs(os.path.join(OUTPUT_DIR, "google_jobs.json")))
         print(
             f"  ⛔ GoogleJobs returned 0 rows across all queries; "
-            f"preserving previous {len(prev)} result(s)"
+            f"preserving {len(prev)} in-scope cached result(s)"
         )
         return prev
     return jobs
