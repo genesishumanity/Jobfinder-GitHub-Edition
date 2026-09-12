@@ -135,12 +135,18 @@
       "creative innovation lead",
       "ai content strategist",
       "creative operations ai",
-      "kreativdirektor",
-      "markenstratege",
-      "director creativo",
-      "estratega de marca",
-      "diretor criativo",
-      "kreatív stratégia"
+      "creative strategy lead",
+      "strategic creative lead",
+      "head of creative strategy",
+      "director of brand strategy",
+      "brand and creative strategist",
+      "integrated creative director",
+      "content and creative strategist",
+      "creative development director",
+      "creative operations lead",
+      "ai creative producer",
+      "creative innovation director",
+      "performance creative lead"
     ]
   },
   "location_filter": {
@@ -405,7 +411,19 @@
       "creative operations",
       "creative innovation",
       "creative technologist",
-      "AI creative"
+      "AI creative",
+      "creative strategy lead",
+      "strategic creative lead",
+      "head of creative strategy",
+      "director of brand strategy",
+      "brand and creative strategist",
+      "integrated creative director",
+      "content and creative strategist",
+      "creative development director",
+      "creative operations lead",
+      "ai creative producer",
+      "creative innovation director",
+      "performance creative lead"
     ],
     "usajobs": [],
     "workday": [
@@ -457,13 +475,6 @@
       "brand strategy consultant remote",
       "creative direction retainer remote"
     ],
-    "local_titles": [
-      "Kreativdirektor remote",
-      "Markenstratege remote",
-      "director creativo remoto",
-      "estratega de marca remoto",
-      "diretor criativo remoto",
-      "kreatív stratégia remote"
-    ]
+    "local_titles": []
   }
 }
