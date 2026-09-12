@@ -1,5 +1,5 @@
 # 🟧 ZipRecruiter — Can Öncül — Remote Creative Strategy & AI Roles
-*Last updated: 2026-09-11 23:31 UTC*
+*Last updated: 2026-09-12 00:38 UTC*
 
 **0 new role(s)** since last run · 0 total in last 24h
 
