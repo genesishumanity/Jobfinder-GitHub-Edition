@@ -1,8 +1,12 @@
 # 🔥 LinkedIn — Can Öncül — Remote Creative Strategy & AI Roles
-*Last updated: 2026-09-12 15:55 UTC*
+*Last updated: 2026-09-12 16:55 UTC*
 
-**1 new role(s)** since last run · 1 total in last 1h
+**2 new role(s)** since last run · 2 total in last 1h
 
-### [Content Producer](https://www.linkedin.com/jobs/view/4465418760/) — Eucalyptus
-- 📍 **Location:** London, England, United Kingdom
+### [AI Content Manager - Creative Hub (m/w/d)](https://www.linkedin.com/jobs/view/4464474318/) — Peek & Cloppenburg* Düsseldorf
+- 📍 **Location:** Düsseldorf, North Rhine-Westphalia, Germany
+- 🕒 **Posted:** 2026-09-12
+
+### [Creative Shoot Producer (12 Month FTC)](https://www.linkedin.com/jobs/view/4447557721/) — Jellyfish
+- 📍 **Location:** Madrid, Community of Madrid, Spain
 - 🕒 **Posted:** 2026-09-12

@@ -3,6 +3,7 @@
   "ids": [
     "2aff894afff7bfddfea60abec6665c7c050ca40fca63a12511a440fcbb2b54f6",
     "3bb4feafff7e0643e6df23b5cc34f752073d3027efa32833b60109ec80f72414",
+    "4f63f409ee0c10784743be9e3209d9607918a78dd1bd753b96deba45c4adf40d",
     "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466009878",
     "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466013766",
     "dentsu|seniorartdirectorsocialtemporaryworker||httpswwwlinkedincomjobsview4456067070",
@@ -21,6 +22,10 @@
     "scrl|freelance creative producer dach|berlin, germany": {
       "material": "||",
       "last_sent": "2026-09-11T19:47:20.479748+00:00"
+    },
+    "jellyfish|creative shoot producer (12 month ftc)|madrid, community of madrid, spain": {
+      "material": "||",
+      "last_sent": "2026-09-12T16:55:08.548316+00:00"
     }
   },
   "last_run": {
@@ -28,11 +33,11 @@
     "discovered": 0,
     "duplicate": 0,
     "geography": 0,
-    "remote": 0,
+    "remote": 1,
     "restricted": 0,
     "language": 0,
     "dead_link": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
