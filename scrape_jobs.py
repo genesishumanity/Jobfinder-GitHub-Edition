@@ -231,6 +231,25 @@ def role_is_relevant(title: str, company: str = "") -> bool:
     return False
 
 
+_LINKEDIN_CREATIVE_FAMILY_RE = re.compile(
+    r"\b(?:creative|brand|content|campaign|integrated)\b.*\b(?:strategy|strategist|director|lead|producer|technologist|innovation|operations)\b"
+    r"|\b(?:strategy|strategist|director|lead|producer|technologist|innovation|operations)\b.*\b(?:creative|brand|content|campaign|integrated)\b",
+    re.IGNORECASE,
+)
+
+
+def linkedin_role_is_relevant(title: str, company: str = "") -> bool:
+    """Accept credible English title variants that the exact config phrases miss.
+
+    This remains title-only deliberately: it does not turn general marketing,
+    UX/product design, media buying or editing jobs into candidates.
+    """
+    return role_is_relevant(title, company) or bool(
+        title and not EXCLUDED_SENIORITY_RE.search(title)
+        and _LINKEDIN_CREATIVE_FAMILY_RE.search(title)
+    )
+
+
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
@@ -694,7 +713,7 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
                 consecutive_empty = 0
                 parsed, raw_count = _parse_linkedin_cards(html)
                 query_metrics.record("LinkedIn", term, geo["location"], raw_count,
-                    [dict(p, url=f"https://www.linkedin.com/jobs/view/{p['id']}/") for p in parsed if role_is_relevant(p["title"], p["company"])])
+                    [dict(p, url=f"https://www.linkedin.com/jobs/view/{p['id']}/") for p in parsed if linkedin_role_is_relevant(p["title"], p["company"])])
                 total_raw_cards += raw_count
                 pages_fetched += 1
                 if pages_fetched % 10 == 0:
@@ -706,10 +725,13 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
                 # of 10 off-target roles must not end pagination for the term.
                 if not raw_count:
                     break
+                rejected_titles = []
                 for p in parsed:
                     if p["id"] in jobs_by_id:
                         continue
-                    if not role_is_relevant(p["title"], p["company"]):
+                    if not linkedin_role_is_relevant(p["title"], p["company"]):
+                        if len(rejected_titles) < 3:
+                            rejected_titles.append(p["title"])
                         continue
                     jobs_by_id[p["id"]] = {
                         "company": p["company"],
@@ -720,6 +742,8 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
                         "salary": p.get("salary", ""),
                         "ats": "LinkedIn",
                     }
+                if rejected_titles:
+                    print("  ℹ️ LinkedIn title filter rejected: " + "; ".join(rejected_titles))
 
     jobs = list(jobs_by_id.values())
     jobs.sort(key=lambda j: -_iso_to_ts(j.get("date_posted", "")))
@@ -787,7 +811,7 @@ def _linkedin_search_partition(term: str, location: str, lookback_seconds: int,
         if not raw_count:
             break
         for p in parsed:
-            if p["id"] not in jobs_by_id and role_is_relevant(p["title"], p["company"]):
+            if p["id"] not in jobs_by_id and linkedin_role_is_relevant(p["title"], p["company"]):
                 jobs_by_id[p["id"]] = {
                     "company": p["company"],
                     "title": p["title"],
@@ -3752,4 +3776,3 @@ if __name__ == "__main__":
     print(f"🕒 Freshness filter (last 24h): {before} → {len(all_jobs)} roles")
 
     save_results(all_jobs)
-
