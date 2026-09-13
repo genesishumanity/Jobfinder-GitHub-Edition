@@ -1,12 +1,6 @@
 name: LinkedIn Watcher
 
 on:
-  # Native GitHub cron, hourly at :17 during the active window (8am–8pm PT ≈
-  # 15:00–03:00 UTC). GH's scheduler occasionally skips a slot, so the watchdog
-  # (linkedin_watch_backup.yml at :33) re-dispatches as backup. For higher
-  # reliability you can also drive this externally via cron-job.org → the
-  # workflow_dispatch API; both triggers are safe to run together (dedupe + the
-  # commit-push concurrency group prevent collisions).
   schedule:
     - cron: "17 15-23,0-3 * * *"
   workflow_dispatch:
@@ -16,15 +10,25 @@ on:
         required: false
         type: boolean
         default: false
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/linkedin_watch.yml"
+      - "linkedin_recent_runner.py"
+      - "scrape_jobs.py"
+      - "discovery_lanes.py"
+      - "config.json"
+      - "final_filter.py"
 
 concurrency:
   group: jobfinder-linkedin
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   scrape:
     name: LinkedIn scrape
     runs-on: ubuntu-latest
+    timeout-minutes: 25
 
     permissions:
       contents: write
@@ -38,12 +42,12 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Scrape LinkedIn (last 1h, or 30-day backfill)
+      - name: Scrape LinkedIn (bounded hourly, or 30-day backfill)
         run: |
           if [ "${{ github.event.inputs.backfill }}" = "true" ]; then
             python scrape_jobs.py --linkedin-backfill
           else
-            python scrape_jobs.py --linkedin-only
+            python linkedin_recent_runner.py
           fi
         env:
           PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
