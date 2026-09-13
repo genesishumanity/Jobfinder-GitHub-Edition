@@ -9,6 +9,7 @@
     "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466013766",
     "dentsu|seniorartdirectorsocialtemporaryworker||httpswwwlinkedincomjobsview4456067070",
     "driftai|creativedirectorbrand||httpswwwlinkedincomjobsview4466314316",
+    "e4d6157d2cfe77ebbf93ac4f851c60d78d34ea6798a733172ac055cab8cbc78d",
     "fileneresearchinstitute|audiencecontentstrategydirectorfilenewitxorco||httpswwwlinkedincomjobsview4463919758",
     "golinketchum|associatecreativedirector||httpswwwlinkedincomjobsview4464808195",
     "snapinc|associatecreativestrategist||httpswwwlinkedincomjobsview4466001008",
@@ -31,18 +32,22 @@
     "divinely hq gmbh|performance marketer (m/w/d) - meta ads × ai × creative strategy | e-commerce, online marketing|germany": {
       "material": "||",
       "last_sent": "2026-09-13T03:47:00.366420+00:00"
+    },
+    "lurosa studios ltd.|social media creative strategist (m/w/d) - 100% remote, vollzeit|germany": {
+      "material": "||",
+      "last_sent": "2026-09-13T15:50:38.741380+00:00"
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
-    "discovered": 0,
+    "source_file": "linkedin_jobs.json",
+    "discovered": 2,
     "duplicate": 0,
     "geography": 0,
-    "remote": 0,
+    "remote": 1,
     "restricted": 0,
     "language": 0,
     "dead_link": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
