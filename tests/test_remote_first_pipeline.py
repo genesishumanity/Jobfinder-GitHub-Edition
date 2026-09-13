@@ -69,3 +69,23 @@ def test_careerops_bridge_keeps_global_remote_and_drops_onsite():
         "title": "Creative Strategist",
         "location": "London (on-site only)",
     })
+
+
+def test_delivery_blocks_german_language_listing_but_keeps_english_germany_role():
+    assert final_filter.language_blocked({
+        "title": "Creative Strategist",
+        "description": (
+            "Wir suchen eine kreative Person für unser Team. Deine Aufgaben umfassen die Entwicklung "
+            "von Kampagnen und die Zusammenarbeit mit unseren Kunden. Du bringst mehrjährige "
+            "Berufserfahrung mit und verfügst über sehr gute Kenntnisse im Bereich Marketing. "
+            "Was wir bieten: flexible Arbeitszeit, ein internationales Team und eine spannende Tätigkeit."
+        ),
+    })
+    assert not final_filter.language_blocked({
+        "title": "Creative Strategist - Germany Remote",
+        "description": (
+            "We are looking for a creative strategist to join our remote team in Germany. "
+            "You will own campaign strategy, work with international clients, and collaborate in English. "
+            "German language skills are a plus but are not required."
+        ),
+    })
