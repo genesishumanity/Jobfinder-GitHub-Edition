@@ -34,7 +34,7 @@
     }
   },
   "last_run": {
-    "source_file": "google_jobs.json",
+    "source_file": "indeed_jobs.json",
     "discovered": 0,
     "duplicate": 0,
     "geography": 0,
@@ -42,7 +42,7 @@
     "restricted": 0,
     "language": 0,
     "dead_link": 0,
-    "delivered": 1,
+    "delivered": 0,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
