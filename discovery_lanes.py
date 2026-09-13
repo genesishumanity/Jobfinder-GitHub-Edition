@@ -15,6 +15,21 @@ US_ONLY = re.compile(
     re.I,
 )
 
+ADJACENT_TERMS = [
+    "performance marketing", "growth marketing", "marketing operations",
+    "project manager", "program manager", "project lead", "program lead",
+    "customer success manager", "client success", "account manager",
+    "account director", "account lead", "client partner", "client services",
+    "implementation manager", "implementation specialist", "onboarding manager",
+    "solutions consultant", "ai workflow", "ai operations", "automation",
+    "brand manager", "campaign manager",
+]
+
+FALSE_NEGATIVE_EXCLUDES = {
+    "customer success", "project coordinator", "account director", "account lead",
+    "client partner", "brand manager", "campaign manager",
+}
+
 
 def target_location(location):
     """Remote-first seed selection; reject only an explicit US-only label."""
@@ -33,8 +48,13 @@ def _append_geo(config, source, geo):
         locations.append(geo)
 
 
+def _append_terms(config, source, terms):
+    current = config.setdefault("search_terms", {}).setdefault(source, [])
+    config["search_terms"][source] = list(dict.fromkeys(current + list(terms)))
+
+
 def _prepare_remote_first(config):
-    """Repair known source config drift and widen discovery without paid APIs."""
+    """Repair known source/config drift and widen discovery without paid APIs."""
     locations = config.setdefault("locations", {})
 
     # python-jobspy accepts UK / United Kingdom, not the legacy GB alias.
@@ -44,16 +64,10 @@ def _prepare_remote_first(config):
                 geo["country"] = "UK"
 
     # JobSpy needs a supported country even when the location itself is Remote.
-    # Search Remote separately in each market instead of passing an invalid
-    # synthetic "worldwide" country that makes the whole query fail.
     for country in ("UK", "Netherlands", "Germany", "Hungary", "Portugal", "Spain"):
         _append_geo(config, "indeed", {"location": "Remote", "country": country})
 
-    # LinkedIn's public guest surface can take a broad Remote location label.
     _append_geo(config, "linkedin", {"location": "Remote", "name": "Remote", "geoId": ""})
-
-    # ZipRecruiter coverage in JobSpy is primarily North American. Keep one
-    # supplemental Remote lane; final delivery rejects explicit US-only roles.
     _append_geo(config, "ziprecruiter", {"location": "Remote", "country": "USA"})
 
     target = config.setdefault("target_geography", {})
@@ -69,8 +83,21 @@ def _prepare_remote_first(config):
         if item not in terms:
             terms.append(item)
 
+    # Earlier tuning accidentally blacklisted several career-adjacent families
+    # the user explicitly wants. Repair that at the single config chokepoint so
+    # every source sees the same strategy even before config.json is cleaned up.
+    keywords = config.setdefault("keywords", {})
+    excludes = keywords.setdefault("exclude", [])
+    keywords["exclude"] = [x for x in excludes if str(x).casefold() not in FALSE_NEGATIVE_EXCLUDES]
+    includes = keywords.setdefault("include", [])
+    keywords["include"] = list(dict.fromkeys(includes + ADJACENT_TERMS))
+
+    remote_adjacent = [f"{term} remote" for term in ADJACENT_TERMS]
+    for source in ("linkedin", "indeed", "glassdoor", "google_jobs", "hiring_cafe", "ziprecruiter"):
+        _append_terms(config, source, remote_adjacent)
+
     profile = config.setdefault("profile", {})
-    profile["subtitle"] = "Remote-first · Worldwide / EMEA · strong English-working roles"
+    profile["subtitle"] = "Remote-first · Worldwide / EMEA · creative + adjacent commercial roles"
     return config
 
 
@@ -101,8 +128,7 @@ def expand_config(config, jobs=(), slot=None):
     import query_metrics
     query_metrics.EXPERIMENTS.update(extra)
     for source in ("linkedin", "indeed", "glassdoor", "google_jobs"):
-        terms = config.setdefault("search_terms", {}).get(source, [])
-        config["search_terms"][source] = list(dict.fromkeys(terms + extra))
+        _append_terms(config, source, extra)
 
     # Explicit Google queries otherwise bypass search_terms entirely.
     queries = config.setdefault("google_jobs", {}).setdefault("queries", [])
