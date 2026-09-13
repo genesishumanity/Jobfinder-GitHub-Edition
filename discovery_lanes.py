@@ -37,19 +37,23 @@ def _prepare_remote_first(config):
     """Repair known source config drift and widen discovery without paid APIs."""
     locations = config.setdefault("locations", {})
 
-    # python-jobspy 1.1.82 accepts UK / United Kingdom, not the legacy GB alias.
+    # python-jobspy accepts UK / United Kingdom, not the legacy GB alias.
     for source in ("indeed", "google_jobs"):
         for geo in locations.get(source, []):
             if isinstance(geo, dict) and str(geo.get("country", "")).strip().lower() == "gb":
                 geo["country"] = "UK"
 
-    # Add genuinely remote discovery lanes instead of limiting every source to six cities.
-    _append_geo(config, "indeed", {"location": "Remote", "country": "worldwide"})
+    # JobSpy needs a supported country even when the location itself is Remote.
+    # Search Remote separately in each market instead of passing an invalid
+    # synthetic "worldwide" country that makes the whole query fail.
+    for country in ("UK", "Netherlands", "Germany", "Hungary", "Portugal", "Spain"):
+        _append_geo(config, "indeed", {"location": "Remote", "country": country})
+
+    # LinkedIn's public guest surface can take a broad Remote location label.
     _append_geo(config, "linkedin", {"location": "Remote", "name": "Remote", "geoId": ""})
 
-    # JobSpy ZipRecruiter only has useful coverage in supported North-American geos.
-    # We still collect Remote as a supplemental lane; final delivery gates remove
-    # explicitly US-only roles rather than discarding all potentially global remote jobs.
+    # ZipRecruiter coverage in JobSpy is primarily North American. Keep one
+    # supplemental Remote lane; final delivery rejects explicit US-only roles.
     _append_geo(config, "ziprecruiter", {"location": "Remote", "country": "USA"})
 
     target = config.setdefault("target_geography", {})
@@ -81,7 +85,7 @@ def expand_config(config, jobs=(), slot=None):
     seeds = [
         j for j in jobs
         if target_location(j.get("location", ""))
-        and re.search(r"creative|brand strateg|campaign strateg", str(j.get("title", "")), re.I)
+        and re.search(r"creative|brand strateg|campaign strateg|marketing|project|program|client|account|implementation", str(j.get("title", "")), re.I)
     ]
     text = " ".join(str(j.get("description", "")) for j in seeds).lower()
     phrases = settings.get("description_phrases", [])
@@ -91,7 +95,7 @@ def expand_config(config, jobs=(), slot=None):
     ]
     lanes = [evidenced or phrases, settings.get("contracts", []), settings.get("local_titles", [])]
     companies = sorted({str(j.get("company", "")).strip() for j in seeds if j.get("company")})
-    lanes.append([c + " creative remote" for c in companies[:30]])
+    lanes.append([c + " remote" for c in companies[:30]])
     extra = [lane[slot % len(lane)] for lane in lanes if lane]
 
     import query_metrics
