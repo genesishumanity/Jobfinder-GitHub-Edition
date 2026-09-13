@@ -1,6 +1,8 @@
 # 🔥 LinkedIn — Can Öncül — Remote Creative Strategy & AI Roles
-*Last updated: 2026-09-13 21:30 UTC*
+*Last updated: 2026-09-13 22:33 UTC*
 
-**0 new role(s)** since last run · 0 total in last 1h
+**1 new role(s)** since last run · 1 total in last 1h
 
-No new roles since the last run.
+### [Senior Brand Marketing Manager, Mako EMEA](https://www.linkedin.com/jobs/view/4460024998/) — Stryker
+- 📍 **Location:** Amsterdam, North Holland, Netherlands
+- 🕒 **Posted:** 2026-09-13
