@@ -2,11 +2,8 @@ name: Nightly Job Triage
 
 on:
   schedule:
-    # 09:00 UTC ≈ 1–2am PT — safely after the day's last scrapes (the biotech
-    # digest actually lands ~07:00 UTC under GH cron delay; LinkedIn's last
-    # hourly run is ~04:17 UTC). Exact timing isn't critical: the agent scores
-    # every not-yet-scored role in all_jobs.json, so stragglers from a delayed
-    # scrape simply roll into the next night's run.
+    # Run after the main discovery window. The agent scores every not-yet-scored
+    # role in all_jobs.json, so delayed source runs roll into the next pass.
     - cron: "0 9 * * *"
 
   workflow_dispatch:
@@ -17,7 +14,7 @@ concurrency:
 
 jobs:
   triage:
-    name: Score new roles vs candidate profile
+    name: Score new roles vs Can remote profile
     runs-on: ubuntu-latest
 
     permissions:
@@ -36,14 +33,13 @@ jobs:
         run: pip install anthropic
 
       # Profile/resume arrive as env vars straight from Actions secrets —
-      # never written to disk, never committed (the repo is public).
-      # --limit bounds worst-case daily spend; raise/lower as the cost knob.
-      - name: Run triage agent
+      # never written to disk, never committed.
+      - name: Run Can remote-creative triage
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CANDIDATE_PROFILE: ${{ secrets.CANDIDATE_PROFILE }}
           CANDIDATE_RESUME: ${{ secrets.CANDIDATE_RESUME }}
-        run: python triage_agent.py --limit 300
+        run: python triage_can.py --limit 300
 
       - name: Commit scores to repo
         if: vars.ENABLE_DATA_COMMITS == 'true'

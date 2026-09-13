@@ -41,9 +41,8 @@ def remote_plausible(job):
     if re.search(r"\b(not remote|no remote|hybrid|on-site|onsite)\b", text):
         return False
     return job.get("is_remote") is True or any(word in text for word in (
-        "remote", "worldwide", "work from anywhere", "work from home"
+        "remote", "worldwide", "work from anywhere", "work from home", "distributed", "global", "emea"
     ))
-
 
 
 def target_location_allowed(job):
@@ -52,7 +51,6 @@ def target_location_allowed(job):
 
 
 def identity(job):
-    # Prefer the employer link; strip tracking without discarding job identifiers.
     url = str(job.get("direct_url") or job.get("url") or "").strip()
     parts = urllib.parse.urlsplit(url)
     query = [(k, v) for k, v in urllib.parse.parse_qsl(parts.query)
@@ -71,8 +69,6 @@ def material(job):
 
 
 def fit(job):
-    # Reuse the configurable fit model; custom scoring_profile.json prevents
-    # environmental/toxicology terms from leaking into this installation.
     import notify
     return notify._fit(str(job.get("title", "")), " ".join((
         str(job.get("company", "")), str(job.get("description", "")),
@@ -81,7 +77,6 @@ def fit(job):
 
 
 def international_remote_status(job):
-    """Conservative eligibility label; never infer UAE eligibility from 'remote' alone."""
     text = " ".join(str(job.get(key, "")) for key in (
         "title", "location", "description", "work_arrangement"
     )).lower()
@@ -89,7 +84,7 @@ def international_remote_status(job):
     worldwide = (
         "worldwide", "work from anywhere", "work anywhere", "anywhere in the world",
         "international contractor", "global contractor", "contractor worldwide",
-        "global remote", "remote - global"
+        "global remote", "remote - global", "fully distributed"
     )
     restricted = (
         "u.s. only", "us only", "usa only", "remote, us", "united states only",
@@ -105,16 +100,18 @@ def international_remote_status(job):
     return "⚪ UAE/uluslararası uygunluğu ilanda net değil"
 
 
-def label(job):
+def label(job, score=None):
     salary = str(job.get("salary", "")).strip()
     location = str(job.get("location", "")).strip() or "Remote details not stated"
     source = str(job.get("ats", "")).strip() or "source"
     url = str(job.get("direct_url", "")).strip() or str(job.get("url", "")).strip()
+    score_line = f"Fit: {score:.0f}/100" if score is not None else "Fit: değerlendirilmedi"
     return "\n".join([
         "🔎 YENİ FIRSAT",
         "",
         f"{job.get('title', 'Untitled')} — {job.get('company', 'Unknown company')}",
         f"Kaynak: {source} · Yeni keşif",
+        score_line,
         f"Konum: {location}",
         international_remote_status(job),
         f"Maaş: {salary or 'belirtilmemiş'}",
@@ -154,16 +151,29 @@ def main():
     if len(sys.argv) != 2:
         print("Usage: python telegram_notify.py output/<source>_jobs.json")
         return 2
+
+    notify_cfg = config()
+    try:
+        min_fit = float(notify_cfg.get("telegram_min_fit", notify_cfg.get("min_fit", 0)) or 0)
+    except (TypeError, ValueError):
+        min_fit = 0.0
+    try:
+        per_run_cap = max(1, int(notify_cfg.get("daily_cap", 30) or 30))
+    except (TypeError, ValueError):
+        per_run_cap = 30
+
     data = load_json(sys.argv[1], {})
     new_jobs = data.get("new_jobs", [])
     state = load_json(STATE_PATH, {"ids": [], "records": {}})
     sent_ids = set(state.get("ids", []))
     records = state.setdefault("records", {})
-    counts = dict(discovered=len(new_jobs), duplicate=0, geography=0, remote=0, restricted=0, language=0, dead_link=0, delivered=0, failed=0)
+    counts = dict(discovered=len(new_jobs), duplicate=0, geography=0, remote=0, restricted=0,
+                  language=0, dead_link=0, low_fit=0, capped=0, delivered=0, failed=0)
     from delivery_ledger import Ledger, receipt_key
     ledger = Ledger() if os.environ.get("GITHUB_ACTIONS") == "true" else None
     counts["pending_reconciliation"] = 0
     counts["ledger_errors"] = 0
+
     candidates = []
     for job in new_jobs:
         if not target_location_allowed(job):
@@ -179,9 +189,18 @@ def main():
             elif dead_link(job):
                 counts["dead_link"] += 1
             else:
-                candidates.append(job)
-    candidates.sort(key=lambda j: (fit(j), bool(j.get("salary"))), reverse=True)
-    for job in candidates:
+                score = float(fit(job))
+                if score < min_fit:
+                    counts["low_fit"] += 1
+                else:
+                    candidates.append((score, job))
+
+    candidates.sort(key=lambda pair: (pair[0], bool(pair[1].get("salary"))), reverse=True)
+    if len(candidates) > per_run_cap:
+        counts["capped"] = len(candidates) - per_run_cap
+        candidates = candidates[:per_run_cap]
+
+    for score, job in candidates:
         key, fingerprint = role_key(job), material(job)
         previous = records.get(key)
         if (previous and previous["material"] == fingerprint) or (identity(job) in sent_ids and not previous):
@@ -198,7 +217,7 @@ def main():
             if claim != "claimed":
                 counts["duplicate" if claim == "sent" else "pending_reconciliation"] += 1
                 continue
-        text = label(job)
+        text = label(job, score)
         if previous:
             text = text.replace("YENİ FIRSAT", "İLAN GÜNCELLEMESİ")
         if send(text):
@@ -215,8 +234,9 @@ def main():
             counts["failed"] += 1
             if ledger:
                 counts["pending_reconciliation"] += 1
+
     state["ids"] = sorted(sent_ids)
-    state["last_run"] = {"source_file": os.path.basename(sys.argv[1]), **counts}
+    state["last_run"] = {"source_file": os.path.basename(sys.argv[1]), "min_fit": min_fit, **counts}
     os.makedirs(OUTPUT, exist_ok=True)
     with open(STATE_PATH, "w", encoding="utf-8") as handle:
         json.dump(state, handle, ensure_ascii=False, indent=2)
@@ -224,10 +244,9 @@ def main():
     summary = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary:
         with open(summary, "a", encoding="utf-8") as handle:
-            handle.write("\n### Telegram delivery\n" + "\n".join(f"- {k}: {v}" for k,v in counts.items()) + "\n")
-    return 0  # Allow successful delivery state and metrics to persist.
+            handle.write("\n### Telegram delivery\n" + "\n".join(f"- {k}: {v}" for k, v in counts.items()) + "\n")
+    return 0
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
