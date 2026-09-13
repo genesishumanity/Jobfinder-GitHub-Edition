@@ -30,6 +30,25 @@ FALSE_NEGATIVE_EXCLUDES = {
     "client partner", "brand manager", "campaign manager",
 }
 
+# Keep every hourly board scan small. One rotating adjacent family is added per
+# hour so coverage grows through the day without hammering public endpoints.
+CORE_REMOTE_TERMS = [
+    "creative strategist remote",
+    "creative director remote",
+    "creative lead remote",
+    "brand strategist remote",
+    "performance creative remote",
+    "creative operations remote",
+    "content strategist remote",
+    "ai creative remote",
+]
+ROTATING_REMOTE_TERM_GROUPS = [
+    ["performance marketing remote", "growth marketing remote", "marketing operations remote", "brand manager remote"],
+    ["project manager remote", "program manager remote", "project lead remote", "program lead remote"],
+    ["customer success manager remote", "client success remote", "account manager remote", "account director remote"],
+    ["implementation manager remote", "onboarding manager remote", "solutions consultant remote", "ai workflow remote", "automation remote"],
+]
+
 
 def target_location(location):
     """Remote-first seed selection; reject only an explicit US-only label."""
@@ -63,9 +82,9 @@ def _prepare_remote_first(config):
             if isinstance(geo, dict) and str(geo.get("country", "")).strip().lower() == "gb":
                 geo["country"] = "UK"
 
-    # JobSpy requires an exact supported country even when location is Remote.
-    # Keep LinkedIn as the worldwide lane; fan Indeed out only across countries
-    # its adapter actually supports.
+    # JobSpy explicitly supports the `worldwide` Indeed country adapter. Keep it
+    # as the always-on remote radar, then rotate regional remote lanes hourly.
+    _append_geo(config, "indeed", {"location": "Remote", "country": "worldwide"})
     for country in ("UK", "Netherlands", "Germany", "Hungary", "Portugal", "Spain"):
         _append_geo(config, "indeed", {"location": "Remote", "country": country})
 
@@ -85,15 +104,16 @@ def _prepare_remote_first(config):
         if item not in terms:
             terms.append(item)
 
-    # Earlier tuning accidentally blacklisted several career-adjacent families
-    # the user explicitly wants. Repair that at the single config chokepoint so
-    # every source sees the same strategy even before config.json is cleaned up.
+    # Repair role families that had previously been accidentally blacklisted.
     keywords = config.setdefault("keywords", {})
     excludes = keywords.setdefault("exclude", [])
     keywords["exclude"] = [x for x in excludes if str(x).casefold() not in FALSE_NEGATIVE_EXCLUDES]
     includes = keywords.setdefault("include", [])
     keywords["include"] = list(dict.fromkeys(includes + ADJACENT_TERMS))
 
+    # Keep the complete intent available when discovery lanes are disabled (and
+    # for tests/manual runs). The enabled production path below replaces these
+    # with a much smaller rotating set before scraper constants are initialized.
     remote_adjacent = [f"{term} remote" for term in ADJACENT_TERMS]
     for source in ("linkedin", "indeed", "glassdoor", "google_jobs", "ziprecruiter"):
         _append_terms(config, source, remote_adjacent)
@@ -103,8 +123,39 @@ def _prepare_remote_first(config):
     return config
 
 
+def _bounded_geos(config, slot):
+    """Always scan global Remote plus one rotating region instead of every geo."""
+    locations = config.setdefault("locations", {})
+
+    indeed = [g for g in locations.get("indeed", []) if isinstance(g, dict)]
+    worldwide = next((g for g in indeed if str(g.get("country", "")).casefold() == "worldwide"), None)
+    regional = [
+        g for g in indeed
+        if str(g.get("location", "")).casefold() == "remote"
+        and str(g.get("country", "")).casefold() != "worldwide"
+    ]
+    picked = []
+    if worldwide:
+        picked.append(worldwide)
+    if regional:
+        picked.append(regional[slot % len(regional)])
+    if picked:
+        locations["indeed"] = picked
+
+    linkedin = [g for g in locations.get("linkedin", []) if isinstance(g, dict)]
+    global_remote = next((g for g in linkedin if str(g.get("location", "")).casefold() == "remote"), None)
+    li_regional = [g for g in linkedin if g is not global_remote]
+    picked = []
+    if global_remote:
+        picked.append(global_remote)
+    if li_regional:
+        picked.append(li_regional[slot % len(li_regional)])
+    if picked:
+        locations["linkedin"] = picked
+
+
 def expand_config(config, jobs=(), slot=None):
-    """Repair remote discovery, keep core terms, rotate one query per experimental lane."""
+    """Repair remote discovery and rotate bounded query/geo lanes hourly."""
     config = _prepare_remote_first(config)
     slot = int(datetime.now(timezone.utc).timestamp() // 3600) if slot is None else slot
     settings = config.get("discovery_lanes", {})
@@ -127,22 +178,33 @@ def expand_config(config, jobs=(), slot=None):
     lanes.append([c + " remote" for c in companies[:30]])
     extra = [lane[slot % len(lane)] for lane in lanes if lane]
 
+    # Cap the active query set. This replaces the large cumulative lists created
+    # above, preventing hundreds of JobSpy/LinkedIn calls in a single hour.
+    rotating = ROTATING_REMOTE_TERM_GROUPS[slot % len(ROTATING_REMOTE_TERM_GROUPS)]
+    active_terms = list(dict.fromkeys(CORE_REMOTE_TERMS + rotating + extra))
+    for source in ("linkedin", "indeed", "glassdoor", "google_jobs", "ziprecruiter"):
+        config.setdefault("search_terms", {})[source] = active_terms.copy()
+
+    _bounded_geos(config, slot)
+
     import query_metrics
     query_metrics.EXPERIMENTS.update(extra)
-    for source in ("linkedin", "indeed", "glassdoor", "google_jobs"):
-        _append_terms(config, source, extra)
 
-    # Explicit Google queries otherwise bypass search_terms entirely.
+    # Explicit Google queries otherwise bypass search_terms entirely. Keep only
+    # a bounded rotating set instead of the old city × title matrix.
     queries = config.setdefault("google_jobs", {}).setdefault("queries", [])
-    geos = config.get("target_geography", {}).get("locations", [])
-    if geos:
-        queries.extend(q + " jobs " + geos[slot % len(geos)] for q in extra)
+    config["google_jobs"]["queries"] = [
+        f"{term} jobs" for term in active_terms[:10]
+    ]
 
     print("Discovery lanes:", {
         "extra_queries": extra,
         "seed_count": len(seeds),
         "description_evidence": evidenced,
         "slot": slot,
-        "mode": "remote-first",
+        "mode": "remote-first-bounded",
+        "active_terms": len(active_terms),
+        "linkedin_geos": len(config.get("locations", {}).get("linkedin", [])),
+        "indeed_geos": len(config.get("locations", {}).get("indeed", [])),
     })
     return config
