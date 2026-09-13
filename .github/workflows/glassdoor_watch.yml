@@ -1,9 +1,9 @@
 name: Glassdoor Watcher
 
 on:
-  # JobSpy-backed Glassdoor pass. Scheduled runs are opt-in with
-  # repository Variable ENABLE_GLASSDOOR_WATCHER=true because Glassdoor
-  # frequently returns 403/location-parse failures from shared CI IPs.
+  # JobSpy-backed Glassdoor pass. Runs independently from LinkedIn/Indeed;
+  # Glassdoor may still return 403/location-parse failures from shared CI IPs,
+  # but a source-side failure must not disable the watcher entirely.
   schedule:
     - cron: "07 16-23,0-3 * * *"
   workflow_dispatch:
@@ -21,8 +21,8 @@ concurrency:
 jobs:
   scrape:
     name: Glassdoor scrape
-    if: github.event_name == 'workflow_dispatch' || vars.ENABLE_GLASSDOOR_WATCHER == 'true'
     runs-on: ubuntu-latest
+    timeout-minutes: 25
 
     permissions:
       contents: write
