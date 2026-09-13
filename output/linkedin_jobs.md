@@ -1,6 +1,8 @@
 # 🔥 LinkedIn — Can Öncül — Remote Creative Strategy & AI Roles
-*Last updated: 2026-09-12 23:45 UTC*
+*Last updated: 2026-09-13 01:33 UTC*
 
-**0 new role(s)** since last run · 0 total in last 1h
+**1 new role(s)** since last run · 1 total in last 1h
 
-No new roles since the last run.
+### [Senior Art Director, Amazon Music](https://www.linkedin.com/jobs/view/4466736155/) — Amazon Music
+- 📍 **Location:** London, England, United Kingdom
+- 🕒 **Posted:** 2026-09-13
