@@ -16,12 +16,12 @@ permissions:
 
 concurrency:
   group: careerops-ats-watcher
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    timeout-minutes: 25
     steps:
       - name: Checkout JobFinder
         uses: actions/checkout@v4
@@ -55,7 +55,7 @@ jobs:
           node scan-ats-full.mjs \
             --since 7 \
             --ats greenhouse,lever,ashby,workday \
-            --limit 750 \
+            --limit 150 \
             --shuffle \
             --json \
             --dry-run > "$GITHUB_WORKSPACE/output/careerops_raw.json"
