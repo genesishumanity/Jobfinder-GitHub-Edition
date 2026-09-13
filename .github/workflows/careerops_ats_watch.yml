@@ -1,0 +1,78 @@
+name: CareerOps ATS Watcher
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */4 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: careerops-ats-watcher
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - name: Checkout JobFinder
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install JobFinder dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch Career-Ops scanner
+        run: |
+          git clone --depth 1 https://github.com/career-ops-hq/career-ops.git /tmp/career-ops
+          cd /tmp/career-ops
+          npm ci --ignore-scripts
+          cp "$GITHUB_WORKSPACE/careerops_portals.yml" portals.yml
+
+      - name: Reverse-scan public ATS directories
+        run: |
+          mkdir -p output
+          cd /tmp/career-ops
+          node scan-ats-full.mjs \
+            --since 7 \
+            --ats greenhouse,lever,ashby,workday \
+            --limit 750 \
+            --shuffle \
+            --json \
+            --dry-run > "$GITHUB_WORKSPACE/output/careerops_raw.json"
+
+      - name: Bridge into JobFinder
+        run: python careerops_bridge.py output/careerops_raw.json output/careerops_ats_jobs.json
+
+      - name: Deliver new qualified remote roles
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python telegram_notify.py output/careerops_ats_jobs.json
+
+      - name: Persist results and delivery state
+        run: |
+          rm -f output/careerops_raw.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/careerops_ats_jobs.json output/all_jobs.json output/telegram_notified.json output/delivery_ledger.json || true
+          if git diff --cached --quiet; then
+            echo "No state changes"
+            exit 0
+          fi
+          git commit -m "chore: update CareerOps ATS remote listings [$(date -u +'%Y-%m-%d %H:%MZ')]"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin HEAD:"${GITHUB_REF_NAME}"
