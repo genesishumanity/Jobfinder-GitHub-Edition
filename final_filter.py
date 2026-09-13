@@ -4,6 +4,11 @@ import urllib.error
 import urllib.request
 
 REMOTE = re.compile(r"\b(remote|work from home|work-from-home|distributed|anywhere|worldwide|global|emea|europe)\b", re.I)
+NOT_REMOTE = re.compile(
+    r"\b(?:not remote|no remote|non[- ]remote|on[- ]site only|onsite only|office[- ]based only|"
+    r"hybrid only|must work (?:from|in) (?:the )?office|remote work (?:is )?not (?:available|offered|permitted))\b",
+    re.I,
+)
 US_ONLY = re.compile(
     r"\b(?:remote\s*[-,/ ]*\s*(?:us|usa|u\.s\.|united states)\s*only|"
     r"(?:us|usa|u\.s\.|united states)\s*[-,/ ]*\s*(?:only|residents? only|candidates? only)|"
@@ -20,11 +25,11 @@ LOCAL_LANGUAGE_REQUIRED = re.compile(
 
 
 def eligible_location(job):
-    text = " ".join(str(job.get(key, "")) for key in ("location", "workplace_type", "remote", "description"))
-    if US_ONLY.search(text):
+    text = " ".join(str(job.get(key, "")) for key in ("location", "workplace_type", "work_arrangement", "remote", "description"))
+    if NOT_REMOTE.search(text) or US_ONLY.search(text):
         return False
     # For delivery, require explicit remote/distributed evidence somewhere in the listing.
-    return bool(REMOTE.search(text))
+    return job.get("is_remote") is True or bool(REMOTE.search(text))
 
 
 def language_blocked(job):
