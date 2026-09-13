@@ -63,7 +63,9 @@ def _prepare_remote_first(config):
             if isinstance(geo, dict) and str(geo.get("country", "")).strip().lower() == "gb":
                 geo["country"] = "UK"
 
-    # JobSpy needs a supported country even when the location itself is Remote.
+    # JobSpy requires an exact supported country even when location is Remote.
+    # Keep LinkedIn as the worldwide lane; fan Indeed out only across countries
+    # its adapter actually supports.
     for country in ("UK", "Netherlands", "Germany", "Hungary", "Portugal", "Spain"):
         _append_geo(config, "indeed", {"location": "Remote", "country": country})
 
@@ -93,7 +95,7 @@ def _prepare_remote_first(config):
     keywords["include"] = list(dict.fromkeys(includes + ADJACENT_TERMS))
 
     remote_adjacent = [f"{term} remote" for term in ADJACENT_TERMS]
-    for source in ("linkedin", "indeed", "glassdoor", "google_jobs", "hiring_cafe", "ziprecruiter"):
+    for source in ("linkedin", "indeed", "glassdoor", "google_jobs", "ziprecruiter"):
         _append_terms(config, source, remote_adjacent)
 
     profile = config.setdefault("profile", {})
