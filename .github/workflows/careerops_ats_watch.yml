@@ -2,6 +2,12 @@ name: CareerOps ATS Watcher
 
 on:
   workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/careerops_ats_watch.yml"
+      - "careerops_bridge.py"
+      - "careerops_portals.yml"
   schedule:
     - cron: "17 */4 * * *"
 
@@ -39,7 +45,7 @@ jobs:
         run: |
           git clone --depth 1 https://github.com/career-ops-hq/career-ops.git /tmp/career-ops
           cd /tmp/career-ops
-          npm ci --ignore-scripts
+          npm install --ignore-scripts --no-audit --no-fund
           cp "$GITHUB_WORKSPACE/careerops_portals.yml" portals.yml
 
       - name: Reverse-scan public ATS directories
