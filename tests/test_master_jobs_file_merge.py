@@ -1,13 +1,24 @@
 """Test _merge_into_all_jobs — master file merge with field preservation."""
+import copy
 import json
+from datetime import datetime, timezone
+
 from scrape_jobs import _merge_into_all_jobs
+
+
+def _fresh(sample_all_jobs):
+    """Keep merge tests about merge semantics, not the rolling 30-day prune window."""
+    data = copy.deepcopy(sample_all_jobs)
+    stamp = datetime.now(timezone.utc).isoformat()
+    for job in data.get("jobs", []):
+        job["first_seen"] = stamp
+    return data
 
 
 def test_merge_adds_new_jobs(tmp_output_dir, sample_all_jobs):
     """Merging 3 new jobs (2 genuinely new, 1 duplicate) → added == 2."""
-    # Write the sample to the temp output dir
     path = tmp_output_dir / "all_jobs.json"
-    path.write_text(json.dumps(sample_all_jobs, separators=(",", ":")))
+    path.write_text(json.dumps(_fresh(sample_all_jobs), separators=(",", ":")))
 
     new_jobs = [
         {"url": "https://www.linkedin.com/jobs/view/9900000001/",
@@ -16,7 +27,6 @@ def test_merge_adds_new_jobs(tmp_output_dir, sample_all_jobs):
         {"url": "https://www.linkedin.com/jobs/view/9900000002/",
          "company": "OtherCo", "title": "VP of Engineering",
          "location": "NYC, NY", "ats": "LinkedIn"},
-        # Duplicate URL of existing job
         {"url": "https://www.linkedin.com/jobs/view/4400000001/",
          "company": "Acme Corp", "title": "Director of Engineering",
          "location": "San Francisco, CA", "ats": "LinkedIn",
@@ -29,9 +39,8 @@ def test_merge_adds_new_jobs(tmp_output_dir, sample_all_jobs):
 def test_preserves_existing_fields_on_duplicate(tmp_output_dir, sample_all_jobs):
     """Existing downstream fields (bookmarked, notes) must be preserved when merging a duplicate."""
     path = tmp_output_dir / "all_jobs.json"
-    path.write_text(json.dumps(sample_all_jobs, separators=(",", ":")))
+    path.write_text(json.dumps(_fresh(sample_all_jobs), separators=(",", ":")))
 
-    # Merge a job that duplicates an existing bookmarked job
     new_jobs = [
         {"url": "https://www.linkedin.com/jobs/view/4400000001/",
          "company": "Acme Corp", "title": "Director of Engineering",
@@ -48,7 +57,7 @@ def test_preserves_existing_fields_on_duplicate(tmp_output_dir, sample_all_jobs)
 def test_preserves_false_tag_on_duplicate(tmp_output_dir, sample_all_jobs):
     """Existing false-valued downstream fields must be preserved when merging a duplicate."""
     path = tmp_output_dir / "all_jobs.json"
-    path.write_text(json.dumps(sample_all_jobs, separators=(",", ":")))
+    path.write_text(json.dumps(_fresh(sample_all_jobs), separators=(",", ":")))
 
     new_jobs = [
         {"url": "https://www.linkedin.com/jobs/view/4400000008/",
@@ -66,7 +75,7 @@ def test_preserves_false_tag_on_duplicate(tmp_output_dir, sample_all_jobs):
 def test_sets_first_seen_on_new_jobs(tmp_output_dir, sample_all_jobs):
     """New jobs should get a first_seen timestamp."""
     path = tmp_output_dir / "all_jobs.json"
-    path.write_text(json.dumps(sample_all_jobs, separators=(",", ":")))
+    path.write_text(json.dumps(_fresh(sample_all_jobs), separators=(",", ":")))
 
     new_jobs = [
         {"url": "https://www.linkedin.com/jobs/view/9900000099/",
@@ -84,7 +93,7 @@ def test_sets_first_seen_on_new_jobs(tmp_output_dir, sample_all_jobs):
 def test_output_is_valid_json(tmp_output_dir, sample_all_jobs):
     """Output file should be valid JSON with updated_at and jobs keys."""
     path = tmp_output_dir / "all_jobs.json"
-    path.write_text(json.dumps(sample_all_jobs, separators=(",", ":")))
+    path.write_text(json.dumps(_fresh(sample_all_jobs), separators=(",", ":")))
 
     _merge_into_all_jobs([])
 
