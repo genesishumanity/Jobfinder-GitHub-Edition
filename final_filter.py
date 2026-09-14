@@ -90,8 +90,15 @@ def eligible_location(job):
         return False
     if NOT_REMOTE.search(text) or US_ONLY.search(text) or US_LOCATION.search(location_text):
         return False
-    # For delivery, require explicit remote/distributed evidence somewhere in the listing.
-    return job.get("is_remote") is True or bool(REMOTE.search(text))
+    # Require remote evidence in the listing text, OR let an explicit approved
+    # city/country in the location field itself stand in for it — a listing
+    # based in London/Berlin/Madrid etc. shouldn't be dropped just because the
+    # word "remote" never appears, as long as it isn't flagged onsite-only above.
+    return (
+        job.get("is_remote") is True
+        or bool(REMOTE.search(text))
+        or bool(TARGET_GEO.search(location_text))
+    )
 
 
 _LOCAL_LANGUAGE_PHRASES = {
