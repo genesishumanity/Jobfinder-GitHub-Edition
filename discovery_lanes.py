@@ -59,7 +59,15 @@ def _append_geo(config, source, geo):
 
 def _append_terms(config, source, terms):
     current = config.setdefault("search_terms", {}).setdefault(source, [])
-    config["search_terms"][source] = list(dict.fromkeys(current + list(terms)))
+    merged = []
+    seen = set()
+    for term in list(current) + list(terms):
+        value = str(term)
+        key = value.casefold()
+        if key not in seen:
+            seen.add(key)
+            merged.append(value)
+    config["search_terms"][source] = merged
 
 
 def _prepare_remote_first(config):
