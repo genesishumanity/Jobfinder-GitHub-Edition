@@ -1,6 +1,8 @@
 # 🔥 LinkedIn — Can Öncül — Remote Creative Strategy & AI Roles
-*Last updated: 2026-09-13 23:31 UTC*
+*Last updated: 2026-09-14 00:41 UTC*
 
-**0 new role(s)** since last run · 1 total in last 1h
+**1 new role(s)** since last run · 1 total in last 1h
 
-No new roles since the last run.
+### [Data Project Manager](https://www.linkedin.com/jobs/view/4466794861/) — Haystack
+- 📍 **Location:** London, England, United Kingdom
+- 🕒 **Posted:** 2026-09-14
