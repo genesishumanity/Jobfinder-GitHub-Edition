@@ -51,7 +51,7 @@ def target_location_allowed(job):
 
 
 DOMAIN_BLOCKED = re.compile(
-    r"\\b(?:"
+    r"\b(?:"
     r"medical expertise|clinical expertise|pharma(?:ceutical)? experience|"
     r"medical device(?:s)? experience|healthcare domain experience|"
     r"cybersecurity|information security|security operations|security engineering|"
@@ -60,7 +60,7 @@ DOMAIN_BLOCKED = re.compile(
     r"clinical (?:operations|research|trials?)|"
     r"medical (?:affairs|marketing|device|equipment)|"
     r"manufacturing (?:operations|readiness|supply chain)"
-    r")\\b",
+    r")\b",
     re.I,
 )
 
