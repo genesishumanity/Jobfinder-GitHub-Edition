@@ -13,6 +13,7 @@
     "49f144467cea9b720b9e33aff8877baee603e2253bc717d5a5d041ea34af7a68",
     "4a64a02340c74b7b2359933ef57895bd7da62282f623f746d29c5be4b0cf4898",
     "4f63f409ee0c10784743be9e3209d9607918a78dd1bd753b96deba45c4adf40d",
+    "5d0e9dfa238cce6a793b284287d1177b9f32d9701f6afd99cbbbcc5a7877ce0c",
     "651954f8898dbbaea0f0cba139310a2ed813ce73f8d7a8029474c663bfc6be19",
     "6bcd95a735f89ed6cdeaf4f22cc19b5f1cbd2e831a388defa2f15f0ac356d8a4",
     "80a8da42555c0a4cae0354118e90bafb718a9dc91d8810d51574abeebb41813b",
@@ -146,22 +147,26 @@
     "plutus media|ugc creator|anywhere": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-14T16:51:55.450745+00:00"
+    },
+    "visit.org|marketing creative lead|es": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T16:56:55.289469+00:00"
     }
   },
   "last_run": {
-    "source_file": "google_jobs.json",
+    "source_file": "indeed_jobs.json",
     "min_fit": 40.0,
-    "discovered": 1,
+    "discovered": 4,
     "duplicate": 0,
     "geography": 0,
-    "remote": 0,
+    "remote": 1,
     "restricted": 0,
-    "language": 0,
-    "domain": 1,
+    "language": 2,
+    "domain": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
