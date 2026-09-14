@@ -21,7 +21,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 35
     steps:
       - name: Checkout JobFinder
         uses: actions/checkout@v4
@@ -52,10 +52,16 @@ jobs:
         run: |
           mkdir -p output
           cd /tmp/career-ops
+          # 300/ATS (1200 total) instead of 150 (600) — ~28.7k companies are
+          # available and --shuffle only samples a slice each run, so this
+          # roughly doubles how much of the directory gets covered per day
+          # without changing the 4-hourly cadence. Scan phase runs ~2x
+          # longer (~11 min observed at 150/ATS); timeout bumped to 35 min
+          # for margin.
           node scan-ats-full.mjs \
             --since 7 \
             --ats greenhouse,lever,ashby,workday \
-            --limit 150 \
+            --limit 300 \
             --shuffle \
             --json \
             --dry-run > "$GITHUB_WORKSPACE/output/careerops_raw.json"
