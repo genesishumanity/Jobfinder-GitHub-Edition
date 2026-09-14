@@ -1,28 +1,36 @@
 {
   "date": "2026-09-11",
   "ids": [
+    "0150bd1672005ebbb8fd2b617d8bffedec782a936aaa78425bc324ed29c61956",
     "095f55ef3ff91415b1423177e84e956d328e3a0b9b4fc172f6d29fb760b4ebe9",
     "0ea82b4228bbbce31e79e67b8230cdccb7308b08ed2b052a7bee8acb08d8103c",
+    "14dd235daa055ed821bb4fea77d6d39a26f52c044a1827956afba6072fe313fa",
     "2aff894afff7bfddfea60abec6665c7c050ca40fca63a12511a440fcbb2b54f6",
     "3b3e485768cfc2513b8f0b537aa4acb8bf3e2bc9b1f04b67bcc368c7162435a1",
     "3bb4feafff7e0643e6df23b5cc34f752073d3027efa32833b60109ec80f72414",
     "3cc8843f43d2677812e48b10916668799c9e2939c6207754383d091f9f6595b6",
+    "3d31ac8b74579ef04d3f147df86e28d7ee87f566db8cd50c8a713a78009bee24",
     "49f144467cea9b720b9e33aff8877baee603e2253bc717d5a5d041ea34af7a68",
     "4a64a02340c74b7b2359933ef57895bd7da62282f623f746d29c5be4b0cf4898",
     "4f63f409ee0c10784743be9e3209d9607918a78dd1bd753b96deba45c4adf40d",
+    "651954f8898dbbaea0f0cba139310a2ed813ce73f8d7a8029474c663bfc6be19",
     "6bcd95a735f89ed6cdeaf4f22cc19b5f1cbd2e831a388defa2f15f0ac356d8a4",
     "80a8da42555c0a4cae0354118e90bafb718a9dc91d8810d51574abeebb41813b",
     "83724640e329aa55552f71e16f9719573f884fc4053b1b98614843745e81669b",
     "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466009878",
     "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466013766",
     "b269c53722daf61b84525d9df6f718d926d5cecff10d6608d30c58fc303ca215",
+    "b72f47ec0d491bdfdd240f5a0b6ae5dc37a14558c26d4c81a36983655b088ef3",
     "ca36282e826ef907d26eb02ada5220754fa044d6753fb0e6d56b653bce43d827",
     "d5b326e3fb2d953aca09c0e0ec892e80ae48281df5040cf38c2b0ff22df56dca",
+    "d6844104a10e2954ef5eebda2404b1e9ce0fe6a8965f451fb6bb26355696713e",
     "dentsu|seniorartdirectorsocialtemporaryworker||httpswwwlinkedincomjobsview4456067070",
     "driftai|creativedirectorbrand||httpswwwlinkedincomjobsview4466314316",
     "e4d6157d2cfe77ebbf93ac4f851c60d78d34ea6798a733172ac055cab8cbc78d",
     "e575560d31c25c00eeba5e3c6137a112c4a9b9ec7c87c74ce3995821ba72f1af",
+    "e62b8afc7094789c75d7cc4cdd737ea3e9d310f0c82fc6d6ed877bf9052365a8",
     "eed5b4caf5e1c2d2b866297dc02f6c272c8d166598d31fdb566dba72857e7541",
+    "f0bf53ef873aa9717396694565988d2e27ea9dfb92065e7fa80848c76f6d2c34",
     "fd9608a8a1c8a13cd996d37fbe37556d4de6c092f2272764fcb3a7ce46cbeebd",
     "fileneresearchinstitute|audiencecontentstrategydirectorfilenewitxorco||httpswwwlinkedincomjobsview4463919758",
     "golinketchum|associatecreativedirector||httpswwwlinkedincomjobsview4464808195",
@@ -106,10 +114,42 @@
     "bon charge|ugc coordinator|london area, united kingdom": {
       "material": "||",
       "last_sent": "2026-09-14T16:32:40.592248+00:00"
+    },
+    "coalition technologies|remote ugc & marketing content creator|anywhere": {
+      "material": "PLN 187.12–PLN 374.23 a day|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T16:51:34.747863+00:00"
+    },
+    "crossing hurdles|ugc creator | $15/hr remote|anywhere": {
+      "material": "14–15 an hour|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T16:51:37.627862+00:00"
+    },
+    "buzzybooth.com|female ugc creator / spokesperson / presenter / actress (english speaker) remote|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T16:51:41.258292+00:00"
+    },
+    "upwork|ugc creators 40+ needed for simple at-home product videos – ongoing work - contract to hire|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T16:51:44.580791+00:00"
+    },
+    "born social|content creators (ugc) - usa🇺🇸|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T16:51:47.199432+00:00"
+    },
+    "upwork|malayalam-speaking ugc creators wanted | $50 per video|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T16:51:49.771719+00:00"
+    },
+    "roforco|ugc content creator|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T16:51:52.745453+00:00"
+    },
+    "plutus media|ugc creator|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T16:51:55.450745+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
     "discovered": 1,
     "duplicate": 0,
