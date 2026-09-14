@@ -1,0 +1,34 @@
+{
+  "name": "tem-gold-standard",
+  "reference_role": "Brand & Creative Design Lead",
+  "reference_company": "tem",
+  "reference_url": "https://jobs.ashbyhq.com/tem/57b6a1a5-06e6-495b-b5f6-44df0c423178",
+  "must_have_signals": ["remote", "brand", "creative"],
+  "high_value_signals": [
+    "AI-first", "AI native", "AI-driven", "generative AI", "creative AI",
+    "concepting", "iteration", "creative system", "brand identity", "campaign storytelling",
+    "hands-on", "startup", "scale-up", "growth", "product", "creative innovation"
+  ],
+  "role_families": [
+    "Brand & Creative Design Lead", "Brand Design Lead", "Brand Creative Lead", "Creative Lead",
+    "Creative Director", "Creative Strategy Lead", "Head of Creative", "Head of Brand",
+    "Creative Strategist", "Brand Strategist", "Creative Innovation Lead", "Creative Technologist",
+    "AI Creative Lead", "AI Creative", "Generative AI Creative", "Creative Operations Lead",
+    "Performance Creative Lead", "Growth Creative Lead", "Integrated Creative Director"
+  ],
+  "hard_reject_signals": [
+    "on-site only", "onsite only", "hybrid only", "US only", "United States only",
+    "fluent German required", "fluent Dutch required", "C1 German", "C1 Dutch"
+  ],
+  "scoring": {
+    "ai_creative_workflow": 24,
+    "brand_creative_leadership": 20,
+    "hands_on_concepting": 16,
+    "startup_scaleup": 12,
+    "remote_first": 12,
+    "product_growth_collaboration": 8,
+    "creative_systems_campaigns": 8
+  },
+  "gold_threshold": 72,
+  "strong_threshold": 58
+}
