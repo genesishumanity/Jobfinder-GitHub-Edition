@@ -67,7 +67,6 @@
       "product designer",
       "ux designer",
       "ui designer",
-      "customer success",
       "customer support",
       "sales development",
       "project coordinator",
@@ -79,13 +78,7 @@
       "videographer",
       "graphic designer",
       "social media manager",
-      "content creator",
       "media buyer",
-      "account director",
-      "account lead",
-      "client partner",
-      "brand manager",
-      "campaign manager",
       "environmental",
       "scientist",
       "sales"
@@ -146,7 +139,19 @@
       "creative operations lead",
       "ai creative producer",
       "creative innovation director",
-      "performance creative lead"
+      "performance creative lead",
+      "client success",
+      "customer success manager",
+      "account manager",
+      "account director",
+      "client partner",
+      "project manager",
+      "program manager",
+      "implementation manager",
+      "marketing operations",
+      "growth marketing",
+      "performance marketing",
+      "ai workflow"
     ]
   },
   "location_filter": {
@@ -357,7 +362,15 @@
       "creative producer remote",
       "creative technologist remote",
       "AI creative remote",
-      "content strategist remote"
+      "content strategist remote",
+      "client success remote",
+      "account manager remote",
+      "project manager remote",
+      "program manager remote",
+      "implementation manager remote",
+      "marketing operations remote",
+      "growth marketing remote",
+      "AI creative workflow remote"
     ],
     "governmentjobs": [],
     "hiring_cafe": [
@@ -385,7 +398,15 @@
       "creative producer remote",
       "creative technologist remote",
       "AI creative remote",
-      "content strategist remote"
+      "content strategist remote",
+      "client success remote",
+      "account manager remote",
+      "project manager remote",
+      "program manager remote",
+      "implementation manager remote",
+      "marketing operations remote",
+      "growth marketing remote",
+      "AI creative workflow remote"
     ],
     "linkedin": [
       "creative strategist",
@@ -415,7 +436,15 @@
       "creative operations lead",
       "ai creative producer",
       "creative innovation director",
-      "performance creative lead"
+      "performance creative lead",
+      "client success remote",
+      "account manager remote",
+      "project manager remote",
+      "program manager remote",
+      "implementation manager remote",
+      "marketing operations remote",
+      "growth marketing remote",
+      "AI creative workflow remote"
     ],
     "usajobs": [],
     "workday": [
