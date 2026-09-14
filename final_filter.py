@@ -9,6 +9,11 @@ NOT_REMOTE = re.compile(
     r"hybrid only|must work (?:from|in) (?:the )?office|remote work (?:is )?not (?:available|offered|permitted))\b",
     re.I,
 )
+# Structured classification tags (location/workplace_type/work_arrangement
+# fields, not free-text description) where a bare "Hybrid"/"Onsite" already
+# means the listing IS that — no "only" wording needed there, unlike prose
+# where "hybrid" can show up in an unrelated, benign sense.
+NOT_REMOTE_TAG = re.compile(r"\b(?:hybrid|on[- ]site|onsite|in[- ]office)\b", re.I)
 US_ONLY = re.compile(
     r"\b(?:remote\s*[-,/ ]*\s*(?:us|usa|u\.s\.|united states)\s*only|"
     r"(?:us|usa|u\.s\.|united states)\s*[-,/ ]*\s*(?:only|residents? only|candidates? only)|"
@@ -85,10 +90,15 @@ def _looks_german(text):
 def eligible_location(job):
     location_text = " ".join(str(job.get(key, "")) for key in ("location", "workplace_type", "work_arrangement"))
     text = " ".join([location_text, str(job.get("remote", "")), str(job.get("description", ""))])
-    # UK/Europe only: generic worldwide/remote listings remain ambiguous.
-    if not TARGET_GEO.search(text):
+    # No explicit UK/Europe geography proof required (dropped 2026-09-15) —
+    # any country/region is fine, including the US, as long as it's genuinely
+    # remote and not restricted to residents of somewhere Can isn't. The
+    # earlier hard TARGET_GEO requirement was blocking too much real volume;
+    # reject only explicit exclusionary signals below, not the absence of a
+    # UK/EU city name.
+    if NOT_REMOTE.search(text) or US_ONLY.search(text):
         return False
-    if NOT_REMOTE.search(text) or US_ONLY.search(text) or US_LOCATION.search(location_text):
+    if NOT_REMOTE_TAG.search(location_text):
         return False
     # Require remote evidence in the listing text, OR let an explicit approved
     # city/country in the location field itself stand in for it — a listing

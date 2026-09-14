@@ -54,7 +54,11 @@ def test_focused_mode_keeps_exact_eight_role_queries():
     assert "creative producer remote" not in cfg["search_terms"]["linkedin"]
 
 
-def test_delivery_gate_requires_remote_and_allowed_uk_europe_signal():
+def test_delivery_gate_requires_remote_no_longer_requires_uk_europe_signal():
+    # As of 2026-09-15, explicit UK/Europe geography proof is no longer
+    # required — any genuinely remote role is eligible, US included. Only an
+    # explicit exclusionary signal (onsite/hybrid, or an explicit US-only
+    # restriction) rejects.
     assert final_filter.eligible_location({
         "location": "Remote - London, United Kingdom",
         "description": "AI producer role",
@@ -65,19 +69,32 @@ def test_delivery_gate_requires_remote_and_allowed_uk_europe_signal():
         "description": "UGC role",
         "is_remote": True,
     })
-    assert not final_filter.eligible_location({
+    assert final_filter.eligible_location({
         "location": "Remote - United States",
         "description": "AI producer role",
         "is_remote": True,
     })
-    assert not final_filter.eligible_location({
+    assert final_filter.eligible_location({
         "location": "Remote",
         "description": "Worldwide AI producer role",
         "is_remote": True,
     })
     assert not final_filter.eligible_location({
+        "location": "Remote - US Only",
+        "description": "AI producer role",
+        "is_remote": True,
+    })
+    assert not final_filter.eligible_location({
         "location": "London, United Kingdom",
         "description": "On-site only",
+        "is_remote": False,
+    })
+    # Bare "Hybrid"/"Onsite" in a structured location/work_arrangement field
+    # rejects even without the word "only" (careerops_bridge.py bug, fixed
+    # same day).
+    assert not final_filter.eligible_location({
+        "location": "London, United Kingdom (Hybrid)",
+        "description": "Creative Director role",
         "is_remote": False,
     })
 

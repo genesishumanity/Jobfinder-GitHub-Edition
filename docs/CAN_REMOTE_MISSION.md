@@ -95,3 +95,36 @@ The production search mission is intentionally narrow and remote-first. The only
 - Python compilation was run for the filter, discovery, scoring, delivery and bridge modules.
 - Regression tests cover exact eight-role query sets, US rejection, ambiguous worldwide rejection, remote requirement, medical/pharma rejection and valid AI Producer/UGC examples.
 - Every material change is committed to the repository so the operating rules remain auditable.
+
+## Geography requirement relaxed — 2026-09-15
+
+Correction from Can after a day of running the eight-role/UK-Europe-only
+system live: the hard requirement that a listing explicitly name an approved
+UK/Europe city or country was rejecting genuinely remote roles — including
+ones he's fine with — just for lacking that specific proof. His own words:
+"coğrafya kanıtı olması gerek yok, iş gelsin, ABD de olur; sadece sürekli
+ABD'den geliyor diye istememiştim" (no geography proof needed, let jobs come
+even from the US; the original objection was volume feeling like it was
+*only* ever US, not US itself).
+
+**Rule now:** any genuinely remote role is eligible regardless of country,
+US included. Reject only:
+- an explicit onsite/hybrid signal (full phrase like "hybrid only", or a
+  bare "Hybrid"/"Onsite"/"In-office" tag in a structured location/
+  workplace_type/work_arrangement field),
+- an explicit "US only" / "must be US resident" restriction,
+- required local-language fluency (unchanged from the 2026-09-12 hard
+  delivery gates),
+- the eight-role/geography-adjacent exclusions above (unrelated technical
+  domains, non-approved role families).
+
+This also closed a same-class bug in `careerops_bridge.py`, which had kept
+its own separate, narrower geography regex (no city/country names at all)
+even after `final_filter.py` was fixed the day before — a CareerOps listing
+that just said "London, UK" with no literal word "remote" was being dropped
+before it ever reached the fixed logic. `careerops_bridge.py` and
+`remote_boards_bridge.py` now both delegate to
+`final_filter.eligible_location()` instead of keeping parallel copies.
+
+See `docs/CAN_SYSTEM_CLEANUP_2026-09-14.md` for the full change log,
+including the git-push race condition found the same day.

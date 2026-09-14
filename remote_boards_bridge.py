@@ -28,7 +28,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
 from discovery_lanes import ADJACENT_TERMS
-from final_filter import TARGET_GEO, NOT_REMOTE, US_ONLY, US_LOCATION
+from final_filter import eligible_location
 
 ROLE_TERMS = re.compile(
     "|".join(re.escape(t.replace(" remote", "")) for t in ADJACENT_TERMS),
@@ -65,14 +65,12 @@ def role_matches(title):
 
 
 def geo_ok(location_text):
-    text = str(location_text or "")
-    if NOT_REMOTE.search(text) or US_ONLY.search(text):
-        return False
-    # Remote-native boards: "Worldwide" / no restriction counts as eligible.
-    # An explicit US-only marker (not just the word US) still rejects above.
-    if US_LOCATION.search(text) and not TARGET_GEO.search(text):
-        return False
-    return True
+    # Delegate to final_filter's eligible_location — one geography/remote
+    # source of truth instead of a second, drifting copy here. As of
+    # 2026-09-15, no explicit UK/EU geography proof is required (any remote
+    # role is fine, including US-based ones); only an explicit onsite/hybrid
+    # tag or an explicit US-only restriction rejects.
+    return eligible_location({"location": str(location_text or "")})
 
 
 def fetch_remoteok():
