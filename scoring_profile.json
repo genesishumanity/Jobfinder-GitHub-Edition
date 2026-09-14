@@ -1,37 +1,68 @@
 {
-  "description": "Can Öncül — remote-first senior creative/brand leadership with AI-native concepting and production as the gold-standard lane, plus realistic adjacent marketing, creative operations, project/program and client roles. The tem Brand & Creative Design Lead archetype is the reference fit: hands-on creative leadership + brand systems + campaigns + AI-first workflows + startup/scale-up + remote-first.",
+  "description": "Can Öncül — focused remote search for AI production, AI leadership, creative strategy/leadership and UGC roles in UK/Europe.",
   "fit_terms": [
-    {"pattern": "\\bbrand (&|and) creative design lead\\b|\\bbrand (design|creative) lead\\b", "weight": 24},
-    {"pattern": "\\b(senior )?creative strategist\\b|\\bcreative strategy\\b|\\bcreative strategy lead\\b", "weight": 20},
-    {"pattern": "\\bcreative lead\\b|\\bcreative director\\b|\\bassociate creative director\\b|\\bhead of creative\\b", "weight": 19},
-    {"pattern": "\\bbrand strategist\\b|\\bbrand strategy\\b|\\bbrand creative\\b|\\bbrand lead\\b|\\bbrand design\\b", "weight": 17},
-    {"pattern": "\\bcreative technologist\\b|\\bcreative innovation\\b|\\bai[- ]?(creative|content|workflow|production|design)\\b|\\bgenerative ai\\b", "weight": 18},
-    {"pattern": "\\b(ai[- ]first|ai[- ]native)\\b|\\bai[- ]driven (creative|concept|design|production|workflow)\\b", "weight": 18},
-    {"pattern": "\\bconcepting\\b|\\bideation\\b|\\bcreative iteration\\b|\\brapid iteration\\b|\\bcreative system\\b", "weight": 14},
-    {"pattern": "\\bvisual identity\\b|\\bcampaign storytelling\\b|\\bbrand identity\\b|\\bbrand system\\b|\\bcreative craft\\b", "weight": 12},
-    {"pattern": "\\bhands[- ]on\\b.*\\bcreative\\b|\\bcreative\\b.*\\bhands[- ]on\\b|\\bship(ping)? quickly\\b|\\bmove fast\\b", "weight": 9},
-    {"pattern": "\\bstartup\\b|\\bscale[- ]?up\\b|\\bhigh[- ]growth\\b|\\bfast[- ]moving\\b", "weight": 8},
-    {"pattern": "\\bintegrated creative\\b|\\bcampaign strategist\\b|\\bcampaign strategy\\b", "weight": 14},
-    {"pattern": "\\bperformance creative\\b|\\bgrowth creative\\b|\\bcreative testing\\b|\\bperformance marketing\\b|\\bgrowth marketing\\b", "weight": 12},
-    {"pattern": "\\bcreative producer\\b|\\bcreative operations\\b|\\bmarketing operations\\b", "weight": 10},
-    {"pattern": "\\bproject manager\\b|\\bprogram manager\\b|\\bproject lead\\b|\\bprogram lead\\b", "weight": 8},
-    {"pattern": "\\bclient success\\b|\\bcustomer success manager\\b|\\baccount manager\\b|\\bclient services\\b", "weight": 8},
-    {"pattern": "\\bimplementation manager\\b|\\bimplementation specialist\\b|\\bonboarding manager\\b|\\bsolutions consultant\\b", "weight": 8},
-    {"pattern": "\\bai workflow\\b|\\bautomation\\b|\\bai operations\\b|\\bcontent operations\\b", "weight": 11},
-    {"pattern": "\\bclient communication\\b|\\bstakeholder\\b|\\bcreative direction\\b|\\bstorytelling\\b", "weight": 6},
-    {"pattern": "\\bremote[- ]first\\b|\\bworldwide\\b|\\bwork from anywhere\\b|\\bglobal remote\\b|\\bfully distributed\\b", "weight": 20},
-    {"pattern": "\\binternational contractor\\b|\\bcontractor[- ]friendly\\b|\\bindependent contractor\\b", "weight": 16},
-    {"pattern": "\\bEMEA\\b|\\bEurope remote\\b|\\bUK remote\\b|\\bUnited Kingdom remote\\b", "weight": 12}
+    {
+      "pattern": "\\bai (producer|producing)\\b",
+      "weight": 24
+    },
+    {
+      "pattern": "\\bai lead\\b",
+      "weight": 22
+    },
+    {
+      "pattern": "\\bcreative strategy\\b",
+      "weight": 20
+    },
+    {
+      "pattern": "\\bcreative lead\\b|\\bcreative director\\b|\\bassociate creative director\\b",
+      "weight": 20
+    },
+    {
+      "pattern": "\\bugc\\b",
+      "weight": 16
+    },
+    {
+      "pattern": "\\bai[- ]?(creative|production|producing)\\b|\\bgenerative ai\\b",
+      "weight": 15
+    },
+    {
+      "pattern": "\\bconcept(ing| development)?\\b|\\bideation\\b|\\bcreative thinking\\b",
+      "weight": 10
+    },
+    {
+      "pattern": "\\bremote[- ]first\\b|\\bremote\\b|\\bdistributed\\b|\\bEMEA\\b|\\bEurope\\b|\\bUnited Kingdom\\b",
+      "weight": 10
+    }
   ],
   "poor_fit_terms": [
-    {"pattern": "\\bintern(ship)?\\b|\\bjunior\\b|\\bgraduate\\b|\\bentry[ -]level\\b", "penalty": 28},
-    {"pattern": "\\binstructional\\b|\\bveeva\\b|\\bbatch release\\b|\\bclinical\\b|\\bmedical\\b|\\btoxicolog", "penalty": 50},
-    {"pattern": "\\bproduct designer\\b|\\bux designer\\b|\\bui designer\\b", "penalty": 18},
-    {"pattern": "\\bcustomer support\\b|\\bsales development representative\\b|\\bcall center\\b", "penalty": 24},
-    {"pattern": "\\bvideo editor\\b|\\bvideographer\\b", "penalty": 20},
-    {"pattern": "\\bon[- ]site only\\b|\\bonsite only\\b|\\bin office only\\b|\\brelocation required\\b|\\bhybrid only\\b", "penalty": 55},
-    {"pattern": "\\bremote,?\\s*(us|usa|united states)\\s*only\\b|\\bus[- ]only\\b|\\bunited states only\\b|\\bus work authorization required\\b|\\bauthorized to work in the us\\b", "penalty": 75},
-    {"pattern": "\\bmust (reside|live|be located|be based) in (the )?(us|usa|united states)\\b|\\bwithin the united states\\b", "penalty": 70}
+    {
+      "pattern": "\\bintern(ship)?\\b|\\bjunior\\b|\\bgraduate\\b|\\bentry[ -]level\\b",
+      "penalty": 28
+    },
+    {
+      "pattern": "\\bmedical\\b|\\bclinical\\b|\\bpharma(ceutical)?\\b|\\bcybersecurity\\b|\\binformation security\\b",
+      "penalty": 50
+    },
+    {
+      "pattern": "\\bproduct designer\\b|\\bux designer\\b|\\bui designer\\b|\\bgraphic designer\\b",
+      "penalty": 24
+    },
+    {
+      "pattern": "\\bvideo editor\\b|\\bvideographer\\b",
+      "penalty": 20
+    },
+    {
+      "pattern": "\\bon[- ]site only\\b|\\bonsite only\\b|\\bin office only\\b|\\brelocation required\\b|\\bhybrid only\\b",
+      "penalty": 55
+    },
+    {
+      "pattern": "\\bremote,?\\s*(us|usa|united states)\\s*only\\b|\\bus[- ]only\\b|\\bunited states only\\b|\\bus work authorization required\\b|\\bauthorized to work in the us\\b",
+      "penalty": 75
+    },
+    {
+      "pattern": "\\bmust (reside|live|be located|be based) in (the )?(us|usa|united states)\\b|\\bwithin the united states\\b",
+      "penalty": 70
+    }
   ],
   "settings": {
     "body_multiplier": 1,
@@ -41,25 +72,14 @@
     "title_multiplier": 2
   },
   "signature_terms": [
-    "\\bbrand (&|and) creative design lead\\b",
-    "\\bcreative strateg",
+    "\\bai producer\\b",
+    "\\bai producing\\b",
+    "\\bai lead\\b",
+    "\\bcreative strategy\\b",
     "\\bcreative lead\\b",
     "\\bcreative director\\b",
-    "\\bhead of creative\\b",
-    "\\bbrand strateg",
-    "\\bbrand design lead\\b",
-    "\\bcreative technologist\\b",
-    "\\bcreative innovation\\b",
-    "\\bai[- ]?(creative|design|production|workflow)",
-    "\\bconcepting\\b",
-    "\\bcreative system\\b",
-    "\\bperformance creative\\b",
-    "\\bcreative operations\\b",
-    "\\bmarketing operations\\b",
-    "\\bproject manager\\b",
-    "\\bprogram manager\\b",
-    "\\bclient success\\b",
-    "\\baccount manager\\b"
+    "\\bassociate creative director\\b",
+    "\\bugc\\b"
   ],
-  "version": 3
+  "version": 4
 }
