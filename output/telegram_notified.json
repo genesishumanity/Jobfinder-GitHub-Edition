@@ -13,6 +13,7 @@
     "dentsu|seniorartdirectorsocialtemporaryworker||httpswwwlinkedincomjobsview4456067070",
     "driftai|creativedirectorbrand||httpswwwlinkedincomjobsview4466314316",
     "e4d6157d2cfe77ebbf93ac4f851c60d78d34ea6798a733172ac055cab8cbc78d",
+    "e575560d31c25c00eeba5e3c6137a112c4a9b9ec7c87c74ce3995821ba72f1af",
     "fd9608a8a1c8a13cd996d37fbe37556d4de6c092f2272764fcb3a7ce46cbeebd",
     "fileneresearchinstitute|audiencecontentstrategydirectorfilenewitxorco||httpswwwlinkedincomjobsview4463919758",
     "golinketchum|associatecreativedirector||httpswwwlinkedincomjobsview4464808195",
@@ -56,6 +57,10 @@
     "siena|founding creative director|london · remote - europe · united kingdom": {
       "material": "|remote|True",
       "last_sent": "2026-09-14T12:56:05.246132+00:00"
+    },
+    "avalerehealth|associate creative director, copy|remote (us)": {
+      "material": "|remote|True",
+      "last_sent": "2026-09-14T16:07:33.233430+00:00"
     }
   },
   "last_run": {
@@ -71,7 +76,7 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
