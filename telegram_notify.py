@@ -69,6 +69,7 @@ def domain_blocked(job):
     title = str(job.get("title", ""))
     description = str(job.get("description", ""))
     text = f"{title} {description}"
+    text = re.sub(r"\\b(?:no|without|not requiring|does not require)\\s+(?:any\\s+)?(?:medical expertise|clinical expertise|pharma(?:ceutical)? experience|healthcare domain experience)\\b", "", text, flags=re.I)
     return bool(DOMAIN_BLOCKED.search(text))
 
 
