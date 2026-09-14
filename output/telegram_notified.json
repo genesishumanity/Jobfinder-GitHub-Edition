@@ -4,7 +4,10 @@
     "0150bd1672005ebbb8fd2b617d8bffedec782a936aaa78425bc324ed29c61956",
     "095f55ef3ff91415b1423177e84e956d328e3a0b9b4fc172f6d29fb760b4ebe9",
     "0ea82b4228bbbce31e79e67b8230cdccb7308b08ed2b052a7bee8acb08d8103c",
+    "0f6914f842640851f2a01e20604773a4c0bde6d7b85a33754b2c7480008359fe",
+    "14ab290e0cb3d324f2d447d3981c2f1a6aabe6b5c2c22ac219a81f1f4acf4c4b",
     "14dd235daa055ed821bb4fea77d6d39a26f52c044a1827956afba6072fe313fa",
+    "1994de65e83f2d2641f2a9a4f3f2874b4d5e79f57df28358b6543c8925c84735",
     "2aff894afff7bfddfea60abec6665c7c050ca40fca63a12511a440fcbb2b54f6",
     "3b3e485768cfc2513b8f0b537aa4acb8bf3e2bc9b1f04b67bcc368c7162435a1",
     "3bb4feafff7e0643e6df23b5cc34f752073d3027efa32833b60109ec80f72414",
@@ -15,13 +18,19 @@
     "4f63f409ee0c10784743be9e3209d9607918a78dd1bd753b96deba45c4adf40d",
     "5d0e9dfa238cce6a793b284287d1177b9f32d9701f6afd99cbbbcc5a7877ce0c",
     "651954f8898dbbaea0f0cba139310a2ed813ce73f8d7a8029474c663bfc6be19",
+    "6a38875c7e7a3e060ad06f338ff17a5f561b7f3b9fb4e74b6062a404d7683adf",
     "6bcd95a735f89ed6cdeaf4f22cc19b5f1cbd2e831a388defa2f15f0ac356d8a4",
+    "75fd325cc2d34ef02abb0da51707dd5b58208c2f3e9593cf56b12646f5231bbc",
     "80a8da42555c0a4cae0354118e90bafb718a9dc91d8810d51574abeebb41813b",
     "83724640e329aa55552f71e16f9719573f884fc4053b1b98614843745e81669b",
+    "845670129f4bc7fd4897ddb914c2615a2f892596944510ea78ec5c1666a44002",
+    "ac4f933c66d449ccdb8e8d91a64951c8599979a1b0213e1bc9753509980d3bf6",
+    "acf97042bf7f313412eeab871391388b5b50fcda2e9ec02bfda7561b393d6684",
     "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466009878",
     "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466013766",
     "b269c53722daf61b84525d9df6f718d926d5cecff10d6608d30c58fc303ca215",
     "b72f47ec0d491bdfdd240f5a0b6ae5dc37a14558c26d4c81a36983655b088ef3",
+    "baaf4df617bce8357f1e1861f38bbc19170862dd9b4e138d6693613e64891305",
     "ca36282e826ef907d26eb02ada5220754fa044d6753fb0e6d56b653bce43d827",
     "d5b326e3fb2d953aca09c0e0ec892e80ae48281df5040cf38c2b0ff22df56dca",
     "d6844104a10e2954ef5eebda2404b1e9ce0fe6a8965f451fb6bb26355696713e",
@@ -32,6 +41,8 @@
     "e62b8afc7094789c75d7cc4cdd737ea3e9d310f0c82fc6d6ed877bf9052365a8",
     "eed5b4caf5e1c2d2b866297dc02f6c272c8d166598d31fdb566dba72857e7541",
     "f0bf53ef873aa9717396694565988d2e27ea9dfb92065e7fa80848c76f6d2c34",
+    "f16e0520c34d1a32e217774ba820a5834c575ae6ab2187e6f7de408c422c23da",
+    "f33c813b6b8f7ce5512a040bda5f8b274528493203ee4277585097e478b37e24",
     "fd9608a8a1c8a13cd996d37fbe37556d4de6c092f2272764fcb3a7ce46cbeebd",
     "fileneresearchinstitute|audiencecontentstrategydirectorfilenewitxorco||httpswwwlinkedincomjobsview4463919758",
     "golinketchum|associatecreativedirector||httpswwwlinkedincomjobsview4464808195",
@@ -151,22 +162,66 @@
     "visit.org|marketing creative lead|es": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-14T16:56:55.289469+00:00"
+    },
+    "nextdeavor|generative ai producer (creative)|anywhere": {
+      "material": "156,000–171,371 a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T17:46:30.189683+00:00"
+    },
+    "marketplace operations inc.|remote ai creative lead for direct-response video ads|anywhere": {
+      "material": "120K–180K a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T17:46:32.779079+00:00"
+    },
+    "forbes advisor|ai creative lead (remote)|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T17:46:35.896312+00:00"
+    },
+    "forbes media llc|ai creative lead|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T17:46:38.650615+00:00"
+    },
+    "forbes advisor|creative director, paid social (remote)|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T17:46:41.567327+00:00"
+    },
+    "purdue university|purdue global creative director remote|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T17:46:44.843803+00:00"
+    },
+    "netflix|creative director, creative publishing [remote]|anywhere": {
+      "material": "260K–480K a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T17:46:47.395275+00:00"
+    },
+    "krea|creative lead|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T17:46:49.913338+00:00"
+    },
+    "hoka|remote global social creative lead|anywhere": {
+      "material": "70K–85K a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T17:46:52.911606+00:00"
+    },
+    "right side up|creative lead|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T17:46:56.325237+00:00"
+    },
+    "hirelatam|remote short-form video editor & creative lead|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T17:46:59.153700+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
-    "discovered": 1,
+    "discovered": 19,
     "duplicate": 0,
     "geography": 0,
-    "remote": 0,
-    "restricted": 0,
+    "remote": 2,
+    "restricted": 1,
     "language": 0,
     "domain": 1,
     "dead_link": 0,
-    "low_fit": 0,
+    "low_fit": 4,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 11,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
