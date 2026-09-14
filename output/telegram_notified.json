@@ -13,6 +13,7 @@
     "dentsu|seniorartdirectorsocialtemporaryworker||httpswwwlinkedincomjobsview4456067070",
     "driftai|creativedirectorbrand||httpswwwlinkedincomjobsview4466314316",
     "e4d6157d2cfe77ebbf93ac4f851c60d78d34ea6798a733172ac055cab8cbc78d",
+    "fd9608a8a1c8a13cd996d37fbe37556d4de6c092f2272764fcb3a7ce46cbeebd",
     "fileneresearchinstitute|audiencecontentstrategydirectorfilenewitxorco||httpswwwlinkedincomjobsview4463919758",
     "golinketchum|associatecreativedirector||httpswwwlinkedincomjobsview4464808195",
     "snapinc|associatecreativestrategist||httpswwwlinkedincomjobsview4466001008",
@@ -51,12 +52,16 @@
     "hyqoo|senior pharma project manager|emea": {
       "material": "||",
       "last_sent": "2026-09-14T11:05:13.534973+00:00"
+    },
+    "siena|founding creative director|london · remote - europe · united kingdom": {
+      "material": "|remote|True",
+      "last_sent": "2026-09-14T12:56:05.246132+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "careerops_ats_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
+    "discovered": 1,
     "duplicate": 0,
     "geography": 0,
     "remote": 0,
@@ -66,7 +71,7 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
