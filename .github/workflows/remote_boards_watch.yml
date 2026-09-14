@@ -4,6 +4,13 @@ name: Remote Boards Watcher (Remote OK / Remotive)
 # hours keeps us well under Remotive's own "max ~4 requests/day" guidance
 # (we make one Remotive request per run) and is plenty for RemoteOK, whose
 # feed is a single ~100-row rolling list, not a paginated search.
+#
+# Minute :52 is deliberately far from every other watcher's slot (LinkedIn
+# :17, Indeed :47, Glassdoor :07, Google Jobs :37, CareerOps ATS :17/4h) to
+# minimize overlap on the shared output/all_jobs.json + telegram_notified.json
+# git state. Overlap can still happen (two runs pushing in the same window,
+# a push trigger firing alongside a scheduled run) — that's what the
+# `-X ours` rebase strategy in the persist step below is for.
 on:
   workflow_dispatch:
   push:
@@ -12,7 +19,7 @@ on:
       - ".github/workflows/remote_boards_watch.yml"
       - "remote_boards_bridge.py"
   schedule:
-    - cron: "7 */4 * * *"
+    - cron: "52 */4 * * *"
 
 permissions:
   contents: write
@@ -57,5 +64,5 @@ jobs:
             exit 0
           fi
           git commit -m "chore: update Remote OK/Remotive listings [$(date -u +'%Y-%m-%d %H:%MZ')]"
-          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git pull --rebase -X ours origin "${GITHUB_REF_NAME}"
           git push origin HEAD:"${GITHUB_REF_NAME}"

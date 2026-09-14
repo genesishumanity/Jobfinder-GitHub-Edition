@@ -82,5 +82,5 @@ jobs:
             exit 0
           fi
           git commit -m "chore: update CareerOps ATS remote listings [$(date -u +'%Y-%m-%d %H:%MZ')]"
-          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git pull --rebase -X ours origin "${GITHUB_REF_NAME}"
           git push origin HEAD:"${GITHUB_REF_NAME}"
