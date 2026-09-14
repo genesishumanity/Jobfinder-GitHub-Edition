@@ -76,7 +76,7 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 1,
+    "delivered": 0,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
