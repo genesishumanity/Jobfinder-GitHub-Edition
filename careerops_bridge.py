@@ -2,12 +2,9 @@
 import argparse
 import json
 import os
-import re
 from datetime import datetime, timezone
 
-REMOTE = re.compile(r"\b(remote|worldwide|global|anywhere|distributed|emea|europe)\b", re.I)
-NOT_REMOTE = re.compile(r"\b(not remote|no remote|non[- ]remote|hybrid only|on[- ]site only|onsite only)\b", re.I)
-US_REMOTE_ONLY = re.compile(r"\bremote\s*[-,/ ]+\s*(?:us|usa|u\.s\.|united states)\s*$", re.I)
+from final_filter import eligible_location
 
 
 def read_json(path, fallback):
@@ -19,10 +16,20 @@ def read_json(path, fallback):
 
 
 def remote_candidate(offer):
-    text = " ".join(str(offer.get(k, "")) for k in ("title", "location", "note"))
-    if NOT_REMOTE.search(text) or US_REMOTE_ONLY.search(text.strip()):
-        return False
-    return bool(REMOTE.search(text))
+    # Delegate to final_filter's eligible_location instead of keeping a second,
+    # narrower geography/remote regex set here. The old local REMOTE regex only
+    # matched the words remote/worldwide/global/distributed/emea/europe — an
+    # offer whose location field just said "London, UK" with no explicit
+    # "remote" text was dropped right here, before final_filter.py (which does
+    # recognize approved cities/countries — fixed 2026-09-14) ever saw it.
+    # Title is folded into the description text since eligible_location()
+    # doesn't read a title field, and title often carries the only "Hybrid"/
+    # "Onsite" signal for a listing.
+    pseudo_job = {
+        "location": str(offer.get("location", "")),
+        "description": f"{offer.get('title', '')} {offer.get('note', '')}",
+    }
+    return eligible_location(pseudo_job)
 
 
 def normalize(offer):
