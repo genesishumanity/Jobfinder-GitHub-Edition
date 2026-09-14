@@ -231,7 +231,7 @@
     "ziprecruiter": []
   },
   "notify": {
-    "daily_cap": 10,
+    "daily_cap": 9999,
     "min_fit": 40,
     "telegram_min_fit": 40,
     "weekly_digest": {

@@ -128,3 +128,23 @@ before it ever reached the fixed logic. `careerops_bridge.py` and
 
 See `docs/CAN_SYSTEM_CLEANUP_2026-09-14.md` for the full change log,
 including the git-push race condition found the same day.
+
+## Daily cap removed; Gemini scoring added — 2026-09-15
+
+Can: don't cap delivery — "tavan olmasın, ne geliyorsa o gelsin" (no cap,
+whatever comes, comes; the cap was costing real opportunities). `daily_cap`
+in `config.json`'s `notify` block raised from 10 to 9999 (in practice the
+per-run candidate count has never approached that; this is "no cap" without
+deleting the safety-valve mechanism itself).
+
+Also: the delivery-time fit score that gates `min_fit` was always a keyword-
+weighted regex formula (`notify._fit`, driven by `scoring_profile.json`) —
+`triage_agent.py`'s Claude scoring never fed live delivery, only a separate
+nightly dashboard pass, and it was never even running (no `ANTHROPIC_API_KEY`
+configured). Added `gemini_scorer.py`: an optional real semantic re-score via
+Gemini's free tier, used in `telegram_notify.py`'s `fit()` when
+`GEMINI_API_KEY` + `CANDIDATE_PROFILE` secrets are set, falling back to the
+keyword score on any missing config or API/parse failure — delivery never
+blocks on it. Wired the two secrets into every watcher's Telegram-delivery
+step (LinkedIn, Indeed, Glassdoor, Google Jobs, CareerOps ATS, Remote
+Boards).

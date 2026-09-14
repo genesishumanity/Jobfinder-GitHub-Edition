@@ -92,6 +92,17 @@ def material(job):
 
 
 def fit(job):
+    # Optional real semantic score (Gemini) when GEMINI_API_KEY + CANDIDATE_PROFILE
+    # are configured; falls back to the keyword-weighted score below on any
+    # failure or when not configured, so delivery never depends on it.
+    try:
+        from gemini_scorer import score_job
+        gemini_score = score_job(job)
+        if gemini_score is not None:
+            return gemini_score
+    except Exception as exc:
+        print(f"  WARNING: gemini_scorer unavailable, using keyword fit: {type(exc).__name__}: {exc}")
+
     import notify
     return notify._fit(str(job.get("title", "")), " ".join((
         str(job.get("company", "")), str(job.get("description", "")),

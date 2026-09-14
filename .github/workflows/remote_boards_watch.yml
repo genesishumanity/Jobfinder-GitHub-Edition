@@ -52,6 +52,8 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GH_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CANDIDATE_PROFILE: ${{ secrets.CANDIDATE_PROFILE }}
         run: python telegram_notify.py output/remote_boards_jobs.json
 
       - name: Persist results and delivery state
