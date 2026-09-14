@@ -28,16 +28,12 @@
     "oxylabs_password": "",
     "oxylabs_username": "",
     "queries": [
-      "AI creative strategist remote London United Kingdom",
-      "creative technologist remote London United Kingdom",
-      "creative concept strategist remote London United Kingdom",
-      "AI creative remote Amsterdam Netherlands",
-      "creative innovation remote Amsterdam Netherlands",
-      "AI creative strategist remote Germany",
-      "creative technologist remote Germany",
-      "AI creative remote Hungary",
-      "AI creative remote Portugal",
-      "AI creative remote Spain"
+      "AI Producer remote Europe",
+      "AI Producing remote Europe",
+      "AI Lead remote Europe",
+      "Creative Lead remote Europe",
+      "Creative Director remote Europe",
+      "Associate Creative Director remote Europe"
     ],
     "serpapi_api_key": ""
   },
@@ -97,51 +93,12 @@
     "fuzzy_exclude": [],
     "fuzzy_seniority": [],
     "include": [
-      "creative strategist",
-      "senior creative strategist",
-      "creative strategy director",
+      "ai producer",
+      "ai producing",
+      "ai lead",
       "creative lead",
-      "head of creative",
       "creative director",
-      "executive creative director",
-      "associate creative director",
-      "art director",
-      "design director",
-      "integrated creative",
-      "brand strategist",
-      "brand strategy director",
-      "brand creative",
-      "brand director",
-      "head of brand",
-      "campaign strategist",
-      "campaign creative strategist",
-      "creative innovation",
-      "innovation strategist",
-      "creative technologist",
-      "creative ai",
-      "ai creative",
-      "ai content",
-      "ai creative producer",
-      "ai content strategist",
-      "creative concept",
-      "concept strategist",
-      "concept development",
-      "creative innovation lead",
-      "creative innovation director",
-      "creative strategy lead",
-      "strategic creative lead",
-      "head of creative strategy",
-      "director of brand strategy",
-      "brand and creative strategist",
-      "integrated creative director",
-      "content and creative strategist",
-      "creative development director",
-      "performance creative strategist",
-      "performance creative lead",
-      "ai creative technologist",
-      "ai concept",
-      "generative ai creative",
-      "ai creative strategy"
+      "associate creative director"
     ]
   },
   "location_filter": {
@@ -286,203 +243,82 @@
   "priority_topics": {
     "terms": [
       [
-        "AI creative",
-        "ai[\\s-]?(creative|content|workflow|production|strategy|concept)"
+        "AI production",
+        "ai producer|ai producing"
       ],
       [
-        "concept & ideation",
-        "concept|ideation|creative development|creative thinking"
+        "AI leadership",
+        "ai lead"
       ],
       [
-        "strategy",
-        "creative strategy|brand strategy|campaign strategy"
+        "Creative leadership",
+        "creative lead|creative director|associate creative director"
       ]
     ]
   },
   "profile": {
     "emoji": "🌍",
-    "subtitle": "Remote · UK / Europe · AI Creative & Concept Strategy",
-    "title": "Can Öncül — AI Creative & Concept Strategy"
+    "subtitle": "Remote · UK / Europe · AI Production & Creative Leadership",
+    "title": "Can Öncül — AI Production & Creative Leadership"
   },
   "role_categories": {
     "terms": [
       [
-        "Creative Strategy",
-        "creative strateg|campaign strateg|concept strateg|creative concept"
+        "AI Production",
+        "ai producer|ai producing"
+      ],
+      [
+        "AI Leadership",
+        "ai lead"
       ],
       [
         "Creative Leadership",
-        "creative lead|creative director|head of creative"
-      ],
-      [
-        "Brand & Campaign",
-        "brand strateg|brand creative|campaign creative"
-      ],
-      [
-        "AI / Creative Tech",
-        "creative technologist|ai creative|generative ai|ai content"
-      ],
-      [
-        "Performance Creative",
-        "performance creative"
+        "creative lead|creative director|associate creative director"
       ]
     ]
   },
   "search_terms": {
     "calcareers": [],
     "glassdoor": [
-      "creative strategist remote",
-      "senior creative strategist remote",
-      "creative strategy director remote",
-      "creative lead remote",
-      "head of creative remote",
-      "creative director remote",
-      "executive creative director remote",
-      "associate creative director remote",
-      "art director remote",
-      "design director remote",
-      "integrated creative remote",
-      "brand strategist remote",
-      "brand strategy director remote",
-      "brand creative remote",
-      "brand director remote",
-      "head of brand remote",
-      "campaign strategist remote",
-      "campaign creative strategist remote",
-      "creative innovation remote",
-      "innovation strategist remote",
-      "creative technologist remote",
-      "creative ai remote",
-      "ai creative remote",
-      "ai content remote",
-      "ai creative producer remote",
-      "ai content strategist remote",
-      "creative concept remote",
-      "concept strategist remote",
-      "concept development remote",
-      "creative innovation lead remote",
-      "creative innovation director remote",
-      "creative strategy lead remote"
+      "AI Producer remote",
+      "AI Producing remote",
+      "AI Lead remote",
+      "Creative Lead remote",
+      "Creative Director remote",
+      "Associate Creative Director remote"
     ],
     "google_jobs": [
-      "creative strategist remote",
-      "senior creative strategist remote",
-      "creative strategy director remote",
-      "creative lead remote",
-      "head of creative remote",
-      "creative director remote",
-      "executive creative director remote",
-      "associate creative director remote",
-      "art director remote",
-      "design director remote",
-      "integrated creative remote",
-      "brand strategist remote",
-      "brand strategy director remote",
-      "brand creative remote",
-      "brand director remote",
-      "head of brand remote",
-      "campaign strategist remote",
-      "campaign creative strategist remote",
-      "creative innovation remote",
-      "innovation strategist remote",
-      "creative technologist remote",
-      "creative ai remote",
-      "ai creative remote",
-      "ai content remote",
-      "ai creative producer remote",
-      "ai content strategist remote",
-      "creative concept remote",
-      "concept strategist remote",
-      "concept development remote",
-      "creative innovation lead remote",
-      "creative innovation director remote",
-      "creative strategy lead remote"
+      "AI Producer remote",
+      "AI Producing remote",
+      "AI Lead remote",
+      "Creative Lead remote",
+      "Creative Director remote",
+      "Associate Creative Director remote"
     ],
     "governmentjobs": [],
     "hiring_cafe": [
-      "creative strategist worldwide remote",
-      "creative strategist EMEA remote",
-      "creative strategist international contractor",
-      "creative strategy director worldwide remote",
-      "creative lead EMEA remote",
-      "creative director international contractor",
-      "brand strategist remote Europe",
-      "brand strategy consultant remote",
-      "fractional creative director remote",
-      "creative producer worldwide remote",
-      "creative technologist remote EMEA",
-      "AI creative remote worldwide",
-      "performance creative strategist remote EMEA",
-      "creative operations contractor remote",
-      "creative studio lead distributed remote"
+      "AI Producer remote",
+      "AI Producing remote",
+      "AI Lead remote",
+      "Creative Lead remote",
+      "Creative Director remote",
+      "Associate Creative Director remote"
     ],
     "indeed": [
-      "creative strategist remote",
-      "senior creative strategist remote",
-      "creative strategy director remote",
-      "creative lead remote",
-      "head of creative remote",
-      "creative director remote",
-      "executive creative director remote",
-      "associate creative director remote",
-      "art director remote",
-      "design director remote",
-      "integrated creative remote",
-      "brand strategist remote",
-      "brand strategy director remote",
-      "brand creative remote",
-      "brand director remote",
-      "head of brand remote",
-      "campaign strategist remote",
-      "campaign creative strategist remote",
-      "creative innovation remote",
-      "innovation strategist remote",
-      "creative technologist remote",
-      "creative ai remote",
-      "ai creative remote",
-      "ai content remote",
-      "ai creative producer remote",
-      "ai content strategist remote",
-      "creative concept remote",
-      "concept strategist remote",
-      "concept development remote",
-      "creative innovation lead remote",
-      "creative innovation director remote",
-      "creative strategy lead remote"
+      "AI Producer remote",
+      "AI Producing remote",
+      "AI Lead remote",
+      "Creative Lead remote",
+      "Creative Director remote",
+      "Associate Creative Director remote"
     ],
     "linkedin": [
-      "creative strategist remote",
-      "senior creative strategist remote",
-      "creative strategy director remote",
-      "creative lead remote",
-      "head of creative remote",
-      "creative director remote",
-      "executive creative director remote",
-      "associate creative director remote",
-      "art director remote",
-      "design director remote",
-      "integrated creative remote",
-      "brand strategist remote",
-      "brand strategy director remote",
-      "brand creative remote",
-      "brand director remote",
-      "head of brand remote",
-      "campaign strategist remote",
-      "campaign creative strategist remote",
-      "creative innovation remote",
-      "innovation strategist remote",
-      "creative technologist remote",
-      "creative ai remote",
-      "ai creative remote",
-      "ai content remote",
-      "ai creative producer remote",
-      "ai content strategist remote",
-      "creative concept remote",
-      "concept strategist remote",
-      "concept development remote",
-      "creative innovation lead remote",
-      "creative innovation director remote",
-      "creative strategy lead remote"
+      "AI Producer remote",
+      "AI Producing remote",
+      "AI Lead remote",
+      "Creative Lead remote",
+      "Creative Director remote",
+      "Associate Creative Director remote"
     ],
     "usajobs": [],
     "workday": [
@@ -491,38 +327,12 @@
       "creative director"
     ],
     "ziprecruiter": [
-      "creative strategist remote",
-      "senior creative strategist remote",
-      "creative strategy director remote",
-      "creative lead remote",
-      "head of creative remote",
-      "creative director remote",
-      "executive creative director remote",
-      "associate creative director remote",
-      "art director remote",
-      "design director remote",
-      "integrated creative remote",
-      "brand strategist remote",
-      "brand strategy director remote",
-      "brand creative remote",
-      "brand director remote",
-      "head of brand remote",
-      "campaign strategist remote",
-      "campaign creative strategist remote",
-      "creative innovation remote",
-      "innovation strategist remote",
-      "creative technologist remote",
-      "creative ai remote",
-      "ai creative remote",
-      "ai content remote",
-      "ai creative producer remote",
-      "ai content strategist remote",
-      "creative concept remote",
-      "concept strategist remote",
-      "concept development remote",
-      "creative innovation lead remote",
-      "creative innovation director remote",
-      "creative strategy lead remote"
+      "AI Producer remote",
+      "AI Producing remote",
+      "AI Lead remote",
+      "Creative Lead remote",
+      "Creative Director remote",
+      "Associate Creative Director remote"
     ]
   },
   "target_geography": {
@@ -540,21 +350,9 @@
     "require_remote": true
   },
   "discovery_lanes": {
-    "enabled": true,
-    "description_phrases": [
-      "AI creative concept remote",
-      "generative AI creative strategy remote",
-      "creative technologist remote",
-      "AI campaign concept remote",
-      "AI-powered creative ideation remote"
-    ],
-    "contracts": [
-      "AI creative strategist remote",
-      "AI creative technologist remote",
-      "AI creative director remote",
-      "generative AI creative consultant remote",
-      "AI concept development remote"
-    ],
+    "enabled": false,
+    "description_phrases": [],
+    "contracts": [],
     "local_titles": []
   },
   "source_notes": {
