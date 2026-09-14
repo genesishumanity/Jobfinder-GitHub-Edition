@@ -33,6 +33,7 @@
     "b72f47ec0d491bdfdd240f5a0b6ae5dc37a14558c26d4c81a36983655b088ef3",
     "baaf4df617bce8357f1e1861f38bbc19170862dd9b4e138d6693613e64891305",
     "ca36282e826ef907d26eb02ada5220754fa044d6753fb0e6d56b653bce43d827",
+    "d3ffea68f3a98accf23a5b5c8d6d6181a15648f519d6264e4d8d2e5180cde15a",
     "d5b326e3fb2d953aca09c0e0ec892e80ae48281df5040cf38c2b0ff22df56dca",
     "d6844104a10e2954ef5eebda2404b1e9ce0fe6a8965f451fb6bb26355696713e",
     "dentsu|seniorartdirectorsocialtemporaryworker||httpswwwlinkedincomjobsview4456067070",
@@ -211,10 +212,14 @@
     "24-mag|remote | brand & creative strategy specialist (marketing collateral) — $70–$110/hour|anywhere": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-14T19:44:51.951535+00:00"
+    },
+    "townsquare ignite|creative strategy manager|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T20:48:40.585928+00:00"
     }
   },
   "last_run": {
-    "source_file": "careerops_ats_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
     "discovered": 1,
     "duplicate": 0,
@@ -224,9 +229,9 @@
     "language": 0,
     "domain": 0,
     "dead_link": 0,
-    "low_fit": 1,
+    "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
