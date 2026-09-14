@@ -31,9 +31,11 @@ CORE_REMOTE_TERMS = [
     "ai producer remote",
     "ai producing remote",
     "ai lead remote",
+    "creative strategy remote",
     "creative lead remote",
     "creative director remote",
     "associate creative director remote",
+    "ugc remote",
 ]
 ROTATING_REMOTE_TERM_GROUPS = [[]]
 
