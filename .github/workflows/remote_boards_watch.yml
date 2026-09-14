@@ -1,0 +1,61 @@
+name: Remote Boards Watcher (Remote OK / Remotive)
+
+# Free, key-less public JSON APIs — no scraping, no IP-block risk. Every 4
+# hours keeps us well under Remotive's own "max ~4 requests/day" guidance
+# (we make one Remotive request per run) and is plenty for RemoteOK, whose
+# feed is a single ~100-row rolling list, not a paginated search.
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/remote_boards_watch.yml"
+      - "remote_boards_bridge.py"
+  schedule:
+    - cron: "7 */4 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jobfinder-remote-boards
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch Remote OK + Remotive
+        run: python remote_boards_bridge.py output/remote_boards_jobs.json
+
+      - name: Deliver new qualified remote roles
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python telegram_notify.py output/remote_boards_jobs.json
+
+      - name: Persist results and delivery state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/remote_boards_jobs.json output/all_jobs.json output/telegram_notified.json output/delivery_ledger.json || true
+          if git diff --cached --quiet; then
+            echo "No state changes"
+            exit 0
+          fi
+          git commit -m "chore: update Remote OK/Remotive listings [$(date -u +'%Y-%m-%d %H:%MZ')]"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin HEAD:"${GITHUB_REF_NAME}"
