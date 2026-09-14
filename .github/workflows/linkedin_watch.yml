@@ -22,7 +22,13 @@ on:
 
 concurrency:
   group: jobfinder-linkedin
-  cancel-in-progress: true
+  # Was true — safe back when a run finished in ~1-2 min (1h lookback), so
+  # cancelling a stale in-progress run for a fresher one cost nothing. With
+  # the 7-day lookback (2026-09-15) runs now take 7-10 min, and the next
+  # hourly trigger can land mid-delivery/mid-persist — cancelling then risks
+  # losing an in-flight Telegram send or git push. false means overlapping
+  # triggers queue instead of interrupting the current run.
+  cancel-in-progress: false
 
 jobs:
   scrape:
