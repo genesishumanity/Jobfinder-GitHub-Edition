@@ -31,9 +31,11 @@
       "AI Producer remote Europe",
       "AI Producing remote Europe",
       "AI Lead remote Europe",
+      "Creative Strategy remote Europe",
       "Creative Lead remote Europe",
       "Creative Director remote Europe",
-      "Associate Creative Director remote Europe"
+      "Associate Creative Director remote Europe",
+      "UGC remote Europe"
     ],
     "serpapi_api_key": ""
   },
@@ -96,9 +98,11 @@
       "ai producer",
       "ai producing",
       "ai lead",
+      "creative strategy",
       "creative lead",
       "creative director",
-      "associate creative director"
+      "associate creative director",
+      "ugc"
     ]
   },
   "location_filter": {
@@ -247,8 +251,12 @@
         "ai producer|ai producing"
       ],
       [
-        "AI leadership",
-        "ai lead"
+        "Creative strategy",
+        "creative strategy"
+      ],
+      [
+        "UGC",
+        "ugc"
       ],
       [
         "Creative leadership",
@@ -272,8 +280,16 @@
         "ai lead"
       ],
       [
+        "Creative Strategy",
+        "creative strategy"
+      ],
+      [
         "Creative Leadership",
         "creative lead|creative director|associate creative director"
+      ],
+      [
+        "UGC",
+        "ugc"
       ]
     ]
   },
@@ -283,42 +299,52 @@
       "AI Producer remote",
       "AI Producing remote",
       "AI Lead remote",
+      "Creative Strategy remote",
       "Creative Lead remote",
       "Creative Director remote",
-      "Associate Creative Director remote"
+      "Associate Creative Director remote",
+      "UGC remote"
     ],
     "google_jobs": [
       "AI Producer remote",
       "AI Producing remote",
       "AI Lead remote",
+      "Creative Strategy remote",
       "Creative Lead remote",
       "Creative Director remote",
-      "Associate Creative Director remote"
+      "Associate Creative Director remote",
+      "UGC remote"
     ],
     "governmentjobs": [],
     "hiring_cafe": [
       "AI Producer remote",
       "AI Producing remote",
       "AI Lead remote",
+      "Creative Strategy remote",
       "Creative Lead remote",
       "Creative Director remote",
-      "Associate Creative Director remote"
+      "Associate Creative Director remote",
+      "UGC remote"
     ],
     "indeed": [
       "AI Producer remote",
       "AI Producing remote",
       "AI Lead remote",
+      "Creative Strategy remote",
       "Creative Lead remote",
       "Creative Director remote",
-      "Associate Creative Director remote"
+      "Associate Creative Director remote",
+      "UGC remote"
     ],
     "linkedin": [
       "AI Producer remote",
       "AI Producing remote",
       "AI Lead remote",
+      "Creative Strategy remote",
       "Creative Lead remote",
       "Creative Director remote",
-      "Associate Creative Director remote"
+      "Associate Creative Director remote",
+      "UGC remote"
     ],
     "usajobs": [],
     "workday": [
@@ -330,9 +356,11 @@
       "AI Producer remote",
       "AI Producing remote",
       "AI Lead remote",
+      "Creative Strategy remote",
       "Creative Lead remote",
       "Creative Director remote",
-      "Associate Creative Director remote"
+      "Associate Creative Director remote",
+      "UGC remote"
     ]
   },
   "target_geography": {
