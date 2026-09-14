@@ -50,6 +50,28 @@ def target_location_allowed(job):
     return eligible_location(job)
 
 
+DOMAIN_BLOCKED = re.compile(
+    r"\\b(?:"
+    r"medical expertise|clinical expertise|pharma(?:ceutical)? experience|"
+    r"medical device(?:s)? experience|healthcare domain experience|"
+    r"cybersecurity|information security|security operations|security engineering|"
+    r"siem|iam/pam|nist csf|iso 27001|cis controls|"
+    r"pharma(?:ceutical)? (?:project|program|supply chain|manufacturing)|"
+    r"clinical (?:operations|research|trials?)|"
+    r"medical (?:affairs|marketing|device|equipment)|"
+    r"manufacturing (?:operations|readiness|supply chain)"
+    r")\\b",
+    re.I,
+)
+
+
+def domain_blocked(job):
+    title = str(job.get("title", ""))
+    description = str(job.get("description", ""))
+    text = f"{title} {description}"
+    return bool(DOMAIN_BLOCKED.search(text))
+
+
 def identity(job):
     url = str(job.get("direct_url") or job.get("url") or "").strip()
     parts = urllib.parse.urlsplit(url)
@@ -168,7 +190,7 @@ def main():
     sent_ids = set(state.get("ids", []))
     records = state.setdefault("records", {})
     counts = dict(discovered=len(new_jobs), duplicate=0, geography=0, remote=0, restricted=0,
-                  language=0, dead_link=0, low_fit=0, capped=0, delivered=0, failed=0)
+                  language=0, domain=0, dead_link=0, low_fit=0, capped=0, delivered=0, failed=0)
     from delivery_ledger import Ledger, receipt_key
     ledger = Ledger() if os.environ.get("GITHUB_ACTIONS") == "true" else None
     counts["pending_reconciliation"] = 0
@@ -184,7 +206,9 @@ def main():
             counts["restricted"] += 1
         else:
             from final_filter import language_blocked, dead_link
-            if language_blocked(job):
+            if domain_blocked(job):
+                counts["domain"] += 1
+            elif language_blocked(job):
                 counts["language"] += 1
             elif dead_link(job):
                 counts["dead_link"] += 1
