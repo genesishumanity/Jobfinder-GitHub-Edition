@@ -148,3 +148,21 @@ keyword score on any missing config or API/parse failure — delivery never
 blocks on it. Wired the two secrets into every watcher's Telegram-delivery
 step (LinkedIn, Indeed, Glassdoor, Google Jobs, CareerOps ATS, Remote
 Boards).
+
+## All sources widened to a 7-day lookback — 2026-09-15
+
+Can: "hepsi son 7 güne baksin" (everyone should look back the last 7 days).
+Previously LinkedIn's regular lane looked back only 1h (hourly watcher),
+Indeed/Glassdoor/ZipRecruiter/Google Jobs 24h. All widened to 7 days
+(`LINKEDIN_LOOKBACK_SECONDS`, `LINKEDIN_PRIORITY_LOOKBACK_SECONDS`,
+`INDEED_LOOKBACK_HOURS`, `GLASSDOOR_LOOKBACK_HOURS`,
+`ZIPRECRUITER_LOOKBACK_HOURS`, `GOOGLE_JOBS_LOOKBACK_HOURS`,
+`FRESH_JOB_LOOKBACK`, all in `scrape_jobs.py`). CareerOps ATS already used
+`--since 7`, unchanged. Remote OK/Remotive/WWR have no date-range query
+parameter to widen — they return whatever's currently live in their feed,
+typically a rolling few days already.
+
+Cross-run URL dedup means this is safe (no duplicate delivery), just more
+re-scanning of the same window each hourly run — a soft cost (heavier
+LinkedIn guest-endpoint load) accepted in exchange for not missing anything
+posted between runs or during any downtime.

@@ -132,7 +132,7 @@ REQUEST_DELAY = 0.3
 LINKEDIN_REQUEST_DELAY = 3.0
 
 # Priority digest should only contain reliably fresh roles.
-FRESH_JOB_LOOKBACK = timedelta(hours=24)
+FRESH_JOB_LOOKBACK = timedelta(days=7)  # 7d — matches the 2026-09-15 all-sources window change
 
 # Titles containing any excluded term are dropped (config.json → keywords.exclude).
 # Single tokens are word-bounded; multi-word phrases match as substrings.
@@ -544,8 +544,8 @@ def scrape_curated_employers() -> list:
 
 LINKEDIN_SEARCH_TERMS = _cfg("search_terms.linkedin", [])
 
-LINKEDIN_LOOKBACK_SECONDS = 3600          # 1h — every-2h watcher only surfaces the freshest hour
-LINKEDIN_PRIORITY_LOOKBACK_SECONDS = 86400 # 24h — priority digest is a daily 8pm PT run
+LINKEDIN_LOOKBACK_SECONDS = 604800        # 7d — Can asked every source to look back a full week (2026-09-15); LinkedIn's guest API reliably supports ~30d via f_TPR
+LINKEDIN_PRIORITY_LOOKBACK_SECONDS = 604800 # 7d — priority digest, same window
 
 # Geographies to search. geoId is LinkedIn's authoritative region filter; an
 # empty geoId lets LinkedIn resolve the location text (verified to work for
@@ -1058,8 +1058,8 @@ def scrape_linkedin_priority() -> list:
 # Both reuse python-jobspy so the repo keeps its single optional dependency.
 # ---------------------------------------------------------------------------
 
-INDEED_LOOKBACK_HOURS = 24  # Indeed posting dates are ~day-resolution, so a 1h window
-# returns almost nothing; the hourly watcher's cross-run dedupe trims the overlap.
+INDEED_LOOKBACK_HOURS = 168  # 7d — Can asked every source to look back a full week (2026-09-15);
+# cross-run dedupe trims the overlap from re-scanning the same window each run.
 INDEED_BACKFILL_DAYS = 50  # one-time historical backfill window
 
 # Indeed geographies. country sets the Indeed domain (USA → indeed.com,
@@ -1067,18 +1067,18 @@ INDEED_BACKFILL_DAYS = 50  # one-time historical backfill window
 # than LinkedIn to keep the call count sane (terms × geos jobspy calls).
 INDEED_GEOS = _cfg("locations.indeed", [])
 INDEED_SEARCH_TERMS = _cfg("search_terms.indeed", [])
-GLASSDOOR_LOOKBACK_HOURS = 24
+GLASSDOOR_LOOKBACK_HOURS = 168  # 7d — see INDEED_LOOKBACK_HOURS note
 GLASSDOOR_BACKFILL_DAYS = 30
 GLASSDOOR_GEOS = _cfg("locations.glassdoor", INDEED_GEOS)
 GLASSDOOR_SEARCH_TERMS = _cfg("search_terms.glassdoor", INDEED_SEARCH_TERMS)
-ZIPRECRUITER_LOOKBACK_HOURS = 24
+ZIPRECRUITER_LOOKBACK_HOURS = 168  # 7d — see INDEED_LOOKBACK_HOURS note
 ZIPRECRUITER_BACKFILL_DAYS = 30
 ZIPRECRUITER_GEOS = _cfg("locations.ziprecruiter", [
     geo for geo in INDEED_GEOS
     if str(geo.get("country", "")).lower() in {"usa", "us", "united states", "canada"}
 ])
 ZIPRECRUITER_SEARCH_TERMS = _cfg("search_terms.ziprecruiter", INDEED_SEARCH_TERMS)
-GOOGLE_JOBS_LOOKBACK_HOURS = 24
+GOOGLE_JOBS_LOOKBACK_HOURS = 168  # 7d — see INDEED_LOOKBACK_HOURS note
 GOOGLE_JOBS_BACKFILL_DAYS = 30
 GOOGLE_JOBS_GEOS = _cfg("locations.google_jobs", INDEED_GEOS)
 GOOGLE_JOBS_SEARCH_TERMS = _cfg("search_terms.google_jobs", INDEED_SEARCH_TERMS)
