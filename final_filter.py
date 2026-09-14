@@ -15,6 +15,11 @@ US_ONLY = re.compile(
     r"must be (?:based|located|resident) in (?:the )?(?:us|usa|u\.s\.|united states))\b",
     re.I,
 )
+
+US_LOCATION = re.compile(
+    r"\b(?:us|usa|u\.s\.|united states|united states of america)\b",
+    re.I,
+)
 LOCAL_LANGUAGE_REQUIRED = re.compile(
     r"\b(?:native|fluent|professional|working|full|business|c1|c2)\s+"
     r"(?:german|deutsch|dutch|nederlands|hungarian|magyar|portuguese|português|spanish|español|french|français)\b|"
@@ -73,8 +78,9 @@ def _looks_german(text):
 
 
 def eligible_location(job):
-    text = " ".join(str(job.get(key, "")) for key in ("location", "workplace_type", "work_arrangement", "remote", "description"))
-    if NOT_REMOTE.search(text) or US_ONLY.search(text):
+    location_text = " ".join(str(job.get(key, "")) for key in ("location", "workplace_type", "work_arrangement"))
+    text = " ".join([location_text, str(job.get("remote", "")), str(job.get("description", ""))])
+    if NOT_REMOTE.search(text) or US_ONLY.search(text) or US_LOCATION.search(location_text):
         return False
     # For delivery, require explicit remote/distributed evidence somewhere in the listing.
     return job.get("is_remote") is True or bool(REMOTE.search(text))
