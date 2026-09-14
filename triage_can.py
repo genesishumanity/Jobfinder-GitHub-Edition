@@ -19,7 +19,7 @@ _original_load_jobs = agent.load_jobs
 def build_static_prefix(profile: str, resume: str) -> str:
     prompt = _original_build_static_prefix(profile, resume)
     prompt = prompt.replace(
-        "strong medical-imaging deep learning background",
+        "strong creative-strategy and AI-enabled creative background",
         "strong creative-strategy and AI-enabled creative background",
     )
     prompt += (
