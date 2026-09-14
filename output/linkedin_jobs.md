@@ -1,8 +1,6 @@
 # 🔥 LinkedIn — Can Öncül — AI Production & Creative Leadership Roles
-*Last updated: 2026-09-14 15:52 UTC*
+*Last updated: 2026-09-14 16:02 UTC*
 
-**1 new role(s)** since last run · 9 total in last 1h
+**0 new role(s)** since last run · 8 total in last 1h
 
-### [Client Delivery Lead (Tech & AI Consultant)](https://www.linkedin.com/jobs/view/4467203396/) — Performanze
-- 📍 **Location:** Madrid, Community of Madrid, Spain
-- 🕒 **Posted:** 2026-09-14
+No new roles since the last run.
