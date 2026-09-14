@@ -1,5 +1,5 @@
 # 🔥 LinkedIn — Can Öncül — AI Production & Creative Leadership Roles
-*Last updated: 2026-09-14 21:36 UTC*
+*Last updated: 2026-09-14 22:38 UTC*
 
 **0 new role(s)** since last run · 38 total in last 168h
 
