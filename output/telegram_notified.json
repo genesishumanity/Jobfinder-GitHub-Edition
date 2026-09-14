@@ -2,20 +2,26 @@
   "date": "2026-09-11",
   "ids": [
     "0150bd1672005ebbb8fd2b617d8bffedec782a936aaa78425bc324ed29c61956",
+    "01716dfdca9eafc68fe977268558fac4cf66a86da65cee7a260e66433373ef1d",
     "095f55ef3ff91415b1423177e84e956d328e3a0b9b4fc172f6d29fb760b4ebe9",
     "0ea82b4228bbbce31e79e67b8230cdccb7308b08ed2b052a7bee8acb08d8103c",
     "0f6914f842640851f2a01e20604773a4c0bde6d7b85a33754b2c7480008359fe",
     "14ab290e0cb3d324f2d447d3981c2f1a6aabe6b5c2c22ac219a81f1f4acf4c4b",
     "14dd235daa055ed821bb4fea77d6d39a26f52c044a1827956afba6072fe313fa",
     "1994de65e83f2d2641f2a9a4f3f2874b4d5e79f57df28358b6543c8925c84735",
+    "23ef37f8c77e23e8341e554f68da99b2a41d0c8fe43c2492763e82053665b909",
     "2aff894afff7bfddfea60abec6665c7c050ca40fca63a12511a440fcbb2b54f6",
     "2d57ad3714d79bda4d521137bde14b36e363ec39d9d4517ac9cac5673964534c",
     "3b3e485768cfc2513b8f0b537aa4acb8bf3e2bc9b1f04b67bcc368c7162435a1",
     "3bb4feafff7e0643e6df23b5cc34f752073d3027efa32833b60109ec80f72414",
     "3cc8843f43d2677812e48b10916668799c9e2939c6207754383d091f9f6595b6",
     "3d31ac8b74579ef04d3f147df86e28d7ee87f566db8cd50c8a713a78009bee24",
+    "3e8564f8cdebf08fbfdd9f67d266eb8a61a3ab8d6db2c8f9685199bd3eda9854",
+    "41231e842fba1bc80c0167cdfc8ca2f214e1b5b3be7e21b418835c691e2c2cdf",
     "49f144467cea9b720b9e33aff8877baee603e2253bc717d5a5d041ea34af7a68",
     "4a64a02340c74b7b2359933ef57895bd7da62282f623f746d29c5be4b0cf4898",
+    "4d9c8119c010f62bdb94ae42d51fecd2ea28ffba98f92769b1f3fd549c9f2cb3",
+    "4eaeb89b1857809998401434ea15e7f167b822cc38a8611521f95c9cd3edfa7a",
     "4f63f409ee0c10784743be9e3209d9607918a78dd1bd753b96deba45c4adf40d",
     "5d0e9dfa238cce6a793b284287d1177b9f32d9701f6afd99cbbbcc5a7877ce0c",
     "651954f8898dbbaea0f0cba139310a2ed813ce73f8d7a8029474c663bfc6be19",
@@ -25,6 +31,7 @@
     "80a8da42555c0a4cae0354118e90bafb718a9dc91d8810d51574abeebb41813b",
     "83724640e329aa55552f71e16f9719573f884fc4053b1b98614843745e81669b",
     "845670129f4bc7fd4897ddb914c2615a2f892596944510ea78ec5c1666a44002",
+    "a3a577fd023324f92f312e7abfcd42964389918815a800873e21fb789ce3ae80",
     "ac4f933c66d449ccdb8e8d91a64951c8599979a1b0213e1bc9753509980d3bf6",
     "acf97042bf7f313412eeab871391388b5b50fcda2e9ec02bfda7561b393d6684",
     "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466009878",
@@ -32,6 +39,7 @@
     "b269c53722daf61b84525d9df6f718d926d5cecff10d6608d30c58fc303ca215",
     "b72f47ec0d491bdfdd240f5a0b6ae5dc37a14558c26d4c81a36983655b088ef3",
     "baaf4df617bce8357f1e1861f38bbc19170862dd9b4e138d6693613e64891305",
+    "c661269d60761df95983362b19c043cb9cff2bc9e10a6603864d4d410062e278",
     "ca36282e826ef907d26eb02ada5220754fa044d6753fb0e6d56b653bce43d827",
     "d3ffea68f3a98accf23a5b5c8d6d6181a15648f519d6264e4d8d2e5180cde15a",
     "d5b326e3fb2d953aca09c0e0ec892e80ae48281df5040cf38c2b0ff22df56dca",
@@ -216,22 +224,54 @@
     "townsquare ignite|creative strategy manager|anywhere": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-14T20:48:40.585928+00:00"
+    },
+    "exatech inc|ai lead or ai architect / remote|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T21:45:44.878114+00:00"
+    },
+    "owner.com|applied ai lead|anywhere": {
+      "material": "140K–180K a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T21:45:47.617826+00:00"
+    },
+    "let's enhance|ugc creator (remote/part-time)|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T21:45:50.386740+00:00"
+    },
+    "mcfadden/gavender advertising, inc.|influencer & user-generated content (ugc) specialist - remote|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T21:45:53.132297+00:00"
+    },
+    "upwork|creative director / lead creative|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T21:45:55.940626+00:00"
+    },
+    "savichat|ugc multilingual and travel content|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T21:45:58.551172+00:00"
+    },
+    "everfur|ugc dog creator|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T21:46:01.186843+00:00"
+    },
+    "upwork|tiktok / reels ugc creator for language app — $50 + $450 viral bonus|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T21:46:03.744928+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
-    "duplicate": 0,
+    "discovered": 31,
+    "duplicate": 14,
     "geography": 0,
-    "remote": 0,
-    "restricted": 0,
+    "remote": 2,
+    "restricted": 1,
     "language": 0,
-    "domain": 0,
-    "dead_link": 0,
-    "low_fit": 0,
+    "domain": 1,
+    "dead_link": 1,
+    "low_fit": 4,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 8,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
