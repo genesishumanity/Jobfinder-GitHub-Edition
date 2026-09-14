@@ -16,13 +16,11 @@ US_ONLY = re.compile(
 )
 
 ADJACENT_TERMS = [
-    "performance marketing", "growth marketing", "marketing operations",
-    "project manager", "program manager", "project lead", "program lead",
-    "customer success manager", "client success", "account manager",
-    "account director", "account lead", "client partner", "client services",
-    "implementation manager", "implementation specialist", "onboarding manager",
-    "solutions consultant", "ai workflow", "ai operations", "automation",
-    "brand manager", "campaign manager",
+    "creative strategist", "creative strategy", "creative lead", "creative director",
+    "brand strategist", "brand strategy", "campaign strategist", "creative innovation",
+    "creative technologist", "ai creative", "ai content", "ai creative producer",
+    "creative concept", "concept strategist", "concept development", "performance creative",
+    "generative ai creative", "ai creative strategy",
 ]
 
 FALSE_NEGATIVE_EXCLUDES = {
@@ -33,20 +31,20 @@ FALSE_NEGATIVE_EXCLUDES = {
 # Keep every hourly board scan small. One rotating adjacent family is added per
 # hour so coverage grows through the day without hammering public endpoints.
 CORE_REMOTE_TERMS = [
-    "creative strategist remote",
-    "creative director remote",
-    "creative lead remote",
-    "brand strategist remote",
-    "performance creative remote",
-    "creative operations remote",
-    "content strategist remote",
     "ai creative remote",
+    "creative technologist remote",
+    "creative strategist remote",
+    "creative concept remote",
+    "brand strategist remote",
+    "creative innovation remote",
+    "campaign strategist remote",
+    "performance creative remote",
 ]
 ROTATING_REMOTE_TERM_GROUPS = [
-    ["performance marketing remote", "growth marketing remote", "marketing operations remote", "brand manager remote"],
-    ["project manager remote", "program manager remote", "project lead remote", "program lead remote"],
-    ["customer success manager remote", "client success remote", "account manager remote", "account director remote"],
-    ["implementation manager remote", "onboarding manager remote", "solutions consultant remote", "ai workflow remote", "automation remote"],
+    ["ai creative producer remote", "ai content strategist remote", "ai creative strategy remote"],
+    ["generative ai creative remote", "ai concept remote", "concept strategist remote"],
+    ["creative innovation director remote", "creative strategy lead remote", "brand creative remote"],
+    ["performance creative strategist remote", "campaign creative strategist remote", "creative development director remote"],
 ]
 
 
@@ -93,9 +91,9 @@ def _prepare_remote_first(config):
 
     target = config.setdefault("target_geography", {})
     target["require_remote"] = True
-    target["exclude_us"] = False
+    target["exclude_us"] = True
     target_locations = target.setdefault("locations", [])
-    for item in ("Remote", "Worldwide", "Global", "EMEA", "Europe"):
+    for item in ("EMEA", "Europe"):
         if item not in target_locations:
             target_locations.append(item)
 
@@ -165,7 +163,7 @@ def expand_config(config, jobs=(), slot=None):
     seeds = [
         j for j in jobs
         if target_location(j.get("location", ""))
-        and re.search(r"creative|brand strateg|campaign strateg|marketing|project|program|client|account|implementation", str(j.get("title", "")), re.I)
+        and re.search(r"creative|brand strateg|campaign strateg|concept|innovation|technologist|ai", str(j.get("title", "")), re.I)
     ]
     text = " ".join(str(j.get("description", "")) for j in seeds).lower()
     phrases = settings.get("description_phrases", [])
