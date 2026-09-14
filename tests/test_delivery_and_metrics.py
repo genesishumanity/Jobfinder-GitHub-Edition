@@ -48,7 +48,7 @@ class Tests(unittest.TestCase):
     def test_metrics_no_double_credit_and_unknown_not_verified(self):
         metrics.ROWS.clear(); metrics.BASELINE.clear(); metrics.EXPERIMENTS.clear()
         metrics.EXPERIMENTS.add('brand storytelling')
-        job = dict(title='Creative Strategist', company='Example', location='Berlin',
+        job = dict(title='Creative Strategist', company='Example', location='Germany',
                    is_remote=True, url='https://example.com/1')
         metrics.record('Indeed', 'creative strategist', 'Germany', 3, [job, job])
         metrics.record('Indeed', 'brand storytelling', 'Germany', 4, [job, dict(job,url='https://example.com/2')])
