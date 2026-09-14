@@ -16,11 +16,8 @@ US_ONLY = re.compile(
 )
 
 ADJACENT_TERMS = [
-    "creative strategist", "creative strategy", "creative lead", "creative director",
-    "brand strategist", "brand strategy", "campaign strategist", "creative innovation",
-    "creative technologist", "ai creative", "ai content", "ai creative producer",
-    "creative concept", "concept strategist", "concept development", "performance creative",
-    "generative ai creative", "ai creative strategy",
+    "ai producer", "ai producing", "ai lead",
+    "creative lead", "creative director", "associate creative director",
 ]
 
 FALSE_NEGATIVE_EXCLUDES = {
@@ -31,21 +28,14 @@ FALSE_NEGATIVE_EXCLUDES = {
 # Keep every hourly board scan small. One rotating adjacent family is added per
 # hour so coverage grows through the day without hammering public endpoints.
 CORE_REMOTE_TERMS = [
-    "ai creative remote",
-    "creative technologist remote",
-    "creative strategist remote",
-    "creative concept remote",
-    "brand strategist remote",
-    "creative innovation remote",
-    "campaign strategist remote",
-    "performance creative remote",
+    "ai producer remote",
+    "ai producing remote",
+    "ai lead remote",
+    "creative lead remote",
+    "creative director remote",
+    "associate creative director remote",
 ]
-ROTATING_REMOTE_TERM_GROUPS = [
-    ["ai creative producer remote", "ai content strategist remote", "ai creative strategy remote"],
-    ["generative ai creative remote", "ai concept remote", "concept strategist remote"],
-    ["creative innovation director remote", "creative strategy lead remote", "brand creative remote"],
-    ["performance creative strategist remote", "campaign creative strategist remote", "creative development director remote"],
-]
+ROTATING_REMOTE_TERM_GROUPS = [[]]
 
 
 def target_location(location):
@@ -80,25 +70,18 @@ def _prepare_remote_first(config):
             if isinstance(geo, dict) and str(geo.get("country", "")).strip().lower() == "gb":
                 geo["country"] = "UK"
 
-    # JobSpy explicitly supports the `worldwide` Indeed country adapter. Keep it
-    # as the always-on remote radar, then rotate regional remote lanes hourly.
-    _append_geo(config, "indeed", {"location": "Remote", "country": "worldwide"})
-    for country in ("UK", "Netherlands", "Germany", "Hungary", "Portugal", "Spain"):
-        _append_geo(config, "indeed", {"location": "Remote", "country": country})
-
-    _append_geo(config, "linkedin", {"location": "Remote", "name": "Remote", "geoId": ""})
-    _append_geo(config, "ziprecruiter", {"location": "Remote", "country": "USA"})
+    # Keep discovery restricted to the configured UK/European locations.
 
     target = config.setdefault("target_geography", {})
     target["require_remote"] = True
     target["exclude_us"] = True
     target_locations = target.setdefault("locations", [])
-    for item in ("EMEA", "Europe"):
+    for item in ():
         if item not in target_locations:
             target_locations.append(item)
 
     terms = config.setdefault("location_filter", {}).setdefault("terms", [])
-    for item in ("remote", "worldwide", "global", "anywhere", "emea", "europe"):
+    for item in ():
         if item not in terms:
             terms.append(item)
 
@@ -117,7 +100,7 @@ def _prepare_remote_first(config):
         _append_terms(config, source, remote_adjacent)
 
     profile = config.setdefault("profile", {})
-    profile["subtitle"] = "Remote-first · Worldwide / EMEA · creative + adjacent commercial roles"
+    profile["subtitle"] = "Remote · UK / Europe · AI Production & Creative Leadership"
     return config
 
 
@@ -171,10 +154,8 @@ def expand_config(config, jobs=(), slot=None):
         p for p in phrases
         if p.lower().removesuffix(" remote").removesuffix(" creative").removesuffix(" strategist") in text
     ]
-    lanes = [evidenced or phrases, settings.get("contracts", []), settings.get("local_titles", [])]
-    companies = sorted({str(j.get("company", "")).strip() for j in seeds if j.get("company")})
-    lanes.append([c + " remote" for c in companies[:30]])
-    extra = [lane[slot % len(lane)] for lane in lanes if lane]
+    # The focused mode deliberately adds no inferred/company expansion.
+    extra = []
 
     # Cap the active query set. This replaces the large cumulative lists created
     # above, preventing hundreds of JobSpy/LinkedIn calls in a single hour.
