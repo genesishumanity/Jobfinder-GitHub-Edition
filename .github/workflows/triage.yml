@@ -39,7 +39,13 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CANDIDATE_PROFILE: ${{ secrets.CANDIDATE_PROFILE }}
           CANDIDATE_RESUME: ${{ secrets.CANDIDATE_RESUME }}
-        run: python triage_can.py --limit 300
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ] || [ -z "$CANDIDATE_PROFILE" ]; then
+            echo "Optional AI triage skipped: ANTHROPIC_API_KEY and/or CANDIDATE_PROFILE is not configured."
+            echo "Deterministic source filters and Telegram delivery remain active."
+            exit 0
+          fi
+          python triage_can.py --limit 300
 
       - name: Commit scores to repo
         if: vars.ENABLE_DATA_COMMITS == 'true'
