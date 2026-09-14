@@ -80,9 +80,45 @@ def eligible_location(job):
     return job.get("is_remote") is True or bool(REMOTE.search(text))
 
 
+_LOCAL_LANGUAGE_PHRASES = {
+    "spanish": (
+        "buscamos", "requisitos", "funciones", "qué ofrecemos", "se requiere",
+        "experiencia en", "incorporación", "salario bruto", "nuestro equipo",
+    ),
+    "hungarian": (
+        "feladatok", "elvárások", "munkavégzés helye", "amit kínálunk",
+        "jelentkezés", "tapasztalat", "munkaviszony", "csapatunk",
+    ),
+    "portuguese": (
+        "procuramos", "requisitos", "responsabilidades", "o que oferecemos",
+        "experiência", "candidatura", "nossa equipa", "salário",
+    ),
+    "dutch": (
+        "wij zoeken", "jouw verantwoordelijkheden", "wat bieden wij",
+        "werkervaring", "solliciteer", "ons team", "salaris",
+    ),
+    "french": (
+        "nous recherchons", "vos missions", "profil recherché",
+        "ce que nous offrons", "expérience", "postulez", "notre équipe",
+    ),
+}
+
+def _looks_local_language(text):
+    lowered = str(text or "").casefold()
+    if not lowered:
+        return False
+    for phrases in _LOCAL_LANGUAGE_PHRASES.values():
+        if sum(1 for phrase in phrases if phrase in lowered) >= 3:
+            return True
+    return False
+
 def language_blocked(job):
     text = " ".join(str(job.get(key, "")) for key in ("title", "description", "requirements"))
-    return bool(LOCAL_LANGUAGE_REQUIRED.search(text)) or _looks_german(text)
+    return (
+        bool(LOCAL_LANGUAGE_REQUIRED.search(text))
+        or _looks_german(text)
+        or _looks_local_language(text)
+    )
 
 
 def dead_link(job):
