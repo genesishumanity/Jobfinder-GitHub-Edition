@@ -2,18 +2,27 @@
   "date": "2026-09-11",
   "ids": [
     "095f55ef3ff91415b1423177e84e956d328e3a0b9b4fc172f6d29fb760b4ebe9",
+    "0ea82b4228bbbce31e79e67b8230cdccb7308b08ed2b052a7bee8acb08d8103c",
     "2aff894afff7bfddfea60abec6665c7c050ca40fca63a12511a440fcbb2b54f6",
+    "3b3e485768cfc2513b8f0b537aa4acb8bf3e2bc9b1f04b67bcc368c7162435a1",
     "3bb4feafff7e0643e6df23b5cc34f752073d3027efa32833b60109ec80f72414",
     "3cc8843f43d2677812e48b10916668799c9e2939c6207754383d091f9f6595b6",
     "49f144467cea9b720b9e33aff8877baee603e2253bc717d5a5d041ea34af7a68",
+    "4a64a02340c74b7b2359933ef57895bd7da62282f623f746d29c5be4b0cf4898",
     "4f63f409ee0c10784743be9e3209d9607918a78dd1bd753b96deba45c4adf40d",
+    "6bcd95a735f89ed6cdeaf4f22cc19b5f1cbd2e831a388defa2f15f0ac356d8a4",
     "80a8da42555c0a4cae0354118e90bafb718a9dc91d8810d51574abeebb41813b",
+    "83724640e329aa55552f71e16f9719573f884fc4053b1b98614843745e81669b",
     "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466009878",
     "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466013766",
+    "b269c53722daf61b84525d9df6f718d926d5cecff10d6608d30c58fc303ca215",
+    "ca36282e826ef907d26eb02ada5220754fa044d6753fb0e6d56b653bce43d827",
+    "d5b326e3fb2d953aca09c0e0ec892e80ae48281df5040cf38c2b0ff22df56dca",
     "dentsu|seniorartdirectorsocialtemporaryworker||httpswwwlinkedincomjobsview4456067070",
     "driftai|creativedirectorbrand||httpswwwlinkedincomjobsview4466314316",
     "e4d6157d2cfe77ebbf93ac4f851c60d78d34ea6798a733172ac055cab8cbc78d",
     "e575560d31c25c00eeba5e3c6137a112c4a9b9ec7c87c74ce3995821ba72f1af",
+    "eed5b4caf5e1c2d2b866297dc02f6c272c8d166598d31fdb566dba72857e7541",
     "fd9608a8a1c8a13cd996d37fbe37556d4de6c092f2272764fcb3a7ce46cbeebd",
     "fileneresearchinstitute|audiencecontentstrategydirectorfilenewitxorco||httpswwwlinkedincomjobsview4463919758",
     "golinketchum|associatecreativedirector||httpswwwlinkedincomjobsview4464808195",
@@ -61,22 +70,58 @@
     "avalerehealth|associate creative director, copy|remote (us)": {
       "material": "|remote|True",
       "last_sent": "2026-09-14T16:07:33.233430+00:00"
+    },
+    "jobgether|founding creative director|germany": {
+      "material": "||",
+      "last_sent": "2026-09-14T16:32:11.468021+00:00"
+    },
+    "jobgether|founding creative director|portugal": {
+      "material": "||",
+      "last_sent": "2026-09-14T16:32:14.994888+00:00"
+    },
+    "jobgether|founding creative director|spain": {
+      "material": "||",
+      "last_sent": "2026-09-14T16:32:18.262694+00:00"
+    },
+    "jobgether|senior creative strategist|germany": {
+      "material": "$7,000–$12,000 USD per month||",
+      "last_sent": "2026-09-14T16:32:21.609030+00:00"
+    },
+    "jobgether|senior creative strategist|portugal": {
+      "material": "$7,000–$12,000 USD per month||",
+      "last_sent": "2026-09-14T16:32:25.426843+00:00"
+    },
+    "jobgether|senior creative strategist|spain": {
+      "material": "$7,000–$12,000 USD per month||",
+      "last_sent": "2026-09-14T16:32:28.589694+00:00"
+    },
+    "whatnot|performance creative lead, europe|berlin, berlin, germany": {
+      "material": "||",
+      "last_sent": "2026-09-14T16:32:32.841520+00:00"
+    },
+    "siena ai|founding creative director|london, england, united kingdom": {
+      "material": "||",
+      "last_sent": "2026-09-14T16:32:37.262944+00:00"
+    },
+    "bon charge|ugc coordinator|london area, united kingdom": {
+      "material": "||",
+      "last_sent": "2026-09-14T16:32:40.592248+00:00"
     }
   },
   "last_run": {
-    "source_file": "glassdoor_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
+    "discovered": 35,
     "duplicate": 0,
     "geography": 0,
-    "remote": 0,
+    "remote": 7,
     "restricted": 0,
-    "language": 0,
-    "domain": 0,
+    "language": 5,
+    "domain": 1,
     "dead_link": 0,
-    "low_fit": 0,
+    "low_fit": 13,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 9,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
