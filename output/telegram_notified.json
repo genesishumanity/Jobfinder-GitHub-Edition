@@ -4,8 +4,10 @@
     "095f55ef3ff91415b1423177e84e956d328e3a0b9b4fc172f6d29fb760b4ebe9",
     "2aff894afff7bfddfea60abec6665c7c050ca40fca63a12511a440fcbb2b54f6",
     "3bb4feafff7e0643e6df23b5cc34f752073d3027efa32833b60109ec80f72414",
+    "3cc8843f43d2677812e48b10916668799c9e2939c6207754383d091f9f6595b6",
     "49f144467cea9b720b9e33aff8877baee603e2253bc717d5a5d041ea34af7a68",
     "4f63f409ee0c10784743be9e3209d9607918a78dd1bd753b96deba45c4adf40d",
+    "80a8da42555c0a4cae0354118e90bafb718a9dc91d8810d51574abeebb41813b",
     "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466009878",
     "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466013766",
     "dentsu|seniorartdirectorsocialtemporaryworker||httpswwwlinkedincomjobsview4456067070",
@@ -41,21 +43,29 @@
     "lassie|growth marketing manager - paid social (berlin, germany)|berlin, berlin, germany": {
       "material": "||",
       "last_sent": "2026-09-14T02:34:05.109583+00:00"
+    },
+    "scrl|freelance creative producer fr/it/es|spain": {
+      "material": "||",
+      "last_sent": "2026-09-14T11:05:09.670245+00:00"
+    },
+    "hyqoo|senior pharma project manager|emea": {
+      "material": "||",
+      "last_sent": "2026-09-14T11:05:13.534973+00:00"
     }
   },
   "last_run": {
-    "source_file": "careerops_ats_jobs.json",
-    "min_fit": 45.0,
-    "discovered": 105,
+    "source_file": "linkedin_jobs.json",
+    "min_fit": 40.0,
+    "discovered": 7,
     "duplicate": 0,
     "geography": 3,
     "remote": 0,
-    "restricted": 1,
-    "language": 0,
+    "restricted": 0,
+    "language": 1,
     "dead_link": 0,
-    "low_fit": 104,
+    "low_fit": 1,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 2,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0

@@ -1,0 +1,613 @@
+{
+  "at": "2026-09-14T11:05:05.308112+00:00",
+  "queries": [
+    {
+      "source": "LinkedIn",
+      "query": "creative strategist remote",
+      "location": "Remote",
+      "lane": "core",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 8,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": [
+        "0bcedc669937b82e50914aa696f31cca3cd501cb99427c4ff44b37077b194f9e",
+        "20b3b1c259baa8e8ab417f8e6cdd0abf6d945a7983770c06135e1e6bd4bd7751",
+        "80eafffa4e85ed2750b08987c907dea1fd45fb634b06756b04ee468dcf47d7dc",
+        "853cce4ce1b9d6e4426e5b0604e947c09a95c4761f58f28f314c8ce0e27013ae",
+        "925a9e05cae5adffd04978781332fa1d22ccb0967a85f262542a2172ec4af261",
+        "95965e061bedaed24a11afab01501e5473049a6a3342d56f719061a697e6077e",
+        "a5eade6119e055eff127f9f1d75d0cca1b8a8e66344b37918b3184601955fc9a",
+        "af1b8391fbec5128828d2777d1998624209ddcf5353dd91639cc24481b4557c4"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "creative director remote",
+      "location": "Remote",
+      "lane": "core",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 7,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": [
+        "08010f7d7162f0ee62bac7ee28bd1f69a372911b3778fdc56fdb9a3650345106",
+        "0bcedc669937b82e50914aa696f31cca3cd501cb99427c4ff44b37077b194f9e",
+        "0d400e4d508d52cbe2a58a1fc44cc064dba9fe0b14f493e5ac716590e458044e",
+        "853cce4ce1b9d6e4426e5b0604e947c09a95c4761f58f28f314c8ce0e27013ae",
+        "925a9e05cae5adffd04978781332fa1d22ccb0967a85f262542a2172ec4af261",
+        "df4211679b4804cd6aee70b0bcf53069ea016825ebfda3671fb315c858d148c2",
+        "f13bcfd54b66fafab1e362a63e06352ad357d3f0c329b02e311a4a2f77d55e34"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "creative lead remote",
+      "location": "Remote",
+      "lane": "core",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 6,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": [
+        "08010f7d7162f0ee62bac7ee28bd1f69a372911b3778fdc56fdb9a3650345106",
+        "5e854bc144f78bdb6d4fa472ae3acf5383d03a15427bbf18e3ca4e42bab08a2a",
+        "853cce4ce1b9d6e4426e5b0604e947c09a95c4761f58f28f314c8ce0e27013ae",
+        "925a9e05cae5adffd04978781332fa1d22ccb0967a85f262542a2172ec4af261",
+        "af1b8391fbec5128828d2777d1998624209ddcf5353dd91639cc24481b4557c4",
+        "f13bcfd54b66fafab1e362a63e06352ad357d3f0c329b02e311a4a2f77d55e34"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "brand strategist remote",
+      "location": "Remote",
+      "lane": "core",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 4,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": [
+        "20b3b1c259baa8e8ab417f8e6cdd0abf6d945a7983770c06135e1e6bd4bd7751",
+        "80eafffa4e85ed2750b08987c907dea1fd45fb634b06756b04ee468dcf47d7dc",
+        "91952fa74bc8cfafee09e07b9f5728849863a0ddaa17d3c99ef29c5e3bf66dea",
+        "95965e061bedaed24a11afab01501e5473049a6a3342d56f719061a697e6077e"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "performance creative remote",
+      "location": "Remote",
+      "lane": "core",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 3,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": [
+        "20b3b1c259baa8e8ab417f8e6cdd0abf6d945a7983770c06135e1e6bd4bd7751",
+        "571b7970a95de4d8180d8af3f88191b24f63dfc712eb980c4351d2c10f52c97f",
+        "6461c9eb9af97be02529319a528488f2fb6e0ee07644190bbe9a0ee5f74cb8ce"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "creative operations remote",
+      "location": "Remote",
+      "lane": "core",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 2,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": [
+        "4818d5d854ef651922747c3ca22eccbf1308ee8558c49792fab482e947631f45",
+        "6f6b9aed09ba88accffa512355d170003736dc9fccd39c16478450b70473b19e"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "content strategist remote",
+      "location": "Remote",
+      "lane": "core",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 4,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": [
+        "20b3b1c259baa8e8ab417f8e6cdd0abf6d945a7983770c06135e1e6bd4bd7751",
+        "95965e061bedaed24a11afab01501e5473049a6a3342d56f719061a697e6077e",
+        "af1b8391fbec5128828d2777d1998624209ddcf5353dd91639cc24481b4557c4",
+        "ce416eec5683f0d2c95ba80e48585bbaeb2baf67a1df9adf5a9b8959afca1e20"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "ai creative remote",
+      "location": "Remote",
+      "lane": "core",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 0,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": []
+    },
+    {
+      "source": "LinkedIn",
+      "query": "implementation manager remote",
+      "location": "Remote",
+      "lane": "core",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 3,
+      "target_remote_not_restricted": 1,
+      "explicit_international": 0,
+      "eligibility_unknown": 1,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 1,
+      "new_incremental_vs_core": null,
+      "job_hashes": [
+        "26682aea60a7f2ad99191c5cbb5c80d785ee741e5d09728587c40a26fa9fcc37",
+        "80a8da42555c0a4cae0354118e90bafb718a9dc91d8810d51574abeebb41813b",
+        "d4e8e799f717761d791c6d6d5d7b3832976401432cc0b8ffe843b31bac8cb97e"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "onboarding manager remote",
+      "location": "Remote",
+      "lane": "core",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 4,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": [
+        "0a98cdac7938f6899f37584c2f70331220600b48da288d659afe8cf493559340",
+        "6c70ed44ab2cf4ce3fd2065a01bcd2189f36cb7869a796cfd861ada7bf38c09c",
+        "b047525f0c2bd05a2249eb18fef8f9585d45f9e7e397ab0db18ec1190eb26ed1",
+        "be8bdc2473413902678b194b78244876266027bf817258c42b351b0deec66d15"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "solutions consultant remote",
+      "location": "Remote",
+      "lane": "core",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 1,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": [
+        "0f336c546175a2f94f966e7532ecd3043f32546f1e6741fc0ab9bdf2b797d372"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "ai workflow remote",
+      "location": "Remote",
+      "lane": "core",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 0,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": []
+    },
+    {
+      "source": "LinkedIn",
+      "query": "automation remote",
+      "location": "Remote",
+      "lane": "core",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 2,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": [
+        "382b1ac67fee5bfcf4c26b37666fa5699a1398e004f3c0c82cbcd53e2ee99698",
+        "c406cf5e49df82ffd02e4b9772f6dde061966a7c08b50e743c1927b833576e40"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "integrated campaigns creative remote",
+      "location": "Remote",
+      "lane": "experimental",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 5,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": 0,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": 0,
+      "job_hashes": [
+        "0bcedc669937b82e50914aa696f31cca3cd501cb99427c4ff44b37077b194f9e",
+        "20b3b1c259baa8e8ab417f8e6cdd0abf6d945a7983770c06135e1e6bd4bd7751",
+        "3c8c18bd09e12629ebd4a8cac54fd8d5a6f1a2ca8ce0b79b2d4f00021322fe8b",
+        "853cce4ce1b9d6e4426e5b0604e947c09a95c4761f58f28f314c8ce0e27013ae",
+        "925a9e05cae5adffd04978781332fa1d22ccb0967a85f262542a2172ec4af261"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "creative direction retainer remote",
+      "location": "Remote",
+      "lane": "experimental",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 7,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": 0,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": 0,
+      "job_hashes": [
+        "08010f7d7162f0ee62bac7ee28bd1f69a372911b3778fdc56fdb9a3650345106",
+        "0bcedc669937b82e50914aa696f31cca3cd501cb99427c4ff44b37077b194f9e",
+        "20b3b1c259baa8e8ab417f8e6cdd0abf6d945a7983770c06135e1e6bd4bd7751",
+        "853cce4ce1b9d6e4426e5b0604e947c09a95c4761f58f28f314c8ce0e27013ae",
+        "925a9e05cae5adffd04978781332fa1d22ccb0967a85f262542a2172ec4af261",
+        "a5eade6119e055eff127f9f1d75d0cca1b8a8e66344b37918b3184601955fc9a",
+        "f13bcfd54b66fafab1e362a63e06352ad357d3f0c329b02e311a4a2f77d55e34"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "Zeta Global remote",
+      "location": "Remote",
+      "lane": "experimental",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 0,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": 0,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": 0,
+      "job_hashes": []
+    },
+    {
+      "source": "LinkedIn",
+      "query": "creative strategist remote",
+      "location": "Spain",
+      "lane": "core",
+      "raw": 7,
+      "errors": 0,
+      "unique_relevant": 1,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": [
+        "ccaa5644a0d71e17d1d151efbc0db8cf6c7845f8f90a303dd86f6712e1dcbd3c"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "creative director remote",
+      "location": "Spain",
+      "lane": "core",
+      "raw": 1,
+      "errors": 0,
+      "unique_relevant": 1,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": [
+        "ccaa5644a0d71e17d1d151efbc0db8cf6c7845f8f90a303dd86f6712e1dcbd3c"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "creative lead remote",
+      "location": "Spain",
+      "lane": "core",
+      "raw": 8,
+      "errors": 0,
+      "unique_relevant": 1,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": [
+        "ccaa5644a0d71e17d1d151efbc0db8cf6c7845f8f90a303dd86f6712e1dcbd3c"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "brand strategist remote",
+      "location": "Spain",
+      "lane": "core",
+      "raw": 8,
+      "errors": 0,
+      "unique_relevant": 1,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": [
+        "ccaa5644a0d71e17d1d151efbc0db8cf6c7845f8f90a303dd86f6712e1dcbd3c"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "performance creative remote",
+      "location": "Spain",
+      "lane": "core",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 1,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": [
+        "ccaa5644a0d71e17d1d151efbc0db8cf6c7845f8f90a303dd86f6712e1dcbd3c"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "creative operations remote",
+      "location": "Spain",
+      "lane": "core",
+      "raw": 8,
+      "errors": 0,
+      "unique_relevant": 1,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": [
+        "ccaa5644a0d71e17d1d151efbc0db8cf6c7845f8f90a303dd86f6712e1dcbd3c"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "content strategist remote",
+      "location": "Spain",
+      "lane": "core",
+      "raw": 6,
+      "errors": 0,
+      "unique_relevant": 1,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": [
+        "ccaa5644a0d71e17d1d151efbc0db8cf6c7845f8f90a303dd86f6712e1dcbd3c"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "ai creative remote",
+      "location": "Spain",
+      "lane": "core",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 1,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": [
+        "3cc8843f43d2677812e48b10916668799c9e2939c6207754383d091f9f6595b6"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "implementation manager remote",
+      "location": "Spain",
+      "lane": "core",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 1,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": [
+        "f9af7d665b121c39e3711cf9b14de2bae53abe1ee7110f193d28e37332c25770"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "onboarding manager remote",
+      "location": "Spain",
+      "lane": "core",
+      "raw": 9,
+      "errors": 0,
+      "unique_relevant": 0,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": []
+    },
+    {
+      "source": "LinkedIn",
+      "query": "solutions consultant remote",
+      "location": "Spain",
+      "lane": "core",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 0,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": []
+    },
+    {
+      "source": "LinkedIn",
+      "query": "ai workflow remote",
+      "location": "Spain",
+      "lane": "core",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 0,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": []
+    },
+    {
+      "source": "LinkedIn",
+      "query": "automation remote",
+      "location": "Spain",
+      "lane": "core",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 1,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": [
+        "365bed8f8fee590cd27f97f4e72ba359997f5d48d53bbeeb47635343d1eee4ee"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "integrated campaigns creative remote",
+      "location": "Spain",
+      "lane": "experimental",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 1,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": 0,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": 0,
+      "job_hashes": [
+        "ccaa5644a0d71e17d1d151efbc0db8cf6c7845f8f90a303dd86f6712e1dcbd3c"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "creative direction retainer remote",
+      "location": "Spain",
+      "lane": "experimental",
+      "raw": 8,
+      "errors": 0,
+      "unique_relevant": 1,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": 0,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": 0,
+      "job_hashes": [
+        "ccaa5644a0d71e17d1d151efbc0db8cf6c7845f8f90a303dd86f6712e1dcbd3c"
+      ]
+    },
+    {
+      "source": "LinkedIn",
+      "query": "Zeta Global remote",
+      "location": "Spain",
+      "lane": "experimental",
+      "raw": 10,
+      "errors": 0,
+      "unique_relevant": 1,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": 0,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": 0,
+      "job_hashes": [
+        "365bed8f8fee590cd27f97f4e72ba359997f5d48d53bbeeb47635343d1eee4ee"
+      ]
+    }
+  ],
+  "scope": "Observed title-matched results; incremental counts compare this run only, not historical novelty. Eligibility unknown is not confirmed suitable."
+}
