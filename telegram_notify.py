@@ -63,13 +63,27 @@ DOMAIN_BLOCKED = re.compile(
     r")\b",
     re.I,
 )
+# The company IS a healthcare/pharma/biotech company — a much stronger, lower
+# false-positive signal than scanning title/description prose, and catches
+# cases with a thin/empty description (common on CareerOps ATS listings)
+# that DOMAIN_BLOCKED's phrase-based check above would miss entirely. No \b
+# on purpose — company names are often concatenated with no space
+# ("avalerehealth"), and these particular words don't collide with unrelated
+# real company-name words (e.g. "health" is not a substring of "wealth").
+COMPANY_DOMAIN_BLOCKED = re.compile(
+    r"health|pharma|biotech|clinical|medical|therapeutics|diagnostics|life ?sciences",
+    re.I,
+)
 
 
 def domain_blocked(job):
     title = str(job.get("title", ""))
     description = str(job.get("description", ""))
+    company = str(job.get("company", ""))
     text = f"{title} {description}"
     text = re.sub(r"\b(?:no|without|not requiring|does not require)\s+(?:any\s+)?(?:medical expertise|clinical expertise|pharma(?:ceutical)? experience|healthcare domain experience)\b", "", text, flags=re.I)
+    if COMPANY_DOMAIN_BLOCKED.search(company):
+        return True
     return bool(DOMAIN_BLOCKED.search(text))
 
 

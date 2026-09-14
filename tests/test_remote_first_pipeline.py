@@ -110,3 +110,29 @@ def test_domain_gate_examples():
         "title": "AI Producer",
         "description": "Remote AI concept production and creative ideation.",
     })
+    # Regression: a CareerOps listing (title="Associate Creative Director,
+    # Copy") at Avalere Health slipped through on 2026-09-14 because
+    # domain_blocked() only scanned title+description text (often empty on
+    # thin ATS listings) and never looked at the company name — even though
+    # the company itself is a healthcare company.
+    assert domain_blocked({
+        "company": "avalerehealth",
+        "title": "Associate Creative Director, Copy",
+        "description": "",
+    })
+    assert domain_blocked({
+        "company": "Avalere Health",
+        "title": "Associate Creative Director, Copy",
+        "description": "healthcare is not a barrier",
+    })
+    # Company-name check shouldn't false-positive on unrelated real names.
+    assert not domain_blocked({
+        "company": "Wealthsimple",
+        "title": "Creative Director",
+        "description": "",
+    })
+    assert not domain_blocked({
+        "company": "Wieden+Kennedy",
+        "title": "Creative Director",
+        "description": "ad agency creative work",
+    })
