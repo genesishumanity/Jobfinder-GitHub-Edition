@@ -60,3 +60,38 @@ Telegram cards now distinguish three facts that job boards frequently blur:
 - `⚪ UAE/uluslararası uygunluğu ilanda net değil`: remote may be real, but the text does not prove that Can can work from UAE as an international contractor.
 
 Unknown listings are still delivered so viable roles are not silently lost. They are not represented as confirmed UAE-compatible work.
+
+
+## Final focused system audit — 2026-09-14
+
+The production search mission is intentionally narrow and remote-first. The only approved role families are:
+
+- AI Producer
+- AI Producing
+- AI Lead
+- Creative Strategy
+- Creative Lead
+- Creative Director
+- Associate Creative Director
+- UGC
+
+### Rules now enforced
+
+- Search sources use only the eight approved role queries.
+- Discovery expansion, adjacent-role rotation, company-seed expansion and generic commercial-role expansion are disabled.
+- Generic project, program, account, client, marketing-operations, content-strategy and non-AI creative-producer searches are excluded.
+- Remote is mandatory at delivery time.
+- The allowed geography remains UK/Europe/EMEA: London/UK, Amsterdam/Netherlands, Germany, Hungary, Portugal, Spain, Europe and EMEA.
+- US locations and US-only restrictions are rejected.
+- Hybrid/onsite-only and local-language-required listings are rejected.
+- Medical/pharma/clinical/cybersecurity and other unrelated technical-domain requirements are rejected.
+- UGC is intentionally broad: it does not require an AI or creative-context phrase as long as the role is remote and passes the remaining gates.
+- Telegram delivery keeps a daily cap of 10 and a minimum fit threshold of 40.
+- Claude/Anthropic triage is optional; missing API/profile secrets must not stop deterministic scraping or delivery.
+
+### Verification checklist
+
+- config.json, discovery_lanes.py, scoring_profile.json and the focused regression suite were aligned in the same change set.
+- Python compilation was run for the filter, discovery, scoring, delivery and bridge modules.
+- Regression tests cover exact eight-role query sets, US rejection, ambiguous worldwide rejection, remote requirement, medical/pharma rejection and valid AI Producer/UGC examples.
+- Every material change is committed to the repository so the operating rules remain auditable.
