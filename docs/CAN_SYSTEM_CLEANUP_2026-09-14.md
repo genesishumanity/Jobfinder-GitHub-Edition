@@ -69,7 +69,24 @@ every run while silently delivering nothing. Left as-is (no code change);
 for a healthy one. Real fix, if wanted later, is a SerpAPI free-tier key
 (~100 searches/month, no card required).
 
-## 6. Production bug found while adding source #4: git push race condition
+## 6. We Work Remotely added; Himalayas evaluated and dropped
+
+Extended `remote_boards_bridge.py` with a `fetch_wwr()` lane: WWR's combined
+`remote-jobs.rss` feed (all categories, one request, no key) parsed and
+filtered client-side by the same 8 role terms + geography rules. Verified
+live against the real feed and with synthetic role/geo cases.
+
+Himalayas (`himalayas.app/jobs/api`) was evaluated next and **not**
+integrated: its `search`/`category`/`q` query params don't actually filter —
+every value tried returned an effectively random slice of a ~105k-entry
+archive that looks like mostly-expired historical postings, not current
+openings. No reliable way to target relevant roles from it today. Documented
+in the module docstring so this isn't silently re-attempted later without
+re-checking whether their API has changed.
+
+Commit `c70134e7`.
+
+## 7. Production bug found while adding source #4: git push race condition
 
 Adding `remote_boards_watch.yml` triggered it and `careerops_ats_watch.yml`
 via the same push (both have path-based push triggers). Both tried to
