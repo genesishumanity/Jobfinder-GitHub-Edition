@@ -16,8 +16,8 @@ US_ONLY = re.compile(
 )
 
 ADJACENT_TERMS = [
-    "ai producer", "ai producing", "ai lead",
-    "creative lead", "creative director", "associate creative director",
+    "ai producer", "ai producing", "ai lead", "creative strategy",
+    "creative lead", "creative director", "associate creative director", "ugc",
 ]
 
 FALSE_NEGATIVE_EXCLUDES = {
