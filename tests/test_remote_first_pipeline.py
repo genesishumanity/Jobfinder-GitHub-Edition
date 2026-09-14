@@ -1,8 +1,19 @@
 import copy
 
-import careerops_bridge
 import discovery_lanes
 import final_filter
+
+
+ROLES = [
+    "ai producer",
+    "ai producing",
+    "ai lead",
+    "creative strategy",
+    "creative lead",
+    "creative director",
+    "associate creative director",
+    "ugc",
+]
 
 
 def _base_config():
@@ -13,59 +24,72 @@ def _base_config():
             "linkedin": [],
             "ziprecruiter": [],
         },
-        "target_geography": {"locations": ["London"], "exclude_us": True, "require_remote": True},
-        "location_filter": {"terms": ["london"]},
-        "keywords": {"include": ["creative strategist"], "exclude": ["customer success", "intern"]},
-        "search_terms": {name: [] for name in ("linkedin", "indeed", "glassdoor", "google_jobs", "hiring_cafe", "ziprecruiter")},
+        "target_geography": {
+            "locations": ["London", "Europe"],
+            "exclude_us": True,
+            "require_remote": True,
+        },
+        "location_filter": {"terms": ["london", "europe"]},
+        "keywords": {"include": ROLES[:], "exclude": ["intern"]},
+        "search_terms": {
+            name: [] for name in (
+                "linkedin", "indeed", "glassdoor", "google_jobs",
+                "hiring_cafe", "ziprecruiter",
+            )
+        },
         "profile": {},
         "discovery_lanes": {"enabled": False},
     }
 
 
-def test_remote_first_repairs_jobspy_country_and_expands_adjacent_roles():
+def test_focused_mode_keeps_exact_eight_role_queries():
     cfg = discovery_lanes.expand_config(copy.deepcopy(_base_config()), [])
-    assert cfg["locations"]["indeed"][0]["country"] == "UK"
-    remote_countries = {
-        x["country"] for x in cfg["locations"]["indeed"]
-        if x.get("location") == "Remote"
-    }
-    assert {"UK", "Netherlands", "Germany", "Hungary", "Portugal", "Spain"} <= remote_countries
-    assert "customer success" not in cfg["keywords"]["exclude"]
-    assert "customer success manager" in cfg["keywords"]["include"]
-    assert "project manager remote" in cfg["search_terms"]["linkedin"]
-    assert cfg["target_geography"]["exclude_us"] is False
+    expected = [f"{role} remote" for role in ROLES]
+    assert cfg["target_geography"]["exclude_us"] is True
+    assert cfg["target_geography"]["require_remote"] is True
+    assert cfg["keywords"]["include"] == ROLES
+    for source in ("linkedin", "indeed", "glassdoor", "google_jobs", "ziprecruiter"):
+        assert [term.casefold() for term in cfg["search_terms"][source]] == expected
+    assert "project manager remote" not in cfg["search_terms"]["linkedin"]
+    assert "creative producer remote" not in cfg["search_terms"]["linkedin"]
 
 
-def test_delivery_gate_is_remote_first_not_europe_city_first():
+def test_delivery_gate_requires_remote_and_allowed_uk_europe_signal():
     assert final_filter.eligible_location({
-        "location": "Worldwide",
-        "description": "Fully remote team working globally",
-    })
-    assert final_filter.eligible_location({
-        "location": "Dubai",
+        "location": "Remote - London, United Kingdom",
+        "description": "AI producer role",
         "is_remote": True,
-        "description": "Work from anywhere",
+    })
+    assert final_filter.eligible_location({
+        "location": "Remote - Europe",
+        "description": "UGC role",
+        "is_remote": True,
     })
     assert not final_filter.eligible_location({
-        "location": "Berlin",
-        "description": "On-site only. Remote work is not available.",
+        "location": "Remote - United States",
+        "description": "AI producer role",
+        "is_remote": True,
     })
     assert not final_filter.eligible_location({
-        "location": "Remote - United States only",
-        "description": "US candidates only",
+        "location": "Remote",
+        "description": "Worldwide AI producer role",
+        "is_remote": True,
+    })
+    assert not final_filter.eligible_location({
+        "location": "London, United Kingdom",
+        "description": "On-site only",
+        "is_remote": False,
     })
 
 
-def test_careerops_bridge_keeps_global_remote_and_drops_onsite():
-    assert careerops_bridge.remote_candidate({
-        "title": "Creative Strategist - Remote",
-        "location": "Worldwide",
+def test_domain_gate_examples():
+    from telegram_notify import domain_blocked
+
+    assert domain_blocked({
+        "title": "Pharma Project Manager",
+        "description": "Requires pharma supply chain experience.",
     })
-    assert careerops_bridge.remote_candidate({
-        "title": "Program Manager - Remote",
-        "location": "EMEA",
-    })
-    assert not careerops_bridge.remote_candidate({
-        "title": "Creative Strategist",
-        "location": "London (on-site only)",
+    assert not domain_blocked({
+        "title": "AI Producer",
+        "description": "Remote AI concept production and creative ideation.",
     })
