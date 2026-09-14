@@ -20,6 +20,11 @@ US_LOCATION = re.compile(
     r"\b(?:us|usa|u\.s\.|united states|united states of america)\b",
     re.I,
 )
+TARGET_GEO = re.compile(
+    r"\b(?:london|united kingdom|uk|amsterdam|netherlands|germany|deutschland|hungary|portugal|spain|europe|european|emea)\b",
+    re.I,
+)
+
 LOCAL_LANGUAGE_REQUIRED = re.compile(
     r"\b(?:native|fluent|professional|working|full|business|c1|c2)\s+"
     r"(?:german|deutsch|dutch|nederlands|hungarian|magyar|portuguese|português|spanish|español|french|français)\b|"
@@ -80,6 +85,9 @@ def _looks_german(text):
 def eligible_location(job):
     location_text = " ".join(str(job.get(key, "")) for key in ("location", "workplace_type", "work_arrangement"))
     text = " ".join([location_text, str(job.get("remote", "")), str(job.get("description", ""))])
+    # UK/Europe only: generic worldwide/remote listings remain ambiguous.
+    if not TARGET_GEO.search(text):
+        return False
     if NOT_REMOTE.search(text) or US_ONLY.search(text) or US_LOCATION.search(location_text):
         return False
     # For delivery, require explicit remote/distributed evidence somewhere in the listing.
