@@ -1,15 +1,22 @@
-"""Free, key-less job boards: Remote OK + Remotive public JSON APIs.
+"""Free, key-less job boards: Remote OK, Remotive, We Work Remotely.
 
-Both are genuinely free (no signup, no API key) and remote-native, so there is
-no IP-block risk the way there is with Glassdoor/Google Jobs scraping. Output
-is normalized into the same job schema the rest of JobFinder uses
-(title/company/location/url/direct_url/date_posted/salary/ats/description/
-is_remote) so it flows through the existing final_filter.py + telegram_notify.py
-pipeline unchanged.
+All three are genuinely free (no signup, no API key) and remote-native, so
+there is no IP-block risk the way there is with Glassdoor/Google Jobs
+scraping. Output is normalized into the same job schema the rest of
+JobFinder uses (title/company/location/url/direct_url/date_posted/salary/
+ats/description/is_remote) so it flows through the existing
+final_filter.py + telegram_notify.py pipeline unchanged.
+
+Himalayas was evaluated and dropped: its `search`/`category`/`q` query
+params don't actually filter (verified 2026-09-14 — every value returns an
+effectively random slice of a ~105k-entry archive of mostly-expired
+postings), so there is no reliable way to target current, relevant roles
+from it today. Not integrated; revisit if their API changes.
 
 Respect each API's own terms: Remotive asks for at most ~4 requests/day and
-attribution; Remote OK asks for attribution. This script is called by
-.github/workflows/remote_boards_watch.yml on a schedule sized accordingly.
+attribution; Remote OK asks for attribution; WWR is a public RSS feed. This
+script is called by .github/workflows/remote_boards_watch.yml on a schedule
+sized accordingly.
 """
 import argparse
 import json
@@ -17,6 +24,7 @@ import os
 import re
 import urllib.error
 import urllib.request
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
 from discovery_lanes import ADJACENT_TERMS
@@ -28,6 +36,7 @@ ROLE_TERMS = re.compile(
 )
 REMOTE_OK_API = "https://remoteok.com/api"
 REMOTIVE_API = "https://remotive.com/api/remote-jobs"
+WWR_RSS = "https://weworkremotely.com/remote-jobs.rss"
 USER_AGENT = "JobFinderBot/1.0 (+https://github.com/genesishumanity/Jobfinder-GitHub-Edition)"
 
 
@@ -37,6 +46,16 @@ def _fetch_json(url, timeout=20):
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             return json.loads(resp.read().decode("utf-8", errors="replace"))
     except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, json.JSONDecodeError) as exc:
+        print(f"  WARNING: fetch failed for {url}: {type(exc).__name__}: {exc}")
+        return None
+
+
+def _fetch_text(url, timeout=20):
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            return resp.read().decode("utf-8", errors="replace")
+    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError) as exc:
         print(f"  WARNING: fetch failed for {url}: {type(exc).__name__}: {exc}")
         return None
 
@@ -122,6 +141,43 @@ def fetch_remotive():
     return jobs
 
 
+def fetch_wwr():
+    xml_text = _fetch_text(WWR_RSS)
+    if not xml_text:
+        return []
+    try:
+        root = ET.fromstring(xml_text)
+    except ET.ParseError as exc:
+        print(f"  WARNING: WWR RSS parse failed: {exc}")
+        return []
+    jobs = []
+    for item in root.findall(".//item"):
+        raw_title = str(item.findtext("title", "") or "")
+        # WWR titles are "Company: Position".
+        company, _, title = raw_title.partition(": ")
+        if not title:
+            title, company = raw_title, ""
+        region = str(item.findtext("region", "") or "")
+        country = str(item.findtext("country", "") or "")
+        location = ", ".join(part for part in (country, region) if part) or "Worldwide"
+        link = str(item.findtext("link", "") or "").strip()
+        if not link or not role_matches(title) or not geo_ok(location):
+            continue
+        jobs.append({
+            "company": company.strip(),
+            "title": title.strip(),
+            "location": location,
+            "url": link,
+            "direct_url": link,
+            "date_posted": str(item.findtext("pubDate", "") or "")[:16],
+            "salary": "",
+            "ats": "WeWorkRemotely",
+            "description": str(item.findtext("description", "") or "")[:4000],
+            "is_remote": True,
+        })
+    return jobs
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("dest_json")
@@ -129,8 +185,9 @@ def main():
 
     remoteok_jobs = fetch_remoteok()
     remotive_jobs = fetch_remotive()
+    wwr_jobs = fetch_wwr()
     jobs_by_url = {}
-    for job in remoteok_jobs + remotive_jobs:
+    for job in remoteok_jobs + remotive_jobs + wwr_jobs:
         if job["url"]:
             jobs_by_url[job["url"]] = job
     jobs = list(jobs_by_url.values())
@@ -151,6 +208,7 @@ def main():
         "source_health": {
             "remoteok_raw": len(remoteok_jobs),
             "remotive_raw": len(remotive_jobs),
+            "wwr_raw": len(wwr_jobs),
         },
         "jobs": jobs,
         "new_jobs": new_jobs,
@@ -168,6 +226,7 @@ def main():
     print(json.dumps({
         "remoteok_raw": len(remoteok_jobs),
         "remotive_raw": len(remotive_jobs),
+        "wwr_raw": len(wwr_jobs),
         "matched": len(jobs),
         "new": len(new_jobs),
     }, ensure_ascii=False))
