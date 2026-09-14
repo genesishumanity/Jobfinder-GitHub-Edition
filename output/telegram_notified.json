@@ -9,6 +9,7 @@
     "14dd235daa055ed821bb4fea77d6d39a26f52c044a1827956afba6072fe313fa",
     "1994de65e83f2d2641f2a9a4f3f2874b4d5e79f57df28358b6543c8925c84735",
     "2aff894afff7bfddfea60abec6665c7c050ca40fca63a12511a440fcbb2b54f6",
+    "2d57ad3714d79bda4d521137bde14b36e363ec39d9d4517ac9cac5673964534c",
     "3b3e485768cfc2513b8f0b537aa4acb8bf3e2bc9b1f04b67bcc368c7162435a1",
     "3bb4feafff7e0643e6df23b5cc34f752073d3027efa32833b60109ec80f72414",
     "3cc8843f43d2677812e48b10916668799c9e2939c6207754383d091f9f6595b6",
@@ -206,22 +207,26 @@
     "hirelatam|remote short-form video editor & creative lead|anywhere": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-14T17:46:59.153700+00:00"
+    },
+    "24-mag|remote | brand & creative strategy specialist (marketing collateral) — $70–$110/hour|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-14T19:44:51.951535+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
     "discovered": 1,
     "duplicate": 0,
     "geography": 0,
-    "remote": 1,
+    "remote": 0,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
