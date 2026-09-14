@@ -64,11 +64,6 @@
       "clinical",
       "medical",
       "batch release",
-      "video editor",
-      "videographer",
-      "graphic designer",
-      "social media manager",
-      "media buyer",
       "environmental",
       "scientist",
       "sales",
@@ -237,8 +232,8 @@
   },
   "notify": {
     "daily_cap": 10,
-    "min_fit": 45,
-    "telegram_min_fit": 45,
+    "min_fit": 40,
+    "telegram_min_fit": 40,
     "weekly_digest": {
       "days": 7,
       "enabled": false
