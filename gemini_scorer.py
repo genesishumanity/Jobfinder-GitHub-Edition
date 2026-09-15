@@ -59,6 +59,7 @@ def score_job(job):
         return None
     profile = _read_first("CANDIDATE_PROFILE", "candidate_profile.md")
     if not profile.strip():
+        print("  WARNING: GEMINI_API_KEY is set but CANDIDATE_PROFILE is not — falling back to keyword fit")
         return None
 
     prompt = PROMPT_TEMPLATE.format(
@@ -87,8 +88,10 @@ def score_job(job):
             text = text.strip("`")
             text = text[4:] if text.lower().startswith("json") else text
         parsed = json.loads(text)
-        score = float(parsed["score"])
-        return max(0.0, min(100.0, score))
+        score = max(0.0, min(100.0, float(parsed["score"])))
+        reason = str(parsed.get("reason", ""))[:200]
+        print(f"  Gemini score: {score:.0f} — {reason}")
+        return score
     except (
         urllib.error.URLError,
         urllib.error.HTTPError,
