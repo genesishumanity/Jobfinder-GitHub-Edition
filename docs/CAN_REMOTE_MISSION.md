@@ -166,3 +166,31 @@ Cross-run URL dedup means this is safe (no duplicate delivery), just more
 re-scanning of the same window each hourly run — a soft cost (heavier
 LinkedIn guest-endpoint load) accepted in exchange for not missing anything
 posted between runs or during any downtime.
+
+## Weekly digest rebuilt for Telegram; nightly triage removed — 2026-09-15
+
+`weekly_digest.yml` sent to Pushover, a channel Can never configured (no
+PUSHOVER_TOKEN/PUSHOVER_USER secrets) — flipping `notify.weekly_digest.enabled`
+in config.json alone would have done nothing. Replaced with `weekly_digest.py`:
+reads `output/telegram_notified.json` (what was actually delivered, not the
+old Claude-scored `output/scores.json`, which stopped being produced once
+`triage.yml` was removed), sends via Telegram. Reports delivered count,
+breakdown by source, and flags any actively-scheduled source (LinkedIn,
+Indeed, Glassdoor, Google Jobs, CareerOps, Remote OK, WWR — Remotive
+excluded, already documented as degraded) with zero deliveries that week —
+catches the "green workflow, zero data" failure mode (see SOURCE_HEALTH.md)
+without needing to watch logs manually.
+
+`.github/workflows/triage.yml` removed — its own scoring step correctly
+skipped without ANTHROPIC_API_KEY, but the unconditional
+`git add -f output/scores.json` in the next step failed (exit 128) on the
+missing file every night. Real fix is architectural, not a patch: Gemini
+scoring (2026-09-14/15) now covers this live, in the actual delivery path,
+so the dead nightly workflow was removed rather than debugged.
+
+Investigated the two dedup key formats in `telegram_notified.json` (long
+hashes in `ids`, readable `company|title|location` in `records`) — not a
+bug, a deliberate two-tier system: `identity()` (URL-hash) catches exact
+re-scrapes, `role_key()` + a material fingerprint (salary/work_arrangement/
+is_remote) detects when the same role changed and should be resent as an
+update rather than skipped or silently duplicated.
