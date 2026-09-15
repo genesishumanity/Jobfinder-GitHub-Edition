@@ -1,7 +1,11 @@
-name: Weekly Job Digest
+name: JobFinder Weekly Digest
 
-# Monday morning, sent to Telegram (2026-09-15: switched from Pushover, a
-# channel Can never configured — Telegram is the channel he actually watches).
+# Monday morning, sent to Telegram. (2026-09-15: this replaces the old
+# weekly_digest.yml — that workflow got permanently stuck at "queued" on
+# GitHub's side, never creating a job, on both API and UI-triggered
+# dispatches, while every other workflow in this repo dispatched normally
+# in the same window. Root cause unconfirmed; recreating under a new
+# filename to get a fresh workflow registration was the practical fix.)
 on:
   schedule:
     - cron: "30 16 * * 1"
