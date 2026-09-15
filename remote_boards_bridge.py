@@ -75,7 +75,12 @@ def geo_ok(location_text):
 
 def fetch_remoteok():
     raw = _fetch_json(REMOTE_OK_API)
-    if not isinstance(raw, list):
+    if not isinstance(raw, list) or len(raw) < 2:
+        # <2 because RemoteOK's first array element is always a legal notice,
+        # not a job — an empty/near-empty response here despite no HTTP/JSON
+        # error is the same "green but silently empty" failure mode as
+        # Glassdoor/Google Jobs, just without an exception to catch.
+        print(f"  WARNING: RemoteOK returned {len(raw) if isinstance(raw, list) else 'non-list'} rows — likely IP-blocked from this runner, not a real empty feed.")
         return []
     jobs = []
     for row in raw:
@@ -114,7 +119,8 @@ def fetch_remotive():
     # filtering, same as RemoteOK, rather than one request per role term —
     # also keeps us well under Remotive's own "max ~4 requests/day" guidance.
     raw = _fetch_json(REMOTIVE_API)
-    if not isinstance(raw, dict):
+    if not isinstance(raw, dict) or not raw.get("jobs"):
+        print(f"  WARNING: Remotive returned no jobs — likely IP-blocked from this runner, not a real empty feed.")
         return []
     jobs = []
     for row in raw.get("jobs", []):
@@ -141,7 +147,8 @@ def fetch_remotive():
 
 def fetch_wwr():
     xml_text = _fetch_text(WWR_RSS)
-    if not xml_text:
+    if not xml_text or len(xml_text) < 1000:
+        print(f"  WARNING: WWR RSS came back {'empty' if not xml_text else f'only {len(xml_text)} bytes'} — likely IP-blocked from this runner, not a real empty feed.")
         return []
     try:
         root = ET.fromstring(xml_text)
