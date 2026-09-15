@@ -29,6 +29,29 @@ def role_key(job):
     return "|".join(re.sub(r"\s+", " ", str(job.get(k, "")).strip().casefold()) for k in ("company", "title", "location"))
 
 
+# The 8 approved role families (see discovery_lanes.ADJACENT_TERMS / docs/
+# CAN_REMOTE_MISSION.md). Order matters — checked top to bottom, first match
+# wins, so more specific terms (e.g. "associate creative director") are
+# listed before the shorter terms they contain ("creative director").
+ROLE_CATEGORIES = [
+    ("AI Producer", re.compile(r"ai\s*produc(?:er|ing)", re.I)),
+    ("AI Lead", re.compile(r"\bai\s*lead\b", re.I)),
+    ("Associate Creative Director", re.compile(r"associate\s*creative\s*director", re.I)),
+    ("Creative Director", re.compile(r"\bcreative\s*director\b", re.I)),
+    ("Creative Strategy", re.compile(r"\bcreative\s*strateg", re.I)),
+    ("Creative Lead", re.compile(r"\bcreative\s*lead\b", re.I)),
+    ("UGC", re.compile(r"\bugc\b", re.I)),
+]
+
+
+def categorize_title(title):
+    text = str(title or "")
+    for label, pattern in ROLE_CATEGORIES:
+        if pattern.search(text):
+            return label
+    return "Diğer"
+
+
 # Friendly Turkish labels for the raw `ats` source codes stored on each job.
 SOURCE_LABELS = {
     "LinkedIn": "LinkedIn",
@@ -40,16 +63,6 @@ SOURCE_LABELS = {
     "WeWorkRemotely": "We Work Remotely",
     "unknown": "Diğer",
 }
-
-
-TR_MONTHS = {
-    1: "Oca", 2: "Şub", 3: "Mar", 4: "Nis", 5: "May", 6: "Haz",
-    7: "Tem", 8: "Ağu", 9: "Eyl", 10: "Eki", 11: "Kas", 12: "Ara",
-}
-
-
-def _tr_date(dt):
-    return f"{dt.day} {TR_MONTHS[dt.month]}"
 
 
 def _source_label(raw_source):
@@ -77,20 +90,11 @@ def build_digest(days=7):
             continue
         if sent_dt >= cutoff:
             matched = job_by_key.get(key)
-            if matched:
-                company, title = matched.get("company", "?"), matched.get("title", "?")
-            else:
-                parts = key.split("|")
-                company = parts[0] if len(parts) > 0 else "?"
-                title = parts[1] if len(parts) > 1 else "?"
+            title = matched.get("title") if matched else key.split("|")[1] if "|" in key else key
             delivered.append({
-                "company": company,
-                "title": title,
+                "title": title or "?",
                 "source": matched.get("ats", "unknown") if matched else "unknown",
-                "sent_at": sent_dt,
             })
-
-    delivered.sort(key=lambda d: d["sent_at"], reverse=True)
 
     if not delivered:
         return f"📊 Haftalık JobFinder özeti (son {days} gün)\n\nBu hafta hiç ilan gönderilmedi."
@@ -120,12 +124,16 @@ def build_digest(days=7):
     if silent_sources:
         lines.append("")
         lines.append(f"⚠️ Bu hafta hiç ilan getirmeyen kaynaklar: {', '.join(silent_sources)} — bir bakmakta fayda var.")
+
+    by_role = {}
+    for d in delivered:
+        label = categorize_title(d["title"])
+        by_role[label] = by_role.get(label, 0) + 1
+    role_lines = [f"  • {label}: {count}" for label, count in sorted(by_role.items(), key=lambda x: -x[1])]
+
     lines.append("")
-    lines.append("Son gönderilen ilanlar:")
-    for d in delivered[:15]:
-        lines.append(f"  • {d['title']} — {d['company']} ({_tr_date(d['sent_at'])})")
-    if len(delivered) > 15:
-        lines.append(f"  ...ve {len(delivered) - 15} tane daha.")
+    lines.append("En çok gelen roller:")
+    lines.extend(role_lines)
 
     return "\n".join(lines)
 

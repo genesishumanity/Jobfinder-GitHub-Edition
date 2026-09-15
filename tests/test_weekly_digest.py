@@ -15,7 +15,7 @@ def test_build_digest_empty_window(tmp_path, monkeypatch):
     assert "hiç ilan gönderilmedi" in result
 
 
-def test_build_digest_counts_and_groups_by_source(tmp_path, monkeypatch):
+def test_build_digest_counts_sources_and_role_categories(tmp_path, monkeypatch):
     notified_path = tmp_path / "telegram_notified.json"
     all_jobs_path = tmp_path / "all_jobs.json"
 
@@ -26,14 +26,16 @@ def test_build_digest_counts_and_groups_by_source(tmp_path, monkeypatch):
     notified_path.write_text(json.dumps({
         "records": {
             "acme|creative director|london": {"last_sent": recent},
-            "beta|ai producer|remote": {"last_sent": recent},
+            "beta|ugc creator|remote": {"last_sent": recent},
+            "gamma|ugc specialist|remote": {"last_sent": recent},
             "stale|old role|nyc": {"last_sent": old},
         }
     }))
     all_jobs_path.write_text(json.dumps({
         "jobs": [
             {"company": "acme", "title": "Creative Director", "location": "London", "ats": "LinkedIn"},
-            {"company": "beta", "title": "AI Producer", "location": "Remote", "ats": "GoogleJobs"},
+            {"company": "beta", "title": "UGC Creator", "location": "Remote", "ats": "GoogleJobs"},
+            {"company": "gamma", "title": "UGC Specialist", "location": "Remote", "ats": "GoogleJobs"},
         ]
     }))
 
@@ -41,14 +43,17 @@ def test_build_digest_counts_and_groups_by_source(tmp_path, monkeypatch):
     monkeypatch.setattr(weekly_digest, "ALL_JOBS_PATH", str(all_jobs_path))
 
     result = weekly_digest.build_digest(days=7)
-    assert "Toplam 2 ilan gönderildi" in result
+    assert "Toplam 3 ilan gönderildi" in result
     assert "LinkedIn: 1" in result
-    assert "Google Jobs: 1" in result
-    assert "Creative Director" in result
+    assert "Google Jobs: 2" in result
     assert "old role" not in result  # outside the 7-day window
     # Sources with zero deliveries this window get flagged, e.g. Indeed here.
     assert "Indeed" in result
     assert "⚠️" in result
+    # Role-category rollup, not a per-job listing.
+    assert "En çok gelen roller" in result
+    assert "UGC: 2" in result
+    assert "Creative Director: 1" in result
 
 
 def test_source_label_mapping():
@@ -57,3 +62,12 @@ def test_source_label_mapping():
     assert weekly_digest._source_label("CareerOps/lever") == "CareerOps (Lever)"
     assert weekly_digest._source_label("unknown") == "Diğer"
     assert weekly_digest._source_label(None) == "Diğer"
+
+
+def test_categorize_title():
+    assert weekly_digest.categorize_title("Senior UGC Creator") == "UGC"
+    assert weekly_digest.categorize_title("Associate Creative Director, Brand") == "Associate Creative Director"
+    assert weekly_digest.categorize_title("Creative Director") == "Creative Director"
+    assert weekly_digest.categorize_title("Creative Strategy Lead") == "Creative Strategy"
+    assert weekly_digest.categorize_title("AI Producer, Video") == "AI Producer"
+    assert weekly_digest.categorize_title("Head of Finance") == "Diğer"
