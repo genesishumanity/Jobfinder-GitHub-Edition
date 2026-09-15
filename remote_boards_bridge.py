@@ -82,6 +82,7 @@ def fetch_remoteok():
         # Glassdoor/Google Jobs, just without an exception to catch.
         print(f"  WARNING: RemoteOK returned {len(raw) if isinstance(raw, list) else 'non-list'} rows — likely IP-blocked from this runner, not a real empty feed.")
         return []
+    print(f"  RemoteOK: {len(raw)} raw rows fetched")
     jobs = []
     for row in raw:
         if not isinstance(row, dict) or not row.get("id") or not row.get("position"):
@@ -122,6 +123,7 @@ def fetch_remotive():
     if not isinstance(raw, dict) or not raw.get("jobs"):
         print(f"  WARNING: Remotive returned no jobs — likely IP-blocked from this runner, not a real empty feed.")
         return []
+    print(f"  Remotive: {len(raw.get('jobs', []))} raw rows fetched")
     jobs = []
     for row in raw.get("jobs", []):
         if not isinstance(row, dict):
@@ -155,8 +157,10 @@ def fetch_wwr():
     except ET.ParseError as exc:
         print(f"  WARNING: WWR RSS parse failed: {exc}")
         return []
+    items = root.findall(".//item")
+    print(f"  WWR: {len(items)} raw rows fetched")
     jobs = []
-    for item in root.findall(".//item"):
+    for item in items:
         raw_title = str(item.findtext("title", "") or "")
         # WWR titles are "Company: Position".
         company, _, title = raw_title.partition(": ")
@@ -211,9 +215,9 @@ def main():
         "total": len(jobs),
         "new_count": len(new_jobs),
         "source_health": {
-            "remoteok_raw": len(remoteok_jobs),
-            "remotive_raw": len(remotive_jobs),
-            "wwr_raw": len(wwr_jobs),
+            "remoteok_matched": len(remoteok_jobs),
+            "remotive_matched": len(remotive_jobs),
+            "wwr_matched": len(wwr_jobs),
         },
         "jobs": jobs,
         "new_jobs": new_jobs,
@@ -229,9 +233,9 @@ def main():
         print(f"WARNING: all_jobs merge failed: {type(exc).__name__}: {exc}")
 
     print(json.dumps({
-        "remoteok_raw": len(remoteok_jobs),
-        "remotive_raw": len(remotive_jobs),
-        "wwr_raw": len(wwr_jobs),
+        "remoteok_matched": len(remoteok_jobs),
+        "remotive_matched": len(remotive_jobs),
+        "wwr_matched": len(wwr_jobs),
         "matched": len(jobs),
         "new": len(new_jobs),
     }, ensure_ascii=False))
