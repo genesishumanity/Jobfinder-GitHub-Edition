@@ -13,13 +13,16 @@
     "2aff894afff7bfddfea60abec6665c7c050ca40fca63a12511a440fcbb2b54f6",
     "2cf01f269f2b9a39e4423d1d2bcb5fb56550ce7a7c1eb47715021287154cc0b4",
     "2d57ad3714d79bda4d521137bde14b36e363ec39d9d4517ac9cac5673964534c",
+    "349b8f27bb127606649a11f50c02a231573c5641ac311ed2d90146a32b7ba277",
     "3775e9148ec77c1d3cfcefd8d8fa3e24ec97620c454361446d1a0798ebc7f11b",
+    "3881257f8e250d69bbadcdb613ddc096010b938c67ccbe18019ad89585b6f53f",
     "3b3e485768cfc2513b8f0b537aa4acb8bf3e2bc9b1f04b67bcc368c7162435a1",
     "3bb4feafff7e0643e6df23b5cc34f752073d3027efa32833b60109ec80f72414",
     "3cc8843f43d2677812e48b10916668799c9e2939c6207754383d091f9f6595b6",
     "3d31ac8b74579ef04d3f147df86e28d7ee87f566db8cd50c8a713a78009bee24",
     "3e8564f8cdebf08fbfdd9f67d266eb8a61a3ab8d6db2c8f9685199bd3eda9854",
     "41231e842fba1bc80c0167cdfc8ca2f214e1b5b3be7e21b418835c691e2c2cdf",
+    "41c43b6944b1bce60491cd6fc30c8a635469eec7cd52cea019222686c817fa8a",
     "4285cdb15e3f766e6adb7942b04ad15186bf3f3e23e0414068c45016869a73fa",
     "49f144467cea9b720b9e33aff8877baee603e2253bc717d5a5d041ea34af7a68",
     "4a64a02340c74b7b2359933ef57895bd7da62282f623f746d29c5be4b0cf4898",
@@ -28,6 +31,7 @@
     "4f63f409ee0c10784743be9e3209d9607918a78dd1bd753b96deba45c4adf40d",
     "55bddbf8147b66e719dd1ece4190dacd5487246ec8d8aff8acd94ea3d867038a",
     "5d0e9dfa238cce6a793b284287d1177b9f32d9701f6afd99cbbbcc5a7877ce0c",
+    "60f5e60227e71aeb7199ca2440f9c8ef6515d42288acec7b0fab04c5c114811e",
     "651954f8898dbbaea0f0cba139310a2ed813ce73f8d7a8029474c663bfc6be19",
     "6a38875c7e7a3e060ad06f338ff17a5f561b7f3b9fb4e74b6062a404d7683adf",
     "6bcd95a735f89ed6cdeaf4f22cc19b5f1cbd2e831a388defa2f15f0ac356d8a4",
@@ -48,10 +52,12 @@
     "b72f47ec0d491bdfdd240f5a0b6ae5dc37a14558c26d4c81a36983655b088ef3",
     "b8a99dcf237a152937d8a8bd31b3923eb9ad651c7736bab50956495aafd32b8e",
     "baaf4df617bce8357f1e1861f38bbc19170862dd9b4e138d6693613e64891305",
+    "c066913e34842df7d6e7eb5ea6aa27a119180e2ef1347d3964e1c281bec1fe4d",
     "c661269d60761df95983362b19c043cb9cff2bc9e10a6603864d4d410062e278",
     "ca36282e826ef907d26eb02ada5220754fa044d6753fb0e6d56b653bce43d827",
     "caeba3a133c12812fb1be3811bad986b2abc77413b4f68950b961b4653fc454f",
     "d3ffea68f3a98accf23a5b5c8d6d6181a15648f519d6264e4d8d2e5180cde15a",
+    "d50a6ac2db90210fcb7f4c5bcc45072b10d1154b7f48516662bbe7e33530394c",
     "d5b326e3fb2d953aca09c0e0ec892e80ae48281df5040cf38c2b0ff22df56dca",
     "d6844104a10e2954ef5eebda2404b1e9ce0fe6a8965f451fb6bb26355696713e",
     "d6eb1d576e146eb4e4fe70b5622a1a1aa0499b5357e912cf59e2dbd7ffdf864c",
@@ -311,22 +317,42 @@
     "orbio world|creative strategist (spain-remote)|barcelona, catalonia, spain": {
       "material": "||",
       "last_sent": "2026-09-15T15:37:27.188023+00:00"
+    },
+    "agp|associate creative director - design|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-15T16:48:00.324767+00:00"
+    },
+    "clickhouse, inc.|creative lead, marketing|anywhere": {
+      "material": "135K–176K a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-15T16:48:02.813417+00:00"
+    },
+    "huge|associate creative director, art|anywhere": {
+      "material": "102K–135K a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-15T16:48:05.754421+00:00"
+    },
+    "mvr digital|associate creative director, brand|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-15T16:48:11.023962+00:00"
+    },
+    "servicenow|associate creative director, motion design|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-15T16:48:13.590951+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
-    "discovered": 1,
-    "duplicate": 0,
+    "discovered": 13,
+    "duplicate": 1,
     "geography": 0,
-    "remote": 0,
+    "remote": 4,
     "restricted": 0,
     "language": 0,
-    "domain": 0,
+    "domain": 1,
     "dead_link": 0,
     "low_fit": 1,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 6,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
