@@ -38,6 +38,7 @@
     "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466009878",
     "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466013766",
     "b269c53722daf61b84525d9df6f718d926d5cecff10d6608d30c58fc303ca215",
+    "b6d49783ced0fc5604182c28ad7ba0b7f71859fa1c0c1931a0eca98e5dda9b69",
     "b72f47ec0d491bdfdd240f5a0b6ae5dc37a14558c26d4c81a36983655b088ef3",
     "baaf4df617bce8357f1e1861f38bbc19170862dd9b4e138d6693613e64891305",
     "c661269d60761df95983362b19c043cb9cff2bc9e10a6603864d4d410062e278",
@@ -261,22 +262,26 @@
     "upwork|meta ads ai creative director/creative execution|anywhere": {
       "material": "20–70 an hour|Remote in-state eligible|True",
       "last_sent": "2026-09-15T00:52:01.547635+00:00"
+    },
+    "thatgamecompany|regional creative lead, na, emea & latam|anywhere": {
+      "material": "41K–151K a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-15T02:49:27.787025+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
-    "duplicate": 0,
-    "geography": 0,
+    "discovered": 10,
+    "duplicate": 6,
+    "geography": 1,
     "remote": 0,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "dead_link": 0,
-    "low_fit": 0,
+    "low_fit": 2,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
