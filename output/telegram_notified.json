@@ -41,6 +41,7 @@
     "6a38875c7e7a3e060ad06f338ff17a5f561b7f3b9fb4e74b6062a404d7683adf",
     "6bcd95a735f89ed6cdeaf4f22cc19b5f1cbd2e831a388defa2f15f0ac356d8a4",
     "6fd690a4840cc6132d48c9892669420b82b25353cf4b5ac2d3be8dccad8859d3",
+    "70d3e473afd6814768db240251e99c2767964620ca1b51b334a3b68d30df4cc0",
     "75fd325cc2d34ef02abb0da51707dd5b58208c2f3e9593cf56b12646f5231bbc",
     "7c7a338df5d89ea9fb56d7ddadf720728ab839c6a6ad7c7eef017d606baa0ef6",
     "7dea06f30b37263c5e2a70381980f717b96cc79a587e6352b9df8467f0b7ec83",
@@ -382,22 +383,26 @@
     "educato ai (yc s24)|us ugc campaign manager - (canvas ugc experience highly desirable)|anywhere": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-15T17:43:28.133486+00:00"
+    },
+    "aquent|associate creative director (bilingual spanish and english)|anywhere": {
+      "material": "100.00–103.44 an hour|Remote in-state eligible|True",
+      "last_sent": "2026-09-15T18:49:35.710211+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
     "discovered": 1,
     "duplicate": 0,
     "geography": 0,
-    "remote": 1,
+    "remote": 0,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
