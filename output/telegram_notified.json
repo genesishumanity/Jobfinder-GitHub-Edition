@@ -3,6 +3,7 @@
   "ids": [
     "0150bd1672005ebbb8fd2b617d8bffedec782a936aaa78425bc324ed29c61956",
     "01716dfdca9eafc68fe977268558fac4cf66a86da65cee7a260e66433373ef1d",
+    "070466bd1dede6390056b5edfd9aff3449ef0e46f014e78aca50cc2dcf2a5eb4",
     "095f55ef3ff91415b1423177e84e956d328e3a0b9b4fc172f6d29fb760b4ebe9",
     "0ea82b4228bbbce31e79e67b8230cdccb7308b08ed2b052a7bee8acb08d8103c",
     "0f6914f842640851f2a01e20604773a4c0bde6d7b85a33754b2c7480008359fe",
@@ -10,9 +11,11 @@
     "14dd235daa055ed821bb4fea77d6d39a26f52c044a1827956afba6072fe313fa",
     "1994de65e83f2d2641f2a9a4f3f2874b4d5e79f57df28358b6543c8925c84735",
     "23ef37f8c77e23e8341e554f68da99b2a41d0c8fe43c2492763e82053665b909",
+    "25a51ff6b8959ab12f193c921ead5e1f64129687b591fbf959f64123978e0ace",
     "2aff894afff7bfddfea60abec6665c7c050ca40fca63a12511a440fcbb2b54f6",
     "2cf01f269f2b9a39e4423d1d2bcb5fb56550ce7a7c1eb47715021287154cc0b4",
     "2d57ad3714d79bda4d521137bde14b36e363ec39d9d4517ac9cac5673964534c",
+    "304138998c9646f333dd2338acf04266330497e718703df52dcb3de6168663e4",
     "349b8f27bb127606649a11f50c02a231573c5641ac311ed2d90146a32b7ba277",
     "3775e9148ec77c1d3cfcefd8d8fa3e24ec97620c454361446d1a0798ebc7f11b",
     "3881257f8e250d69bbadcdb613ddc096010b938c67ccbe18019ad89585b6f53f",
@@ -23,19 +26,23 @@
     "3e8564f8cdebf08fbfdd9f67d266eb8a61a3ab8d6db2c8f9685199bd3eda9854",
     "41231e842fba1bc80c0167cdfc8ca2f214e1b5b3be7e21b418835c691e2c2cdf",
     "41c43b6944b1bce60491cd6fc30c8a635469eec7cd52cea019222686c817fa8a",
+    "42374aa8085ce259f1013144d9e9432443eb611b65bbaf039a6c54f582722a64",
     "4285cdb15e3f766e6adb7942b04ad15186bf3f3e23e0414068c45016869a73fa",
     "49f144467cea9b720b9e33aff8877baee603e2253bc717d5a5d041ea34af7a68",
     "4a64a02340c74b7b2359933ef57895bd7da62282f623f746d29c5be4b0cf4898",
     "4d9c8119c010f62bdb94ae42d51fecd2ea28ffba98f92769b1f3fd549c9f2cb3",
     "4eaeb89b1857809998401434ea15e7f167b822cc38a8611521f95c9cd3edfa7a",
     "4f63f409ee0c10784743be9e3209d9607918a78dd1bd753b96deba45c4adf40d",
+    "505e1b0c51042b1db5b6271218022e182170c8e54ab00912d3843ba0f1850ee7",
     "55bddbf8147b66e719dd1ece4190dacd5487246ec8d8aff8acd94ea3d867038a",
     "5d0e9dfa238cce6a793b284287d1177b9f32d9701f6afd99cbbbcc5a7877ce0c",
     "60f5e60227e71aeb7199ca2440f9c8ef6515d42288acec7b0fab04c5c114811e",
     "651954f8898dbbaea0f0cba139310a2ed813ce73f8d7a8029474c663bfc6be19",
     "6a38875c7e7a3e060ad06f338ff17a5f561b7f3b9fb4e74b6062a404d7683adf",
     "6bcd95a735f89ed6cdeaf4f22cc19b5f1cbd2e831a388defa2f15f0ac356d8a4",
+    "6fd690a4840cc6132d48c9892669420b82b25353cf4b5ac2d3be8dccad8859d3",
     "75fd325cc2d34ef02abb0da51707dd5b58208c2f3e9593cf56b12646f5231bbc",
+    "7c7a338df5d89ea9fb56d7ddadf720728ab839c6a6ad7c7eef017d606baa0ef6",
     "7dea06f30b37263c5e2a70381980f717b96cc79a587e6352b9df8467f0b7ec83",
     "80a8da42555c0a4cae0354118e90bafb718a9dc91d8810d51574abeebb41813b",
     "83724640e329aa55552f71e16f9719573f884fc4053b1b98614843745e81669b",
@@ -63,12 +70,14 @@
     "d6eb1d576e146eb4e4fe70b5622a1a1aa0499b5357e912cf59e2dbd7ffdf864c",
     "dentsu|seniorartdirectorsocialtemporaryworker||httpswwwlinkedincomjobsview4456067070",
     "driftai|creativedirectorbrand||httpswwwlinkedincomjobsview4466314316",
+    "e42b9f8a354eea2c22562e1cabc3f7f8e723fea1dd6690223d640d0e6d8c4791",
     "e4d6157d2cfe77ebbf93ac4f851c60d78d34ea6798a733172ac055cab8cbc78d",
     "e575560d31c25c00eeba5e3c6137a112c4a9b9ec7c87c74ce3995821ba72f1af",
     "e62b8afc7094789c75d7cc4cdd737ea3e9d310f0c82fc6d6ed877bf9052365a8",
     "eed5b4caf5e1c2d2b866297dc02f6c272c8d166598d31fdb566dba72857e7541",
     "f0bf53ef873aa9717396694565988d2e27ea9dfb92065e7fa80848c76f6d2c34",
     "f16e0520c34d1a32e217774ba820a5834c575ae6ab2187e6f7de408c422c23da",
+    "f3305292ef57a6cf23810d9cae34e0501c2e7fc18546e6e057423913e0d97f23",
     "f33c813b6b8f7ce5512a040bda5f8b274528493203ee4277585097e478b37e24",
     "fd9608a8a1c8a13cd996d37fbe37556d4de6c092f2272764fcb3a7ce46cbeebd",
     "fileneresearchinstitute|audiencecontentstrategydirectorfilenewitxorco||httpswwwlinkedincomjobsview4463919758",
@@ -337,22 +346,58 @@
     "servicenow|associate creative director, motion design|anywhere": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-15T16:48:13.590951+00:00"
+    },
+    "yurts|creative director (remote us)|anywhere": {
+      "material": "180K–210K a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-15T17:43:04.708839+00:00"
+    },
+    "jobs for lebanon|remote ugc content creator (on-camera) job at jobs for lebanon in new york|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-15T17:43:07.361946+00:00"
+    },
+    "jarvis recruitment|creative director (remote, fashion, la)|anywhere": {
+      "material": "120K–140K a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-15T17:43:09.802606+00:00"
+    },
+    "stripe|creative director, event design|anywhere": {
+      "material": "214K–322K a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-15T17:43:13.828023+00:00"
+    },
+    "cookiy ai|ugc creator — tiktok & instagram (remote, paid per post)|anywhere": {
+      "material": "54K–72K a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-15T17:43:16.654812+00:00"
+    },
+    "house of hearts administration|ugc creator remote|anywhere": {
+      "material": "35 an hour|Remote in-state eligible|True",
+      "last_sent": "2026-09-15T17:43:20.077377+00:00"
+    },
+    "upwork|paid test for 2 ugc creators over 50 (one man, one woman, us-based) - contract to hire|anywhere": {
+      "material": "15–40 an hour|Remote in-state eligible|True",
+      "last_sent": "2026-09-15T17:43:22.787069+00:00"
+    },
+    "upwork|$500 monthly retainer us-based ugc creator needed (20 videos) + bonuses and promotions|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-15T17:43:25.543564+00:00"
+    },
+    "educato ai (yc s24)|us ugc campaign manager - (canvas ugc experience highly desirable)|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-15T17:43:28.133486+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
-    "duplicate": 0,
+    "discovered": 19,
+    "duplicate": 5,
     "geography": 0,
-    "remote": 0,
-    "restricted": 0,
+    "remote": 1,
+    "restricted": 1,
     "language": 0,
-    "domain": 0,
-    "dead_link": 0,
-    "low_fit": 0,
+    "domain": 1,
+    "dead_link": 1,
+    "low_fit": 1,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 9,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
