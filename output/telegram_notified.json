@@ -15,6 +15,7 @@
     "2aff894afff7bfddfea60abec6665c7c050ca40fca63a12511a440fcbb2b54f6",
     "2cf01f269f2b9a39e4423d1d2bcb5fb56550ce7a7c1eb47715021287154cc0b4",
     "2d57ad3714d79bda4d521137bde14b36e363ec39d9d4517ac9cac5673964534c",
+    "2e1ec38b979185437c68cca713be8c112baa841803435ba2f1d887b3052d3d5f",
     "304138998c9646f333dd2338acf04266330497e718703df52dcb3de6168663e4",
     "349b8f27bb127606649a11f50c02a231573c5641ac311ed2d90146a32b7ba277",
     "3775e9148ec77c1d3cfcefd8d8fa3e24ec97620c454361446d1a0798ebc7f11b",
@@ -387,22 +388,26 @@
     "aquent|associate creative director (bilingual spanish and english)|anywhere": {
       "material": "100.00–103.44 an hour|Remote in-state eligible|True",
       "last_sent": "2026-09-15T18:49:35.710211+00:00"
+    },
+    "hirelatam|remote performance ugc pipeline manager (part-time)|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-15T19:42:51.942441+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
-    "duplicate": 0,
+    "discovered": 21,
+    "duplicate": 13,
     "geography": 0,
     "remote": 0,
-    "restricted": 0,
-    "language": 0,
-    "domain": 0,
-    "dead_link": 0,
-    "low_fit": 0,
+    "restricted": 1,
+    "language": 1,
+    "domain": 2,
+    "dead_link": 1,
+    "low_fit": 2,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
