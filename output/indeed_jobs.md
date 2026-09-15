@@ -1,6 +1,10 @@
 # 🟦 Indeed — Can Öncül — AI Production & Creative Leadership Roles
-*Last updated: 2026-09-15 03:56 UTC*
+*Last updated: 2026-09-15 15:55 UTC*
 
-**0 new role(s)** since last run · 5 total in last 168h
+**1 new role(s)** since last run · 6 total in last 168h
 
-No new roles since the last run.
+### [Praktikum UGC Content Creation & Grafikdesign (m/w/d) – Remote](https://de.indeed.com/viewjob?jk=f99a85c4b653fc7c) — Axinity GmbH & Co. KG
+- 📍 **Location:** Home Office, DE
+- **Work mode:** Remote in-state eligible
+- **Job type:** internship
+- 🕒 **Posted:** 2026-09-15

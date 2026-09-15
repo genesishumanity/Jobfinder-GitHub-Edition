@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-15 03:56 UTC",
-  "total": 5,
-  "new_count": 0,
+  "scraped_at": "2026-09-15 15:55 UTC",
+  "total": 6,
+  "new_count": 1,
   "jobs": [
     {
       "company": "la red",
@@ -16,6 +16,24 @@
       "salary_source": "",
       "salary_currency": "",
       "job_type": "",
+      "is_remote": true,
+      "work_arrangement": "Remote in-state eligible",
+      "emails": "",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Axinity GmbH & Co. KG",
+      "title": "Praktikum UGC Content Creation & Grafikdesign (m/w/d) – Remote",
+      "location": "Home Office, DE",
+      "url": "https://de.indeed.com/viewjob?jk=f99a85c4b653fc7c",
+      "direct_url": "http://de.indeed.com/job/praktikum-ugc-content-creation-grafikdesign-mwd-remote-f99a85c4b653fc7c",
+      "company_url": "https://de.indeed.com/cmp/Axinity-Gmbh-&-Co.-Kg",
+      "date_posted": "2026-09-15",
+      "description": "**Unternehmen:** LikeTik / Axinity GmbH \\& Co. KG  \n**Arbeitsort:** Remote  \n**Dauer:** 1–3 Monate  \n**Art:** Praktikum / Pflichtpraktikum / Studentenpraktikum  \n**Start:** Ab sofort bzw. nach Absprache\n\nÜber LikeTik\n\nLikeTik ist eine Social\\-Commerce\\-Plattform, die Creator, Produkte und E\\-Commerce miteinander verbindet. Wir entwickeln eine digitale Plattform, mit der Creator unter anderem eigene Shops aufbauen, Produkte vermarkten und neue Möglichkeiten zur Monetarisierung ihrer Reichweite nutzen können.\n\nFür unser weiteres Wachstum suchen wir kreative Unterstützung im Bereich **UGC Content Creation, Grafikdesign und Video Creation**.\n\nDeine Aufgaben\n\nDu arbeitest direkt an Content für eine wachsende App und Social\\-Commerce\\-Plattform und bekommst dabei viel kreativen Freiraum.\n\nZu deinen Aufgaben gehören unter anderem:\n\n* Erstellung von **UGC\\-Videos für TikTok, Instagram Reels und andere Social\\-Media\\-Kanäle**\n* Entwicklung von kreativen **Hooks, Videoideen und Content\\-Konzepten**\n* Aufnahme und Bearbeitung von Short\\-Form\\-Videos\n* Erstellung von **Grafiken, Social\\-Media\\-Posts, Storys und Werbemitteln**\n* Erstellung von **animierten Videos und App\\-Visualisierungen**\n* Aufbereitung von App\\-Screens und Funktionen für Social\\-Media\\-Content\n* Erstellung von kurzen **Erklär\\- und Produktvideos für LikeTik**\n* Entwicklung von Creatives für Performance\\-Marketing\\-Kampagnen\n* Unterstützung bei der Weiterentwicklung unseres visuellen Auftritts\n* Recherche aktueller TikTok\\-, Reels\\-, UGC\\- und Design\\-Trends\n* Einsatz moderner **KI\\-Tools zur Bild\\-, Video\\- und Content\\-Erstellung**\n* Eigenständiges Testen neuer Content\\-Formate und kreativer Ideen\n\nWas du mitbringen solltest\n\nDu musst noch kein Profi sein. Viel wichtiger ist uns, dass du ein gutes Gefühl für Social Media, Ästhetik und aktuelle Trends hast und Lust darauf hast, Dinge selbst auszuprobieren.\n\nIdeal wäre, wenn du:\n\n* dich auf TikTok und Instagram sehr gut auskennst\n* ein gutes Auge für **Design, Ästhetik und moderne Social\\-Media\\-Inhalte** hast\n* gerne Videos erstellst und schneidest\n* Interesse an **UGC, Grafikdesign, Animation und Content Creation** hast\n* Tools wie Canva, CapCut, Adobe Creative Cloud oder vergleichbare Programme bereits kennst oder schnell lernen möchtest\n* Interesse an neuen KI\\-Tools für Bild, Video und Animation hast\n* kreativ bist und eigene Ideen einbringst\n* selbstständig und zuverlässig remote arbeiten kannst\n\nErfahrung mit **After Effects, Premiere Pro, Figma, Photoshop, Illustrator, Blender oder Motion Design** ist ein Plus, aber keine Voraussetzung.\n\nWas dich bei uns erwartet\n\nBei uns bekommst du kein Praktikum, bei dem du nur zuschaust.\n\nDu arbeitest direkt an echten Inhalten für LikeTik und kannst deine eigenen Ideen ausprobieren und umsetzen. Dabei bekommst du Einblicke in die Bereiche **Social Media, UGC, Grafikdesign, Performance Marketing, E\\-Commerce, App\\-Marketing und künstliche Intelligenz**.\n\nDu erhältst viel kreativen Freiraum und kannst verschiedene Tools und Content\\-Formate testen. Besonders gute Arbeiten können anschließend auch als Referenzen für dein eigenes Portfolio genutzt werden.\n\nDas Praktikum findet **vollständig remote** statt und eignet sich auch als Studenten\\- oder Pflichtpraktikum.\n\nBewerbung\n\nSchick uns einfach ein paar kurze Informationen über dich und warum du Lust auf das Praktikum hast.\n\nWenn vorhanden, freuen wir uns besonders über Beispiele deiner bisherigen Arbeit, zum Beispiel:\n\nTikTok\\- oder Instagram\\-Videos, UGC Content, Grafiken, Designs, Animationen, Schnittprojekte oder ein kleines Portfolio.\n\nEin klassisches Anschreiben ist nicht notwendig.\n\nWir freuen uns darauf, deine Ideen kennenzulernen.\n\nGehalt: Bis zu 50,00€ pro Jahr\n\nLeistungen:\n\n* Empfehlungsprogramm\n* Flexible Arbeitszeiten\n* Gleitzeit\n* Homeoffice\\-Möglichkeit\n\nArbeitsort: Homeoffice",
+      "salary": "",
+      "salary_source": "",
+      "salary_currency": "",
+      "job_type": "internship",
       "is_remote": true,
       "work_arrangement": "Remote in-state eligible",
       "emails": "",
@@ -94,5 +112,24 @@
       "ats": "Indeed"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "Axinity GmbH & Co. KG",
+      "title": "Praktikum UGC Content Creation & Grafikdesign (m/w/d) – Remote",
+      "location": "Home Office, DE",
+      "url": "https://de.indeed.com/viewjob?jk=f99a85c4b653fc7c",
+      "direct_url": "http://de.indeed.com/job/praktikum-ugc-content-creation-grafikdesign-mwd-remote-f99a85c4b653fc7c",
+      "company_url": "https://de.indeed.com/cmp/Axinity-Gmbh-&-Co.-Kg",
+      "date_posted": "2026-09-15",
+      "description": "**Unternehmen:** LikeTik / Axinity GmbH \\& Co. KG  \n**Arbeitsort:** Remote  \n**Dauer:** 1–3 Monate  \n**Art:** Praktikum / Pflichtpraktikum / Studentenpraktikum  \n**Start:** Ab sofort bzw. nach Absprache\n\nÜber LikeTik\n\nLikeTik ist eine Social\\-Commerce\\-Plattform, die Creator, Produkte und E\\-Commerce miteinander verbindet. Wir entwickeln eine digitale Plattform, mit der Creator unter anderem eigene Shops aufbauen, Produkte vermarkten und neue Möglichkeiten zur Monetarisierung ihrer Reichweite nutzen können.\n\nFür unser weiteres Wachstum suchen wir kreative Unterstützung im Bereich **UGC Content Creation, Grafikdesign und Video Creation**.\n\nDeine Aufgaben\n\nDu arbeitest direkt an Content für eine wachsende App und Social\\-Commerce\\-Plattform und bekommst dabei viel kreativen Freiraum.\n\nZu deinen Aufgaben gehören unter anderem:\n\n* Erstellung von **UGC\\-Videos für TikTok, Instagram Reels und andere Social\\-Media\\-Kanäle**\n* Entwicklung von kreativen **Hooks, Videoideen und Content\\-Konzepten**\n* Aufnahme und Bearbeitung von Short\\-Form\\-Videos\n* Erstellung von **Grafiken, Social\\-Media\\-Posts, Storys und Werbemitteln**\n* Erstellung von **animierten Videos und App\\-Visualisierungen**\n* Aufbereitung von App\\-Screens und Funktionen für Social\\-Media\\-Content\n* Erstellung von kurzen **Erklär\\- und Produktvideos für LikeTik**\n* Entwicklung von Creatives für Performance\\-Marketing\\-Kampagnen\n* Unterstützung bei der Weiterentwicklung unseres visuellen Auftritts\n* Recherche aktueller TikTok\\-, Reels\\-, UGC\\- und Design\\-Trends\n* Einsatz moderner **KI\\-Tools zur Bild\\-, Video\\- und Content\\-Erstellung**\n* Eigenständiges Testen neuer Content\\-Formate und kreativer Ideen\n\nWas du mitbringen solltest\n\nDu musst noch kein Profi sein. Viel wichtiger ist uns, dass du ein gutes Gefühl für Social Media, Ästhetik und aktuelle Trends hast und Lust darauf hast, Dinge selbst auszuprobieren.\n\nIdeal wäre, wenn du:\n\n* dich auf TikTok und Instagram sehr gut auskennst\n* ein gutes Auge für **Design, Ästhetik und moderne Social\\-Media\\-Inhalte** hast\n* gerne Videos erstellst und schneidest\n* Interesse an **UGC, Grafikdesign, Animation und Content Creation** hast\n* Tools wie Canva, CapCut, Adobe Creative Cloud oder vergleichbare Programme bereits kennst oder schnell lernen möchtest\n* Interesse an neuen KI\\-Tools für Bild, Video und Animation hast\n* kreativ bist und eigene Ideen einbringst\n* selbstständig und zuverlässig remote arbeiten kannst\n\nErfahrung mit **After Effects, Premiere Pro, Figma, Photoshop, Illustrator, Blender oder Motion Design** ist ein Plus, aber keine Voraussetzung.\n\nWas dich bei uns erwartet\n\nBei uns bekommst du kein Praktikum, bei dem du nur zuschaust.\n\nDu arbeitest direkt an echten Inhalten für LikeTik und kannst deine eigenen Ideen ausprobieren und umsetzen. Dabei bekommst du Einblicke in die Bereiche **Social Media, UGC, Grafikdesign, Performance Marketing, E\\-Commerce, App\\-Marketing und künstliche Intelligenz**.\n\nDu erhältst viel kreativen Freiraum und kannst verschiedene Tools und Content\\-Formate testen. Besonders gute Arbeiten können anschließend auch als Referenzen für dein eigenes Portfolio genutzt werden.\n\nDas Praktikum findet **vollständig remote** statt und eignet sich auch als Studenten\\- oder Pflichtpraktikum.\n\nBewerbung\n\nSchick uns einfach ein paar kurze Informationen über dich und warum du Lust auf das Praktikum hast.\n\nWenn vorhanden, freuen wir uns besonders über Beispiele deiner bisherigen Arbeit, zum Beispiel:\n\nTikTok\\- oder Instagram\\-Videos, UGC Content, Grafiken, Designs, Animationen, Schnittprojekte oder ein kleines Portfolio.\n\nEin klassisches Anschreiben ist nicht notwendig.\n\nWir freuen uns darauf, deine Ideen kennenzulernen.\n\nGehalt: Bis zu 50,00€ pro Jahr\n\nLeistungen:\n\n* Empfehlungsprogramm\n* Flexible Arbeitszeiten\n* Gleitzeit\n* Homeoffice\\-Möglichkeit\n\nArbeitsort: Homeoffice",
+      "salary": "",
+      "salary_source": "",
+      "salary_currency": "",
+      "job_type": "internship",
+      "is_remote": true,
+      "work_arrangement": "Remote in-state eligible",
+      "emails": "",
+      "ats": "Indeed"
+    }
+  ]
 }
