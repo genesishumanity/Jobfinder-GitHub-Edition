@@ -29,6 +29,39 @@ def role_key(job):
     return "|".join(re.sub(r"\s+", " ", str(job.get(k, "")).strip().casefold()) for k in ("company", "title", "location"))
 
 
+# Friendly Turkish labels for the raw `ats` source codes stored on each job.
+SOURCE_LABELS = {
+    "LinkedIn": "LinkedIn",
+    "Indeed": "Indeed",
+    "Glassdoor": "Glassdoor",
+    "GoogleJobs": "Google Jobs",
+    "RemoteOK": "Remote OK",
+    "Remotive": "Remotive",
+    "WeWorkRemotely": "We Work Remotely",
+    "unknown": "Diğer",
+}
+
+
+TR_MONTHS = {
+    1: "Oca", 2: "Şub", 3: "Mar", 4: "Nis", 5: "May", 6: "Haz",
+    7: "Tem", 8: "Ağu", 9: "Eyl", 10: "Eki", 11: "Kas", 12: "Ara",
+}
+
+
+def _tr_date(dt):
+    return f"{dt.day} {TR_MONTHS[dt.month]}"
+
+
+def _source_label(raw_source):
+    prefix = str(raw_source or "unknown").split("/")[0]
+    if prefix == "CareerOps":
+        # e.g. "CareerOps/workday" -> "CareerOps (Workday)"
+        parts = str(raw_source).split("/", 1)
+        sub = parts[1].capitalize() if len(parts) > 1 and parts[1] else ""
+        return f"CareerOps ({sub})" if sub else "CareerOps"
+    return SOURCE_LABELS.get(prefix, prefix)
+
+
 def build_digest(days=7):
     notified = load_json(NOTIFIED_PATH, {"records": {}})
     all_jobs = load_json(ALL_JOBS_PATH, {"jobs": []})
@@ -60,32 +93,39 @@ def build_digest(days=7):
     delivered.sort(key=lambda d: d["sent_at"], reverse=True)
 
     if not delivered:
-        return f"📊 Weekly JobFinder digest: 0 roles delivered in the last {days} days."
+        return f"📊 Haftalık JobFinder özeti (son {days} gün)\n\nBu hafta hiç ilan gönderilmedi."
 
     by_source = {}
     for d in delivered:
-        by_source[d["source"]] = by_source.get(d["source"], 0) + 1
-    source_line = ", ".join(f"{src}: {count}" for src, count in sorted(by_source.items(), key=lambda x: -x[1]))
+        label = _source_label(d["source"])
+        by_source[label] = by_source.get(label, 0) + 1
+    source_lines = [f"  • {label}: {count}" for label, count in sorted(by_source.items(), key=lambda x: -x[1])]
 
     # Flag any actively-scheduled source that delivered nothing at all this
     # window — a source can run "successfully" every hour while quietly
     # returning zero (Glassdoor/Google Jobs both did this in the past; see
     # SOURCE_HEALTH.md), and that's easy to miss without watching logs.
     expected_sources = ("LinkedIn", "Indeed", "Glassdoor", "GoogleJobs", "CareerOps", "RemoteOK", "WeWorkRemotely")
-    seen_prefixes = {src.split("/")[0] for src in by_source}
-    silent_sources = [s for s in expected_sources if s not in seen_prefixes]
+    seen_prefixes = {str(d["source"]).split("/")[0] for d in delivered}
+    silent_sources = [_source_label(s) for s in expected_sources if s not in seen_prefixes]
 
     lines = [
-        f"📊 Weekly JobFinder digest — last {days} days",
-        f"{len(delivered)} role(s) delivered · by source: {source_line}",
+        f"📊 Haftalık JobFinder özeti (son {days} gün)",
+        "",
+        f"Toplam {len(delivered)} ilan gönderildi.",
+        "",
+        "Kaynaklara göre:",
     ]
+    lines.extend(source_lines)
     if silent_sources:
-        lines.append(f"⚠️ 0 deliveries this week from: {', '.join(silent_sources)} — worth a look.")
+        lines.append("")
+        lines.append(f"⚠️ Bu hafta hiç ilan getirmeyen kaynaklar: {', '.join(silent_sources)} — bir bakmakta fayda var.")
     lines.append("")
+    lines.append("Son gönderilen ilanlar:")
     for d in delivered[:15]:
-        lines.append(f"• {d['title']} — {d['company']} ({d['sent_at'].strftime('%b %d')})")
+        lines.append(f"  • {d['title']} — {d['company']} ({_tr_date(d['sent_at'])})")
     if len(delivered) > 15:
-        lines.append(f"...and {len(delivered) - 15} more.")
+        lines.append(f"  ...ve {len(delivered) - 15} tane daha.")
 
     return "\n".join(lines)
 

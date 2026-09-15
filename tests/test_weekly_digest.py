@@ -11,8 +11,8 @@ def test_build_digest_empty_window(tmp_path, monkeypatch):
     monkeypatch.setattr(weekly_digest, "ALL_JOBS_PATH", str(tmp_path / "missing_all_jobs.json"))
     result = weekly_digest.build_digest(days=7)
     assert isinstance(result, str)
-    assert "Weekly JobFinder digest" in result
-    assert "0 roles" in result
+    assert "Haftalık JobFinder özeti" in result
+    assert "hiç ilan gönderilmedi" in result
 
 
 def test_build_digest_counts_and_groups_by_source(tmp_path, monkeypatch):
@@ -41,11 +41,19 @@ def test_build_digest_counts_and_groups_by_source(tmp_path, monkeypatch):
     monkeypatch.setattr(weekly_digest, "ALL_JOBS_PATH", str(all_jobs_path))
 
     result = weekly_digest.build_digest(days=7)
-    assert "2 role(s) delivered" in result
+    assert "Toplam 2 ilan gönderildi" in result
     assert "LinkedIn: 1" in result
-    assert "GoogleJobs: 1" in result
+    assert "Google Jobs: 1" in result
     assert "Creative Director" in result
     assert "old role" not in result  # outside the 7-day window
     # Sources with zero deliveries this window get flagged, e.g. Indeed here.
     assert "Indeed" in result
     assert "⚠️" in result
+
+
+def test_source_label_mapping():
+    assert weekly_digest._source_label("GoogleJobs") == "Google Jobs"
+    assert weekly_digest._source_label("CareerOps/workday") == "CareerOps (Workday)"
+    assert weekly_digest._source_label("CareerOps/lever") == "CareerOps (Lever)"
+    assert weekly_digest._source_label("unknown") == "Diğer"
+    assert weekly_digest._source_label(None) == "Diğer"
