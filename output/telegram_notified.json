@@ -400,9 +400,9 @@
     }
   },
   "last_run": {
-    "source_file": "glassdoor_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
+    "discovered": 2,
     "duplicate": 0,
     "geography": 0,
     "remote": 0,
@@ -410,7 +410,7 @@
     "language": 0,
     "domain": 0,
     "dead_link": 0,
-    "low_fit": 0,
+    "low_fit": 2,
     "capped": 0,
     "delivered": 0,
     "failed": 0,
