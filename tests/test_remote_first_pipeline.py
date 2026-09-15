@@ -136,3 +136,24 @@ def test_domain_gate_examples():
         "title": "Creative Director",
         "description": "ad agency creative work",
     })
+    # Regression: Humana's "Creative Director" (CareerOps/workday, empty
+    # description) reached Telegram on 2026-09-15 — brand-name health
+    # insurer with no generic health/pharma word in the name, so the
+    # substring regex above never caught it. Curated blocklist added.
+    assert domain_blocked({
+        "company": "Humana",
+        "title": "Creative Director",
+        "description": "",
+    })
+    assert domain_blocked({
+        "company": "Stryker",
+        "title": "Brand Marketing Manager",
+        "description": "",
+    })
+    # Blocklist is exact-match, not substring — shouldn't catch a
+    # similar-looking but unrelated name.
+    assert not domain_blocked({
+        "company": "Human Made",
+        "title": "Creative Director",
+        "description": "",
+    })

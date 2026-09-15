@@ -74,12 +74,33 @@ COMPANY_DOMAIN_BLOCKED = re.compile(
     r"health|pharma|biotech|clinical|medical|therapeutics|diagnostics|life ?sciences",
     re.I,
 )
+# Brand-name pharma/health-insurance/medtech companies with no generic
+# health/pharma/med word in the name — the regex above can't catch these.
+# Found live 2026-09-15: Humana's "Creative Director" (CareerOps/workday,
+# empty description) reached Telegram because "humana" matches none of the
+# generic words. Not exhaustive; add names here as they're spotted rather
+# than trying to enumerate the whole industry up front.
+COMPANY_BLOCKLIST = {
+    "pfizer", "roche", "novartis", "merck", "gsk", "glaxosmithkline",
+    "astrazeneca", "sanofi", "eli lilly", "lilly", "bristol myers squibb",
+    "bristol-myers squibb", "abbvie", "amgen", "gilead", "gilead sciences",
+    "biogen", "regeneron", "moderna", "johnson & johnson", "johnson and johnson",
+    "humana", "unitedhealth", "unitedhealth group", "uhc", "optum", "cigna",
+    "aetna", "anthem", "elevance health", "centene", "molina healthcare",
+    "kaiser permanente", "stryker", "medtronic", "boston scientific",
+    "becton dickinson", "bd", "abbott", "abbott laboratories", "zimmer biomet",
+    "baxter", "cvs health", "cvs caremark", "walgreens boots alliance",
+    "walgreens",
+}
 
 
 def domain_blocked(job):
     title = str(job.get("title", ""))
     description = str(job.get("description", ""))
     company = str(job.get("company", ""))
+    company_norm = re.sub(r"[^a-z0-9& ]", "", company.lower()).strip()
+    if company_norm in COMPANY_BLOCKLIST:
+        return True
     text = f"{title} {description}"
     text = re.sub(r"\b(?:no|without|not requiring|does not require)\s+(?:any\s+)?(?:medical expertise|clinical expertise|pharma(?:ceutical)? experience|healthcare domain experience)\b", "", text, flags=re.I)
     if COMPANY_DOMAIN_BLOCKED.search(company):
