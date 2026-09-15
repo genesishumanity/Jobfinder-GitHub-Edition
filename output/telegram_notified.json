@@ -50,6 +50,7 @@
     "83724640e329aa55552f71e16f9719573f884fc4053b1b98614843745e81669b",
     "845670129f4bc7fd4897ddb914c2615a2f892596944510ea78ec5c1666a44002",
     "890ed14d2c9cdb04d4fe16b95e89e1974e0b7e0d8db10645178a4325681eb6d1",
+    "90a5e796d74a0dd0eb639a87ae574d8e5705c107c91d1677cb7f1e91f0280806",
     "a3a577fd023324f92f312e7abfcd42964389918815a800873e21fb789ce3ae80",
     "ac4f933c66d449ccdb8e8d91a64951c8599979a1b0213e1bc9753509980d3bf6",
     "acf97042bf7f313412eeab871391388b5b50fcda2e9ec02bfda7561b393d6684",
@@ -392,22 +393,26 @@
     "hirelatam|remote performance ugc pipeline manager (part-time)|anywhere": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-15T19:42:51.942441+00:00"
+    },
+    "servicenow|associate creative director – core brand|anywhere": {
+      "material": "148K–260K a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-15T20:46:41.002708+00:00"
     }
   },
   "last_run": {
-    "source_file": "careerops_ats_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
-    "discovered": 2,
-    "duplicate": 0,
+    "discovered": 4,
+    "duplicate": 1,
     "geography": 0,
-    "remote": 2,
+    "remote": 1,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "dead_link": 0,
-    "low_fit": 0,
+    "low_fit": 1,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
