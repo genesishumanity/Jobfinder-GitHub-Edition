@@ -11,6 +11,7 @@
     "1994de65e83f2d2641f2a9a4f3f2874b4d5e79f57df28358b6543c8925c84735",
     "23ef37f8c77e23e8341e554f68da99b2a41d0c8fe43c2492763e82053665b909",
     "2aff894afff7bfddfea60abec6665c7c050ca40fca63a12511a440fcbb2b54f6",
+    "2cf01f269f2b9a39e4423d1d2bcb5fb56550ce7a7c1eb47715021287154cc0b4",
     "2d57ad3714d79bda4d521137bde14b36e363ec39d9d4517ac9cac5673964534c",
     "3b3e485768cfc2513b8f0b537aa4acb8bf3e2bc9b1f04b67bcc368c7162435a1",
     "3bb4feafff7e0643e6df23b5cc34f752073d3027efa32833b60109ec80f72414",
@@ -266,12 +267,16 @@
     "thatgamecompany|regional creative lead, na, emea & latam|anywhere": {
       "material": "41K–151K a year|Remote in-state eligible|True",
       "last_sent": "2026-09-15T02:49:27.787025+00:00"
+    },
+    "humana|creative director|remote nationwide": {
+      "material": "|remote|True",
+      "last_sent": "2026-09-15T04:35:07.674975+00:00"
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "careerops_ats_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
+    "discovered": 1,
     "duplicate": 0,
     "geography": 0,
     "remote": 0,
@@ -281,7 +286,7 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
