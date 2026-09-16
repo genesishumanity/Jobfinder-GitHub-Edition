@@ -204,6 +204,10 @@ def test_off_mission_role_gate_examples():
     # soft-scored (fit()), not hard title-gated like CareerOps/Remote Boards.
     off_mission_titles = [
         "Growth Marketing Manager - Paid Social (Berlin, Germany)",
+        # word-order fix below must stay narrow: these must NOT slip through
+        # just because they contain both "strategy" and "creative" somewhere.
+        "Growth Strategy and Creative Ops Manager",
+        "Digital Strategy Manager",
     ]
     for title in off_mission_titles:
         assert off_mission_role({"title": title}), title
@@ -211,7 +215,11 @@ def test_off_mission_role_gate_examples():
     # On-mission titles, including real variants that must not be caught —
     # "Creative Strategist" (word-form of "creative strategy") broke this
     # gate the first time it was tested; "Creative Producer" was added
-    # 2026-09-16 after being found wrongly excluded.
+    # 2026-09-16 after being found wrongly excluded. "Creative Performance
+    # Strategist" (one word inserted between "creative" and "strategist")
+    # was found wrongly rejected the same day, while "Performance Creative
+    # Strategist" (adjacent) passed — fixed to allow one word between them,
+    # forward direction only.
     on_mission_titles = [
         "Founding Creative Director",
         "Senior Creative Strategist",
@@ -222,6 +230,9 @@ def test_off_mission_role_gate_examples():
         "Associate Creative Director - Women's Lifestyle",
         "Creative Producer:in",
         "Freelance Creative Producer FR/IT/ES",
+        "Creative Performance Strategist - US",
+        "Performance Creative Strategist",
+        "Creative Content Strategist",
     ]
     for title in on_mission_titles:
         assert not off_mission_role({"title": title}), title

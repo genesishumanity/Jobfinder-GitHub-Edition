@@ -35,7 +35,14 @@ ROLE_TERMS = re.compile(
         # escaping it literally. Caught 2026-09-16 testing this regex as a
         # hard delivery gate: it would have rejected "Senior Creative
         # Strategist", a real, on-mission title.
-        r"creative\s+strateg\w*" if t == "creative strategy" else re.escape(t)
+        # Allow one word between "creative" and "strateg*" — real titles
+        # insert a word here ("Creative Performance Strategist" got wrongly
+        # rejected 2026-09-16 while "Performance Creative Strategist" passed,
+        # purely by word order). Forward direction only (creative first) —
+        # the reverse ("...strategy and creative...") matched unrelated
+        # titles like "Growth Strategy and Creative Ops Manager" in testing.
+        r"creative(?:\s+\w+)?\s+strateg\w*"
+        if t == "creative strategy" else re.escape(t)
         for t in ADJACENT_TERMS
     ),
     re.I,
