@@ -6,9 +6,11 @@
     "0479d90bc39b93c962333a3ce3ba9df8d22817de2e55107f465f198d73817ec0",
     "070466bd1dede6390056b5edfd9aff3449ef0e46f014e78aca50cc2dcf2a5eb4",
     "095f55ef3ff91415b1423177e84e956d328e3a0b9b4fc172f6d29fb760b4ebe9",
+    "0b1e9ab1b577ef0c7ab4919c4351900a68f0ff27ec63d821aed274c72bdce9d4",
     "0bf8eb82beb1085e3d6533d3a2444430a0a4f7eee201775df8516ed32da046e1",
     "0ea82b4228bbbce31e79e67b8230cdccb7308b08ed2b052a7bee8acb08d8103c",
     "0f6914f842640851f2a01e20604773a4c0bde6d7b85a33754b2c7480008359fe",
+    "129f3e7787ce79b1adc1e8498ed23eea910efb8eb6c66f58a41269b634860054",
     "14ab290e0cb3d324f2d447d3981c2f1a6aabe6b5c2c22ac219a81f1f4acf4c4b",
     "14dd235daa055ed821bb4fea77d6d39a26f52c044a1827956afba6072fe313fa",
     "1994de65e83f2d2641f2a9a4f3f2874b4d5e79f57df28358b6543c8925c84735",
@@ -57,6 +59,8 @@
     "89444f82f6d7975d5b7b99b473bfa6ffc0a99c9bbe4e983f9aeac9582a47d66a",
     "8d7b56f5c21da5a9bcc39656df22947542cc529b0cd66573c0480b78aeaee772",
     "90a5e796d74a0dd0eb639a87ae574d8e5705c107c91d1677cb7f1e91f0280806",
+    "9b9f77a7c4dbd8b7cb2e5e1794d0409f2d62d9b3d9b7bb7a1b9d16fe78fab9ce",
+    "9d6b2d5976243f584d9733dc3119dd47caa552a6ece4af26da30daff80c7f3e1",
     "a3a577fd023324f92f312e7abfcd42964389918815a800873e21fb789ce3ae80",
     "ac4f933c66d449ccdb8e8d91a64951c8599979a1b0213e1bc9753509980d3bf6",
     "acf97042bf7f313412eeab871391388b5b50fcda2e9ec02bfda7561b393d6684",
@@ -90,6 +94,8 @@
     "f3305292ef57a6cf23810d9cae34e0501c2e7fc18546e6e057423913e0d97f23",
     "f33c813b6b8f7ce5512a040bda5f8b274528493203ee4277585097e478b37e24",
     "f41d2cabcb06c0087c92687884354b097a9c5acaee9ade337da7bf97bbebc706",
+    "fb55442a884143c9d5e044244b464dc100bdf0ca83c8173bd4f611d949b12b41",
+    "fb5b6c70c516d6d1dbe44f4be71003eff84864b49a2f0f12a299fb91b06fce1c",
     "fd9608a8a1c8a13cd996d37fbe37556d4de6c092f2272764fcb3a7ce46cbeebd",
     "fileneresearchinstitute|audiencecontentstrategydirectorfilenewitxorco||httpswwwlinkedincomjobsview4463919758",
     "golinketchum|associatecreativedirector||httpswwwlinkedincomjobsview4464808195",
@@ -215,16 +221,16 @@
       "last_sent": "2026-09-14T17:46:30.189683+00:00"
     },
     "marketplace operations inc.|remote ai creative lead for direct-response video ads|anywhere": {
-      "material": "120K–180K a year|Remote in-state eligible|True",
-      "last_sent": "2026-09-14T17:46:32.779079+00:00"
+      "material": "||None",
+      "last_sent": "2026-09-16T17:45:11.179288+00:00"
     },
     "forbes advisor|ai creative lead (remote)|anywhere": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-14T17:46:35.896312+00:00"
     },
     "forbes media llc|ai creative lead|anywhere": {
-      "material": "|Remote in-state eligible|True",
-      "last_sent": "2026-09-14T17:46:38.650615+00:00"
+      "material": "||None",
+      "last_sent": "2026-09-16T17:45:05.187205+00:00"
     },
     "forbes advisor|creative director, paid social (remote)|anywhere": {
       "material": "|Remote in-state eligible|True",
@@ -247,12 +253,12 @@
       "last_sent": "2026-09-14T17:46:52.911606+00:00"
     },
     "right side up|creative lead|anywhere": {
-      "material": "|Remote in-state eligible|True",
-      "last_sent": "2026-09-14T17:46:56.325237+00:00"
+      "material": "||None",
+      "last_sent": "2026-09-16T17:45:27.074151+00:00"
     },
     "hirelatam|remote short-form video editor & creative lead|anywhere": {
-      "material": "|Remote in-state eligible|True",
-      "last_sent": "2026-09-14T17:46:59.153700+00:00"
+      "material": "||None",
+      "last_sent": "2026-09-16T17:45:31.333522+00:00"
     },
     "24-mag|remote | brand & creative strategy specialist (marketing collateral) — $70–$110/hour|anywhere": {
       "material": "|Remote in-state eligible|True",
@@ -429,24 +435,48 @@
     "petlabco.|creative strategist - performance marketing (remote in uk)|london, england, united kingdom": {
       "material": "||",
       "last_sent": "2026-09-16T17:11:15.801185+00:00"
+    },
+    "nbcuniversal|sr. producer, creative strategy [remote]|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T17:45:15.008433+00:00"
+    },
+    "perfeos|visual ai creative lead|anywhere": {
+      "material": "||None",
+      "last_sent": "2026-09-16T17:45:18.482931+00:00"
+    },
+    "aquent|associate creative director (bilingual spanish and english) [aq-17266]|anywhere": {
+      "material": "100–103 an hour|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T17:45:22.614892+00:00"
+    },
+    "article group|freelance associate creative director, design keynotes & events (contract)|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T17:45:35.109461+00:00"
+    },
+    "upwork|us social media marketer & ugc creator for tiktok / instagram (beauty & haircare)|anywhere": {
+      "material": "20–45 an hour|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T17:45:38.856367+00:00"
+    },
+    "successfulmatch.com|organic ugc creator|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T17:45:42.615800+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
-    "duplicate": 0,
+    "discovered": 27,
+    "duplicate": 9,
     "geography": 0,
-    "remote": 0,
+    "remote": 1,
     "restricted": 0,
     "language": 0,
-    "domain": 0,
+    "domain": 1,
     "off_mission_role": 0,
-    "on_camera_gig": 0,
+    "on_camera_gig": 3,
     "dead_link": 0,
-    "low_fit": 0,
+    "low_fit": 3,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 10,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
