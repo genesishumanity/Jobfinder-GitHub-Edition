@@ -130,6 +130,35 @@ def domain_blocked(job):
     return bool(DOMAIN_BLOCKED.search(text))
 
 
+# Freelance gig marketplaces and "talent pool" recruiting platforms — not real
+# employers. Found live 2026-09-17 auditing a week of Telegram deliveries:
+# Upwork micro-gigs ("Cavalier Dog Owner UGC Long Term!", "Set up a WhatsApp
+# AI Lead-Qualification System") and marketplace accounts posting under their
+# own brand as if they were the employer (Jobgether, HireLATAM, Jobs for
+# Lebanon) made up a large share of low-quality deliveries — exactly the
+# "pool-building"/"subscriber-collecting" middleman junk Can flagged. These
+# platforms structurally aren't the remote job Can wants regardless of how
+# well the title matches, so they're blocked by company name and by the
+# posting URL's domain rather than relying on title/description heuristics.
+GIG_MARKETPLACE_COMPANIES = {
+    "jobgether", "hirelatam", "crossing hurdles",
+}
+GIG_MARKETPLACE_URL_DOMAINS = re.compile(
+    r"(?:^|\.)upwork\.com$|(?:^|\.)fiverr\.com$|(?:^|\.)freelancer\.com$",
+    re.I,
+)
+
+
+def gig_marketplace_blocked(job):
+    company = str(job.get("company", ""))
+    company_norm = re.sub(r"[^a-z0-9& ]", "", company.lower()).strip()
+    if company_norm in GIG_MARKETPLACE_COMPANIES or company_norm.startswith("jobs for "):
+        return True
+    url = str(job.get("direct_url") or job.get("url") or "")
+    netloc = urllib.parse.urlsplit(url).netloc.lower()
+    return bool(GIG_MARKETPLACE_URL_DOMAINS.search(netloc))
+
+
 # On-camera-talent / casting-call gigs get mislabeled as "UGC" jobs but are
 # really "film yourself" freelance gigs (mostly Upwork), not the strategic/
 # coordination UGC roles Can wants. Found live 2026-09-16: ~9 of 11 Upwork
@@ -301,7 +330,7 @@ def main():
     sent_ids = set(state.get("ids", []))
     records = state.setdefault("records", {})
     counts = dict(discovered=len(new_jobs), duplicate=0, geography=0, remote=0, restricted=0,
-                  language=0, domain=0, off_mission_role=0, on_camera_gig=0, dead_link=0, low_fit=0, capped=0, delivered=0, failed=0)
+                  language=0, domain=0, gig_marketplace=0, off_mission_role=0, on_camera_gig=0, dead_link=0, low_fit=0, capped=0, delivered=0, failed=0)
     from delivery_ledger import Ledger, receipt_key
     ledger = Ledger() if os.environ.get("GITHUB_ACTIONS") == "true" else None
     counts["pending_reconciliation"] = 0
@@ -319,6 +348,8 @@ def main():
             from final_filter import language_blocked, dead_link
             if domain_blocked(job):
                 counts["domain"] += 1
+            elif gig_marketplace_blocked(job):
+                counts["gig_marketplace"] += 1
             elif off_mission_role(job):
                 counts["off_mission_role"] += 1
             elif on_camera_gig_blocked(job):

@@ -202,6 +202,53 @@ def test_on_camera_gig_gate_examples():
         assert not on_camera_gig_blocked({"title": title}), title
 
 
+def test_gig_marketplace_gate_examples():
+    from telegram_notify import gig_marketplace_blocked
+
+    # Real junk found live 2026-09-17 auditing a week of Telegram deliveries:
+    # Upwork freelance micro-gigs and recruiting/talent-pool platforms
+    # posting under their own brand as if they were the employer. These
+    # aren't real jobs Can can apply to — blocked regardless of how well the
+    # title matches the approved role families.
+    assert gig_marketplace_blocked({
+        "company": "Upwork",
+        "title": "Cavalier Dog Owner UGC Long Term!",
+        "url": "https://www.upwork.com/freelance-jobs/apply/x",
+    })
+    assert gig_marketplace_blocked({
+        "company": "Upwork",
+        "title": "Set up a WhatsApp AI Lead-Qualification System (respond.io + Zapier)",
+        "url": "https://www.upwork.com/freelance-jobs/apply/y",
+    })
+    assert gig_marketplace_blocked({
+        "company": "Jobgether",
+        "title": "Creative Lead – DTC & Performance Creative",
+        "url": "https://www.linkedin.com/jobs/view/123",
+    })
+    assert gig_marketplace_blocked({
+        "company": "HireLATAM",
+        "title": "Remote Performance UGC Pipeline Manager (Part-Time)",
+        "url": "https://recruiterflow.com/jobs/abc",
+    })
+    assert gig_marketplace_blocked({
+        "company": "Jobs for Lebanon",
+        "title": "Remote UGC Content Creator (On-Camera) Job at Jobs for Lebanon in New York",
+        "url": "https://www.mediabistro.com/jobs/xyz",
+    })
+    # Real employers must not be caught, including on LinkedIn/Upwork-adjacent
+    # domains that aren't actually the gig-marketplace domains themselves.
+    assert not gig_marketplace_blocked({
+        "company": "Stripe",
+        "title": "Creative Director, Event Design",
+        "url": "https://www.linkedin.com/jobs/view/456",
+    })
+    assert not gig_marketplace_blocked({
+        "company": "Everyday Dose Inc.",
+        "title": "Senior Creative Producer",
+        "url": "https://boards.greenhouse.io/everydaydose/jobs/789",
+    })
+
+
 def test_off_mission_role_gate_examples():
     from telegram_notify import off_mission_role
 
@@ -300,3 +347,24 @@ def test_off_mission_role_word_gap_creative_lead_director():
     ]
     for title in off_mission_titles:
         assert off_mission_role({"title": title}), title
+
+
+def test_off_mission_role_ai_lead_excludes_lead_generation():
+    from telegram_notify import off_mission_role
+
+    # Real false positive found 2026-09-17 auditing a week of Telegram
+    # deliveries: the bare "ai lead" phrase matched unrelated Upwork gig
+    # titles about lead-generation/lead-qualification tooling, not the
+    # "AI Lead" leadership role Can means.
+    off_mission_titles = [
+        "Set up a WhatsApp AI Lead-Qualification System (respond.io + Zapier)",
+        "AI Lead Generation Specialist",
+        "AI Lead Gen Manager",
+    ]
+    for title in off_mission_titles:
+        assert off_mission_role({"title": title}), title
+
+    # Genuine "AI Lead" usage must still pass.
+    on_mission_titles = ["AI Lead", "Senior AI Lead, Creative", "AI Lead (Remote)"]
+    for title in on_mission_titles:
+        assert not off_mission_role({"title": title}), title

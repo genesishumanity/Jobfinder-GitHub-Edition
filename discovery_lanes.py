@@ -47,9 +47,19 @@ _WORD_GAP_STEMS = {
     "creative lead": r"creative(?:\s+\w+)?\s+lead\w*",
     "creative director": r"creative(?:\s+\w+)?\s+director\w*",
 }
+# "ai lead" needs a negative lookahead: found live 2026-09-17 auditing
+# Telegram deliveries that the bare phrase matched Upwork gig titles like
+# "AI Lead-Qualification System" and "AI Lead Generation Specialist" —
+# unrelated lead-gen/lead-qualification work, not the "AI Lead" leadership
+# role Can means. Real title usage is never immediately followed by these
+# lead-gen nouns, so excluding them removes the false positives without
+# narrowing genuine matches.
+_ROLE_TERM_PATTERNS = {
+    "ai lead": r"\bai lead\b(?!\s*[-–—]?\s*(?:qualification|generation|gen\b|magnet|capture|scoring))",
+}
 ROLE_TERMS = re.compile(
     "|".join(
-        _WORD_GAP_STEMS.get(t, re.escape(t))
+        _ROLE_TERM_PATTERNS.get(t) or _WORD_GAP_STEMS.get(t, re.escape(t))
         for t in ADJACENT_TERMS
     ),
     re.I,
