@@ -1,8 +1,12 @@
 # 🔥 LinkedIn — Can Öncül — AI Production & Creative Leadership Roles
-*Last updated: 2026-09-16 21:42 UTC*
+*Last updated: 2026-09-16 22:20 UTC*
 
-**0 new role(s)** since last run · 60 total in last 168h
+**2 new role(s)** since last run · 62 total in last 168h
 
-### [Sr. Creative Designer (Performance Marketing) - Static & Motion](https://www.linkedin.com/jobs/view/4467106902/) — Kraken
-- 📍 **Location:** London, England, United Kingdom
+### [Brand Marketing Manager](https://www.linkedin.com/jobs/view/4465994013/) — Szallas Group
+- 📍 **Location:** Budapest, Budapest, Hungary
+- 🕒 **Posted:** 2026-09-16
+
+### [Sr. Creative Designer (Performance Marketing) - Static & Motion](https://www.linkedin.com/jobs/view/4467101981/) — Kraken
+- 📍 **Location:** Portugal
 - 🕒 **Posted:** 2026-09-16
