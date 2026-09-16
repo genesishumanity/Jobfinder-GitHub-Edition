@@ -417,9 +417,9 @@
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "careerops_ats_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
+    "discovered": 1,
     "duplicate": 0,
     "geography": 0,
     "remote": 0,
@@ -427,7 +427,7 @@
     "language": 0,
     "domain": 0,
     "dead_link": 0,
-    "low_fit": 0,
+    "low_fit": 1,
     "capped": 0,
     "delivered": 0,
     "failed": 0,
