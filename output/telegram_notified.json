@@ -40,6 +40,7 @@
     "4eaeb89b1857809998401434ea15e7f167b822cc38a8611521f95c9cd3edfa7a",
     "4f63f409ee0c10784743be9e3209d9607918a78dd1bd753b96deba45c4adf40d",
     "505e1b0c51042b1db5b6271218022e182170c8e54ab00912d3843ba0f1850ee7",
+    "54ffd439c8344e9f53510da32b5d53da39ed11b1e41f7fd673e43534360b438f",
     "55bddbf8147b66e719dd1ece4190dacd5487246ec8d8aff8acd94ea3d867038a",
     "5d0e9dfa238cce6a793b284287d1177b9f32d9701f6afd99cbbbcc5a7877ce0c",
     "60f5e60227e71aeb7199ca2440f9c8ef6515d42288acec7b0fab04c5c114811e",
@@ -68,6 +69,7 @@
     "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466013766",
     "b269c53722daf61b84525d9df6f718d926d5cecff10d6608d30c58fc303ca215",
     "b651561f3115eb2acc0c17abea77ab8be8b4299eb260bba8f78ce931f92dfb47",
+    "b6b368c6ff96059a31dac7e3420c548b4d32b2f139487ead44a22ba1b89b825d",
     "b6d49783ced0fc5604182c28ad7ba0b7f71859fa1c0c1931a0eca98e5dda9b69",
     "b72f47ec0d491bdfdd240f5a0b6ae5dc37a14558c26d4c81a36983655b088ef3",
     "b8a99dcf237a152937d8a8bd31b3923eb9ad651c7736bab50956495aafd32b8e",
@@ -459,24 +461,32 @@
     "successfulmatch.com|organic ugc creator|anywhere": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-16T17:45:42.615800+00:00"
+    },
+    "upwork|set up a whatsapp ai lead-qualification system (respond.io + zapier) for a solar company|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T18:52:22.102146+00:00"
+    },
+    "upwork|cavalier dog owner ugc long term!|anywhere": {
+      "material": "40–80 an hour|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T18:52:26.016348+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
-    "duplicate": 0,
-    "geography": 0,
+    "discovered": 6,
+    "duplicate": 1,
+    "geography": 1,
     "remote": 0,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "off_mission_role": 0,
-    "on_camera_gig": 0,
+    "on_camera_gig": 2,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 2,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
