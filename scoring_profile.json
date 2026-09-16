@@ -14,7 +14,7 @@
       "weight": 20
     },
     {
-      "pattern": "\\bcreative lead\\b|\\bcreative director\\b|\\bassociate creative director\\b",
+      "pattern": "\\bcreative(?:\\s+\\w+)?\\s+lead\\w*\\b|\\bcreative(?:\\s+\\w+)?\\s+director\\w*\\b|\\bassociate creative director\\b",
       "weight": 20
     },
     {
@@ -80,8 +80,8 @@
     "\\bai producing\\b",
     "\\bai lead\\b",
     "\\bcreative strateg(y|ist)\\b",
-    "\\bcreative lead\\b",
-    "\\bcreative director\\b",
+    "\\bcreative(?:\\s+\\w+)?\\s+lead\\w*\\b",
+    "\\bcreative(?:\\s+\\w+)?\\s+director\\w*\\b",
     "\\bassociate creative director\\b",
     "\\bugc\\b",
     "\\bcreative producer\\b",

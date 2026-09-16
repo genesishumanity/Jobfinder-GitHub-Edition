@@ -274,3 +274,29 @@ def test_remote_plausible_ignores_unrelated_hybrid_mentions():
         "location": "Remote",
         "description": "This on-site role requires 3 days a week in the office.",
     })
+
+
+def test_off_mission_role_word_gap_creative_lead_director():
+    from telegram_notify import off_mission_role
+
+    # Same class of bug as "Creative Strategy" -> "Creative Strategist"
+    # (2026-09-16), found the same day auditing LinkedIn's full 225-job
+    # local pool: "Creative Performance Lead" and similar real titles were
+    # wrongly rejected while their non-inserted forms passed, purely by
+    # word placement.
+    on_mission_titles = [
+        "Creative Performance Lead",
+        "Creative Marketing Lead",
+        "3D Creative Art Director",
+    ]
+    for title in on_mission_titles:
+        assert not off_mission_role({"title": title}), title
+
+    # Must not over-widen — these have "creative"/"director" nearby but
+    # aren't creative-leadership roles.
+    off_mission_titles = [
+        "Marketing Director",
+        "Managing Director, Creative Solutions Sales",
+    ]
+    for title in off_mission_titles:
+        assert off_mission_role({"title": title}), title

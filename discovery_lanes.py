@@ -34,21 +34,22 @@ ADJACENT_TERMS = [
 # Manager" showing up for a "Creative Strategy remote" query) — this regex
 # is the hard title-level check applied at delivery time to close that gap,
 # on top of the soft keyword-weighted fit score.
+#
+# A handful of terms allow one inserted word ("Creative Performance
+# Strategist", "Creative Marketing Lead") because real titles reorder/insert
+# this way — "Creative Performance Strategist" and "Creative Performance
+# Lead" both got wrongly rejected 2026-09-16 while their non-inserted forms
+# passed, purely by word placement. Forward direction only (creative first)
+# — the reverse direction matched unrelated titles ("Growth Strategy and
+# Creative Ops Manager") in testing, so it's deliberately not supported.
+_WORD_GAP_STEMS = {
+    "creative strategy": r"creative(?:\s+\w+)?\s+strateg\w*",
+    "creative lead": r"creative(?:\s+\w+)?\s+lead\w*",
+    "creative director": r"creative(?:\s+\w+)?\s+director\w*",
+}
 ROLE_TERMS = re.compile(
     "|".join(
-        # "creative strategy" as a literal phrase misses the far more common
-        # title noun form "Creative Strategist" — stem the word instead of
-        # escaping it literally. Caught 2026-09-16 testing this regex as a
-        # hard delivery gate: it would have rejected "Senior Creative
-        # Strategist", a real, on-mission title.
-        # Allow one word between "creative" and "strateg*" — real titles
-        # insert a word here ("Creative Performance Strategist" got wrongly
-        # rejected 2026-09-16 while "Performance Creative Strategist" passed,
-        # purely by word order). Forward direction only (creative first) —
-        # the reverse ("...strategy and creative...") matched unrelated
-        # titles like "Growth Strategy and Creative Ops Manager" in testing.
-        r"creative(?:\s+\w+)?\s+strateg\w*"
-        if t == "creative strategy" else re.escape(t)
+        _WORD_GAP_STEMS.get(t, re.escape(t))
         for t in ADJACENT_TERMS
     ),
     re.I,
