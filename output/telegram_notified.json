@@ -5,6 +5,7 @@
     "01716dfdca9eafc68fe977268558fac4cf66a86da65cee7a260e66433373ef1d",
     "070466bd1dede6390056b5edfd9aff3449ef0e46f014e78aca50cc2dcf2a5eb4",
     "095f55ef3ff91415b1423177e84e956d328e3a0b9b4fc172f6d29fb760b4ebe9",
+    "0bf8eb82beb1085e3d6533d3a2444430a0a4f7eee201775df8516ed32da046e1",
     "0ea82b4228bbbce31e79e67b8230cdccb7308b08ed2b052a7bee8acb08d8103c",
     "0f6914f842640851f2a01e20604773a4c0bde6d7b85a33754b2c7480008359fe",
     "14ab290e0cb3d324f2d447d3981c2f1a6aabe6b5c2c22ac219a81f1f4acf4c4b",
@@ -50,6 +51,7 @@
     "83724640e329aa55552f71e16f9719573f884fc4053b1b98614843745e81669b",
     "845670129f4bc7fd4897ddb914c2615a2f892596944510ea78ec5c1666a44002",
     "890ed14d2c9cdb04d4fe16b95e89e1974e0b7e0d8db10645178a4325681eb6d1",
+    "89444f82f6d7975d5b7b99b473bfa6ffc0a99c9bbe4e983f9aeac9582a47d66a",
     "90a5e796d74a0dd0eb639a87ae574d8e5705c107c91d1677cb7f1e91f0280806",
     "a3a577fd023324f92f312e7abfcd42964389918815a800873e21fb789ce3ae80",
     "ac4f933c66d449ccdb8e8d91a64951c8599979a1b0213e1bc9753509980d3bf6",
@@ -397,22 +399,30 @@
     "servicenow|associate creative director – core brand|anywhere": {
       "material": "148K–260K a year|Remote in-state eligible|True",
       "last_sent": "2026-09-15T20:46:41.002708+00:00"
+    },
+    "upwork|hands-on creative lead — video, design, ai & luxury social content - contract to hire|anywhere": {
+      "material": "25–50 an hour|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T00:51:57.771574+00:00"
+    },
+    "servicenow|regional brand creative lead (emea)|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T00:52:00.816731+00:00"
     }
   },
   "last_run": {
-    "source_file": "careerops_ats_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
-    "discovered": 1,
-    "duplicate": 0,
+    "discovered": 18,
+    "duplicate": 12,
     "geography": 0,
-    "remote": 0,
+    "remote": 2,
     "restricted": 0,
     "language": 0,
-    "domain": 0,
+    "domain": 1,
     "dead_link": 0,
     "low_fit": 1,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 2,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
