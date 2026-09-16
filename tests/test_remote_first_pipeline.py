@@ -14,6 +14,12 @@ ROLES = [
     "associate creative director",
     "ugc",
     "creative producer",
+    "integrated creative",
+    "brand strategist",
+    "brand creative",
+    "campaign strategist",
+    "creative innovation",
+    "creative technologist",
 ]
 
 
@@ -43,11 +49,12 @@ def _base_config():
     }
 
 
-def test_focused_mode_keeps_exact_nine_role_queries():
-    # Was eight roles through 2026-09-15; "Creative Producer" added 2026-09-16
-    # after live testing showed real "Creative Producer" listings (a title
-    # Can's own CV uses) were being rejected — it belongs in the approved set,
-    # it just hadn't been added yet.
+def test_focused_mode_keeps_exact_fifteen_role_queries():
+    # Was eight roles through 2026-09-15; "Creative Producer" added same day
+    # after live testing showed it wrongly rejected (a title Can's own CV
+    # uses). Widened again 2026-09-16 to six more roles synced from Can's own
+    # PROJECT-EXIT repo's target-role list — he explicitly asked to prioritize
+    # speed-to-landed-role over narrow precision at this point in his search.
     cfg = discovery_lanes.expand_config(copy.deepcopy(_base_config()), [])
     expected = [f"{role} remote" for role in ROLES]
     assert cfg["target_geography"]["exclude_us"] is True

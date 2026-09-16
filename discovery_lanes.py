@@ -19,6 +19,12 @@ ADJACENT_TERMS = [
     "ai producer", "ai producing", "ai lead", "creative strategy",
     "creative lead", "creative director", "associate creative director", "ugc",
     "creative producer",
+    # Widened 2026-09-16 per Can's explicit priority shift: speed to a
+    # landed remote role beats narrow precision right now. Synced against
+    # his own PROJECT-EXIT repo's authoritative target-role list rather than
+    # guessing new terms — these are roles he already decided matter.
+    "integrated creative", "brand strategist", "brand creative",
+    "campaign strategist", "creative innovation", "creative technologist",
 ]
 
 # Shared title-match regex for the eight approved role families. Search
@@ -65,8 +71,14 @@ CORE_REMOTE_TERMS = [
     "associate creative director remote",
     "ugc remote",
     "creative producer remote",
+    "integrated creative remote",
+    "brand strategist remote",
+    "brand creative remote",
+    "campaign strategist remote",
+    "creative innovation remote",
+    "creative technologist remote",
 ]
-# Query-diversity variants of the 9 approved roles (not new roles — each
+# Query-diversity variants of the approved roles (not new roles — each
 # phrase still contains one of ROLE_TERMS' patterns, so nothing extra gets
 # past the hard delivery gate; this just changes what each platform's search
 # relevance surfaces per hour). One group active per hourly slot.

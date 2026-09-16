@@ -69,8 +69,6 @@
       "scientist",
       "sales",
       "executive producer",
-      "freelance creative",
-      "fractional creative",
       "project manager",
       "program manager",
       "client success",
@@ -79,12 +77,8 @@
       "account director",
       "client partner",
       "implementation manager",
-      "marketing operations",
-      "growth marketing",
-      "performance marketing",
       "ai workflow",
-      "automation",
-      "content strategist"
+      "automation"
     ],
     "fuzzy_domain": [],
     "fuzzy_exclude": [],
@@ -311,7 +305,13 @@
       "Creative Director remote",
       "Associate Creative Director remote",
       "UGC remote",
-      "Creative Producer remote"
+      "Creative Producer remote",
+      "Integrated Creative remote",
+      "Brand Strategist remote",
+      "Brand Creative remote",
+      "Campaign Strategist remote",
+      "Creative Innovation remote",
+      "Creative Technologist remote"
     ],
     "google_jobs": [
       "AI Producer remote",
@@ -322,7 +322,13 @@
       "Creative Director remote",
       "Associate Creative Director remote",
       "UGC remote",
-      "Creative Producer remote"
+      "Creative Producer remote",
+      "Integrated Creative remote",
+      "Brand Strategist remote",
+      "Brand Creative remote",
+      "Campaign Strategist remote",
+      "Creative Innovation remote",
+      "Creative Technologist remote"
     ],
     "governmentjobs": [],
     "hiring_cafe": [
@@ -334,7 +340,13 @@
       "Creative Director remote",
       "Associate Creative Director remote",
       "UGC remote",
-      "Creative Producer remote"
+      "Creative Producer remote",
+      "Integrated Creative remote",
+      "Brand Strategist remote",
+      "Brand Creative remote",
+      "Campaign Strategist remote",
+      "Creative Innovation remote",
+      "Creative Technologist remote"
     ],
     "indeed": [
       "AI Producer remote",
@@ -345,7 +357,13 @@
       "Creative Director remote",
       "Associate Creative Director remote",
       "UGC remote",
-      "Creative Producer remote"
+      "Creative Producer remote",
+      "Integrated Creative remote",
+      "Brand Strategist remote",
+      "Brand Creative remote",
+      "Campaign Strategist remote",
+      "Creative Innovation remote",
+      "Creative Technologist remote"
     ],
     "linkedin": [
       "AI Producer remote",
@@ -356,7 +374,13 @@
       "Creative Director remote",
       "Associate Creative Director remote",
       "UGC remote",
-      "Creative Producer remote"
+      "Creative Producer remote",
+      "Integrated Creative remote",
+      "Brand Strategist remote",
+      "Brand Creative remote",
+      "Campaign Strategist remote",
+      "Creative Innovation remote",
+      "Creative Technologist remote"
     ],
     "usajobs": [],
     "workday": [
@@ -373,7 +397,13 @@
       "Creative Director remote",
       "Associate Creative Director remote",
       "UGC remote",
-      "Creative Producer remote"
+      "Creative Producer remote",
+      "Integrated Creative remote",
+      "Brand Strategist remote",
+      "Brand Creative remote",
+      "Campaign Strategist remote",
+      "Creative Innovation remote",
+      "Creative Technologist remote"
     ]
   },
   "target_geography": {
