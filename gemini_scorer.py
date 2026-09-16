@@ -25,7 +25,12 @@ import urllib.request
 
 from triage_agent import _read_first
 
-GEMINI_MODEL = "gemini-2.0-flash"
+# "-latest" alias tracks Google's current stable Flash model automatically,
+# so this doesn't go stale the way a pinned version (e.g. "gemini-2.0-flash")
+# does — that exact pin 404'd in production 2026-09-16, silently, for as long
+# as Gemini scoring has existed, because it had been retired. Override via
+# env var if a specific pin is ever needed again.
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-flash-latest")
 GEMINI_URL = (
     f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 )
@@ -92,9 +97,16 @@ def score_job(job):
         reason = str(parsed.get("reason", ""))[:200]
         print(f"  Gemini score: {score:.0f} — {reason}")
         return score
+    except urllib.error.HTTPError as exc:
+        detail = ""
+        try:
+            detail = exc.read().decode("utf-8", errors="replace")[:300]
+        except Exception:
+            pass
+        print(f"  WARNING: Gemini scoring failed, falling back to keyword score: HTTPError {exc.code}: {detail or exc}")
+        return None
     except (
         urllib.error.URLError,
-        urllib.error.HTTPError,
         TimeoutError,
         KeyError,
         IndexError,
