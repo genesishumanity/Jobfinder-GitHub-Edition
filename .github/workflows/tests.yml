@@ -3,12 +3,12 @@ name: Tests
 on:
   push:
     paths:
-      - "scrape_jobs.py"
+      - "*.py"
       - "tests/**"
       - ".github/workflows/tests.yml"
   pull_request:
     paths:
-      - "scrape_jobs.py"
+      - "*.py"
       - "tests/**"
   workflow_dispatch:
 
