@@ -108,6 +108,33 @@ def domain_blocked(job):
     return bool(DOMAIN_BLOCKED.search(text))
 
 
+# On-camera-talent / casting-call gigs get mislabeled as "UGC" jobs but are
+# really "film yourself" freelance gigs (mostly Upwork), not the strategic/
+# coordination UGC roles Can wants. Found live 2026-09-16: ~9 of 11 Upwork
+# "UGC" postings were casting calls ("Spokesperson", "$50 per Video",
+# "himself/herself", age/gender casting), while real UGC Coordinator/
+# Pipeline Manager/Campaign Manager roles from real companies are fine.
+# Title-only (not description) — casting language rarely shows up in prose
+# by accident, but checking description too risks false-positiving on a
+# legitimate UGC strategy role that happens to *describe* on-camera talent
+# it will manage.
+ON_CAMERA_GIG = re.compile(
+    r"\b(?:spokespersons?|spokesmodels?|presenters?|actress(?:es)?|actors?|on[- ]camera|"
+    r"talking head|face of the brand|"
+    r"himself/herself|himself or herself|"
+    r"one (?:man|woman)|paid test for|ages? \d{1,2}[-–]\d{1,2}|viral bonus)\b|"
+    # `\b` doesn't work right before `$` (not a word character), so this
+    # alternative is unanchored on that side.
+    r"\$\d+\s*(?:per|/)\s*video\b",
+    re.I,
+)
+
+
+def on_camera_gig_blocked(job):
+    title = str(job.get("title", ""))
+    return bool(ON_CAMERA_GIG.search(title))
+
+
 def identity(job):
     url = str(job.get("direct_url") or job.get("url") or "").strip()
     parts = urllib.parse.urlsplit(url)
@@ -237,7 +264,7 @@ def main():
     sent_ids = set(state.get("ids", []))
     records = state.setdefault("records", {})
     counts = dict(discovered=len(new_jobs), duplicate=0, geography=0, remote=0, restricted=0,
-                  language=0, domain=0, dead_link=0, low_fit=0, capped=0, delivered=0, failed=0)
+                  language=0, domain=0, on_camera_gig=0, dead_link=0, low_fit=0, capped=0, delivered=0, failed=0)
     from delivery_ledger import Ledger, receipt_key
     ledger = Ledger() if os.environ.get("GITHUB_ACTIONS") == "true" else None
     counts["pending_reconciliation"] = 0
@@ -255,6 +282,8 @@ def main():
             from final_filter import language_blocked, dead_link
             if domain_blocked(job):
                 counts["domain"] += 1
+            elif on_camera_gig_blocked(job):
+                counts["on_camera_gig"] += 1
             elif language_blocked(job):
                 counts["language"] += 1
             elif dead_link(job):

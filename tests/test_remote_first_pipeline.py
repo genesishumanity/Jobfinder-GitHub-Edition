@@ -157,3 +157,34 @@ def test_domain_gate_examples():
         "title": "Creative Director",
         "description": "",
     })
+
+
+def test_on_camera_gig_gate_examples():
+    from telegram_notify import on_camera_gig_blocked
+
+    # Real casting-call "UGC" postings found live 2026-09-16 (mostly Upwork)
+    # — on-camera-talent gigs, not the strategic/coordination UGC roles Can
+    # wants.
+    casting_call_titles = [
+        "French-Speaking UGC Creators / Spokespersons Needed – 20-40 sec Videos",
+        "Need someone to create 0:30-01:00min UGC video with himself/herself",
+        "Paid test for 2 UGC creators over 50 (one man, one woman, US-based)",
+        "TikTok / Reels UGC Creator for Language App — $50 + $450 Viral Bonus",
+        "Malayalam-Speaking UGC Creators Wanted | $50 per Video",
+        "Female UGC Creator / Spokesperson / Presenter / Actress (English)",
+        "Remote UGC Content Creator (On-Camera)",
+    ]
+    for title in casting_call_titles:
+        assert on_camera_gig_blocked({"title": title}), title
+
+    # Real strategic/coordination UGC and creative roles must not be caught.
+    legitimate_titles = [
+        "UGC Coordinator",
+        "Remote Performance UGC Pipeline Manager (Part-Time)",
+        "US UGC Campaign Manager",
+        "Hands-On Creative Lead — Video, Design, AI & Luxury Social Content",
+        "Meta Ads AI Creative Director/Creative Execution",
+        "UGC Creator (remote/part-time)",
+    ]
+    for title in legitimate_titles:
+        assert not on_camera_gig_blocked({"title": title}), title
