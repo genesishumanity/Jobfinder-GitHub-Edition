@@ -1,5 +1,5 @@
 {
-  "description": "Can Öncül — focused remote search for AI production, AI leadership, creative strategy/leadership and UGC roles in UK/Europe.",
+  "description": "Can Öncül — focused remote search for AI production, AI leadership, creative strategy/leadership and UGC roles.",
   "fit_terms": [
     {
       "pattern": "\\bai (producer|producing)\\b",
@@ -10,7 +10,7 @@
       "weight": 22
     },
     {
-      "pattern": "\\bcreative strategy\\b",
+      "pattern": "\\bcreative strateg(y|ist)\\b",
       "weight": 20
     },
     {
@@ -19,6 +19,14 @@
     },
     {
       "pattern": "\\bugc\\b",
+      "weight": 16
+    },
+    {
+      "pattern": "\\bcreative producer\\b",
+      "weight": 18
+    },
+    {
+      "pattern": "\\bintegrated creative\\b|\\bbrand strategist\\b|\\bbrand creative\\b|\\bcampaign strategist\\b|\\bcreative innovation\\b|\\bcreative technologist\\b",
       "weight": 16
     },
     {
@@ -36,12 +44,8 @@
   ],
   "poor_fit_terms": [
     {
-      "pattern": "\\bintern(ship)?\\b|\\bjunior\\b|\\bgraduate\\b|\\bentry[ -]level\\b",
+      "pattern": "\\bintern(ship)?\\b|\\bjunior\\s+(?:designer|creative|producer|strategist|director|lead|role|position|associate|specialist|manager|coordinator)\\b|\\b(?:recent\\s+)?graduate\\s+(?:program|scheme|role|position)\\b|\\bentry[ -]level\\b",
       "penalty": 28
-    },
-    {
-      "pattern": "\\bmedical\\b|\\bclinical\\b|\\bpharma(ceutical)?\\b|\\bcybersecurity\\b|\\binformation security\\b",
-      "penalty": 50
     },
     {
       "pattern": "\\bproduct designer\\b|\\bux designer\\b|\\bui designer\\b|\\bgraphic designer\\b",
@@ -75,11 +79,18 @@
     "\\bai producer\\b",
     "\\bai producing\\b",
     "\\bai lead\\b",
-    "\\bcreative strategy\\b",
+    "\\bcreative strateg(y|ist)\\b",
     "\\bcreative lead\\b",
     "\\bcreative director\\b",
     "\\bassociate creative director\\b",
-    "\\bugc\\b"
+    "\\bugc\\b",
+    "\\bcreative producer\\b",
+    "\\bintegrated creative\\b",
+    "\\bbrand strategist\\b",
+    "\\bbrand creative\\b",
+    "\\bcampaign strategist\\b",
+    "\\bcreative innovation\\b",
+    "\\bcreative technologist\\b"
   ],
-  "version": 4
+  "version": 5
 }
