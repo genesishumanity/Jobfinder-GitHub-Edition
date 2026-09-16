@@ -21,7 +21,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 45
     steps:
       - name: Checkout JobFinder
         uses: actions/checkout@v4
@@ -61,7 +61,7 @@ jobs:
           node scan-ats-full.mjs \
             --since 7 \
             --ats greenhouse,lever,ashby,workday \
-            --limit 300 \
+            --limit 500 \
             --shuffle \
             --json \
             --dry-run > "$GITHUB_WORKSPACE/output/careerops_raw.json"

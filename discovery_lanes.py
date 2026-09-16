@@ -59,7 +59,16 @@ CORE_REMOTE_TERMS = [
     "ugc remote",
     "creative producer remote",
 ]
-ROTATING_REMOTE_TERM_GROUPS = [[]]
+# Query-diversity variants of the 9 approved roles (not new roles — each
+# phrase still contains one of ROLE_TERMS' patterns, so nothing extra gets
+# past the hard delivery gate; this just changes what each platform's search
+# relevance surfaces per hour). One group active per hourly slot.
+ROTATING_REMOTE_TERM_GROUPS = [
+    ["senior creative director remote", "global creative lead remote"],
+    ["brand creative director remote", "creative strategy lead remote"],
+    ["executive creative director remote", "content creative lead remote"],
+    ["group creative director remote", "creative producer lead remote"],
+]
 
 
 def target_location(location):

@@ -35,7 +35,8 @@
       "Creative Lead remote Europe",
       "Creative Director remote Europe",
       "Associate Creative Director remote Europe",
-      "UGC remote Europe"
+      "UGC remote Europe",
+      "Creative Producer remote Europe"
     ],
     "serpapi_api_key": ""
   },
@@ -155,6 +156,18 @@
       {
         "location": "Spain",
         "country": "Spain"
+      },
+      {
+        "location": "Ireland",
+        "country": "Ireland"
+      },
+      {
+        "location": "France",
+        "country": "France"
+      },
+      {
+        "location": "Italy",
+        "country": "Italy"
       }
     ],
     "hiring_cafe": [
