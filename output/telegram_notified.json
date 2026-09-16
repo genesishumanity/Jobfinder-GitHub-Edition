@@ -12,9 +12,11 @@
     "0f6914f842640851f2a01e20604773a4c0bde6d7b85a33754b2c7480008359fe",
     "129f3e7787ce79b1adc1e8498ed23eea910efb8eb6c66f58a41269b634860054",
     "133bd09866cdcd8770d333edc6b1bf32a2e5c5681b6006b5481e3ef8e37da210",
+    "145f3f1131fd22b8e50e128566a78d32c6409bdbde6d74a1c83c87271ad387f3",
     "14ab290e0cb3d324f2d447d3981c2f1a6aabe6b5c2c22ac219a81f1f4acf4c4b",
     "14dd235daa055ed821bb4fea77d6d39a26f52c044a1827956afba6072fe313fa",
     "1994de65e83f2d2641f2a9a4f3f2874b4d5e79f57df28358b6543c8925c84735",
+    "1bf8e2bcf80bd4c457b89c22011b99bf6ea181975fcceed5d902c52aefdaa551",
     "1ca76a9914ed76d483480d38f5be3d28e2cd5e10e54d7909d712aafde78059a6",
     "23ef37f8c77e23e8341e554f68da99b2a41d0c8fe43c2492763e82053665b909",
     "25a51ff6b8959ab12f193c921ead5e1f64129687b591fbf959f64123978e0ace",
@@ -47,6 +49,7 @@
     "58948922a037e92de4af11f09faee390293efb23c875bfa9a2140c68ea6b09f0",
     "5d0e9dfa238cce6a793b284287d1177b9f32d9701f6afd99cbbbcc5a7877ce0c",
     "60f5e60227e71aeb7199ca2440f9c8ef6515d42288acec7b0fab04c5c114811e",
+    "61433b6da949307f8bf2a3e15570c1a77401ad7af34bb2eb0d859bd3723ae3a3",
     "651954f8898dbbaea0f0cba139310a2ed813ce73f8d7a8029474c663bfc6be19",
     "6643c6a2a0c5fade10e211aad782ab9ad314edede45728c6b32d5992d571e0f3",
     "6a38875c7e7a3e060ad06f338ff17a5f561b7f3b9fb4e74b6062a404d7683adf",
@@ -494,24 +497,37 @@
     "caa|creative director, experiential - brand consulting [remote]|anywhere": {
       "material": "188K–230K a year|Remote in-state eligible|True",
       "last_sent": "2026-09-16T20:47:46.479689+00:00"
+    },
+    "garage|[remote] creative lead, organic social|anywhere": {
+      "material": "100K–140K a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T21:43:27.949335+00:00"
+    },
+    "digitas north america|associate creative director/design lead, direct mail (contract)|anywhere": {
+      "material": "208K–260K a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T21:43:30.627407+00:00"
+    },
+    "digital people|associate creative director - copy|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T21:43:33.239247+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
-    "duplicate": 0,
+    "discovered": 27,
+    "duplicate": 15,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
     "language": 0,
-    "domain": 0,
+    "domain": 1,
+    "gig_marketplace": 7,
     "off_mission_role": 0,
-    "on_camera_gig": 0,
+    "on_camera_gig": 1,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 3,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
