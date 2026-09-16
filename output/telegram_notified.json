@@ -31,6 +31,7 @@
     "41c43b6944b1bce60491cd6fc30c8a635469eec7cd52cea019222686c817fa8a",
     "42374aa8085ce259f1013144d9e9432443eb611b65bbaf039a6c54f582722a64",
     "4285cdb15e3f766e6adb7942b04ad15186bf3f3e23e0414068c45016869a73fa",
+    "436182ae2768bce4b7a5a29c1e7f9fad638590a7046165414f681644d02402c2",
     "49f144467cea9b720b9e33aff8877baee603e2253bc717d5a5d041ea34af7a68",
     "4a64a02340c74b7b2359933ef57895bd7da62282f623f746d29c5be4b0cf4898",
     "4d9c8119c010f62bdb94ae42d51fecd2ea28ffba98f92769b1f3fd549c9f2cb3",
@@ -399,8 +400,8 @@
       "last_sent": "2026-09-15T19:42:51.942441+00:00"
     },
     "servicenow|associate creative director – core brand|anywhere": {
-      "material": "148K–260K a year|Remote in-state eligible|True",
-      "last_sent": "2026-09-15T20:46:41.002708+00:00"
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T02:47:37.426363+00:00"
     },
     "upwork|hands-on creative lead — video, design, ai & luxury social content - contract to hire|anywhere": {
       "material": "25–50 an hour|Remote in-state eligible|True",
@@ -416,19 +417,19 @@
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
-    "duplicate": 0,
+    "discovered": 11,
+    "duplicate": 3,
     "geography": 0,
-    "remote": 0,
-    "restricted": 0,
+    "remote": 1,
+    "restricted": 1,
     "language": 0,
-    "domain": 0,
+    "domain": 1,
     "dead_link": 0,
-    "low_fit": 0,
+    "low_fit": 4,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
