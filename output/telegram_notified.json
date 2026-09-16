@@ -83,6 +83,7 @@
     "e62b8afc7094789c75d7cc4cdd737ea3e9d310f0c82fc6d6ed877bf9052365a8",
     "eed5b4caf5e1c2d2b866297dc02f6c272c8d166598d31fdb566dba72857e7541",
     "f0bf53ef873aa9717396694565988d2e27ea9dfb92065e7fa80848c76f6d2c34",
+    "f141b77463949fba295d4ef22be212f21305ac07179f2fc1b299a37d7805945a",
     "f16e0520c34d1a32e217774ba820a5834c575ae6ab2187e6f7de408c422c23da",
     "f3305292ef57a6cf23810d9cae34e0501c2e7fc18546e6e057423913e0d97f23",
     "f33c813b6b8f7ce5512a040bda5f8b274528493203ee4277585097e478b37e24",
@@ -414,24 +415,28 @@
     "upwork|need someone to create 0:30-01:00min ugc video with himself/herself talking about a product|anywhere": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-16T01:44:02.538444+00:00"
+    },
+    "major players | b corp™|creative performance strategist - us|greater london, england, united kingdom": {
+      "material": "||",
+      "last_sent": "2026-09-16T15:37:27.638350+00:00"
     }
   },
   "last_run": {
     "source_file": "careerops_ats_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
+    "discovered": 5,
     "duplicate": 0,
     "geography": 0,
-    "remote": 0,
+    "remote": 2,
     "restricted": 0,
-    "language": 0,
+    "language": 1,
     "domain": 0,
     "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
-    "low_fit": 0,
+    "low_fit": 1,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
