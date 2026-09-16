@@ -33,12 +33,34 @@ def config():
     return load_json(CONFIG_PATH, {}).get("notify", {})
 
 
+# A bare "hybrid"/"onsite" anywhere in the description used to reject the
+# whole listing — real false-reject found 2026-09-16: Darkroom's "Specialist,
+# Creative Strategy" explicitly said "This is a fully remote role" but got
+# rejected because unrelated company-culture boilerplate further down
+# mentioned "expected to work hybrid" for people near their NY/Lisbon HQs,
+# not this role. Now requires the word to actually describe THIS role
+# ("hybrid role", "on-site role", "X days a week in the office", etc.)
+# rather than matching the bare word anywhere in a multi-paragraph posting.
+HYBRID_ROLE_PATTERN = re.compile(
+    r"\b(?:hybrid role|on-?site role|this (?:role|position) is hybrid|"
+    r"\d+\s*days?\s*(?:a|per)?\s*week\s*(?:in|on)\s*(?:the\s*)?(?:office|site)|"
+    r"\d+\s*days?\s*(?:in|on)\s*(?:the\s*)?(?:office|onsite|on-site|site))\b",
+    re.I,
+)
+
+
 def remote_plausible(job):
     arrangement = str(job.get("work_arrangement", "")).lower()
+    location = str(job.get("location", "")).lower()
     text = " ".join(str(job.get(k, "")) for k in ("location", "description", "title")).lower()
     if any(term in arrangement for term in ("on-site", "on site", "onsite", "hybrid")):
         return False
-    if re.search(r"\b(not remote|no remote|hybrid|on-site|onsite)\b", text):
+    # Bare word from structured fields (short tags, not prose) is still a
+    # reliable signal; from free text it needs the stronger role-describing
+    # pattern above.
+    if re.search(r"\b(hybrid|on-site|onsite)\b", arrangement + " " + location):
+        return False
+    if re.search(r"\b(not remote|no remote)\b", text) or HYBRID_ROLE_PATTERN.search(text):
         return False
     return job.get("is_remote") is True or any(word in text for word in (
         "remote", "worldwide", "work from anywhere", "work from home", "distributed", "global", "emea"

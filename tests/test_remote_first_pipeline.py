@@ -225,3 +225,34 @@ def test_off_mission_role_gate_examples():
     ]
     for title in on_mission_titles:
         assert not off_mission_role({"title": title}), title
+
+
+def test_remote_plausible_ignores_unrelated_hybrid_mentions():
+    from telegram_notify import remote_plausible
+
+    # Real false-reject found 2026-09-16: Darkroom's "Specialist, Creative
+    # Strategy" said "This is a fully remote role" but was rejected because
+    # unrelated company-culture boilerplate later mentioned "expected to work
+    # hybrid" for people near their NY/Lisbon HQs, not this role.
+    assert remote_plausible({
+        "title": "Specialist, Creative Strategy",
+        "location": "Portugal",
+        "description": (
+            "This is a fully remote role supporting a team in the EST time zone. "
+            "Remote-First Culture: Many roles are fully remote. Employees based in "
+            "or near our New York or Lisbon HQs are expected to work hybrid with "
+            "weekly in-office time."
+        ),
+    })
+    # A listing whose *own* role is hybrid must still be rejected, even when
+    # the only signal is in free-text description (no structured field).
+    assert not remote_plausible({
+        "title": "Associate Creative Director (Art)",
+        "location": "London, England, United Kingdom",
+        "description": "Hybrid role - 2 days on site in London Wall Place.",
+    })
+    assert not remote_plausible({
+        "title": "Creative Director",
+        "location": "Remote",
+        "description": "This on-site role requires 3 days a week in the office.",
+    })
