@@ -18,7 +18,28 @@ US_ONLY = re.compile(
 ADJACENT_TERMS = [
     "ai producer", "ai producing", "ai lead", "creative strategy",
     "creative lead", "creative director", "associate creative director", "ugc",
+    "creative producer",
 ]
+
+# Shared title-match regex for the eight approved role families. Search
+# queries for LinkedIn/Indeed/Glassdoor/Google Jobs are already narrowed to
+# these terms (config.json), but those platforms' own search relevance is
+# fuzzy and can surface off-mission titles anyway (e.g. "Growth Marketing
+# Manager" showing up for a "Creative Strategy remote" query) — this regex
+# is the hard title-level check applied at delivery time to close that gap,
+# on top of the soft keyword-weighted fit score.
+ROLE_TERMS = re.compile(
+    "|".join(
+        # "creative strategy" as a literal phrase misses the far more common
+        # title noun form "Creative Strategist" — stem the word instead of
+        # escaping it literally. Caught 2026-09-16 testing this regex as a
+        # hard delivery gate: it would have rejected "Senior Creative
+        # Strategist", a real, on-mission title.
+        r"creative\s+strateg\w*" if t == "creative strategy" else re.escape(t)
+        for t in ADJACENT_TERMS
+    ),
+    re.I,
+)
 
 FALSE_NEGATIVE_EXCLUDES = {
     "customer success", "project coordinator", "account director", "account lead",
@@ -36,6 +57,7 @@ CORE_REMOTE_TERMS = [
     "creative director remote",
     "associate creative director remote",
     "ugc remote",
+    "creative producer remote",
 ]
 ROTATING_REMOTE_TERM_GROUPS = [[]]
 

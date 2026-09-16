@@ -21,19 +21,14 @@ sized accordingly.
 import argparse
 import json
 import os
-import re
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
-from discovery_lanes import ADJACENT_TERMS
+from discovery_lanes import ROLE_TERMS
 from final_filter import eligible_location
 
-ROLE_TERMS = re.compile(
-    "|".join(re.escape(t.replace(" remote", "")) for t in ADJACENT_TERMS),
-    re.I,
-)
 REMOTE_OK_API = "https://remoteok.com/api"
 REMOTIVE_API = "https://remotive.com/api/remote-jobs"
 WWR_RSS = "https://weworkremotely.com/remote-jobs.rss"

@@ -135,6 +135,21 @@ def on_camera_gig_blocked(job):
     return bool(ON_CAMERA_GIG.search(title))
 
 
+def off_mission_role(job):
+    # Hard title-level check for the eight approved role families. LinkedIn/
+    # Indeed/Glassdoor/Google Jobs search queries are already narrowed to
+    # these terms (config.json), but each platform's own search relevance is
+    # fuzzy and surfaces off-mission titles anyway — found live 2026-09-16:
+    # "Growth Marketing Manager" and "Performance Marketer" both slipped
+    # through and got delivered, neither is one of the eight roles, and
+    # neither would pass this check. CareerOps/Remote Boards already had this
+    # exact check (discovery_lanes.ROLE_TERMS); this closes the same gap for
+    # the other four sources.
+    from discovery_lanes import ROLE_TERMS
+    title = str(job.get("title", ""))
+    return not bool(ROLE_TERMS.search(title))
+
+
 def identity(job):
     url = str(job.get("direct_url") or job.get("url") or "").strip()
     parts = urllib.parse.urlsplit(url)
@@ -264,7 +279,7 @@ def main():
     sent_ids = set(state.get("ids", []))
     records = state.setdefault("records", {})
     counts = dict(discovered=len(new_jobs), duplicate=0, geography=0, remote=0, restricted=0,
-                  language=0, domain=0, on_camera_gig=0, dead_link=0, low_fit=0, capped=0, delivered=0, failed=0)
+                  language=0, domain=0, off_mission_role=0, on_camera_gig=0, dead_link=0, low_fit=0, capped=0, delivered=0, failed=0)
     from delivery_ledger import Ledger, receipt_key
     ledger = Ledger() if os.environ.get("GITHUB_ACTIONS") == "true" else None
     counts["pending_reconciliation"] = 0
@@ -282,6 +297,8 @@ def main():
             from final_filter import language_blocked, dead_link
             if domain_blocked(job):
                 counts["domain"] += 1
+            elif off_mission_role(job):
+                counts["off_mission_role"] += 1
             elif on_camera_gig_blocked(job):
                 counts["on_camera_gig"] += 1
             elif language_blocked(job):

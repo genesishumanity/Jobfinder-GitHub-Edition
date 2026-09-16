@@ -13,6 +13,7 @@ ROLES = [
     "creative director",
     "associate creative director",
     "ugc",
+    "creative producer",
 ]
 
 
@@ -42,7 +43,11 @@ def _base_config():
     }
 
 
-def test_focused_mode_keeps_exact_eight_role_queries():
+def test_focused_mode_keeps_exact_nine_role_queries():
+    # Was eight roles through 2026-09-15; "Creative Producer" added 2026-09-16
+    # after live testing showed real "Creative Producer" listings (a title
+    # Can's own CV uses) were being rejected — it belongs in the approved set,
+    # it just hadn't been added yet.
     cfg = discovery_lanes.expand_config(copy.deepcopy(_base_config()), [])
     expected = [f"{role} remote" for role in ROLES]
     assert cfg["target_geography"]["exclude_us"] is True
@@ -51,7 +56,7 @@ def test_focused_mode_keeps_exact_eight_role_queries():
     for source in ("linkedin", "indeed", "glassdoor", "google_jobs", "ziprecruiter"):
         assert [term.casefold() for term in cfg["search_terms"][source]] == expected
     assert "project manager remote" not in cfg["search_terms"]["linkedin"]
-    assert "creative producer remote" not in cfg["search_terms"]["linkedin"]
+    assert "creative producer remote" in cfg["search_terms"]["linkedin"]
 
 
 def test_delivery_gate_requires_remote_no_longer_requires_uk_europe_signal():
@@ -188,3 +193,35 @@ def test_on_camera_gig_gate_examples():
     ]
     for title in legitimate_titles:
         assert not on_camera_gig_blocked({"title": title}), title
+
+
+def test_off_mission_role_gate_examples():
+    from telegram_notify import off_mission_role
+
+    # Real off-mission titles found live 2026-09-16 in historical delivery
+    # records — none of the eight (now nine) approved role families, but
+    # slipped through because LinkedIn/Indeed/Glassdoor/Google Jobs are only
+    # soft-scored (fit()), not hard title-gated like CareerOps/Remote Boards.
+    off_mission_titles = [
+        "Growth Marketing Manager - Paid Social (Berlin, Germany)",
+    ]
+    for title in off_mission_titles:
+        assert off_mission_role({"title": title}), title
+
+    # On-mission titles, including real variants that must not be caught —
+    # "Creative Strategist" (word-form of "creative strategy") broke this
+    # gate the first time it was tested; "Creative Producer" was added
+    # 2026-09-16 after being found wrongly excluded.
+    on_mission_titles = [
+        "Founding Creative Director",
+        "Senior Creative Strategist",
+        "Performance Creative Lead, Europe",
+        "UGC Coordinator",
+        "Generative AI Producer (Creative)",
+        "AI Creative Lead (Remote)",
+        "Associate Creative Director - Women's Lifestyle",
+        "Creative Producer:in",
+        "Freelance Creative Producer FR/IT/ES",
+    ]
+    for title in on_mission_titles:
+        assert not off_mission_role({"title": title}), title

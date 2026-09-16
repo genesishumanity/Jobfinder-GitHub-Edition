@@ -67,7 +67,6 @@
       "environmental",
       "scientist",
       "sales",
-      "creative producer",
       "executive producer",
       "freelance creative",
       "fractional creative",
@@ -298,7 +297,8 @@
       "Creative Lead remote",
       "Creative Director remote",
       "Associate Creative Director remote",
-      "UGC remote"
+      "UGC remote",
+      "Creative Producer remote"
     ],
     "google_jobs": [
       "AI Producer remote",
@@ -308,7 +308,8 @@
       "Creative Lead remote",
       "Creative Director remote",
       "Associate Creative Director remote",
-      "UGC remote"
+      "UGC remote",
+      "Creative Producer remote"
     ],
     "governmentjobs": [],
     "hiring_cafe": [
@@ -319,7 +320,8 @@
       "Creative Lead remote",
       "Creative Director remote",
       "Associate Creative Director remote",
-      "UGC remote"
+      "UGC remote",
+      "Creative Producer remote"
     ],
     "indeed": [
       "AI Producer remote",
@@ -329,7 +331,8 @@
       "Creative Lead remote",
       "Creative Director remote",
       "Associate Creative Director remote",
-      "UGC remote"
+      "UGC remote",
+      "Creative Producer remote"
     ],
     "linkedin": [
       "AI Producer remote",
@@ -339,7 +342,8 @@
       "Creative Lead remote",
       "Creative Director remote",
       "Associate Creative Director remote",
-      "UGC remote"
+      "UGC remote",
+      "Creative Producer remote"
     ],
     "usajobs": [],
     "workday": [
@@ -355,7 +359,8 @@
       "Creative Lead remote",
       "Creative Director remote",
       "Associate Creative Director remote",
-      "UGC remote"
+      "UGC remote",
+      "Creative Producer remote"
     ]
   },
   "target_geography": {
