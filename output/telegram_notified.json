@@ -18,6 +18,8 @@
     "1994de65e83f2d2641f2a9a4f3f2874b4d5e79f57df28358b6543c8925c84735",
     "1bf8e2bcf80bd4c457b89c22011b99bf6ea181975fcceed5d902c52aefdaa551",
     "1ca76a9914ed76d483480d38f5be3d28e2cd5e10e54d7909d712aafde78059a6",
+    "203af9b1c832f9b54c037ae29bf523112cdcaf4599924a2e2b520bcf6c0c2d5f",
+    "20d7436f19a7702f39e9b3395b6112ae0106b2d6daa1a773c69349c2d646afae",
     "23ef37f8c77e23e8341e554f68da99b2a41d0c8fe43c2492763e82053665b909",
     "25a51ff6b8959ab12f193c921ead5e1f64129687b591fbf959f64123978e0ace",
     "2aff894afff7bfddfea60abec6665c7c050ca40fca63a12511a440fcbb2b54f6",
@@ -52,6 +54,8 @@
     "61433b6da949307f8bf2a3e15570c1a77401ad7af34bb2eb0d859bd3723ae3a3",
     "651954f8898dbbaea0f0cba139310a2ed813ce73f8d7a8029474c663bfc6be19",
     "6643c6a2a0c5fade10e211aad782ab9ad314edede45728c6b32d5992d571e0f3",
+    "672187185730c3f26ef14675c11ef2e20d077fd0042f0e0960c33a9675881167",
+    "69279272f447c10eaf6ca75bb71bcf0522db4aa416cde50b2a4003f64f91b784",
     "6a38875c7e7a3e060ad06f338ff17a5f561b7f3b9fb4e74b6062a404d7683adf",
     "6bcd95a735f89ed6cdeaf4f22cc19b5f1cbd2e831a388defa2f15f0ac356d8a4",
     "6fd690a4840cc6132d48c9892669420b82b25353cf4b5ac2d3be8dccad8859d3",
@@ -97,7 +101,9 @@
     "e4d6157d2cfe77ebbf93ac4f851c60d78d34ea6798a733172ac055cab8cbc78d",
     "e575560d31c25c00eeba5e3c6137a112c4a9b9ec7c87c74ce3995821ba72f1af",
     "e62b8afc7094789c75d7cc4cdd737ea3e9d310f0c82fc6d6ed877bf9052365a8",
+    "ee02faf8a4a206adde9e4e0146c936e879ec93aa12deb2308d813c3d669284c1",
     "eed5b4caf5e1c2d2b866297dc02f6c272c8d166598d31fdb566dba72857e7541",
+    "f0b63bd355ba87b8a212c537165c6c9ce5541088484753579c30183229ff6dae",
     "f0bf53ef873aa9717396694565988d2e27ea9dfb92065e7fa80848c76f6d2c34",
     "f141b77463949fba295d4ef22be212f21305ac07179f2fc1b299a37d7805945a",
     "f16e0520c34d1a32e217774ba820a5834c575ae6ab2187e6f7de408c422c23da",
@@ -509,25 +515,49 @@
     "digital people|associate creative director - copy|anywhere": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-16T21:43:33.239247+00:00"
+    },
+    "forbes advisor|ai creative lead|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T23:42:19.639490+00:00"
+    },
+    "ruby labs|lead creative producer|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T23:42:22.419766+00:00"
+    },
+    "ruby labs ltd|ruby labs ltd is hiring: senior ad creative producer in greece|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T23:42:25.640560+00:00"
+    },
+    "united states digital space llc|remote ad creative producer — drive high-impact ads|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T23:42:28.667921+00:00"
+    },
+    "ruby labs|ad creative producer|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T23:42:31.774779+00:00"
+    },
+    "servicenow|associate creative director - core brand|anywhere": {
+      "material": "148K–260K a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T23:42:34.549294+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
-    "duplicate": 0,
+    "discovered": 25,
+    "duplicate": 12,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
     "language": 0,
-    "domain": 0,
-    "gig_marketplace": 0,
+    "domain": 1,
+    "gig_marketplace": 5,
     "off_mission_role": 0,
     "on_camera_gig": 0,
-    "dead_link": 0,
+    "dead_link": 1,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 6,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
