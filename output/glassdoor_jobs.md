@@ -1,5 +1,5 @@
 # 🟩 Glassdoor — Can Öncül — AI Production & Creative Leadership Roles
-*Last updated: 2026-09-16 03:18 UTC*
+*Last updated: 2026-09-16 16:19 UTC*
 
 **0 new role(s)** since last run · 0 total in last 168h
 
