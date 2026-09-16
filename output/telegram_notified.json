@@ -11,9 +11,11 @@
     "0ea82b4228bbbce31e79e67b8230cdccb7308b08ed2b052a7bee8acb08d8103c",
     "0f6914f842640851f2a01e20604773a4c0bde6d7b85a33754b2c7480008359fe",
     "129f3e7787ce79b1adc1e8498ed23eea910efb8eb6c66f58a41269b634860054",
+    "133bd09866cdcd8770d333edc6b1bf32a2e5c5681b6006b5481e3ef8e37da210",
     "14ab290e0cb3d324f2d447d3981c2f1a6aabe6b5c2c22ac219a81f1f4acf4c4b",
     "14dd235daa055ed821bb4fea77d6d39a26f52c044a1827956afba6072fe313fa",
     "1994de65e83f2d2641f2a9a4f3f2874b4d5e79f57df28358b6543c8925c84735",
+    "1ca76a9914ed76d483480d38f5be3d28e2cd5e10e54d7909d712aafde78059a6",
     "23ef37f8c77e23e8341e554f68da99b2a41d0c8fe43c2492763e82053665b909",
     "25a51ff6b8959ab12f193c921ead5e1f64129687b591fbf959f64123978e0ace",
     "2aff894afff7bfddfea60abec6665c7c050ca40fca63a12511a440fcbb2b54f6",
@@ -51,9 +53,11 @@
     "6fd690a4840cc6132d48c9892669420b82b25353cf4b5ac2d3be8dccad8859d3",
     "70d3e473afd6814768db240251e99c2767964620ca1b51b334a3b68d30df4cc0",
     "75fd325cc2d34ef02abb0da51707dd5b58208c2f3e9593cf56b12646f5231bbc",
+    "78fab0d2dc3b2d08d7334a6269cc21fd9a61eb6a03a6e791a2ea76242fdd0c30",
     "7c7a338df5d89ea9fb56d7ddadf720728ab839c6a6ad7c7eef017d606baa0ef6",
     "7dea06f30b37263c5e2a70381980f717b96cc79a587e6352b9df8467f0b7ec83",
     "80a8da42555c0a4cae0354118e90bafb718a9dc91d8810d51574abeebb41813b",
+    "8306631c05c558c62602ac8af15a34cc4ed8309bcd9d3ee03159620c58bd8699",
     "83724640e329aa55552f71e16f9719573f884fc4053b1b98614843745e81669b",
     "845670129f4bc7fd4897ddb914c2615a2f892596944510ea78ec5c1666a44002",
     "890ed14d2c9cdb04d4fe16b95e89e1974e0b7e0d8db10645178a4325681eb6d1",
@@ -469,24 +473,40 @@
     "upwork|cavalier dog owner ugc long term!|anywhere": {
       "material": "40–80 an hour|Remote in-state eligible|True",
       "last_sent": "2026-09-16T18:52:26.016348+00:00"
+    },
+    "upwork|creative lead - owii | dubai|anywhere": {
+      "material": "15–35 an hour|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T19:41:57.131333+00:00"
+    },
+    "everyday dose inc.|senior creative producer - remote, equity & unlimited pto|anywhere": {
+      "material": "80K–100K a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T19:42:00.796291+00:00"
+    },
+    "gismart|remote-first creative producer – mobile apps|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T19:42:03.680426+00:00"
+    },
+    "peta|ai creative producer|anywhere": {
+      "material": "19.45–24.93 an hour|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T19:42:06.036671+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
-    "discovered": 1,
-    "duplicate": 0,
+    "discovered": 24,
+    "duplicate": 13,
     "geography": 0,
-    "remote": 1,
+    "remote": 0,
     "restricted": 0,
     "language": 0,
-    "domain": 0,
+    "domain": 1,
     "off_mission_role": 0,
     "on_camera_gig": 0,
-    "dead_link": 0,
-    "low_fit": 0,
+    "dead_link": 1,
+    "low_fit": 5,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 4,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
