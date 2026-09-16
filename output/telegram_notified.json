@@ -42,6 +42,7 @@
     "5d0e9dfa238cce6a793b284287d1177b9f32d9701f6afd99cbbbcc5a7877ce0c",
     "60f5e60227e71aeb7199ca2440f9c8ef6515d42288acec7b0fab04c5c114811e",
     "651954f8898dbbaea0f0cba139310a2ed813ce73f8d7a8029474c663bfc6be19",
+    "6643c6a2a0c5fade10e211aad782ab9ad314edede45728c6b32d5992d571e0f3",
     "6a38875c7e7a3e060ad06f338ff17a5f561b7f3b9fb4e74b6062a404d7683adf",
     "6bcd95a735f89ed6cdeaf4f22cc19b5f1cbd2e831a388defa2f15f0ac356d8a4",
     "6fd690a4840cc6132d48c9892669420b82b25353cf4b5ac2d3be8dccad8859d3",
@@ -424,24 +425,28 @@
     "centaur labs|remote-first ai video director & creative leader|anywhere": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-16T16:48:55.437117+00:00"
+    },
+    "petlabco.|creative strategist - performance marketing (remote in uk)|london, england, united kingdom": {
+      "material": "||",
+      "last_sent": "2026-09-16T17:11:15.801185+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
+    "discovered": 21,
     "duplicate": 0,
     "geography": 0,
-    "remote": 0,
+    "remote": 5,
     "restricted": 0,
     "language": 0,
     "domain": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 14,
     "on_camera_gig": 0,
     "dead_link": 0,
-    "low_fit": 0,
+    "low_fit": 1,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
