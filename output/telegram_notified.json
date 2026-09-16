@@ -3,6 +3,7 @@
   "ids": [
     "0150bd1672005ebbb8fd2b617d8bffedec782a936aaa78425bc324ed29c61956",
     "01716dfdca9eafc68fe977268558fac4cf66a86da65cee7a260e66433373ef1d",
+    "0479d90bc39b93c962333a3ce3ba9df8d22817de2e55107f465f198d73817ec0",
     "070466bd1dede6390056b5edfd9aff3449ef0e46f014e78aca50cc2dcf2a5eb4",
     "095f55ef3ff91415b1423177e84e956d328e3a0b9b4fc172f6d29fb760b4ebe9",
     "0bf8eb82beb1085e3d6533d3a2444430a0a4f7eee201775df8516ed32da046e1",
@@ -84,6 +85,7 @@
     "f16e0520c34d1a32e217774ba820a5834c575ae6ab2187e6f7de408c422c23da",
     "f3305292ef57a6cf23810d9cae34e0501c2e7fc18546e6e057423913e0d97f23",
     "f33c813b6b8f7ce5512a040bda5f8b274528493203ee4277585097e478b37e24",
+    "f41d2cabcb06c0087c92687884354b097a9c5acaee9ade337da7bf97bbebc706",
     "fd9608a8a1c8a13cd996d37fbe37556d4de6c092f2272764fcb3a7ce46cbeebd",
     "fileneresearchinstitute|audiencecontentstrategydirectorfilenewitxorco||httpswwwlinkedincomjobsview4463919758",
     "golinketchum|associatecreativedirector||httpswwwlinkedincomjobsview4464808195",
@@ -173,8 +175,8 @@
       "last_sent": "2026-09-14T16:51:34.747863+00:00"
     },
     "crossing hurdles|ugc creator | $15/hr remote|anywhere": {
-      "material": "14–15 an hour|Remote in-state eligible|True",
-      "last_sent": "2026-09-14T16:51:37.627862+00:00"
+      "material": "20.8K–31.2K a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T01:43:59.955835+00:00"
     },
     "buzzybooth.com|female ugc creator / spokesperson / presenter / actress (english speaker) remote|anywhere": {
       "material": "|Remote in-state eligible|True",
@@ -407,22 +409,26 @@
     "servicenow|regional brand creative lead (emea)|anywhere": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-16T00:52:00.816731+00:00"
+    },
+    "upwork|need someone to create 0:30-01:00min ugc video with himself/herself talking about a product|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T01:44:02.538444+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
-    "duplicate": 0,
+    "discovered": 13,
+    "duplicate": 6,
     "geography": 0,
-    "remote": 0,
+    "remote": 2,
     "restricted": 0,
-    "language": 0,
+    "language": 1,
     "domain": 0,
-    "dead_link": 0,
-    "low_fit": 0,
+    "dead_link": 1,
+    "low_fit": 1,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 2,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
