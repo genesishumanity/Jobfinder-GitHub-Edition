@@ -152,6 +152,28 @@ def language_blocked(job):
     )
 
 
+# Job boards (Indeed especially) rarely 404 an expired listing — they serve
+# a normal 200 OK page saying the posting is gone, so a status-only check
+# missed this entirely. Found live 2026-09-17: Can reported most Indeed
+# links "don't open"; auditing real delivered URLs directly from this
+# environment showed Indeed 401s every direct request regardless of
+# headers (bot/IP-reputation gate, not a per-listing signal — can't be used
+# to judge individual links), but the more common real-world case is a
+# same-domain viewer that resolves fine yet shows this expired-posting text.
+# Keyed on the exact "no longer available" phrasing job boards actually use
+# (EN/DE, since de.indeed.com is in rotation) — deliberately not on generic
+# words like "expired" that a live posting's own body text could contain.
+DEAD_LISTING_TEXT = re.compile(
+    r"this job (?:posting )?(?:is no longer available|has expired)|"
+    r"job no longer available|"
+    r"no longer accepting applications|"
+    r"this position has been filled|"
+    r"diese stellenanzeige ist nicht mehr verfügbar|"
+    r"diese position (?:ist|wurde) (?:bereits )?besetzt",
+    re.I,
+)
+
+
 def dead_link(job):
     url = str(job.get("direct_url") or job.get("url") or "").strip()
     if not url.startswith(("http://", "https://")):
@@ -159,9 +181,16 @@ def dead_link(job):
     request = urllib.request.Request(url, method="GET", headers={"User-Agent": "Mozilla/5.0 JobFinder link check"})
     try:
         with urllib.request.urlopen(request, timeout=12) as response:
-            return response.status in (404, 410)
+            if response.status in (404, 410):
+                return True
+            if response.status == 200:
+                body = response.read(200_000).decode("utf-8", errors="replace")
+                return bool(DEAD_LISTING_TEXT.search(body))
+            return False
     except urllib.error.HTTPError as exc:
         return exc.code in (404, 410)
     except Exception:
-        # Network/rate-limit uncertainty is not proof of a dead listing.
+        # Network/rate-limit uncertainty (including bot-detection 401/403
+        # that blocks our own request regardless of the listing's real
+        # state) is not proof of a dead listing.
         return False

@@ -349,6 +349,34 @@ def test_off_mission_role_word_gap_creative_lead_director():
         assert off_mission_role({"title": title}), title
 
 
+def test_dead_listing_text_detects_soft_404s():
+    from final_filter import DEAD_LISTING_TEXT
+
+    # Real gap found 2026-09-17: Can reported most Indeed links "don't
+    # open." dead_link() only checked HTTP status (404/410), but job boards
+    # — Indeed especially — routinely serve a normal 200 OK page saying the
+    # posting expired rather than a real 404, so those slipped through
+    # undetected.
+    dead_examples = [
+        "This job posting is no longer available.",
+        "This job has expired",
+        "No longer accepting applications",
+        "This position has been filled",
+        "Diese Stellenanzeige ist nicht mehr verfügbar.",
+    ]
+    for text in dead_examples:
+        assert DEAD_LISTING_TEXT.search(text), text
+
+    # Must not false-positive on a live posting whose own copy happens to
+    # use a similar word.
+    live_examples = [
+        "We are looking for a Creative Director to join our expired-content strategy team.",
+        "Apply now, this role is open and accepting applications through Friday.",
+    ]
+    for text in live_examples:
+        assert not DEAD_LISTING_TEXT.search(text), text
+
+
 def test_off_mission_role_ai_lead_excludes_lead_generation():
     from telegram_notify import off_mission_role
 
