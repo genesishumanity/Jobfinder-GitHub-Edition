@@ -138,17 +138,13 @@ def domain_blocked(job):
 # Lebanon) made up a large share of low-quality deliveries — exactly the
 # "pool-building"/"subscriber-collecting" middleman junk Can flagged. These
 # platforms structurally aren't the remote job Can wants regardless of how
-# well the title matches, so they're blocked by company name and by the
-# posting URL's domain rather than relying on title/description heuristics.
+# well the title matches, so blocked by company name (Upwork/Fiverr/
+# Freelancer's own domains are already caught by untrusted_source()'s
+# allowlist below — this only needs to catch marketplace accounts posting
+# under their own brand on an otherwise-trusted domain like LinkedIn).
 GIG_MARKETPLACE_COMPANIES = {
     "jobgether", "hirelatam", "crossing hurdles",
 }
-GIG_MARKETPLACE_URL_DOMAINS = re.compile(
-    r"(?:^|\.)upwork\.com$|(?:^|\.)fiverr\.com$|(?:^|\.)freelancer\.com$",
-    re.I,
-)
-
-
 # Junk site crackdown 2026-09-17: Can reported quality collapsed, most
 # deliveries from generic reposting/aggregator/subscription-harvest sites.
 # Switched from blocklisting known junk to allowlisting known-good sources:
@@ -186,11 +182,7 @@ def untrusted_source(job):
 def gig_marketplace_blocked(job):
     company = str(job.get("company", ""))
     company_norm = re.sub(r"[^a-z0-9& ]", "", company.lower()).strip()
-    if company_norm in GIG_MARKETPLACE_COMPANIES or company_norm.startswith("jobs for "):
-        return True
-    url = str(job.get("direct_url") or job.get("url") or "")
-    netloc = urllib.parse.urlsplit(url).netloc.lower()
-    return bool(GIG_MARKETPLACE_URL_DOMAINS.search(netloc))
+    return company_norm in GIG_MARKETPLACE_COMPANIES or company_norm.startswith("jobs for ")
 
 
 # On-camera-talent / casting-call gigs get mislabeled as "UGC" jobs but are

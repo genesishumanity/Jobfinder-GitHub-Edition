@@ -248,23 +248,27 @@ def test_untrusted_source_allowlist():
 
 
 def test_gig_marketplace_gate_examples():
-    from telegram_notify import gig_marketplace_blocked
+    from telegram_notify import gig_marketplace_blocked, untrusted_source
 
     # Real junk found live 2026-09-17 auditing a week of Telegram deliveries:
-    # Upwork freelance micro-gigs and recruiting/talent-pool platforms
-    # posting under their own brand as if they were the employer. These
-    # aren't real jobs Can can apply to — blocked regardless of how well the
-    # title matches the approved role families.
-    assert gig_marketplace_blocked({
+    # Upwork freelance micro-gigs — caught by untrusted_source()'s allowlist
+    # (upwork.com isn't a trusted domain), not by gig_marketplace_blocked()
+    # (that only needs to catch marketplace accounts posting under their own
+    # brand on an otherwise-trusted domain, see below).
+    assert untrusted_source({
         "company": "Upwork",
         "title": "Cavalier Dog Owner UGC Long Term!",
         "url": "https://www.upwork.com/freelance-jobs/apply/x",
     })
-    assert gig_marketplace_blocked({
+    assert untrusted_source({
         "company": "Upwork",
         "title": "Set up a WhatsApp AI Lead-Qualification System (respond.io + Zapier)",
         "url": "https://www.upwork.com/freelance-jobs/apply/y",
     })
+
+    # Recruiting/talent-pool platforms posting under their own brand as if
+    # they were the employer, on an otherwise-trusted domain (LinkedIn) —
+    # this is what gig_marketplace_blocked() actually needs to catch.
     assert gig_marketplace_blocked({
         "company": "Jobgether",
         "title": "Creative Lead – DTC & Performance Creative",
