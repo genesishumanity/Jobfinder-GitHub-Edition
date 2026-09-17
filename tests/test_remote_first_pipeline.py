@@ -214,7 +214,6 @@ def test_untrusted_source_allowlist():
         "https://www.mediabistro.com/jobs/abc",
         "https://www.monster.com/job/abc",
         "https://www.tealhq.com/jobs/abc",
-        "https://www.ziprecruiter.com/job/abc",
         "https://www.upwork.com/freelance-jobs/apply/abc",
     ]
     for url in junk_urls:
@@ -233,6 +232,8 @@ def test_untrusted_source_allowlist():
         "https://remoteok.com/remote-jobs/123",
         "https://remotive.com/remote-jobs/123",
         "https://weworkremotely.com/remote-jobs/123",
+        "https://www.ziprecruiter.com/job/abc",
+        "https://www.glassdoor.com/job-listing/abc",
     ]
     for url in good_urls:
         assert not untrusted_source({"url": url}), url

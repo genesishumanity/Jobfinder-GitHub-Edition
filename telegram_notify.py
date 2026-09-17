@@ -165,7 +165,9 @@ ALLOWED_SOURCE_DOMAINS = re.compile(
     r"(?:^|\.)myworkdayjobs\.com$|"
     r"(?:^|\.)remoteok\.com$|"
     r"(?:^|\.)remotive\.com$|"
-    r"(?:^|\.)weworkremotely\.com$",
+    r"(?:^|\.)weworkremotely\.com$|"
+    r"(?:^|\.)ziprecruiter\.com$|"
+    r"(?:^|\.)glassdoor\.com$",
     re.I,
 )
 
