@@ -74,6 +74,7 @@
     "845670129f4bc7fd4897ddb914c2615a2f892596944510ea78ec5c1666a44002",
     "890ed14d2c9cdb04d4fe16b95e89e1974e0b7e0d8db10645178a4325681eb6d1",
     "89444f82f6d7975d5b7b99b473bfa6ffc0a99c9bbe4e983f9aeac9582a47d66a",
+    "8c17a3c7b7604452428329b12255e853c8e282595c682aa7529d9ed9ca221f3e",
     "8d7b56f5c21da5a9bcc39656df22947542cc529b0cd66573c0480b78aeaee772",
     "90a5e796d74a0dd0eb639a87ae574d8e5705c107c91d1677cb7f1e91f0280806",
     "97757b6a2faf2b6e572376dd5f4ce6a73181f05cc2c3e0640a61e437bf535de4",
@@ -589,6 +590,10 @@
     "d3uus d3u inc.|associate creative director (art & design)|anywhere": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-17T17:42:57.998914+00:00"
+    },
+    "goodwaygroup|associate creative director|remote · business shared services": {
+      "material": "|remote|True",
+      "last_sent": "2026-09-17T20:42:23.149522+00:00"
     }
   },
   "last_run": {
@@ -608,7 +613,7 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
