@@ -1,6 +1,8 @@
 # 🔥 LinkedIn — Can Öncül — AI Production & Creative Leadership Roles
-*Last updated: 2026-09-17 00:48 UTC*
+*Last updated: 2026-09-17 01:41 UTC*
 
-**0 new role(s)** since last run · 59 total in last 168h
+**1 new role(s)** since last run · 60 total in last 168h
 
-No new roles since the last run.
+### [Product Marketing Lead](https://www.linkedin.com/jobs/view/4467132796/) — Jobgether
+- 📍 **Location:** Spain
+- 🕒 **Posted:** 2026-09-17
