@@ -90,6 +90,7 @@
     "baaf4df617bce8357f1e1861f38bbc19170862dd9b4e138d6693613e64891305",
     "c066913e34842df7d6e7eb5ea6aa27a119180e2ef1347d3964e1c281bec1fe4d",
     "c661269d60761df95983362b19c043cb9cff2bc9e10a6603864d4d410062e278",
+    "c8d60c39522458765879614a7ea645de2904054f38088b84a9b2186c7ebb1812",
     "ca36282e826ef907d26eb02ada5220754fa044d6753fb0e6d56b653bce43d827",
     "caeba3a133c12812fb1be3811bad986b2abc77413b4f68950b961b4653fc454f",
     "d3ffea68f3a98accf23a5b5c8d6d6181a15648f519d6264e4d8d2e5180cde15a",
@@ -554,26 +555,30 @@
     "day 1 marketing|remote ugc & influencer campaign manager|anywhere": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-17T02:48:18.999692+00:00"
+    },
+    "solgenie|ai lead with sap background|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-17T03:48:20.884774+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
-    "discovered": 1,
-    "duplicate": 0,
+    "discovered": 19,
+    "duplicate": 3,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
-    "untrusted_source": 0,
-    "off_mission_role": 1,
+    "untrusted_source": 15,
+    "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
