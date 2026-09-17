@@ -73,6 +73,7 @@
     "89444f82f6d7975d5b7b99b473bfa6ffc0a99c9bbe4e983f9aeac9582a47d66a",
     "8d7b56f5c21da5a9bcc39656df22947542cc529b0cd66573c0480b78aeaee772",
     "90a5e796d74a0dd0eb639a87ae574d8e5705c107c91d1677cb7f1e91f0280806",
+    "9a899ff0e1cb85d3e1f42d861a939be7745015be1bfca8cd7076b9dc502c9e09",
     "9b9f77a7c4dbd8b7cb2e5e1794d0409f2d62d9b3d9b7bb7a1b9d16fe78fab9ce",
     "9d6b2d5976243f584d9733dc3119dd47caa552a6ece4af26da30daff80c7f3e1",
     "a3a577fd023324f92f312e7abfcd42964389918815a800873e21fb789ce3ae80",
@@ -559,12 +560,16 @@
     "solgenie|ai lead with sap background|anywhere": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-17T03:48:20.884774+00:00"
+    },
+    "darkroom|specialist, creative strategy|brazil · portugal · spain · remote": {
+      "material": "|remote|True",
+      "last_sent": "2026-09-17T08:40:43.078964+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "careerops_ats_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
+    "discovered": 1,
     "duplicate": 0,
     "geography": 0,
     "remote": 0,
@@ -578,7 +583,7 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
