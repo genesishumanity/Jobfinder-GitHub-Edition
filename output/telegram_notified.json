@@ -79,6 +79,7 @@
     "acf97042bf7f313412eeab871391388b5b50fcda2e9ec02bfda7561b393d6684",
     "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466009878",
     "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466013766",
+    "b12a59585747bf75b67f7b20ac42ba05523c9f85cac362c91fc9a9e6c963daf1",
     "b269c53722daf61b84525d9df6f718d926d5cecff10d6608d30c58fc303ca215",
     "b651561f3115eb2acc0c17abea77ab8be8b4299eb260bba8f78ce931f92dfb47",
     "b6b368c6ff96059a31dac7e3420c548b4d32b2f139487ead44a22ba1b89b825d",
@@ -457,8 +458,8 @@
       "last_sent": "2026-09-16T17:45:15.008433+00:00"
     },
     "perfeos|visual ai creative lead|anywhere": {
-      "material": "||None",
-      "last_sent": "2026-09-16T17:45:18.482931+00:00"
+      "material": "30K–60K a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-17T00:52:36.733597+00:00"
     },
     "aquent|associate creative director (bilingual spanish and english) [aq-17266]|anywhere": {
       "material": "100–103 an hour|Remote in-state eligible|True",
@@ -539,13 +540,17 @@
     "servicenow|associate creative director - core brand|anywhere": {
       "material": "148K–260K a year|Remote in-state eligible|True",
       "last_sent": "2026-09-16T23:42:34.549294+00:00"
+    },
+    "able group|remote creative producer — data-driven d2c ads|anywhere": {
+      "material": "65K–100K a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-17T00:52:40.109114+00:00"
     }
   },
   "last_run": {
     "source_file": "careerops_ats_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
-    "duplicate": 0,
+    "discovered": 7,
+    "duplicate": 2,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
@@ -554,10 +559,10 @@
     "gig_marketplace": 0,
     "off_mission_role": 0,
     "on_camera_gig": 0,
-    "dead_link": 0,
-    "low_fit": 0,
+    "dead_link": 2,
+    "low_fit": 1,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 2,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
