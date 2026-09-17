@@ -202,6 +202,50 @@ def test_on_camera_gig_gate_examples():
         assert not on_camera_gig_blocked({"title": title}), title
 
 
+def test_untrusted_source_allowlist():
+    from telegram_notify import untrusted_source
+
+    # Real junk domains found live 2026-09-17 auditing the pool: generic
+    # reposting/lead-gen/subscription-harvest aggregators.
+    junk_urls = [
+        "https://bebee.com/job/abc",
+        "https://www.jobleads.com/job/abc",
+        "https://www.learn4good.com/jobs/abc",
+        "https://www.mediabistro.com/jobs/abc",
+        "https://www.monster.com/job/abc",
+        "https://www.tealhq.com/jobs/abc",
+        "https://www.ziprecruiter.com/job/abc",
+        "https://www.upwork.com/freelance-jobs/apply/abc",
+    ]
+    for url in junk_urls:
+        assert untrusted_source({"url": url}), url
+
+    # Known-good sources must pass: LinkedIn, Indeed, and the ATS platforms
+    # CareerOps/Remote Boards already scan directly.
+    good_urls = [
+        "https://www.linkedin.com/jobs/view/123",
+        "https://www.indeed.com/viewjob?jk=abc",
+        "https://de.indeed.com/viewjob?jk=abc",
+        "https://job-boards.greenhouse.io/company/jobs/123",
+        "https://jobs.lever.co/company/123",
+        "https://jobs.ashbyhq.com/company/123",
+        "https://company.wd5.myworkdayjobs.com/careers/job/123",
+        "https://remoteok.com/remote-jobs/123",
+        "https://remotive.com/remote-jobs/123",
+        "https://weworkremotely.com/remote-jobs/123",
+    ]
+    for url in good_urls:
+        assert not untrusted_source({"url": url}), url
+
+    # Indeed's "url" is the trusted listing page even when "direct_url"
+    # (the apply link) points off-site to the employer's own ATS — the
+    # gate must key on discovery source, not apply destination.
+    assert not untrusted_source({
+        "url": "https://de.indeed.com/viewjob?jk=abc",
+        "direct_url": "https://www.la-red.de/jobs/creative-director/",
+    })
+
+
 def test_gig_marketplace_gate_examples():
     from telegram_notify import gig_marketplace_blocked
 

@@ -149,6 +149,38 @@ GIG_MARKETPLACE_URL_DOMAINS = re.compile(
 )
 
 
+# Junk site crackdown 2026-09-17: Can reported quality collapsed, most
+# deliveries from generic reposting/aggregator/subscription-harvest sites.
+# Switched from blocklisting known junk to allowlisting known-good sources:
+# LinkedIn, Indeed, the ATS platforms CareerOps scans, and the Remote
+# Boards themselves. Blocks everything else (bebee, jobleads, learn4good,
+# mediabistro, monster, tealhq, showbizjobs, vaia, ziprecruiter, etc.) by
+# default instead of chasing each junk domain one at a time.
+ALLOWED_SOURCE_DOMAINS = re.compile(
+    r"(?:^|\.)linkedin\.com$|"
+    r"(?:^|\.)indeed\.com$|"
+    r"(?:^|\.)greenhouse\.io$|"
+    r"(?:^|\.)lever\.co$|"
+    r"(?:^|\.)ashbyhq\.com$|"
+    r"(?:^|\.)myworkdayjobs\.com$|"
+    r"(?:^|\.)remoteok\.com$|"
+    r"(?:^|\.)remotive\.com$|"
+    r"(?:^|\.)weworkremotely\.com$",
+    re.I,
+)
+
+
+def untrusted_source(job):
+    # "url" is the discovery listing (indeed.com, linkedin.com, ...);
+    # "direct_url" is often the employer's own apply link on their own ATS
+    # domain (found live 2026-09-17 — checking direct_url first wrongly
+    # blocked genuine Indeed listings whose apply link pointed off-site).
+    # Trust is about the source we found it on, so check "url" first.
+    url = str(job.get("url") or job.get("direct_url") or "")
+    netloc = urllib.parse.urlsplit(url).netloc.lower()
+    return not bool(ALLOWED_SOURCE_DOMAINS.search(netloc))
+
+
 def gig_marketplace_blocked(job):
     company = str(job.get("company", ""))
     company_norm = re.sub(r"[^a-z0-9& ]", "", company.lower()).strip()
@@ -330,7 +362,7 @@ def main():
     sent_ids = set(state.get("ids", []))
     records = state.setdefault("records", {})
     counts = dict(discovered=len(new_jobs), duplicate=0, geography=0, remote=0, restricted=0,
-                  language=0, domain=0, gig_marketplace=0, off_mission_role=0, on_camera_gig=0, dead_link=0, low_fit=0, capped=0, delivered=0, failed=0)
+                  language=0, domain=0, gig_marketplace=0, untrusted_source=0, off_mission_role=0, on_camera_gig=0, dead_link=0, low_fit=0, capped=0, delivered=0, failed=0)
     from delivery_ledger import Ledger, receipt_key
     ledger = Ledger() if os.environ.get("GITHUB_ACTIONS") == "true" else None
     counts["pending_reconciliation"] = 0
@@ -346,7 +378,9 @@ def main():
             counts["restricted"] += 1
         else:
             from final_filter import language_blocked, dead_link
-            if domain_blocked(job):
+            if untrusted_source(job):
+                counts["untrusted_source"] += 1
+            elif domain_blocked(job):
                 counts["domain"] += 1
             elif gig_marketplace_blocked(job):
                 counts["gig_marketplace"] += 1
