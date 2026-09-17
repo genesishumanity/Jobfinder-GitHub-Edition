@@ -602,7 +602,7 @@
     "language": 1,
     "domain": 2,
     "gig_marketplace": 0,
-    "untrusted_source": 0,
+    "untrusted_source": 5,
     "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
