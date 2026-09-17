@@ -62,6 +62,7 @@
     "6fd690a4840cc6132d48c9892669420b82b25353cf4b5ac2d3be8dccad8859d3",
     "70d3e473afd6814768db240251e99c2767964620ca1b51b334a3b68d30df4cc0",
     "75fd325cc2d34ef02abb0da51707dd5b58208c2f3e9593cf56b12646f5231bbc",
+    "763b6f38acfaba760733d282f8d852f016389ac9e6c885751d4c989181059be2",
     "77026877345971723a79c08168714fda49af7df15be5ecbd475e16ebd001204e",
     "78fab0d2dc3b2d08d7334a6269cc21fd9a61eb6a03a6e791a2ea76242fdd0c30",
     "7c7a338df5d89ea9fb56d7ddadf720728ab839c6a6ad7c7eef017d606baa0ef6",
@@ -569,12 +570,16 @@
     "ruby-labs|creative producer|poland · moldova · albania · north macedonia · kazakhstan · montenegro · european union · ukraine · serbia · bosnia · georgia · remote": {
       "material": "|remote|True",
       "last_sent": "2026-09-17T12:47:17.274725+00:00"
+    },
+    "design bridge and partners|creative partner / executive creative director|amsterdam, north holland, netherlands": {
+      "material": "||",
+      "last_sent": "2026-09-17T16:42:37.033315+00:00"
     }
   },
   "last_run": {
     "source_file": "careerops_ats_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
+    "discovered": 2,
     "duplicate": 0,
     "geography": 0,
     "remote": 0,
@@ -583,12 +588,12 @@
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 1,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
