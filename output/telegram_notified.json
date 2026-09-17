@@ -76,6 +76,7 @@
     "89444f82f6d7975d5b7b99b473bfa6ffc0a99c9bbe4e983f9aeac9582a47d66a",
     "8d7b56f5c21da5a9bcc39656df22947542cc529b0cd66573c0480b78aeaee772",
     "90a5e796d74a0dd0eb639a87ae574d8e5705c107c91d1677cb7f1e91f0280806",
+    "97757b6a2faf2b6e572376dd5f4ce6a73181f05cc2c3e0640a61e437bf535de4",
     "9a899ff0e1cb85d3e1f42d861a939be7745015be1bfca8cd7076b9dc502c9e09",
     "9b9f77a7c4dbd8b7cb2e5e1794d0409f2d62d9b3d9b7bb7a1b9d16fe78fab9ce",
     "9d6b2d5976243f584d9733dc3119dd47caa552a6ece4af26da30daff80c7f3e1",
@@ -584,26 +585,30 @@
     "aquent|associate creative director (bilingual spanish and english) [aq-17989]|anywhere": {
       "material": "100–103 an hour|Remote in-state eligible|True",
       "last_sent": "2026-09-17T16:48:37.600203+00:00"
+    },
+    "d3uus d3u inc.|associate creative director (art & design)|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-17T17:42:57.998914+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
-    "duplicate": 0,
+    "discovered": 20,
+    "duplicate": 7,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
-    "untrusted_source": 0,
+    "untrusted_source": 11,
     "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
-    "low_fit": 0,
+    "low_fit": 1,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
