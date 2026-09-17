@@ -32,6 +32,7 @@
     "3881257f8e250d69bbadcdb613ddc096010b938c67ccbe18019ad89585b6f53f",
     "3b3e485768cfc2513b8f0b537aa4acb8bf3e2bc9b1f04b67bcc368c7162435a1",
     "3bb4feafff7e0643e6df23b5cc34f752073d3027efa32833b60109ec80f72414",
+    "3c67202c39195aa88f626535e7f299eb7e187eb0eb1adc43ac8402176daa0032",
     "3cc8843f43d2677812e48b10916668799c9e2939c6207754383d091f9f6595b6",
     "3d31ac8b74579ef04d3f147df86e28d7ee87f566db8cd50c8a713a78009bee24",
     "3e8564f8cdebf08fbfdd9f67d266eb8a61a3ab8d6db2c8f9685199bd3eda9854",
@@ -78,6 +79,7 @@
     "9a899ff0e1cb85d3e1f42d861a939be7745015be1bfca8cd7076b9dc502c9e09",
     "9b9f77a7c4dbd8b7cb2e5e1794d0409f2d62d9b3d9b7bb7a1b9d16fe78fab9ce",
     "9d6b2d5976243f584d9733dc3119dd47caa552a6ece4af26da30daff80c7f3e1",
+    "a355b7ff66da044f82e5f4f711aa7378e0e5c4ee4b6fcfa903021e77d363e75e",
     "a3a577fd023324f92f312e7abfcd42964389918815a800873e21fb789ce3ae80",
     "ac4f933c66d449ccdb8e8d91a64951c8599979a1b0213e1bc9753509980d3bf6",
     "acf97042bf7f313412eeab871391388b5b50fcda2e9ec02bfda7561b393d6684",
@@ -574,26 +576,34 @@
     "design bridge and partners|creative partner / executive creative director|amsterdam, north holland, netherlands": {
       "material": "||",
       "last_sent": "2026-09-17T16:42:37.033315+00:00"
+    },
+    "59 pines|ai video producer/creative director|anywhere": {
+      "material": "150K a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-17T16:48:34.898761+00:00"
+    },
+    "aquent|associate creative director (bilingual spanish and english) [aq-17989]|anywhere": {
+      "material": "100–103 an hour|Remote in-state eligible|True",
+      "last_sent": "2026-09-17T16:48:37.600203+00:00"
     }
   },
   "last_run": {
-    "source_file": "careerops_ats_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
-    "discovered": 2,
+    "discovered": 12,
     "duplicate": 0,
-    "geography": 0,
+    "geography": 1,
     "remote": 0,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
-    "untrusted_source": 0,
-    "off_mission_role": 1,
+    "untrusted_source": 9,
+    "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 1,
+    "delivered": 2,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0

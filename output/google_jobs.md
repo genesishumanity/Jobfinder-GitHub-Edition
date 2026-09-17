@@ -1,124 +1,78 @@
 # 🔎 Google Jobs — Can Öncül — AI Production & Creative Leadership Roles
-*Last updated: 2026-09-17 03:48 UTC*
+*Last updated: 2026-09-17 16:48 UTC*
 
-**19 new role(s)** since last run · 30 total in last 168h
+**12 new role(s)** since last run · 29 total in last 168h
 
-### [AI Creative Lead (Remote)](https://www.linkedin.com/jobs/view/ai-creative-lead-remote-at-forbes-advisor-4460121885?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Forbes Advisor
+### [Remote - Creative Strategy Manager](https://www.mediabistro.com/jobs/3542919628-remote-creative-strategy-manager?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Quest Diagnostics
 - 📍 **Location:** Anywhere
+- 💰 **Salary:** 125K–135K a year
 - **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
-- 🕒 **Posted:** 2026-08-28
-
-### [AI Lead With SAP Background](https://www.ziprecruiter.com/c/SolGenie/Job/AI-Lead-With-SAP-Background/-in-Remote,US?jid=bc98d8d8efc9bf4d&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — SolGenie
-- 📍 **Location:** Anywhere
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
-- 🕒 **Posted:** 2026-09-16
-
-### [Creative Lead - OWII | Dubai](https://www.upwork.com/freelance-jobs/apply/Creative-Lead-OWII-Dubai_~022100209420594640287/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Upwork
-- 📍 **Location:** Anywhere
-- 💰 **Salary:** 15–35 an hour
-- **Work mode:** Remote in-state eligible
-- **Job type:** Contractor
-- 🕒 **Posted:** 2026-09-17
-
-### [AI Creative Lead](https://www.virtualvocations.com/job/ai-creative-lead-3225049-i.html?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Forbes Media LLC
-- 📍 **Location:** Anywhere
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
-- 🕒 **Posted:** 2026-08-28
-
-### [Brand Creative Lead](https://www.tealhq.com/job/brand-creative-lead_7ea1ad64924f16d5bf07d8f72e059d9993187?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Fireflies
-- 📍 **Location:** Anywhere
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
+- **Job type:** Part-time
 - 🕒 **Posted:** 2026-08-21
 
-### [Remote AI Creative Lead for Direct-Response Video Ads](https://www.jobleads.com/us/job/remote-ai-creative-lead-for-direct-response-video-ads--wilmington--e6c54c65a3e0c0973561c00989220ed17?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Marketplace Operations Inc.
+### [Fractional Creative Lead (Beauty / Apparel) — Brand Film + Website Creation + Social Creative - Contract to Hire](https://www.upwork.com/freelance-jobs/apply/Fractional-Creative-Lead-Beauty-Apparel-Brand-Film-Website-Creation-Social-Creative_~022094274773447426111/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Upwork
 - 📍 **Location:** Anywhere
-- 💰 **Salary:** 120K–180K a year
+- **Work mode:** Remote in-state eligible
+- **Job type:** Contractor
+- 🕒 **Posted:** 2026-08-30
+
+### [Regional Brand Creative Lead (EMEA)](https://www.welcometothejungle.com/en/companies/servicenow/jobs/regional-brand-creative-lead-emea_hudson_3ccsji4u?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — ServiceNow
+- 📍 **Location:** Anywhere
+- 💰 **Salary:** 148K–260K a year
 - **Work mode:** Remote in-state eligible
 - **Job type:** Full-time
-- 🕒 **Posted:** 2026-09-12
+- 🕒 **Posted:** 2026-09-10
 
-### [[Remote] Creative Lead, Organic Social](https://jobright.ai/jobs/info/6a6caf235c54bc4752cee9f2?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Garage
+### [Associate Creative Director (Bilingual Spanish and English) [AQ-17989]](https://www.linkedin.com/jobs/view/associate-creative-director-bilingual-spanish-and-english-aq-17989-at-aquent-4465990433?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Aquent
 - 📍 **Location:** Anywhere
-- 💰 **Salary:** 100K–140K a year
+- 💰 **Salary:** 100–103 an hour
+- **Work mode:** Remote in-state eligible
+- **Job type:** Contractor
+- 🕒 **Posted:** 2026-09-16
+
+### [Mindgruve is hiring: Creative Lead in San Diego](https://www.mediabistro.com/jobs/3542903979-mindgruve-is-hiring-creative-lead-in-san-diego?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Mindgruve
+- 📍 **Location:** Anywhere
 - **Work mode:** Remote in-state eligible
 - **Job type:** Full-time
 - 🕒 **Posted:** 2026-08-25
 
-### [Hands-On Creative Lead — Video, Design, AI & Luxury Social Content - Contract to Hire](https://www.upwork.com/freelance-jobs/apply/Hands-Creative-Lead-Video-Design-Luxury-Social-Content_~022099128724672188170/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Upwork
-- 📍 **Location:** Anywhere
-- 💰 **Salary:** 25–50 an hour
-- **Work mode:** Remote in-state eligible
-- **Job type:** Contractor
-- 🕒 **Posted:** 2026-09-13
-
-### [Creative Lead](https://www.ziprecruiter.com/c/Right-Side-Up/Job/Creative-Lead/-in-Austin,TX?jid=6191b30dce2860e2&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Right Side Up
-- 📍 **Location:** Anywhere
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
-- 🕒 **Posted:** 2026-09-01
-
-### [AI Creative Lead](https://us.trabajo.org/job-4111-53182c44e8b528755658499c2e9b0061?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Forbes Advisor
-- 📍 **Location:** Anywhere
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
-- 🕒 **Posted:** 2026-08-28
-
-### [Remote Short-Form Video Editor & Creative Lead](https://recruiterflow.com/hirelatam/jobs/1689?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — HireLATAM
-- 📍 **Location:** Anywhere
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
-- 🕒 **Posted:** 2026-08-31
-
-### [Regional Creative Lead, NA, EMEA & LATAM](https://www.indeed.com/viewjob?jk=360503450ad282d0&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — thatgamecompany
-- 📍 **Location:** Anywhere
-- 💰 **Salary:** 41K–151K a year
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
-- 🕒 **Posted:** 2026-08-20
-
-### [UGC Creator (remote/part-time)](https://careers.letsenhance.io/jobs/4590627-ugc-creator-remote-part-time?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Let's Enhance
-- 📍 **Location:** Anywhere
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
-
-### [Creative Producer for Game Ad Creative, Part Time Ongoing - Contract to Hire](https://www.upwork.com/freelance-jobs/apply/Creative-Producer-for-Game-Creative-Part-Time-Ongoing_~022099726432803026335/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Upwork
-- 📍 **Location:** Anywhere
-- 💰 **Salary:** 25–30 an hour
-- **Work mode:** Remote in-state eligible
-- **Job type:** Contractor
-- 🕒 **Posted:** 2026-09-15
-
-### [Remote Ad Creative Producer — Drive High-Impact Ads](https://jooble.org/jdp/7054775617256334742?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — United States Digital Space LLC
-- 📍 **Location:** Anywhere
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
-- 🕒 **Posted:** 2026-09-09
-
-### [Lead Creative Producer](https://builtin.com/job/lead-creative-producer/10803008?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Ruby Labs
-- 📍 **Location:** Anywhere
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
-- 🕒 **Posted:** 2026-08-22
-
-### [Ruby Labs Ltd is hiring: Senior Ad Creative Producer in Greece](https://www.mediabistro.com/jobs/3542876965-ruby-labs-ltd-is-hiring-senior-ad-creative-producer-in-greece?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Ruby Labs Ltd
+### [UGC Content Creator for AI Photo App (Germany, Poland, Turkey)](https://www.upwork.com/freelance-jobs/apply/UGC-Content-Creator-for-Photo-App-Germany-Poland-Turkey_~022100267682399380403/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Upwork
 - 📍 **Location:** Anywhere
 - **Work mode:** Remote in-state eligible
 - **Job type:** Contractor
-- 🕒 **Posted:** 2026-08-21
+- 🕒 **Posted:** 2026-09-17
 
-### [Creative Producer/Editor for Faith, Science, Real Life Podcast](https://www.upwork.com/freelance-jobs/apply/Creative-Producer-Editor-for-Faith-Science-Real-Life-Podcast_~022099976821835904694/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Upwork
+### [UGC Content Creator Needed for STRIIPZ — 16 Reels/Month | Ongoing Long-Term](https://www.upwork.com/freelance-jobs/apply/UGC-Content-Creator-Needed-for-STRIIPZ-Reels-Month-Ongoing-Long-Term_~022100450050535973811/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Upwork
 - 📍 **Location:** Anywhere
-- 💰 **Salary:** 20–50 an hour
+- **Work mode:** Remote in-state eligible
+- **Job type:** Contractor
+- 🕒 **Posted:** 2026-09-17
+
+### [Female UGC Creator / Spokesperson / Presenter / Actress (English Speaker) REMOTE](https://www.tealhq.com/job/ugc-creator-spokesperson-presenter-actress_7ea1ac8785dc0269cd309389ec6e7e111e296?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — BuzzyBooth.com
+- 📍 **Location:** Anywhere
+- **Work mode:** Remote in-state eligible
+- **Job type:** Part-time
+
+### [UGC Creator - Ivory Coast](https://builtin.com/job/ugc-creator-ivory-coast/9716069?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Falcon Funded
+- 📍 **Location:** Anywhere
+- **Work mode:** Remote in-state eligible
+- **Job type:** Full-time
+- 🕒 **Posted:** 2026-09-17
+
+### [Sr Creative Producer, Remote](https://vacancyglobalpro.up.railway.app/job/sr-creative-producer-remote-1?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — vacancy global pro
+- 📍 **Location:** Anywhere
+- **Work mode:** Remote in-state eligible
+- **Job type:** Full-time
+- 🕒 **Posted:** 2026-09-12
+
+### [AI Video Producer/Creative Director](https://www.ziprecruiter.com/c/59-pines/Job/AI-Video-Producer-Creative-Director/-in-Laguna-Beach,CA?jid=71c9a25b64fc8e88&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — 59 Pines
+- 📍 **Location:** Anywhere
+- 💰 **Salary:** 150K a year
 - **Work mode:** Remote in-state eligible
 - **Job type:** Contractor
 - 🕒 **Posted:** 2026-09-16
 
-### [Ad Creative Producer](https://www.tealhq.com/job/ad-creative-producer_7ea1af5696e8cc5f647126cf2c0511e906e4f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Ruby Labs
+### [Remote-First Creative Producer – Mobile Apps](https://www.mediabistro.com/jobs/3542853776-remote-first-creative-producer-mobile-apps?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Gismart
 - 📍 **Location:** Anywhere
 - **Work mode:** Remote in-state eligible
 - **Job type:** Full-time
-- 🕒 **Posted:** 2026-08-28
