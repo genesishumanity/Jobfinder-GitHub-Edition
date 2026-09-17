@@ -1,68 +1,77 @@
 # 🔎 Google Jobs — Can Öncül — AI Production & Creative Leadership Roles
-*Last updated: 2026-09-17 01:44 UTC*
+*Last updated: 2026-09-17 02:47 UTC*
 
-**10 new role(s)** since last run · 38 total in last 168h
+**12 new role(s)** since last run · 30 total in last 168h
 
-### [Generative AI Producer (Creative)](https://bebee.com/us/jobs/generative-ai-producer-creative-nextdeavor-san-jose--ss-us-1p83byb?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — NextDeavor
-- 📍 **Location:** Anywhere
-- 💰 **Salary:** 156,000–171,371 a year
-- **Work mode:** Remote in-state eligible
-- **Job type:** Contractor
-- 🕒 **Posted:** 2026-09-07
-
-### [Associate Creative Director - COPY](https://www.indeed.com/viewjob?jk=f6bd25bcbcb10c55&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Digital People
-- 📍 **Location:** Anywhere
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
-- 🕒 **Posted:** 2026-09-12
-
-### [Associate Creative Director - Design](https://www.indeed.com/viewjob?jk=d769312ec8c8183f&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — AGP
-- 📍 **Location:** Anywhere
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
-- 🕒 **Posted:** 2026-08-25
-
-### [Associate Creative Director – Core Brand](https://www.builtinseattle.com/job/associate-creative-director-core-brand/11188807?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — ServiceNow
+### [Associate Creative Director - Core Brand](https://www.ziprecruiter.com/c/servicenow/Job/Associate-Creative-Director-Core-Brand/-in-Kirkland,WA?jid=d67e400f04818488&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — ServiceNow
 - 📍 **Location:** Anywhere
 - 💰 **Salary:** 148K–260K a year
 - **Work mode:** Remote in-state eligible
 - **Job type:** Full-time
-- 🕒 **Posted:** 2026-09-15
+- 🕒 **Posted:** 2026-09-16
 
-### [Associate Creative Director, Brand](https://www.ziprecruiter.com/c/mvr-digital/Job/Associate-Creative-Director,-Brand/-in-Remote,US?jid=389a20d942fdbcf2&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — MVR Digital
+### [Associate Creative Director, Senior Copywriter, Integrated Campaigns Creative](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Illinois---Chicago/Senior-Creative-Lead-Copywriter--Integrated-Campaigns-Creative_JR359249/apply?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — 100 Salesforce, Inc.
+- 📍 **Location:** Anywhere
+- **Work mode:** Remote in-state eligible
+- **Job type:** Full-time
+- 🕒 **Posted:** 2026-09-11
+
+### [Organic UGC Creator](https://www.indeed.com/viewjob?jk=7fef068a647c4bd4&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — SuccessfulMatch.com
 - 📍 **Location:** Anywhere
 - **Work mode:** Remote in-state eligible
 - **Job type:** Contractor
-- 🕒 **Posted:** 2026-09-04
+- 🕒 **Posted:** 2026-09-14
 
-### [Associate Creative Director, Art](https://www.builtinchicago.org/job/senior-art-director/10945708?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Huge
-- 📍 **Location:** Anywhere
-- 💰 **Salary:** 102K–135K a year
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
-- 🕒 **Posted:** 2026-09-01
-
-### [Associate Creative Director, Motion Design](https://careers.servicenow.com/jobs/744000144638939/associate-creative-director-motion-design/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — ServiceNow
+### [Remote UGC & Influencer Campaign Manager](https://www.linkedin.com/jobs/view/remote-ugc-influencer-campaign-manager-at-day-1-marketing-4468259432?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Day 1 Marketing
 - 📍 **Location:** Anywhere
 - **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
-- 🕒 **Posted:** 2026-08-20
-
-### [Associate Creative Director (Bilingual Spanish and English)](https://www.ziprecruiter.com/c/Aquent/Job/Associate-Creative-Director-(Bilingual-Spanish-and-English)/-in-Miami,FL?jid=3730368b737bcf59&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Aquent
-- 📍 **Location:** Anywhere
-- 💰 **Salary:** 100.00–103.44 an hour
-- **Work mode:** Remote in-state eligible
+- **Job type:** Part-time
 - 🕒 **Posted:** 2026-09-17
 
-### [Associate Creative Director - Art - Health- Freelance](https://www.tealhq.com/job/associate-creative-director-art_7ea1a5630bcced8bdec02aee6d2f03bff6251?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — VML
+### [Female UGC Creator / Spokesperson / Presenter / Actress (English Speaker) REMOTE](https://www.ziprecruiter.com/c/BuzzyBooth.com/Job/Female-UGC-Creator-Spokesperson-Presenter-Actress-(English-Speaker)-REMOTE/-in-Remote,US?jid=3c5cbee50ac27b48&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — BuzzyBooth.com
 - 📍 **Location:** Anywhere
-- 💰 **Salary:** 90–120 an hour
 - **Work mode:** Remote in-state eligible
 - **Job type:** Full-time
-- 🕒 **Posted:** 2026-08-25
 
-### [Associate Creative Director/Design Lead, Direct Mail (contract)](https://bebee.com/us/jobs/associate-creative-director-lead-direct-mail-contract-digitas-north-america-chicago-il--t7xk-808479411?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Digitas North America
+### [UGC Creator — TikTok & Instagram (Remote, Paid Per Post)](https://bebee.com/us/jobs/ugc-creator-tiktok-instagram-remote-paid-per-post-cookiy-ai-new-york-ny--t7xk-787456807?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Cookiy AI
 - 📍 **Location:** Anywhere
-- 💰 **Salary:** 208K–260K a year
+- 💰 **Salary:** 54K–72K a year
 - **Work mode:** Remote in-state eligible
-- 🕒 **Posted:** 2026-08-19
+- **Job type:** Contractor
+
+### [Tigrinya-Speaking UGC Creators for a Mobile Game 🎮](https://www.upwork.com/freelance-jobs/apply/Tigrinya-Speaking-UGC-Creators-for-Mobile-Game_~022098374356330364269/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Upwork
+- 📍 **Location:** Anywhere
+- **Work mode:** Remote in-state eligible
+- **Job type:** Contractor
+- 🕒 **Posted:** 2026-09-11
+
+### [Remote UGC Content Creator (On-Camera)](https://www.tealhq.com/job/ugc-content-creator-on-camera_7ea1a91f83bd59b49f7e6ae3ab15076c308ed?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Jobs for Humanity
+- 📍 **Location:** Anywhere
+- **Work mode:** Remote in-state eligible
+- **Job type:** Part-time
+
+### [UGC Creator Remote](https://www.ziprecruiter.com/c/House-of-Hearts-Administration/Job/UGC-Creator-Remote/-in-Hollywood,FL?jid=f80e0ecc6dc6da97&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — House of Hearts Administration
+- 📍 **Location:** Anywhere
+- 💰 **Salary:** 35 an hour
+- **Work mode:** Remote in-state eligible
+- **Job type:** Contractor
+- 🕒 **Posted:** 2026-09-17
+
+### [Cavalier Dog Owner UGC Long Term!](https://www.upwork.com/freelance-jobs/apply/Cavalier-Dog-Owner-UGC-Long-Term_~022100131588675000385/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Upwork
+- 📍 **Location:** Anywhere
+- 💰 **Salary:** 40–80 an hour
+- **Work mode:** Remote in-state eligible
+- **Job type:** Contractor
+- 🕒 **Posted:** 2026-09-17
+
+### [Remote UGC Content Creator (On-Camera) Job at Jobs for Lebanon in New York](https://www.mediabistro.com/jobs/3542895776-remote-ugc-content-creator-on-camera-job-at-jobs-for-lebanon-in-new-york?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Jobs for Lebanon
+- 📍 **Location:** Anywhere
+- **Work mode:** Remote in-state eligible
+- **Job type:** Full-time
+- 🕒 **Posted:** 2026-08-21
+
+### [UGC Multilingual and Travel Content](https://www.indeed.com/viewjob?jk=a58fb8c30e0704a0&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — SaviChat
+- 📍 **Location:** Anywhere
+- **Work mode:** Remote in-state eligible
+- **Job type:** Contractor
+- 🕒 **Posted:** 2026-09-05

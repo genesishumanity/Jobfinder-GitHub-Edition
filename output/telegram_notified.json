@@ -52,6 +52,7 @@
     "5d0e9dfa238cce6a793b284287d1177b9f32d9701f6afd99cbbbcc5a7877ce0c",
     "60f5e60227e71aeb7199ca2440f9c8ef6515d42288acec7b0fab04c5c114811e",
     "61433b6da949307f8bf2a3e15570c1a77401ad7af34bb2eb0d859bd3723ae3a3",
+    "61f0c3e8d93bb3fa118a45ea8a4996ed40296feb752d453c8045af3c4d4c0ac8",
     "651954f8898dbbaea0f0cba139310a2ed813ce73f8d7a8029474c663bfc6be19",
     "6643c6a2a0c5fade10e211aad782ab9ad314edede45728c6b32d5992d571e0f3",
     "672187185730c3f26ef14675c11ef2e20d077fd0042f0e0960c33a9675881167",
@@ -102,6 +103,7 @@
     "e4d6157d2cfe77ebbf93ac4f851c60d78d34ea6798a733172ac055cab8cbc78d",
     "e575560d31c25c00eeba5e3c6137a112c4a9b9ec7c87c74ce3995821ba72f1af",
     "e62b8afc7094789c75d7cc4cdd737ea3e9d310f0c82fc6d6ed877bf9052365a8",
+    "eccf398fa6e84c5e9e45b54c9edf58734b2d042866b5b4113650dc2a24c99fbe",
     "ee02faf8a4a206adde9e4e0146c936e879ec93aa12deb2308d813c3d669284c1",
     "eed5b4caf5e1c2d2b866297dc02f6c272c8d166598d31fdb566dba72857e7541",
     "f0b63bd355ba87b8a212c537165c6c9ce5541088484753579c30183229ff6dae",
@@ -544,26 +546,34 @@
     "able group|remote creative producer — data-driven d2c ads|anywhere": {
       "material": "65K–100K a year|Remote in-state eligible|True",
       "last_sent": "2026-09-17T00:52:40.109114+00:00"
+    },
+    "100 salesforce, inc.|associate creative director, senior copywriter, integrated campaigns creative|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-17T02:48:15.774026+00:00"
+    },
+    "day 1 marketing|remote ugc & influencer campaign manager|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-17T02:48:18.999692+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
-    "discovered": 1,
-    "duplicate": 0,
+    "discovered": 12,
+    "duplicate": 4,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
     "language": 0,
     "domain": 0,
-    "gig_marketplace": 1,
-    "untrusted_source": 0,
+    "gig_marketplace": 0,
+    "untrusted_source": 5,
     "off_mission_role": 0,
-    "on_camera_gig": 0,
+    "on_camera_gig": 1,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 2,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
