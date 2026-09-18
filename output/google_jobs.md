@@ -1,59 +1,83 @@
 # 🔎 Google Jobs — Can Öncül — AI Production & Creative Leadership Roles
-*Last updated: 2026-09-18 20:46 UTC*
+*Last updated: 2026-09-18 21:40 UTC*
 
-**9 new role(s)** since last run · 32 total in last 168h
+**13 new role(s)** since last run · 45 total in last 168h
 
-### [Enterprise AI Lead](https://builtin.com/job/enterprise-ai-lead/11232615?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — IRIS Software Group - North America
+### [Creative Director, Art (Fully Remote)](https://bebee.com/us/jobs/creative-director-art-fully-remote-vivo-agency--t7xk-826362221?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — VIVO Agency
 - 📍 **Location:** Anywhere
 - **Work mode:** Remote in-state eligible
 - **Job type:** Full-time
-- 🕒 **Posted:** 2026-09-16
+- 🕒 **Posted:** 2026-09-01
 
-### [Remote - Creative Strategy Manager](https://www.mediabistro.com/jobs/3542919628-remote-creative-strategy-manager?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Quest Diagnostics
+### [Creative Director, Brand & Content (remote)](https://www.monster.com/job-openings/creative-director-brand-content-remote-austin-tx--e90231f3-f5eb-4107-93be-d7ca56043288?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Smartly
 - 📍 **Location:** Anywhere
-- 💰 **Salary:** 125K–135K a year
+- 💰 **Salary:** 120K–180K a year
 - **Work mode:** Remote in-state eligible
-- **Job type:** Part-time
-- 🕒 **Posted:** 2026-08-21
-
-### [Director, Brand Campaigns & Creative Strategy](https://tapestry.wd108.myworkdayjobs.com/en-US/Tapestry_Careers/job/Director--Brand-Marketing_JR_00002104?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Tapestry, Inc.
-- 📍 **Location:** Anywhere
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
-
-### [Associate Creative Director Copy (Remote US)](https://www.builtinla.com/job/associate-creative-director-copy-remote-us/11252654?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Directive Consulting
-- 📍 **Location:** Anywhere
-- 💰 **Salary:** 120K–130K a year
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
-- 🕒 **Posted:** 2026-09-18
-
-### [Visual AI Creative Lead](https://wellfound.com/jobs/4475495-visual-ai-creative-lead?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Perfeos
-- 📍 **Location:** Anywhere
-- 💰 **Salary:** 30K–60K a year
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
-
-### [Associate Creative Director, Motion Design](https://careers.servicenow.com/jobs/744000144638939/associate-creative-director-motion-design/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — ServiceNow
-- 📍 **Location:** Anywhere
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
-- 🕒 **Posted:** 2026-08-19
-
-### [Associate Creative Director – Core Brand](https://www.builtinseattle.com/job/associate-creative-director-core-brand/11188807?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — ServiceNow
-- 📍 **Location:** Anywhere
-- 💰 **Salary:** 148K–260K a year
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
 - 🕒 **Posted:** 2026-09-14
 
-### [UGC Creator to Film Silipint Drinkware for Social Media](https://www.upwork.com/freelance-jobs/apply/UGC-Creator-Film-Silipint-Drinkware-for-Social-Media_~022100978606034008950/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Upwork
+### [Creative Director, Paid Social (Remote)](https://www.linkedin.com/jobs/view/creative-director-paid-social-remote-at-forbes-advisor-4423598222?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Forbes Advisor
 - 📍 **Location:** Anywhere
+- **Work mode:** Remote in-state eligible
+- **Job type:** Full-time
+- 🕒 **Posted:** 2026-08-29
+
+### [Creative Director (Remote, Fashion, LA)](https://www.indeed.com/viewjob?jk=bc54c65affb3a083&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Jarvis Recruitment
+- 📍 **Location:** Anywhere
+- 💰 **Salary:** 120K–140K a year
+- **Work mode:** Remote in-state eligible
+- **Job type:** Full-time
+
+### [Creative Director, Creative Publishing](https://www.ziprecruiter.com/c/Netflix/Job/Creative-Director,-Creative-Publishing/-in-Remote,OR?jid=8b0b2acc9b8b2152&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Netflix
+- 📍 **Location:** Anywhere
+- 💰 **Salary:** 260K–480K a year
+- **Work mode:** Remote in-state eligible
+- **Job type:** Full-time
+
+### [Creative Director - Design, Enterprise Marketing (Remote)](https://www.monster.com/job-openings/creative-director-design-enterprise-marketing-remote-auburn-wa--b4d61f83-87a7-4f99-acf2-ac6a1388b48a?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Zions Bancorporation NA
+- 📍 **Location:** Anywhere
+- 💰 **Salary:** 115K–175K a year
 - **Work mode:** Remote in-state eligible
 - **Job type:** Contractor
-- 🕒 **Posted:** 2026-09-18
 
-### [UGC content creator](https://www.ycombinator.com/companies/roforco/jobs/vmYsJa5-ugc-content-creator?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Roforco
+### [Creative Director – Design, Enterprise Marketing (Remote)](https://www.indeed.com/viewjob?jk=6998a82ddc2b9fdd&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Zions Bancorporation
+- 📍 **Location:** Anywhere
+- 💰 **Salary:** 115K–175K a year
+- **Work mode:** Remote in-state eligible
+- **Job type:** Full-time
+
+### [Creative Director, Experiential - Brand Consulting [Remote]](https://www.showbizjobs.com/jobs/caa-creative-director-experiential-brand-consulting-in-new-york/jid-j6v1k1?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — CAA
+- 📍 **Location:** Anywhere
+- 💰 **Salary:** 188K–230K a year
+- **Work mode:** Remote in-state eligible
+- **Job type:** Full-time
+- 🕒 **Posted:** 2026-09-05
+
+### [Remote Ad Creative Producer — Drive High-Impact Ads](https://jooble.org/jdp/7054775617256334742?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — United States Digital Space LLC
 - 📍 **Location:** Anywhere
 - **Work mode:** Remote in-state eligible
-- **Job type:** Internship
+- **Job type:** Full-time
+- 🕒 **Posted:** 2026-09-08
+
+### [Creative Producer for Game Ad Creative, Part Time Ongoing - Contract to Hire](https://www.upwork.com/freelance-jobs/apply/Creative-Producer-for-Game-Creative-Part-Time-Ongoing_~022099726432803026335/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Upwork
+- 📍 **Location:** Anywhere
+- 💰 **Salary:** 25–30 an hour
+- **Work mode:** Remote in-state eligible
+- **Job type:** Contractor
+- 🕒 **Posted:** 2026-09-14
+
+### [Lead Creative Producer](https://builtin.com/job/lead-creative-producer/10803008?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Ruby Labs
+- 📍 **Location:** Anywhere
+- **Work mode:** Remote in-state eligible
+- **Job type:** Full-time
+- 🕒 **Posted:** 2026-08-21
+
+### [Remote-First Creative Producer – Mobile Apps](https://www.mediabistro.com/jobs/3542853776-remote-first-creative-producer-mobile-apps?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Gismart
+- 📍 **Location:** Anywhere
+- **Work mode:** Remote in-state eligible
+- **Job type:** Full-time
+
+### [Senior Creative Producer — Remote Design Studio](https://jooble.org/jdp/2695809223306121722?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Pixelbypixels
+- 📍 **Location:** Anywhere
+- **Work mode:** Remote in-state eligible
+- **Job type:** Full-time
+- 🕒 **Posted:** 2026-09-12
