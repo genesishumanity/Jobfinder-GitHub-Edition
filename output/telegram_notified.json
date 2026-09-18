@@ -16,6 +16,7 @@
     "14ab290e0cb3d324f2d447d3981c2f1a6aabe6b5c2c22ac219a81f1f4acf4c4b",
     "14dd235daa055ed821bb4fea77d6d39a26f52c044a1827956afba6072fe313fa",
     "177d1e1cce0ca12b237312dcdc08982907e8267403103e1ddf1a8eec1db127ff",
+    "1923aa3b7d1db177f46855cdf46c432af62dc3d7bb13dbed71201110543b2d86",
     "1994de65e83f2d2641f2a9a4f3f2874b4d5e79f57df28358b6543c8925c84735",
     "1bf8e2bcf80bd4c457b89c22011b99bf6ea181975fcceed5d902c52aefdaa551",
     "1ca76a9914ed76d483480d38f5be3d28e2cd5e10e54d7909d712aafde78059a6",
@@ -45,6 +46,7 @@
     "42374aa8085ce259f1013144d9e9432443eb611b65bbaf039a6c54f582722a64",
     "4285cdb15e3f766e6adb7942b04ad15186bf3f3e23e0414068c45016869a73fa",
     "436182ae2768bce4b7a5a29c1e7f9fad638590a7046165414f681644d02402c2",
+    "47decccdfd0f7d70ad7691537edab089cbdf448f165da8d871fd804b49258ee4",
     "49f144467cea9b720b9e33aff8877baee603e2253bc717d5a5d041ea34af7a68",
     "4a64a02340c74b7b2359933ef57895bd7da62282f623f746d29c5be4b0cf4898",
     "4d9c8119c010f62bdb94ae42d51fecd2ea28ffba98f92769b1f3fd549c9f2cb3",
@@ -118,6 +120,7 @@
     "dentsu|seniorartdirectorsocialtemporaryworker||httpswwwlinkedincomjobsview4456067070",
     "driftai|creativedirectorbrand||httpswwwlinkedincomjobsview4466314316",
     "e42b9f8a354eea2c22562e1cabc3f7f8e723fea1dd6690223d640d0e6d8c4791",
+    "e48601605426431477d5a7e566592720a64c4d073537d0071d8591f1c15366c3",
     "e4d6157d2cfe77ebbf93ac4f851c60d78d34ea6798a733172ac055cab8cbc78d",
     "e575560d31c25c00eeba5e3c6137a112c4a9b9ec7c87c74ce3995821ba72f1af",
     "e62b8afc7094789c75d7cc4cdd737ea3e9d310f0c82fc6d6ed877bf9052365a8",
@@ -629,12 +632,24 @@
     "javasmarketing|organic marketer & ai ugc creator|anywhere": {
       "material": "10–30 an hour|Remote in-state eligible|True",
       "last_sent": "2026-09-18T18:47:12.150814+00:00"
+    },
+    "catchcreationllc|creative strategist|remote · united states - remote": {
+      "material": "|remote|True",
+      "last_sent": "2026-09-18T20:32:25.776429+00:00"
+    },
+    "ruby-labs|ad creative producer|european union · moldova · latvia · albania · north macedonia · slovakia · malta · croatia · czech republic · slovenia · romania · spain · turkey · bulgaria · poland · hungary · montenegro · estonia · cyprus · lithuania · greece · serbia · bosnia · georgia · remote": {
+      "material": "|remote|True",
+      "last_sent": "2026-09-18T20:32:28.677860+00:00"
+    },
+    "ruby-labs|senior creative producer|european union · latvia · slovakia · croatia · czech republic · spain · turkey · bulgaria · poland · hungary · estonia · cyprus · lithuania · serbia · bosnia · georgia · remote": {
+      "material": "|remote|True",
+      "last_sent": "2026-09-18T20:32:31.455299+00:00"
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "careerops_ats_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
+    "discovered": 3,
     "duplicate": 0,
     "geography": 0,
     "remote": 0,
@@ -648,7 +663,7 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 3,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
