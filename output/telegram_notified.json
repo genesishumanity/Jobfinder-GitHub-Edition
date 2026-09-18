@@ -69,6 +69,7 @@
     "6bcd95a735f89ed6cdeaf4f22cc19b5f1cbd2e831a388defa2f15f0ac356d8a4",
     "6fd690a4840cc6132d48c9892669420b82b25353cf4b5ac2d3be8dccad8859d3",
     "70d3e473afd6814768db240251e99c2767964620ca1b51b334a3b68d30df4cc0",
+    "711584d3ce0e03aab64b3b4feaac69eb8ab3568f7a436ec3f24f74cb73ac24d1",
     "75fd325cc2d34ef02abb0da51707dd5b58208c2f3e9593cf56b12646f5231bbc",
     "763b6f38acfaba760733d282f8d852f016389ac9e6c885751d4c989181059be2",
     "77026877345971723a79c08168714fda49af7df15be5ecbd475e16ebd001204e",
@@ -644,6 +645,10 @@
     "ruby-labs|senior creative producer|european union · latvia · slovakia · croatia · czech republic · spain · turkey · bulgaria · poland · hungary · estonia · cyprus · lithuania · serbia · bosnia · georgia · remote": {
       "material": "|remote|True",
       "last_sent": "2026-09-18T20:32:31.455299+00:00"
+    },
+    "ai case leads|senior creative strategist|spain": {
+      "material": "||",
+      "last_sent": "2026-09-18T21:41:29.111800+00:00"
     }
   },
   "last_run": {
@@ -663,7 +668,7 @@
     "dead_link": 0,
     "low_fit": 1,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
