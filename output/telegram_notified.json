@@ -74,6 +74,7 @@
     "7cbc38f7654c38f556989e03b72460c7fe66cb6b384530582040011c95a5901e",
     "7dea06f30b37263c5e2a70381980f717b96cc79a587e6352b9df8467f0b7ec83",
     "7e0b462ac1f900571979bd57ccba4cb8070343227d4497388ebc44d36656d7b2",
+    "7eb3256b2d284b01cc0de89c871e46f97543dc484ba980a19e3994b17fd23e66",
     "80a8da42555c0a4cae0354118e90bafb718a9dc91d8810d51574abeebb41813b",
     "8306631c05c558c62602ac8af15a34cc4ed8309bcd9d3ee03159620c58bd8699",
     "83724640e329aa55552f71e16f9719573f884fc4053b1b98614843745e81669b",
@@ -132,6 +133,7 @@
     "fb55442a884143c9d5e044244b464dc100bdf0ca83c8173bd4f611d949b12b41",
     "fb5b6c70c516d6d1dbe44f4be71003eff84864b49a2f0f12a299fb91b06fce1c",
     "fd9608a8a1c8a13cd996d37fbe37556d4de6c092f2272764fcb3a7ce46cbeebd",
+    "ffbbcc6d18944ea46619b9f4368a9e277b7ff77b75f1f2a793be390868c23247",
     "fileneresearchinstitute|audiencecontentstrategydirectorfilenewitxorco||httpswwwlinkedincomjobsview4463919758",
     "golinketchum|associatecreativedirector||httpswwwlinkedincomjobsview4464808195",
     "snapinc|associatecreativestrategist||httpswwwlinkedincomjobsview4466001008",
@@ -614,18 +616,26 @@
     "tapestry, inc.|director, brand campaigns & creative strategy|anywhere": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-18T16:46:10.547532+00:00"
+    },
+    "contabo|performance creative strategist (all genders)(en)|germany": {
+      "material": "||",
+      "last_sent": "2026-09-18T17:39:34.324985+00:00"
+    },
+    "contabo|performance creative strategist (all genders)|germany": {
+      "material": "||",
+      "last_sent": "2026-09-18T17:39:38.715660+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
+    "discovered": 3,
     "duplicate": 0,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
     "language": 0,
-    "domain": 0,
+    "domain": 1,
     "gig_marketplace": 0,
     "untrusted_source": 0,
     "off_mission_role": 0,
@@ -633,7 +643,7 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 2,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
