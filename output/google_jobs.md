@@ -1,34 +1,56 @@
 # 🔎 Google Jobs — Can Öncül — AI Production & Creative Leadership Roles
-*Last updated: 2026-09-18 22:44 UTC*
+*Last updated: 2026-09-18 23:39 UTC*
 
-**5 new role(s)** since last run · 36 total in last 168h
+**8 new role(s)** since last run · 44 total in last 168h
 
-### [AI-Native Creative Producer — Digital Marketing Agency (Remote) - AI Supported Processes.](https://www.upwork.com/freelance-jobs/apply/Native-Creative-Producer-Digital-Marketing-Agency-Remote-Supported-Processes_~022101039581506794848/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Upwork
+### [Associate Creative Director - Design](https://www.indeed.com/viewjob?jk=d769312ec8c8183f&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — AGP
 - 📍 **Location:** Anywhere
-- 💰 **Salary:** 10–18 an hour
+- **Work mode:** Remote in-state eligible
+- **Job type:** Full-time
+- 🕒 **Posted:** 2026-08-24
+
+### [Associate Creative Director (Bilingual Spanish and English) [AQ-17989]](https://www.linkedin.com/jobs/view/associate-creative-director-bilingual-spanish-and-english-aq-17989-at-aquent-4465990433?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Aquent
+- 📍 **Location:** Anywhere
+- 💰 **Salary:** 100–103 an hour
 - **Work mode:** Remote in-state eligible
 - **Job type:** Contractor
-- 🕒 **Posted:** 2026-09-18
-
-### [Set up a WhatsApp AI Lead-Qualification System (respond.io + Zapier) for a solar company](https://www.upwork.com/freelance-jobs/apply/Set-WhatsApp-Lead-Qualification-System-respond-Zapier-for-solar-company_~022086451492040789371/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Upwork
-- 📍 **Location:** Anywhere
-- **Work mode:** Remote in-state eligible
-- **Job type:** Contractor
-
-### [Creative Director - Design, Enterprise Marketing (Remote)](https://lensa.com/job-v1/zions-bank/remote/creative-director/32b2a806bed206c36de3336b226fd5c9?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Zions Bank
-- 📍 **Location:** Anywhere
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
-
-### [AI-Savvy Creative Director (who Leans Heavily Towards Web/Digital)](https://www.tealhq.com/job/creative-director_7ea1ad18e2de4947a84b05ac5b0d30ba92084?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Taoti
-- 📍 **Location:** Anywhere
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
-- 🕒 **Posted:** 2026-08-19
-
-### [Organic Marketer & AI UGC Creator](https://www.indeed.com/viewjob?jk=3213114cd4d16c4b&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Javasmarketing
-- 📍 **Location:** Anywhere
-- 💰 **Salary:** 10–30 an hour
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
 - 🕒 **Posted:** 2026-09-16
+
+### [Associate Creative Director, Brand](https://www.ziprecruiter.com/c/mvr-digital/Job/Associate-Creative-Director,-Brand/-in-Remote,US?jid=389a20d942fdbcf2&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — MVR Digital
+- 📍 **Location:** Anywhere
+- **Work mode:** Remote in-state eligible
+- **Job type:** Contractor
+- 🕒 **Posted:** 2026-09-16
+
+### [Future Position:  Associate Creative Director](https://bebee.com/us/jobs/future-position-associate-creative-director-monks--ss-us-rwbptu?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Monks
+- 📍 **Location:** Anywhere
+- **Work mode:** Remote in-state eligible
+- **Job type:** Internship
+- 🕒 **Posted:** 2026-09-06
+
+### [Associate Creative Director – Core Brand](https://www.builtinseattle.com/job/associate-creative-director-core-brand/11188807?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — ServiceNow
+- 📍 **Location:** Anywhere
+- 💰 **Salary:** 148K–260K a year
+- **Work mode:** Remote in-state eligible
+- **Job type:** Full-time
+- 🕒 **Posted:** 2026-09-14
+
+### [Associate Creative Director (Art & Design)](https://interpublic.wd5.myworkdayjobs.com/en-US/OMC/job/Associate-Creative-Director--Art-_200-DDB?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — D3UUS D3U Inc.
+- 📍 **Location:** Anywhere
+- **Work mode:** Remote in-state eligible
+- **Job type:** Full-time
+- 🕒 **Posted:** 2026-09-07
+
+### [Associate Creative Director Remote](https://www.learn4good.com/jobs/online_remote/marketing_and_pr/5472774353/e/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Staffmark Group
+- 📍 **Location:** Anywhere
+- 💰 **Salary:** 110K–150K a year
+- **Work mode:** Remote in-state eligible
+- **Job type:** Full-time
+- 🕒 **Posted:** 2026-09-15
+
+### [Associate Creative Director, Design](https://www.tealhq.com/job/associate-creative-director-design_7ea1a044e203b08f353cd8b0479d1a854c65c?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Kettle
+- 📍 **Location:** Anywhere
+- 💰 **Salary:** 160K–190K a year
+- **Work mode:** Remote in-state eligible
+- **Job type:** Full-time
+- 🕒 **Posted:** 2026-09-11
