@@ -647,11 +647,11 @@
     }
   },
   "last_run": {
-    "source_file": "careerops_ats_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
-    "discovered": 3,
-    "duplicate": 0,
-    "geography": 0,
+    "discovered": 9,
+    "duplicate": 1,
+    "geography": 1,
     "remote": 0,
     "restricted": 0,
     "language": 0,
@@ -663,7 +663,7 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 3,
+    "delivered": 0,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
