@@ -605,7 +605,7 @@
     "geography": 0,
     "remote": 0,
     "restricted": 0,
-    "language": 0,
+    "language": 1,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
