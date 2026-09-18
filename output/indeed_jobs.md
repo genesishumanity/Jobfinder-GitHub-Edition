@@ -1,5 +1,5 @@
 # 🟦 Indeed — Can Öncül — AI Production & Creative Leadership Roles
-*Last updated: 2026-09-18 17:52 UTC*
+*Last updated: 2026-09-18 18:53 UTC*
 
 **0 new role(s)** since last run · 3 total in last 168h
 
