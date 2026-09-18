@@ -63,6 +63,7 @@
     "672187185730c3f26ef14675c11ef2e20d077fd0042f0e0960c33a9675881167",
     "69279272f447c10eaf6ca75bb71bcf0522db4aa416cde50b2a4003f64f91b784",
     "6a38875c7e7a3e060ad06f338ff17a5f561b7f3b9fb4e74b6062a404d7683adf",
+    "6a3c6c64e9ade5a1604a96d18581e82663960e15ad45f3026b8edebbb3f48041",
     "6bcd95a735f89ed6cdeaf4f22cc19b5f1cbd2e831a388defa2f15f0ac356d8a4",
     "6fd690a4840cc6132d48c9892669420b82b25353cf4b5ac2d3be8dccad8859d3",
     "70d3e473afd6814768db240251e99c2767964620ca1b51b334a3b68d30df4cc0",
@@ -262,8 +263,8 @@
       "last_sent": "2026-09-16T17:45:11.179288+00:00"
     },
     "forbes advisor|ai creative lead (remote)|anywhere": {
-      "material": "|Remote in-state eligible|True",
-      "last_sent": "2026-09-14T17:46:35.896312+00:00"
+      "material": "||None",
+      "last_sent": "2026-09-18T18:47:09.421208+00:00"
     },
     "forbes media llc|ai creative lead|anywhere": {
       "material": "||None",
@@ -624,26 +625,30 @@
     "contabo|performance creative strategist (all genders)|germany": {
       "material": "||",
       "last_sent": "2026-09-18T17:39:38.715660+00:00"
+    },
+    "javasmarketing|organic marketer & ai ugc creator|anywhere": {
+      "material": "10–30 an hour|Remote in-state eligible|True",
+      "last_sent": "2026-09-18T18:47:12.150814+00:00"
     }
   },
   "last_run": {
     "source_file": "linkedin_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
-    "duplicate": 0,
+    "discovered": 17,
+    "duplicate": 2,
     "geography": 0,
-    "remote": 0,
+    "remote": 2,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
-    "untrusted_source": 0,
+    "untrusted_source": 11,
     "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 2,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
