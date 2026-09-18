@@ -608,7 +608,7 @@
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "careerops_ats_jobs.json",
     "min_fit": 40.0,
     "discovered": 0,
     "duplicate": 0,
