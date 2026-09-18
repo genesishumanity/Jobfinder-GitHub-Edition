@@ -68,6 +68,7 @@
     "78fab0d2dc3b2d08d7334a6269cc21fd9a61eb6a03a6e791a2ea76242fdd0c30",
     "7c7a338df5d89ea9fb56d7ddadf720728ab839c6a6ad7c7eef017d606baa0ef6",
     "7dea06f30b37263c5e2a70381980f717b96cc79a587e6352b9df8467f0b7ec83",
+    "7e0b462ac1f900571979bd57ccba4cb8070343227d4497388ebc44d36656d7b2",
     "80a8da42555c0a4cae0354118e90bafb718a9dc91d8810d51574abeebb41813b",
     "8306631c05c558c62602ac8af15a34cc4ed8309bcd9d3ee03159620c58bd8699",
     "83724640e329aa55552f71e16f9719573f884fc4053b1b98614843745e81669b",
@@ -595,26 +596,30 @@
     "goodwaygroup|associate creative director|remote · business shared services": {
       "material": "|remote|True",
       "last_sent": "2026-09-17T20:42:23.149522+00:00"
+    },
+    "netflix|creative director, creative publishing|anywhere": {
+      "material": "260K–480K a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-18T01:44:46.796651+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
-    "duplicate": 0,
+    "discovered": 23,
+    "duplicate": 6,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
-    "untrusted_source": 0,
+    "untrusted_source": 15,
     "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
-    "low_fit": 0,
+    "low_fit": 1,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
