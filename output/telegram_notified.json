@@ -662,9 +662,9 @@
     }
   },
   "last_run": {
-    "source_file": "careerops_ats_jobs.json",
+    "source_file": "remote_boards_jobs.json",
     "min_fit": 40.0,
-    "discovered": 1,
+    "discovered": 0,
     "duplicate": 0,
     "geography": 0,
     "remote": 0,
@@ -673,7 +673,7 @@
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 1,
+    "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
