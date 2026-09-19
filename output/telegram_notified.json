@@ -662,10 +662,10 @@
     }
   },
   "last_run": {
-    "source_file": "careerops_ats_jobs.json",
+    "source_file": "remote_boards_jobs.json",
     "min_fit": 40.0,
-    "discovered": 1,
-    "duplicate": 1,
+    "discovered": 0,
+    "duplicate": 0,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
