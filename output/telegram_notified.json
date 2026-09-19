@@ -109,6 +109,7 @@
     "b72f47ec0d491bdfdd240f5a0b6ae5dc37a14558c26d4c81a36983655b088ef3",
     "b8a99dcf237a152937d8a8bd31b3923eb9ad651c7736bab50956495aafd32b8e",
     "baaf4df617bce8357f1e1861f38bbc19170862dd9b4e138d6693613e64891305",
+    "bc07ba8c1c7d6c2d0035f0bc93142a3757d75011ac7d16807acc0b78ee340934",
     "c066913e34842df7d6e7eb5ea6aa27a119180e2ef1347d3964e1c281bec1fe4d",
     "c661269d60761df95983362b19c043cb9cff2bc9e10a6603864d4d410062e278",
     "c8d60c39522458765879614a7ea645de2904054f38088b84a9b2186c7ebb1812",
@@ -654,20 +655,24 @@
     "directive|associate creative director, copy (remote us)|remote - united states · miami, fl · miami · united states · philadelphia, pa · philadelphia · austin, tx · austin · atlanta, ga · atlanta · los angeles, ca · los angeles · dallas, tx · dallas · chicago, il · chicago": {
       "material": "|remote|True",
       "last_sent": "2026-09-19T00:42:05.138092+00:00"
+    },
+    "valid|ai creative director|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-19T00:50:11.122693+00:00"
     }
   },
   "last_run": {
-    "source_file": "careerops_ats_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 40.0,
-    "discovered": 2,
-    "duplicate": 1,
-    "geography": 0,
+    "discovered": 5,
+    "duplicate": 0,
+    "geography": 1,
     "remote": 0,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
-    "untrusted_source": 0,
+    "untrusted_source": 3,
     "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,

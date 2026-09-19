@@ -1,56 +1,36 @@
 # 🔎 Google Jobs — Can Öncül — AI Production & Creative Leadership Roles
-*Last updated: 2026-09-18 23:39 UTC*
+*Last updated: 2026-09-19 00:49 UTC*
 
-**8 new role(s)** since last run · 44 total in last 168h
+**5 new role(s)** since last run · 20 total in last 168h
 
-### [Associate Creative Director - Design](https://www.indeed.com/viewjob?jk=d769312ec8c8183f&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — AGP
+### [Remote - Creative Strategy Manager](https://www.mediabistro.com/jobs/3542919628-remote-creative-strategy-manager?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Quest Diagnostics
 - 📍 **Location:** Anywhere
+- 💰 **Salary:** 125K–135K a year
+- **Work mode:** Remote in-state eligible
+- **Job type:** Part-time
+- 🕒 **Posted:** 2026-08-22
+
+### [[Remote] Creative Director | Experiential + Integrated](https://jobright.ai/jobs/info/6a988144c8ed473c5c764697?visit=ln-concerts,-experiential-designer-jobs-in-united-states&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Invisible North
+- 📍 **Location:** Anywhere
+- 💰 **Salary:** 150K–170K a year
 - **Work mode:** Remote in-state eligible
 - **Job type:** Full-time
-- 🕒 **Posted:** 2026-08-24
+- 🕒 **Posted:** 2026-09-04
 
-### [Associate Creative Director (Bilingual Spanish and English) [AQ-17989]](https://www.linkedin.com/jobs/view/associate-creative-director-bilingual-spanish-and-english-aq-17989-at-aquent-4465990433?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Aquent
+### [Creative Director - Design, Enterprise Marketing (Remote)](https://www.monster.com/job-openings/creative-director-design-enterprise-marketing-remote-auburn-wa--b4d61f83-87a7-4f99-acf2-ac6a1388b48a?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Zions Bancorporation NA
 - 📍 **Location:** Anywhere
-- 💰 **Salary:** 100–103 an hour
+- 💰 **Salary:** 115K–175K a year
 - **Work mode:** Remote in-state eligible
 - **Job type:** Contractor
-- 🕒 **Posted:** 2026-09-16
 
-### [Associate Creative Director, Brand](https://www.ziprecruiter.com/c/mvr-digital/Job/Associate-Creative-Director,-Brand/-in-Remote,US?jid=389a20d942fdbcf2&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — MVR Digital
+### [AI Creative Director](https://jobs.ashbyhq.com/Valid/1075a844-29e0-4fcf-9d95-6e6a8ece2a5e?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Valid
 - 📍 **Location:** Anywhere
+- **Work mode:** Remote in-state eligible
+- **Job type:** Full-time
+
+### [Meta Ads AI Creative Director/Creative Execution](https://www.upwork.com/freelance-jobs/apply/Meta-Ads-Creative-Director-Creative-Execution_~022099484849728884490/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Upwork
+- 📍 **Location:** Anywhere
+- 💰 **Salary:** 20–70 an hour
 - **Work mode:** Remote in-state eligible
 - **Job type:** Contractor
-- 🕒 **Posted:** 2026-09-16
-
-### [Future Position:  Associate Creative Director](https://bebee.com/us/jobs/future-position-associate-creative-director-monks--ss-us-rwbptu?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Monks
-- 📍 **Location:** Anywhere
-- **Work mode:** Remote in-state eligible
-- **Job type:** Internship
-- 🕒 **Posted:** 2026-09-06
-
-### [Associate Creative Director – Core Brand](https://www.builtinseattle.com/job/associate-creative-director-core-brand/11188807?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — ServiceNow
-- 📍 **Location:** Anywhere
-- 💰 **Salary:** 148K–260K a year
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
-- 🕒 **Posted:** 2026-09-14
-
-### [Associate Creative Director (Art & Design)](https://interpublic.wd5.myworkdayjobs.com/en-US/OMC/job/Associate-Creative-Director--Art-_200-DDB?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — D3UUS D3U Inc.
-- 📍 **Location:** Anywhere
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
-- 🕒 **Posted:** 2026-09-07
-
-### [Associate Creative Director Remote](https://www.learn4good.com/jobs/online_remote/marketing_and_pr/5472774353/e/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Staffmark Group
-- 📍 **Location:** Anywhere
-- 💰 **Salary:** 110K–150K a year
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
 - 🕒 **Posted:** 2026-09-15
-
-### [Associate Creative Director, Design](https://www.tealhq.com/job/associate-creative-director-design_7ea1a044e203b08f353cd8b0479d1a854c65c?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Kettle
-- 📍 **Location:** Anywhere
-- 💰 **Salary:** 160K–190K a year
-- **Work mode:** Remote in-state eligible
-- **Job type:** Full-time
-- 🕒 **Posted:** 2026-09-11
