@@ -94,6 +94,7 @@
     "9a899ff0e1cb85d3e1f42d861a939be7745015be1bfca8cd7076b9dc502c9e09",
     "9b9f77a7c4dbd8b7cb2e5e1794d0409f2d62d9b3d9b7bb7a1b9d16fe78fab9ce",
     "9d6b2d5976243f584d9733dc3119dd47caa552a6ece4af26da30daff80c7f3e1",
+    "a01dad5b7c310b1220c31f589ed4a27c21cf82c051e3b02244dbd7460d195650",
     "a355b7ff66da044f82e5f4f711aa7378e0e5c4ee4b6fcfa903021e77d363e75e",
     "a3a577fd023324f92f312e7abfcd42964389918815a800873e21fb789ce3ae80",
     "ac4f933c66d449ccdb8e8d91a64951c8599979a1b0213e1bc9753509980d3bf6",
@@ -649,13 +650,17 @@
     "ai case leads|senior creative strategist|spain": {
       "material": "||",
       "last_sent": "2026-09-18T21:41:29.111800+00:00"
+    },
+    "directive|associate creative director, copy (remote us)|remote - united states · miami, fl · miami · united states · philadelphia, pa · philadelphia · austin, tx · austin · atlanta, ga · atlanta · los angeles, ca · los angeles · dallas, tx · dallas · chicago, il · chicago": {
+      "material": "|remote|True",
+      "last_sent": "2026-09-19T00:42:05.138092+00:00"
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "careerops_ats_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
-    "duplicate": 0,
+    "discovered": 2,
+    "duplicate": 1,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
@@ -668,7 +673,7 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
