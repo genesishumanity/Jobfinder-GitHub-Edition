@@ -3,6 +3,7 @@
   "ids": [
     "0150bd1672005ebbb8fd2b617d8bffedec782a936aaa78425bc324ed29c61956",
     "01716dfdca9eafc68fe977268558fac4cf66a86da65cee7a260e66433373ef1d",
+    "02aeb9d5cf11b47f913c53385f7f9159f0aabcb259a461611cb7519729d2b13f",
     "0479d90bc39b93c962333a3ce3ba9df8d22817de2e55107f465f198d73817ec0",
     "070466bd1dede6390056b5edfd9aff3449ef0e46f014e78aca50cc2dcf2a5eb4",
     "095f55ef3ff91415b1423177e84e956d328e3a0b9b4fc172f6d29fb760b4ebe9",
@@ -18,6 +19,7 @@
     "177d1e1cce0ca12b237312dcdc08982907e8267403103e1ddf1a8eec1db127ff",
     "1923aa3b7d1db177f46855cdf46c432af62dc3d7bb13dbed71201110543b2d86",
     "1994de65e83f2d2641f2a9a4f3f2874b4d5e79f57df28358b6543c8925c84735",
+    "1afe1fca0f1b33c85fcbb6684be3653ba53e7d7c652ea144d021c151de0960dc",
     "1bf8e2bcf80bd4c457b89c22011b99bf6ea181975fcceed5d902c52aefdaa551",
     "1ca76a9914ed76d483480d38f5be3d28e2cd5e10e54d7909d712aafde78059a6",
     "203af9b1c832f9b54c037ae29bf523112cdcaf4599924a2e2b520bcf6c0c2d5f",
@@ -28,6 +30,7 @@
     "2cf01f269f2b9a39e4423d1d2bcb5fb56550ce7a7c1eb47715021287154cc0b4",
     "2d57ad3714d79bda4d521137bde14b36e363ec39d9d4517ac9cac5673964534c",
     "2e1ec38b979185437c68cca713be8c112baa841803435ba2f1d887b3052d3d5f",
+    "301acf53292ba7e8de6e720fa4df10a1376d2c94bbec2a37dfa4d95ed6826fce",
     "304138998c9646f333dd2338acf04266330497e718703df52dcb3de6168663e4",
     "34583679523f1bc47393ae8c144e0edc9c4255e7a3867585dddba2fd846f616e",
     "349b8f27bb127606649a11f50c02a231573c5641ac311ed2d90146a32b7ba277",
@@ -57,6 +60,7 @@
     "55bddbf8147b66e719dd1ece4190dacd5487246ec8d8aff8acd94ea3d867038a",
     "58948922a037e92de4af11f09faee390293efb23c875bfa9a2140c68ea6b09f0",
     "5d0e9dfa238cce6a793b284287d1177b9f32d9701f6afd99cbbbcc5a7877ce0c",
+    "5e3733e046d83ed5f8f226b35e1ff1382dfb44f0e02db9c415bc33fdc47c39ff",
     "60f5e60227e71aeb7199ca2440f9c8ef6515d42288acec7b0fab04c5c114811e",
     "61433b6da949307f8bf2a3e15570c1a77401ad7af34bb2eb0d859bd3723ae3a3",
     "61f0c3e8d93bb3fa118a45ea8a4996ed40296feb752d453c8045af3c4d4c0ac8",
@@ -95,6 +99,7 @@
     "9b9f77a7c4dbd8b7cb2e5e1794d0409f2d62d9b3d9b7bb7a1b9d16fe78fab9ce",
     "9d6b2d5976243f584d9733dc3119dd47caa552a6ece4af26da30daff80c7f3e1",
     "a01dad5b7c310b1220c31f589ed4a27c21cf82c051e3b02244dbd7460d195650",
+    "a1e08675cca9bb3f30e205db4ea8fa139dbb7364fa18198b65fad089e37c077c",
     "a355b7ff66da044f82e5f4f711aa7378e0e5c4ee4b6fcfa903021e77d363e75e",
     "a3a577fd023324f92f312e7abfcd42964389918815a800873e21fb789ce3ae80",
     "ac4f933c66d449ccdb8e8d91a64951c8599979a1b0213e1bc9753509980d3bf6",
@@ -135,6 +140,7 @@
     "f141b77463949fba295d4ef22be212f21305ac07179f2fc1b299a37d7805945a",
     "f16e0520c34d1a32e217774ba820a5834c575ae6ab2187e6f7de408c422c23da",
     "f3305292ef57a6cf23810d9cae34e0501c2e7fc18546e6e057423913e0d97f23",
+    "f33228d6496c871bcca895b91ed4ad31bc30eddf9252bf5dc16f2a8cc1214371",
     "f33c813b6b8f7ce5512a040bda5f8b274528493203ee4277585097e478b37e24",
     "f41d2cabcb06c0087c92687884354b097a9c5acaee9ade337da7bf97bbebc706",
     "fb55442a884143c9d5e044244b464dc100bdf0ca83c8173bd4f611d949b12b41",
@@ -659,12 +665,36 @@
     "valid|ai creative director|anywhere": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-19T00:50:11.122693+00:00"
+    },
+    "powerdigitalmarketing|senior creative strategist, fashion|remote - honduras": {
+      "material": "|remote|True",
+      "last_sent": "2026-09-19T12:47:02.493049+00:00"
+    },
+    "powerdigitalmarketing|senior creative strategist, fashion|remote - mexico": {
+      "material": "|remote|True",
+      "last_sent": "2026-09-19T12:47:05.402984+00:00"
+    },
+    "powerdigitalmarketing|senior creative strategist, fashion|remote - costa rica": {
+      "material": "|remote|True",
+      "last_sent": "2026-09-19T12:47:07.573986+00:00"
+    },
+    "powerdigitalmarketing|senior creative strategist, fashion|remote - brazil": {
+      "material": "|remote|True",
+      "last_sent": "2026-09-19T12:47:10.111536+00:00"
+    },
+    "powerdigitalmarketing|senior creative strategist, fashion|remote - argentina": {
+      "material": "|remote|True",
+      "last_sent": "2026-09-19T12:47:12.419878+00:00"
+    },
+    "powerdigitalmarketing|senior creative strategist, fashion|remote - colombia": {
+      "material": "|remote|True",
+      "last_sent": "2026-09-19T12:47:14.918809+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "careerops_ats_jobs.json",
     "min_fit": 40.0,
-    "discovered": 0,
+    "discovered": 6,
     "duplicate": 0,
     "geography": 0,
     "remote": 0,
@@ -678,7 +708,7 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 6,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
