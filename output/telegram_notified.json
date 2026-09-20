@@ -694,8 +694,8 @@
   "last_run": {
     "source_file": "google_jobs.json",
     "min_fit": 0.0,
-    "discovered": 0,
-    "duplicate": 0,
+    "discovered": 7,
+    "duplicate": 7,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
