@@ -34,6 +34,7 @@
     "304138998c9646f333dd2338acf04266330497e718703df52dcb3de6168663e4",
     "34583679523f1bc47393ae8c144e0edc9c4255e7a3867585dddba2fd846f616e",
     "349b8f27bb127606649a11f50c02a231573c5641ac311ed2d90146a32b7ba277",
+    "364797e380ead785f99c2028d3472892dd511d455256bf1c986c9c40f4bf5f7c",
     "3775e9148ec77c1d3cfcefd8d8fa3e24ec97620c454361446d1a0798ebc7f11b",
     "3881257f8e250d69bbadcdb613ddc096010b938c67ccbe18019ad89585b6f53f",
     "3b3e485768cfc2513b8f0b537aa4acb8bf3e2bc9b1f04b67bcc368c7162435a1",
@@ -694,26 +695,30 @@
     "tinuiti|creative strategist|usa - remote": {
       "material": "|remote|True",
       "last_sent": "2026-09-21T04:42:54.556200+00:00"
+    },
+    "directive|associate creative director, copy (remote canada)|irvine, ca, us": {
+      "material": "$115k–$125k/yr|Remote in-state eligible|True",
+      "last_sent": "2026-09-21T18:57:54.413467+00:00"
     }
   },
   "last_run": {
-    "source_file": "google_jobs.json",
+    "source_file": "indeed_jobs.json",
     "min_fit": 0.0,
-    "discovered": 0,
-    "duplicate": 0,
-    "geography": 0,
+    "discovered": 7,
+    "duplicate": 1,
+    "geography": 4,
     "remote": 0,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 1,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
