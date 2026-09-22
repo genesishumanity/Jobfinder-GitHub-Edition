@@ -1,10 +1,11 @@
 # 🟦 Indeed — Environmental / Toxicology Roles
-*Last updated: 2026-09-22 01:53 UTC*
+*Last updated: 2026-09-22 02:55 UTC*
 
-**1 new role(s)** since last run · 37 total in last 168h
+**1 new role(s)** since last run · 38 total in last 168h
 
-### [Senior Environmental Scientist](https://www.indeed.com/viewjob?jk=481ff5655878b1bf) — GHD
-- 📍 **Location:** San Luis Obispo, CA, US
-- 💰 **Salary:** $88k–$147k/yr
+### [Environmental Compliance Specialist I/II](https://www.indeed.com/viewjob?jk=50858e2fc9e1541a) — City of Roseville, CA
+- 📍 **Location:** Roseville, CA, US
+- 💰 **Salary:** $31–$49/hr
 - **Work mode:** On-site
+- **Job type:** fulltime
 - 🕒 **Posted:** 2026-09-21
