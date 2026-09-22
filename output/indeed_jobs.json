@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-09-22 19:54 UTC",
-  "total": 39,
+  "scraped_at": "2026-09-22 20:54 UTC",
+  "total": 38,
   "new_count": 0,
   "jobs": [
     {
@@ -648,24 +648,6 @@
       "job_type": "fulltime",
       "is_remote": false,
       "work_arrangement": "On-site",
-      "emails": "",
-      "ats": "Indeed"
-    },
-    {
-      "company": "SME Careers by SuperAnnotate",
-      "title": "Chemical Safety Expert for AI Model Safety Audit",
-      "location": "Remote, AU",
-      "url": "https://au.indeed.com/viewjob?jk=23d49e36c08ab69b",
-      "direct_url": "https://www.sme.careers/jobs?externalKey=CHEMSAFETY-26-101",
-      "company_url": "https://au.indeed.com/cmp/Sme-Careers-By-Superannotate",
-      "date_posted": "2026-09-15",
-      "description": "\\#\\# Description SME Careers is hiring chemists and chemical safety professionals to audit how AI models respond to sensitive questions in the field. Each task gives you a user request and the answers three different models gave to it. You classify the request (benign, dual\\-use or adversarial), mark each answer as safe or unsafe and say why, rank the three against each other, and write the answer the model should have given. For dual\\-use requests you also note what makes it sensitive, what legitimate purpose it serves, and who should be able to get an answer. The requests are realistic: what synthetic and analytical chemists, toxicologists, industrial hygienists, process safety engineers, regulators and occasionally bad actors actually ask. Some are ordinary professional questions that models wrongly refuse, and catching those matters as much as catching the dangerous ones. \\#\\# Who we're looking for Synthetic and analytical chemists; toxicologists and pharmacologists; industrial hygienists and chemical safety/process safety professionals; CWC or chemical\\-security specialists; hazmat, poison\\-control or chemical incident responders; and chemical regulators (EPA, OSHA, HSE, OPCW\\-adjacent, or equivalent). Usually a relevant degree plus five or more years of professional experience. Experience with safety data sheets, exposure assessment, incident reports or regulatory review is a strong plus. \\#\\# Before you apply Open only to citizens or permanent residents of the US, UK, Canada, Australia, New Zealand and the European Union.\n  \nrequirements\nresponsibilities\n* Develop AI Training Content: Create detailed prompts in various topics and responses to guide AI learning, ensuring the models reflect a comprehensive understanding of diverse subjects.\n\n\n* Optimize AI Performance: Evaluate and rank AI responses to enhance the model's accuracy, fluency, and contextual relevance.\n\n\n* Ensure Model Integrity: Test AI models for potential inaccuracies or biases, validating their reliability across use cases.",
-      "salary": "",
-      "salary_source": "",
-      "salary_currency": "",
-      "job_type": "fulltime",
-      "is_remote": true,
-      "work_arrangement": "Remote in-state eligible",
       "emails": "",
       "ats": "Indeed"
     },
