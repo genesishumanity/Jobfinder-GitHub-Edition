@@ -145,6 +145,7 @@
     "f33228d6496c871bcca895b91ed4ad31bc30eddf9252bf5dc16f2a8cc1214371",
     "f33c813b6b8f7ce5512a040bda5f8b274528493203ee4277585097e478b37e24",
     "f41d2cabcb06c0087c92687884354b097a9c5acaee9ade337da7bf97bbebc706",
+    "fa485288b55811ce0cc4744dcb4b35e3773f1621b26b2326837b7be70d434b08",
     "fb55442a884143c9d5e044244b464dc100bdf0ca83c8173bd4f611d949b12b41",
     "fb5b6c70c516d6d1dbe44f4be71003eff84864b49a2f0f12a299fb91b06fce1c",
     "fd9608a8a1c8a13cd996d37fbe37556d4de6c092f2272764fcb3a7ce46cbeebd",
@@ -699,26 +700,30 @@
     "directive|associate creative director, copy (remote canada)|irvine, ca, us": {
       "material": "$115k–$125k/yr|Remote in-state eligible|True",
       "last_sent": "2026-09-21T18:57:54.413467+00:00"
+    },
+    "skelar|creative producer - storyby|ukraine, remote · warsaw · poland": {
+      "material": "|remote|True",
+      "last_sent": "2026-09-23T16:37:00.610436+00:00"
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "careerops_ats_jobs.json",
     "min_fit": 0.0,
-    "discovered": 5,
-    "duplicate": 0,
-    "geography": 2,
+    "discovered": 3,
+    "duplicate": 2,
+    "geography": 0,
     "remote": 0,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 3,
+    "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
