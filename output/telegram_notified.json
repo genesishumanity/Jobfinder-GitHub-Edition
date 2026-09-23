@@ -103,6 +103,7 @@
     "a1e08675cca9bb3f30e205db4ea8fa139dbb7364fa18198b65fad089e37c077c",
     "a355b7ff66da044f82e5f4f711aa7378e0e5c4ee4b6fcfa903021e77d363e75e",
     "a3a577fd023324f92f312e7abfcd42964389918815a800873e21fb789ce3ae80",
+    "aa7e73dc8a3ad092476e8e3550cbe7bad8339307d91a1be56494534d6c4bcbb9",
     "ab4e85fce5a02d7f6c2785b0989d89fc0654ca323778e517de98f2e2f6781f96",
     "ac4f933c66d449ccdb8e8d91a64951c8599979a1b0213e1bc9753509980d3bf6",
     "acf97042bf7f313412eeab871391388b5b50fcda2e9ec02bfda7561b393d6684",
@@ -149,6 +150,7 @@
     "fb55442a884143c9d5e044244b464dc100bdf0ca83c8173bd4f611d949b12b41",
     "fb5b6c70c516d6d1dbe44f4be71003eff84864b49a2f0f12a299fb91b06fce1c",
     "fd9608a8a1c8a13cd996d37fbe37556d4de6c092f2272764fcb3a7ce46cbeebd",
+    "fed6b6c52e62ef09e2fd9ca6e6ce065d66e36306bc2b75627465513e953a0bae",
     "ffbbcc6d18944ea46619b9f4368a9e277b7ff77b75f1f2a793be390868c23247",
     "fileneresearchinstitute|audiencecontentstrategydirectorfilenewitxorco||httpswwwlinkedincomjobsview4463919758",
     "golinketchum|associatecreativedirector||httpswwwlinkedincomjobsview4464808195",
@@ -704,13 +706,21 @@
     "skelar|creative producer - storyby|ukraine, remote · warsaw · poland": {
       "material": "|remote|True",
       "last_sent": "2026-09-23T16:37:00.610436+00:00"
+    },
+    "inbeat-agency|creative lead (social & ugc)|south africa · remote": {
+      "material": "|remote|True",
+      "last_sent": "2026-09-23T20:36:36.916223+00:00"
+    },
+    "inbeat-agency|creative lead (social & ugc)|spain · remote": {
+      "material": "|remote|True",
+      "last_sent": "2026-09-23T20:36:39.541412+00:00"
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "careerops_ats_jobs.json",
     "min_fit": 0.0,
-    "discovered": 1,
-    "duplicate": 0,
+    "discovered": 6,
+    "duplicate": 4,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
@@ -718,12 +728,12 @@
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 1,
+    "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 2,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
