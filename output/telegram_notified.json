@@ -123,6 +123,7 @@
     "c8d60c39522458765879614a7ea645de2904054f38088b84a9b2186c7ebb1812",
     "ca36282e826ef907d26eb02ada5220754fa044d6753fb0e6d56b653bce43d827",
     "caeba3a133c12812fb1be3811bad986b2abc77413b4f68950b961b4653fc454f",
+    "cbf3e51edde019b3fbaa034d325973265c356d08583dae02d4b85d93f367a29f",
     "d3ffea68f3a98accf23a5b5c8d6d6181a15648f519d6264e4d8d2e5180cde15a",
     "d50a6ac2db90210fcb7f4c5bcc45072b10d1154b7f48516662bbe7e33530394c",
     "d5b326e3fb2d953aca09c0e0ec892e80ae48281df5040cf38c2b0ff22df56dca",
@@ -714,12 +715,16 @@
     "inbeat-agency|creative lead (social & ugc)|spain · remote": {
       "material": "|remote|True",
       "last_sent": "2026-09-23T20:36:39.541412+00:00"
+    },
+    "hims & hers|creative lead, paid social|los alamitos, ca, us": {
+      "material": "$140k–$170k/yr|Remote in-state eligible|True",
+      "last_sent": "2026-09-23T22:54:20.286830+00:00"
     }
   },
   "last_run": {
-    "source_file": "google_jobs.json",
+    "source_file": "indeed_jobs.json",
     "min_fit": 0.0,
-    "discovered": 0,
+    "discovered": 1,
     "duplicate": 0,
     "geography": 0,
     "remote": 0,
@@ -733,7 +738,7 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
