@@ -30,6 +30,7 @@
     "2cf01f269f2b9a39e4423d1d2bcb5fb56550ce7a7c1eb47715021287154cc0b4",
     "2d57ad3714d79bda4d521137bde14b36e363ec39d9d4517ac9cac5673964534c",
     "2e1ec38b979185437c68cca713be8c112baa841803435ba2f1d887b3052d3d5f",
+    "2e9fe8e8839a48a661c1280150451306d156b1f07f74d4f4ce0d47a80a48fa6e",
     "301acf53292ba7e8de6e720fa4df10a1376d2c94bbec2a37dfa4d95ed6826fce",
     "304138998c9646f333dd2338acf04266330497e718703df52dcb3de6168663e4",
     "34583679523f1bc47393ae8c144e0edc9c4255e7a3867585dddba2fd846f616e",
@@ -724,26 +725,30 @@
     "icarus digital marketing|performance creative strategist and ai producer|🇦🇱 albania, 🇦🇷 argentina, 🇧🇦 bosnia and herzegovina, 🇧🇬 bulgaria, 🇧🇷 brazil, 🇨🇴 colombia, 🇲🇩 moldova (republic of), 🇲🇰 north macedonia, 🇲🇽 mexico, 🇵🇪 peru, 🇵🇭 philippines, 🇷🇴 romania, 🇷🇸 serbia, and 🇿🇦 south africa, anywhere in the world": {
       "material": "||True",
       "last_sent": "2026-09-24T00:59:40.805571+00:00"
+    },
+    "ozean international inc|content marketing & ugc coordinator (part-time)|san marino, ca, us": {
+      "material": "$28–$30/hr|Remote in-state eligible|True",
+      "last_sent": "2026-09-24T15:55:26.958539+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "indeed_jobs.json",
     "min_fit": 0.0,
-    "discovered": 0,
+    "discovered": 7,
     "duplicate": 0,
-    "geography": 0,
+    "geography": 5,
     "remote": 0,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 1,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
