@@ -26,6 +26,7 @@
     "20d7436f19a7702f39e9b3395b6112ae0106b2d6daa1a773c69349c2d646afae",
     "23ef37f8c77e23e8341e554f68da99b2a41d0c8fe43c2492763e82053665b909",
     "25a51ff6b8959ab12f193c921ead5e1f64129687b591fbf959f64123978e0ace",
+    "2888decb99e41645af5fdf7fcf2679ac40393c9e6eda104ca0408c0397d33ab3",
     "2aff894afff7bfddfea60abec6665c7c050ca40fca63a12511a440fcbb2b54f6",
     "2cf01f269f2b9a39e4423d1d2bcb5fb56550ce7a7c1eb47715021287154cc0b4",
     "2d57ad3714d79bda4d521137bde14b36e363ec39d9d4517ac9cac5673964534c",
@@ -729,21 +730,25 @@
     "ozean international inc|content marketing & ugc coordinator (part-time)|san marino, ca, us": {
       "material": "$28–$30/hr|Remote in-state eligible|True",
       "last_sent": "2026-09-24T15:55:26.958539+00:00"
+    },
+    "onhires|senior creative strategist (performance / meta ads)|europe (remote)": {
+      "material": "|remote|True",
+      "last_sent": "2026-09-24T16:35:11.448464+00:00"
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "careerops_ats_jobs.json",
     "min_fit": 0.0,
-    "discovered": 7,
-    "duplicate": 0,
-    "geography": 5,
+    "discovered": 3,
+    "duplicate": 2,
+    "geography": 0,
     "remote": 0,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 1,
+    "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
