@@ -6,7 +6,8 @@ REMOTE = re.compile(r"\b(remote|work from home|work-from-home|distributed|anywhe
 LOCAL_ALIASES = re.compile(
     r"\b(london|amsterdam|germany|deutschland|hungary|magyarország|portugal|spain|españa|"
     r"berlin|munich|münchen|hamburg|frankfurt|cologne|köln|düsseldorf|stuttgart|budapest|"
-    r"lisbon|lisboa|porto|madrid|barcelona|valencia|sevilla|seville|malaga|málaga)\b",
+    r"lisbon|lisboa|porto|madrid|barcelona|valencia|sevilla|seville|malaga|málaga|"
+    r"milan|milano|lombardy|lombardia|italy|italia)\b",
     re.I,
 )
 US_ONLY = re.compile(
@@ -101,6 +102,17 @@ ROTATING_REMOTE_TERM_GROUPS = [
 ]
 
 
+MILAN_GEOS = {
+    "linkedin": {"name": "Milan", "location": "Milan, Lombardy, Italy", "geoId": ""},
+    "indeed": {"location": "Milano, Lombardia", "country": "Italy"},
+    "google_jobs": {"location": "Milan, Italy", "country": "Italy"},
+}
+
+
+def _is_milan_geo(geo):
+    return "milan" in str(geo.get("location", "")).casefold()
+
+
 def target_location(location):
     """Remote-first seed selection; reject only an explicit US-only label."""
     text = str(location or "")
@@ -170,8 +182,12 @@ def _prepare_remote_first(config):
     for source in ("linkedin", "indeed", "glassdoor", "google_jobs", "ziprecruiter"):
         _append_terms(config, source, remote_adjacent)
 
+    # Milan relocation lane: always search Milan-area listings in any arrangement.
+    for source, geo in MILAN_GEOS.items():
+        _append_geo(config, source, geo)
+
     profile = config.setdefault("profile", {})
-    profile["subtitle"] = "Remote · UK / Europe · AI Production & Creative Leadership"
+    profile["subtitle"] = "Remote (Italy-eligible) + Milan · AI Production & Creative Leadership"
     return config
 
 
@@ -191,17 +207,19 @@ def _bounded_geos(config, slot):
         picked.append(worldwide)
     if regional:
         picked.append(regional[slot % len(regional)])
+    picked += [g for g in indeed if _is_milan_geo(g) and g not in picked]
     if picked:
         locations["indeed"] = picked
 
     linkedin = [g for g in locations.get("linkedin", []) if isinstance(g, dict)]
     global_remote = next((g for g in linkedin if str(g.get("location", "")).casefold() == "remote"), None)
-    li_regional = [g for g in linkedin if g is not global_remote]
+    li_regional = [g for g in linkedin if g is not global_remote and not _is_milan_geo(g)]
     picked = []
     if global_remote:
         picked.append(global_remote)
     if li_regional:
         picked.append(li_regional[slot % len(li_regional)])
+    picked += [g for g in linkedin if _is_milan_geo(g)]
     if picked:
         locations["linkedin"] = picked
 

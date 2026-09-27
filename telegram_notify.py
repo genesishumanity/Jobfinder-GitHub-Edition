@@ -50,6 +50,9 @@ HYBRID_ROLE_PATTERN = re.compile(
 
 
 def remote_plausible(job):
+    from final_filter import milan_local
+    if milan_local(job):
+        return True
     arrangement = str(job.get("work_arrangement", "")).lower()
     location = str(job.get("location", "")).lower()
     text = " ".join(str(job.get(k, "")) for k in ("location", "description", "title")).lower()
@@ -265,6 +268,9 @@ def fit(job):
 
 
 def international_remote_status(job):
+    from final_filter import milan_local
+    if milan_local(job):
+        return "📍 Milano yerel rol — işveren teklifi / çalışma izni yolu"
     text = " ".join(str(job.get(key, "")) for key in (
         "title", "location", "description", "work_arrangement"
     )).lower()
@@ -282,10 +288,10 @@ def international_remote_status(job):
         "canada only", "australia only"
     )
     if any(term in text for term in restricted):
-        return "⛔ Ülke kısıtı var — UAE'den uygun görünmüyor"
+        return "⛔ Ülke kısıtı var — İtalya'dan uygun görünmüyor"
     if any(term in text for term in worldwide):
         return "✅ Uluslararası / contractor uygunluğu açık"
-    return "⚪ UAE/uluslararası uygunluğu ilanda net değil"
+    return "⚪ İtalya/uluslararası uygunluğu ilanda net değil"
 
 
 def label(job, score=None):

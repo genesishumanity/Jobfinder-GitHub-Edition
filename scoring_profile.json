@@ -1,5 +1,5 @@
 {
-  "description": "Can Öncül — focused remote search for AI production, AI leadership, creative strategy/leadership and UGC roles.",
+  "description": "Can Öncül — remote (Italy-eligible) + Milan search for AI production, AI leadership, creative strategy/leadership and UGC roles.",
   "fit_terms": [
     {
       "pattern": "\\bai (producer|producing)\\b",
@@ -38,7 +38,7 @@
       "weight": 10
     },
     {
-      "pattern": "\\bremote[- ]first\\b|\\bremote\\b|\\bdistributed\\b|\\bEMEA\\b|\\bEurope\\b|\\bUnited Kingdom\\b",
+      "pattern": "\\bremote[- ]first\\b|\\bremote\\b|\\bdistributed\\b|\\bEMEA\\b|\\bEurope\\b|\\bUnited Kingdom\\b|\\bItal(y|ia)\\b|\\bMilan(o)?\\b",
       "weight": 10
     }
   ],
@@ -92,5 +92,5 @@
     "\\bcreative innovation\\b",
     "\\bcreative technologist\\b"
   ],
-  "version": 5
+  "version": 6
 }

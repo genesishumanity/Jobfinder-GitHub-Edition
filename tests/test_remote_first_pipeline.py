@@ -67,10 +67,10 @@ def test_focused_mode_keeps_exact_fifteen_role_queries():
 
 
 def test_delivery_gate_requires_remote_no_longer_requires_uk_europe_signal():
-    # As of 2026-09-15, explicit UK/Europe geography proof is no longer
-    # required — any genuinely remote role is eligible, US included. Only an
-    # explicit exclusionary signal (onsite/hybrid, or an explicit US-only
-    # restriction) rejects.
+    # Explicit UK/Europe geography proof is not required, but since 2026-09-27
+    # (Milan relocation via the Italian remote-worker visa) a remote role whose
+    # only stated geography is the US is rejected unless the listing opens it
+    # to worldwide/EMEA/Europe candidates.
     assert final_filter.eligible_location({
         "location": "Remote - London, United Kingdom",
         "description": "AI producer role",
@@ -81,9 +81,14 @@ def test_delivery_gate_requires_remote_no_longer_requires_uk_europe_signal():
         "description": "UGC role",
         "is_remote": True,
     })
-    assert final_filter.eligible_location({
+    assert not final_filter.eligible_location({
         "location": "Remote - United States",
         "description": "AI producer role",
+        "is_remote": True,
+    })
+    assert final_filter.eligible_location({
+        "location": "Remote - United States",
+        "description": "AI producer role open to candidates across Europe",
         "is_remote": True,
     })
     assert final_filter.eligible_location({
@@ -445,3 +450,21 @@ def test_off_mission_role_ai_lead_excludes_lead_generation():
     on_mission_titles = ["AI Lead", "Senior AI Lead, Creative", "AI Lead (Remote)"]
     for title in on_mission_titles:
         assert not off_mission_role({"title": title}), title
+
+
+def test_milan_roles_pass_in_any_arrangement():
+    import telegram_notify
+    onsite = {"location": "Milan, Lombardy, Italy", "work_arrangement": "On-site",
+              "description": "Associate Creative Director", "is_remote": False}
+    assert final_filter.eligible_location(onsite)
+    assert telegram_notify.remote_plausible(onsite)
+    assert telegram_notify.international_remote_status(onsite).startswith("📍")
+    assert not final_filter.eligible_location({"location": "Rome, Lazio, Italy", "work_arrangement": "On-site",
+                                               "description": "Creative director", "is_remote": False})
+
+
+def test_milan_geos_always_scanned():
+    import discovery_lanes
+    cfg = discovery_lanes.expand_config({"discovery_lanes": {"enabled": True}}, slot=3)
+    assert any("Milan" in g["location"] for g in cfg["locations"]["linkedin"])
+    assert any("Milano" in g["location"] for g in cfg["locations"]["indeed"])
