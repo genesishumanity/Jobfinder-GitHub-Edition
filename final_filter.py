@@ -36,6 +36,10 @@ MILAN_LOCAL = re.compile(r"\b(?:milan|milano|lombardy|lombardia)\b", re.I)
 OPEN_GEO = re.compile(r"\b(?:worldwide|anywhere|global|emea|europe|european|international)\b", re.I)
 
 
+# Google Jobs labels most listings "Anywhere"; the US restriction often lives only in the title.
+US_TITLE = re.compile(r"\bremote[\s,/-]*\(?\s*(?:us|usa|u\.s\.|united states)\b|\((?:us|usa|u\.s\.)(?:[\s,/-]*only)?\)", re.I)
+
+
 def milan_local(job):
     return bool(MILAN_LOCAL.search(str(job.get("location", ""))))
 
@@ -105,7 +109,7 @@ def eligible_location(job):
     # earlier hard TARGET_GEO requirement was blocking too much real volume;
     # reject only explicit exclusionary signals below, not the absence of a
     # UK/EU city name.
-    if US_ONLY.search(text):
+    if US_ONLY.search(text) or US_TITLE.search(str(job.get("title", ""))):
         return False
     if milan_local(job):
         return True

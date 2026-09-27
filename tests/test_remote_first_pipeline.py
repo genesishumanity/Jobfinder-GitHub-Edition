@@ -468,3 +468,11 @@ def test_milan_geos_always_scanned():
     cfg = discovery_lanes.expand_config({"discovery_lanes": {"enabled": True}}, slot=3)
     assert any("Milan" in g["location"] for g in cfg["locations"]["linkedin"])
     assert any("Milano" in g["location"] for g in cfg["locations"]["indeed"])
+
+
+def test_us_restriction_in_title_is_rejected():
+    job = {"title": "Associate Creative Director Copy (Remote US)", "location": "Anywhere",
+           "description": "", "is_remote": True}
+    assert not final_filter.eligible_location(job)
+    job["title"] = "Associate Creative Director Copy (Remote)"
+    assert final_filter.eligible_location(job)
