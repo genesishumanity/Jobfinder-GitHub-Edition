@@ -468,6 +468,10 @@ def test_milan_geos_always_scanned():
     cfg = discovery_lanes.expand_config({"discovery_lanes": {"enabled": True}}, slot=3)
     assert any("Milan" in g["location"] for g in cfg["locations"]["linkedin"])
     assert any("Milano" in g["location"] for g in cfg["locations"]["indeed"])
+    assert any("stanbul" in g["location"] for g in cfg["locations"]["indeed"])
+    assert any("Istanbul" in g["location"] for g in cfg["locations"]["linkedin"])
+    assert final_filter.eligible_location({"location": "Istanbul, Istanbul, Türkiye", "work_arrangement": "Hybrid",
+                                           "description": "Creative director", "is_remote": False})
 
 
 def test_us_restriction_in_title_is_rejected():

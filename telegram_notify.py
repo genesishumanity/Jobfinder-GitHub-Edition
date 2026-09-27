@@ -270,7 +270,7 @@ def fit(job):
 def international_remote_status(job):
     from final_filter import milan_local
     if milan_local(job):
-        return "📍 Milano yerel rol — işveren teklifi / çalışma izni yolu"
+        return "📍 Milano/İstanbul yerel rol — ofis/hibrit de uygun"
     text = " ".join(str(job.get(key, "")) for key in (
         "title", "location", "description", "work_arrangement"
     )).lower()

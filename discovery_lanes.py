@@ -103,14 +103,17 @@ ROTATING_REMOTE_TERM_GROUPS = [
 
 
 MILAN_GEOS = {
-    "linkedin": {"name": "Milan", "location": "Milan, Lombardy, Italy", "geoId": ""},
-    "indeed": {"location": "Milano, Lombardia", "country": "Italy"},
-    "google_jobs": {"location": "Milan, Italy", "country": "Italy"},
+    "linkedin": [{"name": "Milan", "location": "Milan, Lombardy, Italy", "geoId": ""},
+                 {"name": "Istanbul", "location": "Istanbul, Türkiye", "geoId": ""}],
+    "indeed": [{"location": "Milano, Lombardia", "country": "Italy"},
+               {"location": "İstanbul", "country": "Turkey"}],
+    "google_jobs": [{"location": "Milan, Italy", "country": "Italy"}],
 }
 
 
 def _is_milan_geo(geo):
-    return "milan" in str(geo.get("location", "")).casefold()
+    location = str(geo.get("location", "")).casefold()
+    return "milan" in location or "istanbul" in location or "i̇stanbul" in location
 
 
 def target_location(location):
@@ -182,9 +185,10 @@ def _prepare_remote_first(config):
     for source in ("linkedin", "indeed", "glassdoor", "google_jobs", "ziprecruiter"):
         _append_terms(config, source, remote_adjacent)
 
-    # Milan relocation lane: always search Milan-area listings in any arrangement.
-    for source, geo in MILAN_GEOS.items():
-        _append_geo(config, source, geo)
+    # Milan (relocation target) + Istanbul (home base): always searched, any arrangement.
+    for source, geos in MILAN_GEOS.items():
+        for geo in geos:
+            _append_geo(config, source, geo)
 
     profile = config.setdefault("profile", {})
     profile["subtitle"] = "Remote (Italy-eligible) + Milan · AI Production & Creative Leadership"

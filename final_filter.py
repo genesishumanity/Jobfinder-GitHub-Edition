@@ -30,9 +30,9 @@ TARGET_GEO = re.compile(
     r"italy|italia|milan|milano)\b",
     re.I,
 )
-# Milan is the relocation target (Italian remote-worker visa / Milan employer):
-# Milan-area roles are wanted in any arrangement, onsite and hybrid included.
-MILAN_LOCAL = re.compile(r"\b(?:milan|milano|lombardy|lombardia)\b", re.I)
+# Milan is the relocation target (Italian remote-worker visa / Milan employer) and
+# Istanbul is where Can applies from: roles there are wanted in any arrangement.
+MILAN_LOCAL = re.compile(r"\b(?:milan|milano|lombardy|lombardia|istanbul|i̇stanbul|İstanbul)\b", re.I)
 OPEN_GEO = re.compile(r"\b(?:worldwide|anywhere|global|emea|europe|european|international)\b", re.I)
 
 
