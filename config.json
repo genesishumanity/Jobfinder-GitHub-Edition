@@ -34,7 +34,17 @@
       "kreatif direktör",
       "yaratıcı yönetmen",
       "marka stratejisti",
-      "ugc"
+      "ugc",
+      "ai creative producer",
+      "ai video",
+      "ai content producer",
+      "generative ai",
+      "genai creative",
+      "ai artist",
+      "previs",
+      "pitch creative",
+      "senior creative",
+      "content creative lead"
     ],
     "exclude": [
       "intern",
@@ -70,29 +80,30 @@
   },
   "search_terms": {
     "linkedin": [
+      "AI creative producer",
+      "creative producer",
+      "AI video",
+      "generative AI creative",
+      "creative lead",
       "creative director",
       "associate creative director",
-      "creative lead",
-      "head of creative",
-      "creative strategist",
-      "brand strategist",
-      "AI creative"
+      "creative strategist"
     ],
     "indeed": [
-      "creative director",
-      "associate creative director",
+      "AI creative producer",
+      "creative producer",
+      "AI video",
+      "generative AI creative",
       "creative lead",
-      "creative strategist",
-      "brand strategist",
-      "AI creative"
+      "creative director"
     ],
     "glassdoor": [],
     "ziprecruiter": [],
     "google_jobs": [
-      "creative director",
-      "associate creative director",
-      "creative strategist",
-      "AI creative director"
+      "AI creative producer",
+      "generative AI video",
+      "creative lead",
+      "creative director"
     ],
     "hiring_cafe": [],
     "calcareers": [],

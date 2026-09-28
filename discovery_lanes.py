@@ -57,13 +57,20 @@ _WORD_GAP_STEMS = {
 # narrowing genuine matches.
 _ROLE_TERM_PATTERNS = {
     "ai lead": r"\bai lead\b(?!\s*[-–—]?\s*(?:qualification|generation|gen\b|magnet|capture|scoring))",
+    # AI creative production roles (2026-09-28): the fastest-closing remote
+    # contracts for this profile. Generative-AI titles must name a creative
+    # discipline so "Generative AI Engineer" stays out.
+    "ai video": r"\bai[- ]?(?:generated\s+)?video\b",
+    "ai creative": r"\bai\s+(?:creative|artist|content\s+(?:creator|producer|lead))\b",
+    "generative ai creative": r"\b(?:generative\s+ai|gen\s?ai)\s+(?:creative|artist|video|designer|content|producer|filmmaker)\w*",
+    "senior creative": r"\bsenior\s+creative\b(?!\s+(?:operations|ops|recruiter|coordinator))",
 }
 # Titles accepted at delivery without adding "<title> remote" search queries:
 # leadership variants and the Italian/Turkish forms seen on Milan/Istanbul boards.
 DELIVERY_ONLY_TERMS = [
     "head of creative", "head of brand", "content strategy lead", "senior art director",
     "conceptual art director", "direttore creativo", "kreatif direktör", "yaratıcı yönetmen",
-    "marka stratejisti",
+    "marka stratejisti", "ai video", "ai creative", "generative ai creative", "senior creative",
 ]
 ROLE_TERMS = re.compile(
     "|".join(

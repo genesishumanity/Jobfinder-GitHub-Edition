@@ -30,6 +30,10 @@ title_filter_full:
     - "Creative AI"
     - "Performance Creative"
     - "Campaign Creative Lead"
+    - "AI Video"
+    - "Generative AI"
+    - "AI Content"
+    - "Senior Creative"
   negative:
     - "Intern"
     - "Junior"
