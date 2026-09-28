@@ -505,3 +505,14 @@ def test_off_mission_title_blockers():
         assert telegram_notify.off_mission_role({"title": title}), title
     for title in ("Creative Director, International", "Senior Creative Strategist", "Kreatif Direktör"):
         assert not telegram_notify.off_mission_role({"title": title}), title
+
+
+def test_role_terms_cover_ai_creative_production_titles():
+    from discovery_lanes import ROLE_TERMS
+
+    for title in ["AI Video Creator", "AI Content Producer", "Generative AI Video Artist",
+                  "GenAI Creative Lead", "Senior Creative (AI)", "AI Artist"]:
+        assert ROLE_TERMS.search(title), title
+    for title in ["Generative AI Engineer", "AI Lead Generation Specialist",
+                  "Senior Creative Operations Manager", "Machine Learning Engineer"]:
+        assert not ROLE_TERMS.search(title), title
