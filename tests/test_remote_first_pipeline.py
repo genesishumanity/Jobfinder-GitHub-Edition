@@ -520,6 +520,32 @@ def test_role_terms_cover_ai_creative_production_titles():
         assert not ROLE_TERMS.search(title), title
 
 
+def test_precision_gate_blocks_unusable_listings():
+    from telegram_notify import precision_blocked
+
+    # Real listings from the 2026-09-14..28 dry run.
+    assert precision_blocked({"title": "VP, Associate Creative Director, Copy", "location": "Anywhere"}) == "wrong_role"
+    assert precision_blocked({"title": "UGC Dog Creator", "location": "Anywhere"}) == "wrong_role"
+    assert precision_blocked({"title": "Creative Director (Remote, Fashion, LA)", "location": "Anywhere"}) == "wrong_role"
+    assert precision_blocked({"title": "Creative Director (UXUI Leadership) - Contractor", "location": "Anywhere"}) == "wrong_role"
+    assert precision_blocked({"title": "Creative Director", "location": "Anywhere",
+                              "description": "Must be authorized to work in the United States."}) == "us_employment"
+    assert precision_blocked({"title": "Creative Lead", "location": "Anywhere",
+                              "description": "Benefits: medical, dental, and vision, 401(k)."}) == "us_employment"
+    assert precision_blocked({"title": "Senior Creative Strategist, Fashion", "location": "Remote - Honduras"}) == "country_restricted"
+    assert precision_blocked({"title": "Creative Producer", "location": "London, England, United Kingdom"}) == "country_restricted"
+
+    for ok in [
+        {"title": "Creative Lead (Social & UGC)", "location": "Remote"},
+        {"title": "AI Creative Producer", "location": "Europe"},
+        {"title": "Creative Strategist", "location": "Istanbul, Istanbul, Türkiye"},
+        {"title": "Associate Creative Director", "location": "Milan, Lombardy, Italy"},
+        {"title": "Creative Producer", "location": "Worldwide"},
+        {"title": "Creative Producer", "location": ""},
+    ]:
+        assert precision_blocked(ok) is None, ok
+
+
 def test_landing_signals_rank_contract_worldwide_fresh_roles():
     from datetime import date
     from telegram_notify import landing_signals
