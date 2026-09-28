@@ -3,8 +3,8 @@ name: Indeed Watcher
 on:
   # Offset from LinkedIn (:17) to reduce contention on the commit-push concurrency group.
   schedule:
-    # Every 3h during Dubai/Europe daytime.
-    - cron: "47 5-20/3 * * *"
+    # 08:47, 14:47, 20:47 Dubai (~2 billed minutes each).
+    - cron: "47 4,10,16 * * *"
   workflow_dispatch:
     inputs:
       backfill:

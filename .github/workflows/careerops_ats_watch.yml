@@ -9,7 +9,7 @@ on:
       - "careerops_bridge.py"
       - "careerops_portals.yml"
   schedule:
-    - cron: "17 */4 * * *"
+    - cron: "7 6 * * *"
 
 permissions:
   contents: write

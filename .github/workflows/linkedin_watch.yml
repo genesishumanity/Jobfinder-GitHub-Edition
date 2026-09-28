@@ -2,8 +2,9 @@ name: LinkedIn Watcher
 
 on:
   schedule:
-    # Every 2h, 05-19 UTC (09:00-23:00 Dubai, 07:00-21:00 Milan). Hourly bursts got throttled (~70% empty runs).
-    - cron: "17 5-19/2 * * *"
+    # 08:17 and 16:17 Dubai. A run takes ~13 billed minutes and looks back 7 days,
+    # so twice a day misses nothing and keeps the repo inside the free Actions quota.
+    - cron: "17 4,12 * * *"
   workflow_dispatch:
     inputs:
       backfill:
