@@ -546,6 +546,18 @@ def test_precision_gate_blocks_unusable_listings():
         assert precision_blocked(ok) is None, ok
 
 
+def test_contact_links_are_linkedin_people_searches():
+    from telegram_notify import contact_links, label
+
+    text = contact_links({"company": "Stellar Tech"})
+    assert text.startswith("👤 Kime yaz:")
+    assert text.count("https://www.linkedin.com/search/results/people/?keywords=") == 3
+    assert "%22Stellar%20Tech%22" in text
+    assert contact_links({"company": ""}) == ""
+    assert contact_links({"company": "Confidential"}) == ""
+    assert "Kime yaz" in label({"title": "Creative Producer", "company": "Stellar Tech", "url": "https://x"})
+
+
 def test_landing_signals_rank_contract_worldwide_fresh_roles():
     from datetime import date
     from telegram_notify import landing_signals
