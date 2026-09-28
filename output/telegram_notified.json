@@ -10,8 +10,11 @@
     "0b1e9ab1b577ef0c7ab4919c4351900a68f0ff27ec63d821aed274c72bdce9d4",
     "0bf8eb82beb1085e3d6533d3a2444430a0a4f7eee201775df8516ed32da046e1",
     "0ea82b4228bbbce31e79e67b8230cdccb7308b08ed2b052a7bee8acb08d8103c",
+    "0f5b300f8096a27b244681633471455ab8c440f97d565d1e460dfc3db7afdcbe",
     "0f6914f842640851f2a01e20604773a4c0bde6d7b85a33754b2c7480008359fe",
+    "1263cdcc27d981318bd87db116880eb3c04d435fdd3d817f3aa42da7a9a2de4d",
     "129f3e7787ce79b1adc1e8498ed23eea910efb8eb6c66f58a41269b634860054",
+    "12af6f1306108fb81fd5e13b8bde70478b6dab829c351d8f3bfe9bfee19e089d",
     "133bd09866cdcd8770d333edc6b1bf32a2e5c5681b6006b5481e3ef8e37da210",
     "145f3f1131fd22b8e50e128566a78d32c6409bdbde6d74a1c83c87271ad387f3",
     "14ab290e0cb3d324f2d447d3981c2f1a6aabe6b5c2c22ac219a81f1f4acf4c4b",
@@ -26,6 +29,7 @@
     "20d7436f19a7702f39e9b3395b6112ae0106b2d6daa1a773c69349c2d646afae",
     "23ef37f8c77e23e8341e554f68da99b2a41d0c8fe43c2492763e82053665b909",
     "25a51ff6b8959ab12f193c921ead5e1f64129687b591fbf959f64123978e0ace",
+    "25fa1eebef54386590b0f78bc29582e5c7e619d215d3307afdaa460471c1f33f",
     "2888decb99e41645af5fdf7fcf2679ac40393c9e6eda104ca0408c0397d33ab3",
     "2aff894afff7bfddfea60abec6665c7c050ca40fca63a12511a440fcbb2b54f6",
     "2cf01f269f2b9a39e4423d1d2bcb5fb56550ce7a7c1eb47715021287154cc0b4",
@@ -48,6 +52,7 @@
     "3dc5d256e31f39018280b1985e590b4424147f2dd34af2f5de42a5a69dd13a23",
     "3e8564f8cdebf08fbfdd9f67d266eb8a61a3ab8d6db2c8f9685199bd3eda9854",
     "3ec75e2b62129c0e0823c1f95f91b237710ffc4ab4911d20032f3611635eb225",
+    "404ee83524ea0cee41e10acf7df602af147a3e3f83ebcc0ce688a25255419e6b",
     "41231e842fba1bc80c0167cdfc8ca2f214e1b5b3be7e21b418835c691e2c2cdf",
     "41c43b6944b1bce60491cd6fc30c8a635469eec7cd52cea019222686c817fa8a",
     "42374aa8085ce259f1013144d9e9432443eb611b65bbaf039a6c54f582722a64",
@@ -62,6 +67,7 @@
     "505e1b0c51042b1db5b6271218022e182170c8e54ab00912d3843ba0f1850ee7",
     "54ffd439c8344e9f53510da32b5d53da39ed11b1e41f7fd673e43534360b438f",
     "55bddbf8147b66e719dd1ece4190dacd5487246ec8d8aff8acd94ea3d867038a",
+    "55d7b77fbd51ccd6c8257925e4d3c86aeaf880f68e5a330e398277770054a0b1",
     "58948922a037e92de4af11f09faee390293efb23c875bfa9a2140c68ea6b09f0",
     "5d0e9dfa238cce6a793b284287d1177b9f32d9701f6afd99cbbbcc5a7877ce0c",
     "5e3733e046d83ed5f8f226b35e1ff1382dfb44f0e02db9c415bc33fdc47c39ff",
@@ -69,6 +75,7 @@
     "61433b6da949307f8bf2a3e15570c1a77401ad7af34bb2eb0d859bd3723ae3a3",
     "61f0c3e8d93bb3fa118a45ea8a4996ed40296feb752d453c8045af3c4d4c0ac8",
     "651954f8898dbbaea0f0cba139310a2ed813ce73f8d7a8029474c663bfc6be19",
+    "66108eec87c72ad52cd32943cb9bff8b25d99be77e995849edf8a2e3731f6df3",
     "6643c6a2a0c5fade10e211aad782ab9ad314edede45728c6b32d5992d571e0f3",
     "672187185730c3f26ef14675c11ef2e20d077fd0042f0e0960c33a9675881167",
     "69279272f447c10eaf6ca75bb71bcf0522db4aa416cde50b2a4003f64f91b784",
@@ -95,6 +102,7 @@
     "8932e936a49f84f2c434417f829683b266ce0351ab51f443444dd4dd8931840b",
     "89444f82f6d7975d5b7b99b473bfa6ffc0a99c9bbe4e983f9aeac9582a47d66a",
     "8c17a3c7b7604452428329b12255e853c8e282595c682aa7529d9ed9ca221f3e",
+    "8c17c8de00f5a7967e805e844672600fba7556b11948be116a8f23f018a2eba9",
     "8d7b56f5c21da5a9bcc39656df22947542cc529b0cd66573c0480b78aeaee772",
     "90a5e796d74a0dd0eb639a87ae574d8e5705c107c91d1677cb7f1e91f0280806",
     "97757b6a2faf2b6e572376dd5f4ce6a73181f05cc2c3e0640a61e437bf535de4",
@@ -122,6 +130,7 @@
     "baaf4df617bce8357f1e1861f38bbc19170862dd9b4e138d6693613e64891305",
     "bc07ba8c1c7d6c2d0035f0bc93142a3757d75011ac7d16807acc0b78ee340934",
     "c066913e34842df7d6e7eb5ea6aa27a119180e2ef1347d3964e1c281bec1fe4d",
+    "c3dc86afde4c60b8f2b57b4d68cabfda0709dd081ce311e11b23f8e982051508",
     "c661269d60761df95983362b19c043cb9cff2bc9e10a6603864d4d410062e278",
     "c8d60c39522458765879614a7ea645de2904054f38088b84a9b2186c7ebb1812",
     "ca36282e826ef907d26eb02ada5220754fa044d6753fb0e6d56b653bce43d827",
@@ -734,16 +743,52 @@
     "onhires|senior creative strategist (performance / meta ads)|europe (remote)": {
       "material": "|remote|True",
       "last_sent": "2026-09-24T16:35:11.448464+00:00"
+    },
+    "catch creation|creative strategist|worldwide": {
+      "material": "||True",
+      "last_sent": "2026-09-28T09:53:42.298949+00:00"
+    },
+    "elevenlabs|ai creative producer|europe": {
+      "material": "||True",
+      "last_sent": "2026-09-28T09:53:45.272063+00:00"
+    },
+    "spotify|creative lead - visual merchandising|sweden, uk": {
+      "material": "||True",
+      "last_sent": "2026-09-28T09:53:48.292172+00:00"
+    },
+    "superside|conceptual art director|anywhere": {
+      "material": "||True",
+      "last_sent": "2026-09-28T09:53:50.877539+00:00"
+    },
+    "stellar tech|creative producer|worldwide": {
+      "material": "||True",
+      "last_sent": "2026-09-28T09:53:53.210461+00:00"
+    },
+    "article group|freelance associate creative director, design keynotes & events (contract)|worldwide": {
+      "material": "||True",
+      "last_sent": "2026-09-28T09:53:55.656216+00:00"
+    },
+    "the collective ace group|creative producer – game design & concept development|worldwide": {
+      "material": "||True",
+      "last_sent": "2026-09-28T09:53:58.131651+00:00"
+    },
+    "the collective ace group|creative producer - game development|worldwide": {
+      "material": "||True",
+      "last_sent": "2026-09-28T09:54:01.056321+00:00"
+    },
+    "insider one|creative director|turkey": {
+      "material": "||True",
+      "last_sent": "2026-09-28T09:54:03.569388+00:00"
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "remote_boards_jobs.json",
     "min_fit": 0.0,
-    "discovered": 0,
+    "discovered": 10,
     "duplicate": 0,
     "geography": 0,
     "remote": 0,
-    "restricted": 0,
+    "restricted": 1,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
@@ -753,7 +798,7 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 9,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
