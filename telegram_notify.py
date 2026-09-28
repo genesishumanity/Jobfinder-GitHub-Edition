@@ -396,6 +396,27 @@ def landing_signals(job, today=None):
     return tags
 
 
+# One-tap LinkedIn people searches for whoever owns the hire. These are plain
+# search URLs the user opens in their own account: nothing is scraped and no
+# message is sent automatically.
+CONTACT_SEARCHES = (
+    ("Creative lead", "head of creative OR creative director OR head of brand"),
+    ("Recruiter", "recruiter OR talent acquisition"),
+    ("Founder", "founder OR CEO OR CMO"),
+)
+
+
+def contact_links(job):
+    company = re.sub(r"\s+", " ", str(job.get("company", ""))).strip()
+    if not company or company.casefold() in {"unknown company", "confidential"}:
+        return ""
+    links = []
+    for name, query in CONTACT_SEARCHES:
+        q = urllib.parse.quote(f'"{company}" {query}')
+        links.append(f"{name}: https://www.linkedin.com/search/results/people/?keywords={q}")
+    return "👤 Kime yaz:\n" + "\n".join(links)
+
+
 def label(job, score=None):
     salary = str(job.get("salary", "")).strip()
     location = str(job.get("location", "")).strip() or "Remote details not stated"
@@ -415,7 +436,8 @@ def label(job, score=None):
         "Yayın: " + str(job.get("posted_at") or job.get("date_posted") or "belirtilmemiş"),
         language_status(job),
         url,
-    ])
+        contact_links(job),
+    ]).rstrip()
 
 
 def language_status(job):
