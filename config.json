@@ -44,7 +44,10 @@
       "previs",
       "pitch creative",
       "senior creative",
-      "content creative lead"
+      "content creative lead",
+      "performance creative strategist",
+      "creative operations",
+      "creative ops"
     ],
     "exclude": [
       "intern",
@@ -80,30 +83,30 @@
   },
   "search_terms": {
     "linkedin": [
-      "AI creative producer",
+      "creative strategist",
       "creative producer",
+      "AI creative producer",
       "AI video",
       "generative AI creative",
       "creative lead",
-      "creative director",
-      "associate creative director",
-      "creative strategist"
+      "performance creative strategist",
+      "creative operations"
     ],
     "indeed": [
-      "AI creative producer",
+      "creative strategist",
       "creative producer",
+      "AI creative producer",
       "AI video",
-      "generative AI creative",
       "creative lead",
-      "creative director"
+      "creative operations"
     ],
     "glassdoor": [],
     "ziprecruiter": [],
     "google_jobs": [
+      "creative strategist remote",
       "AI creative producer",
-      "generative AI video",
-      "creative lead",
-      "creative director"
+      "creative lead remote",
+      "creative operations remote"
     ],
     "hiring_cafe": [],
     "calcareers": [],

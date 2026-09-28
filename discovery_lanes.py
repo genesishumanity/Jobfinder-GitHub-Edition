@@ -71,6 +71,7 @@ DELIVERY_ONLY_TERMS = [
     "head of creative", "head of brand", "content strategy lead", "senior art director",
     "conceptual art director", "direttore creativo", "kreatif direktör", "yaratıcı yönetmen",
     "marka stratejisti", "ai video", "ai creative", "generative ai creative", "senior creative",
+    "creative operations", "creative ops",
 ]
 ROLE_TERMS = re.compile(
     "|".join(

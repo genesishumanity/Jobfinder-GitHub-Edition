@@ -313,7 +313,8 @@ def test_off_mission_role_gate_examples():
         "Growth Marketing Manager - Paid Social (Berlin, Germany)",
         # word-order fix below must stay narrow: these must NOT slip through
         # just because they contain both "strategy" and "creative" somewhere.
-        "Growth Strategy and Creative Ops Manager",
+        # (Creative ops titles are in scope since 2026-09-28.)
+        "Growth Strategy and Paid Creative Manager",
         "Digital Strategy Manager",
     ]
     for title in off_mission_titles:
@@ -511,8 +512,9 @@ def test_role_terms_cover_ai_creative_production_titles():
     from discovery_lanes import ROLE_TERMS
 
     for title in ["AI Video Creator", "AI Content Producer", "Generative AI Video Artist",
-                  "GenAI Creative Lead", "Senior Creative (AI)", "AI Artist"]:
+                  "GenAI Creative Lead", "Senior Creative (AI)", "AI Artist",
+                  "Creative Operations Manager", "Performance Creative Strategist"]:
         assert ROLE_TERMS.search(title), title
     for title in ["Generative AI Engineer", "AI Lead Generation Specialist",
-                  "Senior Creative Operations Manager", "Machine Learning Engineer"]:
+                  "Senior Creative Recruiter", "Machine Learning Engineer"]:
         assert not ROLE_TERMS.search(title), title
