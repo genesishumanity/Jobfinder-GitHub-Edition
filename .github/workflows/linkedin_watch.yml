@@ -2,7 +2,8 @@ name: LinkedIn Watcher
 
 on:
   schedule:
-    - cron: "17 15-23,0-3 * * *"
+    # Every 2h, 05-19 UTC (09:00-23:00 Dubai, 07:00-21:00 Milan). Hourly bursts got throttled (~70% empty runs).
+    - cron: "17 5-19/2 * * *"
   workflow_dispatch:
     inputs:
       backfill:

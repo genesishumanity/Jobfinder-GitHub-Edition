@@ -3,7 +3,8 @@ name: Google Jobs Watcher
 on:
   # JobSpy-backed Google Jobs pass, offset from the other board watchers.
   schedule:
-    - cron: "37 16-23,0-3 * * *"
+    # Once a day: 3 explicit queries keeps any SerpApi fallback inside its free ~100 searches/month.
+    - cron: "37 6 * * *"
   workflow_dispatch:
     inputs:
       backfill:

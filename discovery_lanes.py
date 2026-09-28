@@ -7,7 +7,7 @@ LOCAL_ALIASES = re.compile(
     r"\b(london|amsterdam|germany|deutschland|hungary|magyarország|portugal|spain|españa|"
     r"berlin|munich|münchen|hamburg|frankfurt|cologne|köln|düsseldorf|stuttgart|budapest|"
     r"lisbon|lisboa|porto|madrid|barcelona|valencia|sevilla|seville|malaga|málaga|"
-    r"milan|milano|lombardy|lombardia|italy|italia)\b",
+    r"milan|milano|lombardy|lombardia|italy|italia|istanbul|i̇stanbul|türkiye|turkiye|turkey)\b",
     re.I,
 )
 US_ONLY = re.compile(
@@ -58,10 +58,17 @@ _WORD_GAP_STEMS = {
 _ROLE_TERM_PATTERNS = {
     "ai lead": r"\bai lead\b(?!\s*[-–—]?\s*(?:qualification|generation|gen\b|magnet|capture|scoring))",
 }
+# Titles accepted at delivery without adding "<title> remote" search queries:
+# leadership variants and the Italian/Turkish forms seen on Milan/Istanbul boards.
+DELIVERY_ONLY_TERMS = [
+    "head of creative", "head of brand", "content strategy lead", "senior art director",
+    "conceptual art director", "direttore creativo", "kreatif direktör", "yaratıcı yönetmen",
+    "marka stratejisti",
+]
 ROLE_TERMS = re.compile(
     "|".join(
         _ROLE_TERM_PATTERNS.get(t) or _WORD_GAP_STEMS.get(t, re.escape(t))
-        for t in ADJACENT_TERMS
+        for t in ADJACENT_TERMS + DELIVERY_ONLY_TERMS
     ),
     re.I,
 )
@@ -181,17 +188,18 @@ def _prepare_remote_first(config):
     # Keep the complete intent available when discovery lanes are disabled (and
     # for tests/manual runs). The enabled production path below replaces these
     # with a much smaller rotating set before scraper constants are initialized.
-    remote_adjacent = [f"{term} remote" for term in ADJACENT_TERMS]
-    for source in ("linkedin", "indeed", "glassdoor", "google_jobs", "ziprecruiter"):
-        _append_terms(config, source, remote_adjacent)
+    if config.get("discovery_lanes", {}).get("append_remote_terms", True):
+        remote_adjacent = [f"{term} remote" for term in ADJACENT_TERMS]
+        for source in ("linkedin", "indeed", "glassdoor", "google_jobs", "ziprecruiter"):
+            _append_terms(config, source, remote_adjacent)
 
-    # Milan (relocation target) + Istanbul (home base): always searched, any arrangement.
+    # Milan + Istanbul target cities: always searched, any arrangement.
     for source, geos in MILAN_GEOS.items():
         for geo in geos:
             _append_geo(config, source, geo)
 
     profile = config.setdefault("profile", {})
-    profile["subtitle"] = "Remote (Italy-eligible) + Milan · AI Production & Creative Leadership"
+    profile.setdefault("subtitle", "Remote + Milan + Istanbul · Creative Leadership")
     return config
 
 

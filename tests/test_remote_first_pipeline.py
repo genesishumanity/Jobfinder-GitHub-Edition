@@ -68,9 +68,8 @@ def test_focused_mode_keeps_exact_fifteen_role_queries():
 
 def test_delivery_gate_requires_remote_no_longer_requires_uk_europe_signal():
     # Explicit UK/Europe geography proof is not required, but since 2026-09-27
-    # (Milan relocation via the Italian remote-worker visa) a remote role whose
-    # only stated geography is the US is rejected unless the listing opens it
-    # to worldwide/EMEA/Europe candidates.
+    # a remote role whose only stated geography is the US is rejected unless
+    # the listing opens it to worldwide/EMEA/Europe candidates.
     assert final_filter.eligible_location({
         "location": "Remote - London, United Kingdom",
         "description": "AI producer role",
@@ -480,3 +479,29 @@ def test_us_restriction_in_title_is_rejected():
     assert not final_filter.eligible_location(job)
     job["title"] = "Associate Creative Director Copy (Remote)"
     assert final_filter.eligible_location(job)
+
+
+def test_delivery_accepts_leadership_and_local_language_titles():
+    from discovery_lanes import ROLE_TERMS
+    for title in ("Head of Creative", "Head of Brand", "Content Strategy Lead", "Senior Art Director",
+                  "Direttore Creativo", "Kreatif Direktör", "Yaratıcı Yönetmen", "Marka Stratejisti"):
+        assert ROLE_TERMS.search(title), title
+    for title in ("Growth Marketing Manager", "Art Director", "Account Director"):
+        assert not ROLE_TERMS.search(title), title
+
+
+def test_config_can_turn_off_appended_remote_terms():
+    cfg = _base_config()
+    cfg["discovery_lanes"] = {"enabled": False, "append_remote_terms": False}
+    cfg["search_terms"]["linkedin"] = ["creative director"]
+    out = discovery_lanes.expand_config(copy.deepcopy(cfg), [])
+    assert out["search_terms"]["linkedin"] == ["creative director"]
+
+
+def test_off_mission_title_blockers():
+    import telegram_notify
+    for title in ("Junior Creative Strategist", "Creative Director - Social (Dutch speaking)",
+                  "Art Director (Categoria Protetta L68/99)", "Stage Creative Producer"):
+        assert telegram_notify.off_mission_role({"title": title}), title
+    for title in ("Creative Director, International", "Senior Creative Strategist", "Kreatif Direktör"):
+        assert not telegram_notify.off_mission_role({"title": title}), title

@@ -27,11 +27,11 @@ US_LOCATION = re.compile(
 )
 TARGET_GEO = re.compile(
     r"\b(?:london|united kingdom|uk|amsterdam|netherlands|germany|deutschland|hungary|portugal|spain|europe|european|emea|"
-    r"italy|italia|milan|milano)\b",
+    r"italy|italia|milan|milano|istanbul|türkiye|turkiye|turkey)\b",
     re.I,
 )
-# Milan is the relocation target (Italian remote-worker visa / Milan employer) and
-# Istanbul is where Can applies from: roles there are wanted in any arrangement.
+# Milan and Istanbul are target cities: roles there are wanted in any arrangement
+# (onsite and hybrid included), unlike everywhere else where remote is required.
 MILAN_LOCAL = re.compile(r"\b(?:milan|milano|lombardy|lombardia|istanbul|i̇stanbul|İstanbul)\b", re.I)
 OPEN_GEO = re.compile(r"\b(?:worldwide|anywhere|global|emea|europe|european|international)\b", re.I)
 

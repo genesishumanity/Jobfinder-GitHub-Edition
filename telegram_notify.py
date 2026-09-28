@@ -165,6 +165,8 @@ ALLOWED_SOURCE_DOMAINS = re.compile(
     r"(?:^|\.)remoteok\.com$|"
     r"(?:^|\.)remotive\.com$|"
     r"(?:^|\.)weworkremotely\.com$|"
+    r"(?:^|\.)himalayas\.app$|"
+    r"(?:^|\.)jobicy\.com$|"
     r"(?:^|\.)ziprecruiter\.com$|"
     r"(?:^|\.)glassdoor\.com$",
     re.I,
@@ -215,6 +217,17 @@ def on_camera_gig_blocked(job):
     return bool(ON_CAMERA_GIG.search(title))
 
 
+# Title-level blockers for sources that skip the scraper's keywords.exclude
+# (remote boards, CareerOps): junior/intern roles, Italian protected-category
+# (L.68/99) vacancies, and roles that require a local language in the title.
+OFF_MISSION_TITLE = re.compile(
+    r"\b(?:intern|internship|stage|stagista|tirocinio|stajyer|trainee|junior|jr|working student|"
+    r"categoria protetta|l\.?\s?68/99|"
+    r"(?:dutch|german|french|spanish|swedish|norwegian|danish|finnish|polish)[- ]speaking)\b",
+    re.I,
+)
+
+
 def off_mission_role(job):
     # Hard title-level check for the eight approved role families. LinkedIn/
     # Indeed/Glassdoor/Google Jobs search queries are already narrowed to
@@ -227,7 +240,7 @@ def off_mission_role(job):
     # the other four sources.
     from discovery_lanes import ROLE_TERMS
     title = str(job.get("title", ""))
-    return not bool(ROLE_TERMS.search(title))
+    return not bool(ROLE_TERMS.search(title)) or bool(OFF_MISSION_TITLE.search(title))
 
 
 def identity(job):
