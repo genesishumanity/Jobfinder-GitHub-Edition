@@ -5,6 +5,7 @@ Safe by default: this is a no-op unless both TELEGRAM_BOT_TOKEN and
 TELEGRAM_CHAT_ID are GitHub Actions secrets. It never applies for the user,
 uses no login/captcha bypass, and only sends direct links supplied by sources.
 """
+import email.utils
 import hashlib
 import json
 import os
@@ -307,15 +308,55 @@ def international_remote_status(job):
     return "⚪ İtalya/uluslararası uygunluğu ilanda net değil"
 
 
+# Signals that a role closes fast: contract/freelance hiring skips most of a
+# full-time loop, worldwide contractor roles have no visa step, and applying
+# in the first days of a posting beats the applicant pile.
+CONTRACT_TERMS = re.compile(
+    r"\b(?:contract(?:or)?|freelance|part[- ]time|fixed[- ]term|temporary|project[- ]based|retainer)\b",
+    re.I,
+)
+FRESH_DAYS = 3
+
+
+def _posted_date(job):
+    raw = str(job.get("posted_at") or job.get("date_posted") or "").strip()
+    if not raw:
+        return None
+    try:
+        return datetime.fromisoformat(raw[:10]).date()
+    except ValueError:
+        pass
+    try:
+        return email.utils.parsedate_to_datetime(raw).date()
+    except (TypeError, ValueError):
+        return None
+
+
+def landing_signals(job, today=None):
+    """Return the fast-landing tags for a job, strongest first."""
+    tags = []
+    text = " ".join(str(job.get(k, "")) for k in ("title", "job_type", "work_arrangement", "description"))
+    if CONTRACT_TERMS.search(text):
+        tags.append("Kontrat/freelance")
+    if international_remote_status(job).startswith("✅"):
+        tags.append("Worldwide")
+    posted = _posted_date(job)
+    today = today or datetime.now(timezone.utc).date()
+    if posted and 0 <= (today - posted).days <= FRESH_DAYS:
+        tags.append(f"Yeni (≤{FRESH_DAYS} gün)")
+    return tags
+
+
 def label(job, score=None):
     salary = str(job.get("salary", "")).strip()
     location = str(job.get("location", "")).strip() or "Remote details not stated"
     source = str(job.get("ats", "")).strip() or "source"
     url = str(job.get("direct_url", "")).strip() or str(job.get("url", "")).strip()
     score_line = f"Fit: {score:.0f}/100" if score is not None else "Fit: değerlendirilmedi"
+    tags = landing_signals(job)
     return "\n".join([
-        "🔎 YENİ FIRSAT",
-        "",
+        "⚡ HIZLI SONUÇ ADAYI" if tags else "🔎 YENİ FIRSAT",
+        "⚡ " + " · ".join(tags) if tags else "",
         f"{job.get('title', 'Untitled')} — {job.get('company', 'Unknown company')}",
         f"Kaynak: {source} · Yeni keşif",
         score_line,
@@ -412,7 +453,8 @@ def main():
                 else:
                     candidates.append((score, job))
 
-    candidates.sort(key=lambda pair: (pair[0], bool(pair[1].get("salary"))), reverse=True)
+    # Fast-landing roles first (contract, worldwide, fresh), then fit.
+    candidates.sort(key=lambda pair: (len(landing_signals(pair[1])), pair[0], bool(pair[1].get("salary"))), reverse=True)
     if len(candidates) > per_run_cap:
         counts["capped"] = len(candidates) - per_run_cap
         candidates = candidates[:per_run_cap]
