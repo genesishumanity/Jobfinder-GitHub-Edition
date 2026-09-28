@@ -69,6 +69,7 @@
     "436182ae2768bce4b7a5a29c1e7f9fad638590a7046165414f681644d02402c2",
     "47decccdfd0f7d70ad7691537edab089cbdf448f165da8d871fd804b49258ee4",
     "49f144467cea9b720b9e33aff8877baee603e2253bc717d5a5d041ea34af7a68",
+    "4a4d4c5bd03c30f4bbdf776932917efa2297df4212ba67495dc920fe339218ae",
     "4a64a02340c74b7b2359933ef57895bd7da62282f623f746d29c5be4b0cf4898",
     "4d9c8119c010f62bdb94ae42d51fecd2ea28ffba98f92769b1f3fd549c9f2cb3",
     "4eaeb89b1857809998401434ea15e7f167b822cc38a8611521f95c9cd3edfa7a",
@@ -100,6 +101,7 @@
     "77026877345971723a79c08168714fda49af7df15be5ecbd475e16ebd001204e",
     "770c0aded5dee11efdb618e9831bbca0c5c52c362a198188303305f626c68dd3",
     "78fab0d2dc3b2d08d7334a6269cc21fd9a61eb6a03a6e791a2ea76242fdd0c30",
+    "7916d0e8bf00068b34906759714c1c8ab64a86c6697b46c7358a890421ab8090",
     "7c7a338df5d89ea9fb56d7ddadf720728ab839c6a6ad7c7eef017d606baa0ef6",
     "7cbc38f7654c38f556989e03b72460c7fe66cb6b384530582040011c95a5901e",
     "7ddcba8ae49e6734ca6e8f7c5b116597ad8e2e2c9a1c8db9f1a6d5dad0dc5ded",
@@ -181,6 +183,7 @@
     "f3305292ef57a6cf23810d9cae34e0501c2e7fc18546e6e057423913e0d97f23",
     "f33228d6496c871bcca895b91ed4ad31bc30eddf9252bf5dc16f2a8cc1214371",
     "f33c813b6b8f7ce5512a040bda5f8b274528493203ee4277585097e478b37e24",
+    "f4059d3223c4eb712348510d4753053156ccc88a8789de34cdb0d0fd8e9161e2",
     "f41d2cabcb06c0087c92687884354b097a9c5acaee9ade337da7bf97bbebc706",
     "f6dfd5bdee21f57ac7e547e84ea4f7cf55a5415917091db33978bc7ce516cb95",
     "fa485288b55811ce0cc4744dcb4b35e3773f1621b26b2326837b7be70d434b08",
@@ -811,28 +814,41 @@
     "3search|paid ad creative strategist|london area, united kingdom": {
       "material": "||",
       "last_sent": "2026-09-28T11:13:03.510833+00:00"
+    },
+    "indg|generative ai artist fashion - freelance|worldwide": {
+      "material": "||True",
+      "last_sent": "2026-09-28T12:01:49.387277+00:00"
+    },
+    "trafilea|senior ai video editor|worldwide": {
+      "material": "||True",
+      "last_sent": "2026-09-28T12:01:52.399314+00:00"
+    },
+    "kirin|freelance ai artist - image & brand|argentina, chile, turkey": {
+      "material": "||True",
+      "last_sent": "2026-09-28T12:01:55.212132+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "remote_boards_jobs.json",
     "min_fit": 0.0,
-    "discovered": 13,
-    "duplicate": 1,
+    "discovered": 14,
+    "duplicate": 8,
     "geography": 0,
-    "remote": 5,
-    "restricted": 0,
-    "language": 1,
-    "domain": 1,
+    "remote": 0,
+    "restricted": 1,
+    "language": 0,
+    "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 4,
+    "off_mission_role": 1,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 1,
+    "delivered": 3,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0
+    "ledger_errors": 0,
+    "wrong_role": 1
   }
 }
