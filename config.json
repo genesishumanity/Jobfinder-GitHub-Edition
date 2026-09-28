@@ -1,0 +1,258 @@
+{
+  "_README": "Search settings for this fork: creative leadership / creative strategy / AI-creative roles, Milan and Istanbul in any arrangement, remote roles open outside the US. No personal data belongs here (the repo may be public); candidate profile/CV stay in Actions secrets.",
+  "profile": {
+    "title": "Creative Leadership Job Tracker",
+    "subtitle": "Milan · Istanbul · Remote (EU / worldwide)",
+    "emoji": "🎬"
+  },
+  "keywords": {
+    "include": [
+      "creative director",
+      "associate creative director",
+      "executive creative director",
+      "group creative director",
+      "creative lead",
+      "head of creative",
+      "creative strategist",
+      "creative strategy",
+      "brand strategist",
+      "brand strategy",
+      "head of brand",
+      "content strategy lead",
+      "creative producer",
+      "ai creative",
+      "ai producer",
+      "ai lead",
+      "creative technologist",
+      "integrated creative",
+      "brand creative",
+      "campaign strategist",
+      "creative innovation",
+      "senior art director",
+      "conceptual art director",
+      "direttore creativo",
+      "kreatif direktör",
+      "yaratıcı yönetmen",
+      "marka stratejisti",
+      "ugc"
+    ],
+    "exclude": [
+      "intern",
+      "internship",
+      "stage",
+      "stagista",
+      "tirocinio",
+      "stajyer",
+      "trainee",
+      "apprentice",
+      "junior",
+      "jr",
+      "assistant",
+      "coordinator",
+      "working student",
+      "werkstudent",
+      "volunteer",
+      "engineer",
+      "developer",
+      "categoria protetta",
+      "dutch speaking",
+      "german speaking",
+      "french speaking",
+      "spanish speaking",
+      "swedish speaking",
+      "norwegian speaking",
+      "danish speaking",
+      "polish speaking"
+    ],
+    "fuzzy_seniority": [],
+    "fuzzy_domain": [],
+    "fuzzy_exclude": []
+  },
+  "search_terms": {
+    "linkedin": [
+      "creative director",
+      "associate creative director",
+      "creative lead",
+      "head of creative",
+      "creative strategist",
+      "brand strategist",
+      "AI creative"
+    ],
+    "indeed": [
+      "creative director",
+      "associate creative director",
+      "creative lead",
+      "creative strategist",
+      "brand strategist",
+      "AI creative"
+    ],
+    "glassdoor": [],
+    "ziprecruiter": [],
+    "google_jobs": [
+      "creative director",
+      "associate creative director",
+      "creative strategist",
+      "AI creative director"
+    ],
+    "hiring_cafe": [],
+    "calcareers": [],
+    "usajobs": [],
+    "governmentjobs": [],
+    "workday": []
+  },
+  "locations": {
+    "linkedin": [
+      {
+        "name": "Worldwide (remote)",
+        "location": "Worldwide",
+        "geoId": "92000000",
+        "f_WT": "2"
+      },
+      {
+        "name": "European Union (remote)",
+        "location": "European Union",
+        "geoId": "91000000",
+        "f_WT": "2"
+      },
+      {
+        "name": "Milan",
+        "location": "Milan, Lombardy, Italy",
+        "geoId": ""
+      },
+      {
+        "name": "Istanbul",
+        "location": "Istanbul, Türkiye",
+        "geoId": ""
+      }
+    ],
+    "indeed": [
+      {
+        "location": "remote",
+        "country": "worldwide"
+      },
+      {
+        "location": "Milano, Lombardia",
+        "country": "Italy"
+      },
+      {
+        "location": "İstanbul",
+        "country": "Turkey"
+      }
+    ],
+    "glassdoor": [],
+    "ziprecruiter": [],
+    "google_jobs": [
+      {
+        "location": "Milan, Italy",
+        "country": "Italy"
+      },
+      {
+        "location": "Istanbul, Turkey",
+        "country": "Turkey"
+      }
+    ],
+    "hiring_cafe": [],
+    "linkedin_partitions": {
+      "states": [],
+      "high_volume": {
+        "locations": [],
+        "day_slices": true
+      }
+    }
+  },
+  "location_filter": {
+    "terms": [
+      "remote",
+      "worldwide",
+      "anywhere",
+      "global",
+      "emea",
+      "europe",
+      "milan",
+      "milano",
+      "lombard",
+      "italy",
+      "italia",
+      "istanbul",
+      "türkiye",
+      "turkey"
+    ]
+  },
+  "discovery_lanes": {
+    "enabled": false,
+    "append_remote_terms": false
+  },
+  "employers": {
+    "priority": [],
+    "exclude": [
+      "jobgether",
+      "jobleads",
+      "bebee",
+      "hirelatam"
+    ]
+  },
+  "priority_topics": {
+    "terms": [
+      [
+        "AI creative",
+        "\\bai\\b|generative|genai"
+      ],
+      [
+        "Milan",
+        "milan|milano|lombard"
+      ],
+      [
+        "Istanbul",
+        "istanbul|türkiye|turkey"
+      ]
+    ]
+  },
+  "role_categories": {
+    "terms": [
+      [
+        "Creative Director",
+        "creative director|head of creative|direttore creativo|kreatif direkt"
+      ],
+      [
+        "Creative Lead",
+        "creative lead|lead creative"
+      ],
+      [
+        "Strategy",
+        "strateg"
+      ],
+      [
+        "AI Creative",
+        "\\bai\\b|generative"
+      ],
+      [
+        "Art Direction",
+        "art director"
+      ],
+      [
+        "Producer",
+        "producer"
+      ],
+      [
+        "Other",
+        "."
+      ]
+    ]
+  },
+  "notify": {
+    "min_fit": 60,
+    "telegram_min_fit": 0,
+    "daily_cap": 30,
+    "weekly_digest": {
+      "enabled": false,
+      "days": 7
+    }
+  },
+  "google_jobs": {
+    "queries": [
+      "creative director jobs in Milan",
+      "creative strategist jobs in Milan",
+      "creative director jobs in Istanbul"
+    ]
+  }
+}

@@ -1,4 +1,4 @@
-"""Free, key-less job boards: Remote OK, Remotive, We Work Remotely.
+"""Free, key-less job boards: Remote OK, Remotive, We Work Remotely, Himalayas, Jobicy.
 
 All three are genuinely free (no signup, no API key) and remote-native, so
 there is no IP-block risk the way there is with Glassdoor/Google Jobs
@@ -7,11 +7,11 @@ JobFinder uses (title/company/location/url/direct_url/date_posted/salary/
 ats/description/is_remote) so it flows through the existing
 final_filter.py + telegram_notify.py pipeline unchanged.
 
-Himalayas was evaluated and dropped: its `search`/`category`/`q` query
-params don't actually filter (verified 2026-09-14 — every value returns an
-effectively random slice of a ~105k-entry archive of mostly-expired
-postings), so there is no reliable way to target current, relevant roles
-from it today. Not integrated; revisit if their API changes.
+Himalayas: the `/jobs/api/search?q=...&country=TR` endpoint does filter (re-verified
+2026-09-27, unlike the 2026-09-14 finding for the old feed params): it returns roles
+open to Turkey-based candidates, worldwide ones included. It answers an empty or
+throttled search with 404, which is treated as "no rows". Jobicy's tag feed is small
+but free; both are kept to a handful of requests per run.
 
 Respect each API's own terms: Remotive asks for at most ~4 requests/day and
 attribution; Remote OK asks for attribution; WWR is a public RSS feed. This
@@ -32,6 +32,10 @@ from final_filter import eligible_location
 REMOTE_OK_API = "https://remoteok.com/api"
 REMOTIVE_API = "https://remotive.com/api/remote-jobs"
 WWR_RSS = "https://weworkremotely.com/remote-jobs.rss"
+HIMALAYAS_SEARCH = "https://himalayas.app/jobs/api/search?country=TR&q="
+HIMALAYAS_TERMS = ("creative director", "creative lead", "creative strategist", "brand strategist", "AI creative")
+JOBICY_API = "https://jobicy.com/api/v2/remote-jobs?count=100&tag="
+JOBICY_TAGS = ("creative", "creative director", "brand")
 USER_AGENT = "JobFinderBot/1.0 (+https://github.com/genesishumanity/Jobfinder-GitHub-Edition)"
 
 
@@ -182,6 +186,73 @@ def fetch_wwr():
     return jobs
 
 
+def fetch_himalayas():
+    import time
+    import urllib.parse
+    jobs = []
+    now = time.time()
+    for term in HIMALAYAS_TERMS:
+        raw = _fetch_json(HIMALAYAS_SEARCH + urllib.parse.quote(term))
+        if not isinstance(raw, dict):
+            continue
+        for row in raw.get("jobs") or []:
+            title = str(row.get("title", ""))
+            if (row.get("expiryDate") or now + 1) < now or not role_matches(title):
+                continue
+            location = ", ".join(row.get("locationRestrictions") or []) or "Worldwide"
+            salary = ""
+            if row.get("minSalary"):
+                salary = f"{row.get('minSalary')}-{row.get('maxSalary')} {row.get('currency') or ''}".strip()
+            posted = row.get("pubDate")
+            jobs.append({
+                "company": str(row.get("companyName", "")).strip(),
+                "title": title.strip(),
+                "location": location,
+                "url": str(row.get("guid") or row.get("applicationLink") or "").strip(),
+                "direct_url": str(row.get("applicationLink") or row.get("guid") or "").strip(),
+                "date_posted": datetime.fromtimestamp(posted, timezone.utc).strftime("%Y-%m-%d") if posted else "",
+                "salary": salary,
+                "ats": "Himalayas",
+                "description": str(row.get("description", ""))[:4000],
+                # country=TR already limits results to roles open to Turkey-based candidates.
+                "is_remote": True,
+            })
+    print(f"  Himalayas: {len(jobs)} matched")
+    return jobs
+
+
+def fetch_jobicy():
+    import html
+    import urllib.parse
+    jobs = []
+    for tag in JOBICY_TAGS:
+        raw = _fetch_json(JOBICY_API + urllib.parse.quote(tag))
+        if not isinstance(raw, dict):
+            continue
+        for row in raw.get("jobs") or []:
+            title = html.unescape(str(row.get("jobTitle", "")))
+            location = str(row.get("jobGeo", "") or "Worldwide")
+            if not role_matches(title) or not geo_ok(location):
+                continue
+            salary = ""
+            if row.get("salaryMin"):
+                salary = f"{row.get('salaryMin')}-{row.get('salaryMax')} {row.get('salaryCurrency') or ''}".strip()
+            jobs.append({
+                "company": str(row.get("companyName", "")).strip(),
+                "title": title.strip(),
+                "location": location,
+                "url": str(row.get("url", "")).strip(),
+                "direct_url": str(row.get("url", "")).strip(),
+                "date_posted": str(row.get("pubDate", ""))[:10],
+                "salary": salary,
+                "ats": "Jobicy",
+                "description": str(row.get("jobDescription", ""))[:4000],
+                "is_remote": True,
+            })
+    print(f"  Jobicy: {len(jobs)} matched")
+    return jobs
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("dest_json")
@@ -190,8 +261,10 @@ def main():
     remoteok_jobs = fetch_remoteok()
     remotive_jobs = fetch_remotive()
     wwr_jobs = fetch_wwr()
+    himalayas_jobs = fetch_himalayas()
+    jobicy_jobs = fetch_jobicy()
     jobs_by_url = {}
-    for job in remoteok_jobs + remotive_jobs + wwr_jobs:
+    for job in remoteok_jobs + remotive_jobs + wwr_jobs + himalayas_jobs + jobicy_jobs:
         if job["url"]:
             jobs_by_url[job["url"]] = job
     jobs = list(jobs_by_url.values())
@@ -213,6 +286,8 @@ def main():
             "remoteok_matched": len(remoteok_jobs),
             "remotive_matched": len(remotive_jobs),
             "wwr_matched": len(wwr_jobs),
+            "himalayas_matched": len(himalayas_jobs),
+            "jobicy_matched": len(jobicy_jobs),
         },
         "jobs": jobs,
         "new_jobs": new_jobs,
@@ -231,6 +306,8 @@ def main():
         "remoteok_matched": len(remoteok_jobs),
         "remotive_matched": len(remotive_jobs),
         "wwr_matched": len(wwr_jobs),
+        "himalayas_matched": len(himalayas_jobs),
+        "jobicy_matched": len(jobicy_jobs),
         "matched": len(jobs),
         "new": len(new_jobs),
     }, ensure_ascii=False))

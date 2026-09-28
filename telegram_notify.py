@@ -50,6 +50,9 @@ HYBRID_ROLE_PATTERN = re.compile(
 
 
 def remote_plausible(job):
+    from final_filter import milan_local
+    if milan_local(job):
+        return True
     arrangement = str(job.get("work_arrangement", "")).lower()
     location = str(job.get("location", "")).lower()
     text = " ".join(str(job.get(k, "")) for k in ("location", "description", "title")).lower()
@@ -162,6 +165,8 @@ ALLOWED_SOURCE_DOMAINS = re.compile(
     r"(?:^|\.)remoteok\.com$|"
     r"(?:^|\.)remotive\.com$|"
     r"(?:^|\.)weworkremotely\.com$|"
+    r"(?:^|\.)himalayas\.app$|"
+    r"(?:^|\.)jobicy\.com$|"
     r"(?:^|\.)ziprecruiter\.com$|"
     r"(?:^|\.)glassdoor\.com$",
     re.I,
@@ -212,6 +217,17 @@ def on_camera_gig_blocked(job):
     return bool(ON_CAMERA_GIG.search(title))
 
 
+# Title-level blockers for sources that skip the scraper's keywords.exclude
+# (remote boards, CareerOps): junior/intern roles, Italian protected-category
+# (L.68/99) vacancies, and roles that require a local language in the title.
+OFF_MISSION_TITLE = re.compile(
+    r"\b(?:intern|internship|stage|stagista|tirocinio|stajyer|trainee|junior|jr|working student|"
+    r"categoria protetta|l\.?\s?68/99|"
+    r"(?:dutch|german|french|spanish|swedish|norwegian|danish|finnish|polish)[- ]speaking)\b",
+    re.I,
+)
+
+
 def off_mission_role(job):
     # Hard title-level check for the eight approved role families. LinkedIn/
     # Indeed/Glassdoor/Google Jobs search queries are already narrowed to
@@ -224,7 +240,7 @@ def off_mission_role(job):
     # the other four sources.
     from discovery_lanes import ROLE_TERMS
     title = str(job.get("title", ""))
-    return not bool(ROLE_TERMS.search(title))
+    return not bool(ROLE_TERMS.search(title)) or bool(OFF_MISSION_TITLE.search(title))
 
 
 def identity(job):
@@ -265,6 +281,9 @@ def fit(job):
 
 
 def international_remote_status(job):
+    from final_filter import milan_local
+    if milan_local(job):
+        return "📍 Milano/İstanbul yerel rol — ofis/hibrit de uygun"
     text = " ".join(str(job.get(key, "")) for key in (
         "title", "location", "description", "work_arrangement"
     )).lower()
@@ -282,10 +301,10 @@ def international_remote_status(job):
         "canada only", "australia only"
     )
     if any(term in text for term in restricted):
-        return "⛔ Ülke kısıtı var — UAE'den uygun görünmüyor"
+        return "⛔ Ülke kısıtı var — İtalya'dan uygun görünmüyor"
     if any(term in text for term in worldwide):
         return "✅ Uluslararası / contractor uygunluğu açık"
-    return "⚪ UAE/uluslararası uygunluğu ilanda net değil"
+    return "⚪ İtalya/uluslararası uygunluğu ilanda net değil"
 
 
 def label(job, score=None):

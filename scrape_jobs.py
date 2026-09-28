@@ -682,6 +682,9 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
     pages_fetched = 0
     for geo in geos:
         geo_param = f"&geoId={geo['geoId']}" if geo.get("geoId") else ""
+        # f_WT=2 is LinkedIn's own "Remote" workplace filter; set it per geo in config.
+        if geo.get("f_WT"):
+            geo_param += f"&f_WT={urllib.parse.quote(str(geo['f_WT']))}"
         for term in terms:
             term_start = pages_fetched
             for start in range(0, max_results, 10):

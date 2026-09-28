@@ -1,13 +1,10 @@
 name: Indeed Watcher
 
 on:
-  # Native GitHub cron, hourly at :47 during the active window (8am–8pm PT ≈
-  # 15:00–03:00 UTC). Offset from LinkedIn (:17) to reduce contention on the
-  # commit-push concurrency group. (Indeed has no watchdog backup, so this
-  # native schedule is its only automatic trigger — add cron-job.org too if you
-  # want belt-and-suspenders.)
+  # Offset from LinkedIn (:17) to reduce contention on the commit-push concurrency group.
   schedule:
-    - cron: "47 15-23,0-3 * * *"
+    # 08:47, 14:47, 20:47 Dubai (~2 billed minutes each).
+    - cron: "47 4,10,16 * * *"
   workflow_dispatch:
     inputs:
       backfill:

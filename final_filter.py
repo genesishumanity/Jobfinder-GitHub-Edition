@@ -26,9 +26,22 @@ US_LOCATION = re.compile(
     re.I,
 )
 TARGET_GEO = re.compile(
-    r"\b(?:london|united kingdom|uk|amsterdam|netherlands|germany|deutschland|hungary|portugal|spain|europe|european|emea)\b",
+    r"\b(?:london|united kingdom|uk|amsterdam|netherlands|germany|deutschland|hungary|portugal|spain|europe|european|emea|"
+    r"italy|italia|milan|milano|istanbul|türkiye|turkiye|turkey)\b",
     re.I,
 )
+# Milan and Istanbul are target cities: roles there are wanted in any arrangement
+# (onsite and hybrid included), unlike everywhere else where remote is required.
+MILAN_LOCAL = re.compile(r"\b(?:milan|milano|lombardy|lombardia|istanbul|i̇stanbul|İstanbul)\b", re.I)
+OPEN_GEO = re.compile(r"\b(?:worldwide|anywhere|global|emea|europe|european|international)\b", re.I)
+
+
+# Google Jobs labels most listings "Anywhere"; the US restriction often lives only in the title.
+US_TITLE = re.compile(r"\bremote[\s,/-]*\(?\s*(?:us|usa|u\.s\.|united states)\b|\((?:us|usa|u\.s\.)(?:[\s,/-]*only)?\)", re.I)
+
+
+def milan_local(job):
+    return bool(MILAN_LOCAL.search(str(job.get("location", ""))))
 
 LOCAL_LANGUAGE_REQUIRED = re.compile(
     r"\b(?:native|fluent|professional|working|full|business|c1|c2)\s+"
@@ -96,9 +109,17 @@ def eligible_location(job):
     # earlier hard TARGET_GEO requirement was blocking too much real volume;
     # reject only explicit exclusionary signals below, not the absence of a
     # UK/EU city name.
-    if NOT_REMOTE.search(text) or US_ONLY.search(text):
+    if US_ONLY.search(text) or US_TITLE.search(str(job.get("title", ""))):
+        return False
+    if milan_local(job):
+        return True
+    if NOT_REMOTE.search(text):
         return False
     if NOT_REMOTE_TAG.search(location_text):
+        return False
+    # A remote role whose only stated geography is the US can't be taken from Italy.
+    location_only = str(job.get("location", ""))
+    if US_LOCATION.search(location_only) and not (OPEN_GEO.search(text) or TARGET_GEO.search(location_only)):
         return False
     # Require remote evidence in the listing text, OR let an explicit approved
     # city/country in the location field itself stand in for it — a listing

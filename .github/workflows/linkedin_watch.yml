@@ -2,7 +2,9 @@ name: LinkedIn Watcher
 
 on:
   schedule:
-    - cron: "17 15-23,0-3 * * *"
+    # 08:17 and 16:17 Dubai. A run takes ~13 billed minutes and looks back 7 days,
+    # so twice a day misses nothing and keeps the repo inside the free Actions quota.
+    - cron: "17 4,12 * * *"
   workflow_dispatch:
     inputs:
       backfill:
