@@ -518,3 +518,18 @@ def test_role_terms_cover_ai_creative_production_titles():
     for title in ["Generative AI Engineer", "AI Lead Generation Specialist",
                   "Senior Creative Recruiter", "Machine Learning Engineer"]:
         assert not ROLE_TERMS.search(title), title
+
+
+def test_landing_signals_rank_contract_worldwide_fresh_roles():
+    from datetime import date
+    from telegram_notify import landing_signals
+
+    today = date(2026, 9, 28)
+    fast = {"title": "Creative Producer (Contract)", "location": "Worldwide",
+            "description": "International contractor, work from anywhere.", "posted_at": "2026-09-27"}
+    assert landing_signals(fast, today) == ["Kontrat/freelance", "Worldwide", "Yeni (≤3 gün)"]
+
+    slow = {"title": "Creative Lead", "location": "Remote - Europe",
+            "description": "Full-time role.", "date_posted": "Tue, 25 Aug 2026 10:00:00 +0000"}
+    assert landing_signals(slow, today) == []
+    assert landing_signals({"title": "Creative Lead", "posted_at": "not a date"}, today) == []
