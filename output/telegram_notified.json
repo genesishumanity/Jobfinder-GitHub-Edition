@@ -4,6 +4,7 @@
     "0150bd1672005ebbb8fd2b617d8bffedec782a936aaa78425bc324ed29c61956",
     "01716dfdca9eafc68fe977268558fac4cf66a86da65cee7a260e66433373ef1d",
     "02aeb9d5cf11b47f913c53385f7f9159f0aabcb259a461611cb7519729d2b13f",
+    "0399ed2db4b22a7f860c9a99f3bf133d136b3857b058cc0ad83008dfd4eec391",
     "0479d90bc39b93c962333a3ce3ba9df8d22817de2e55107f465f198d73817ec0",
     "070466bd1dede6390056b5edfd9aff3449ef0e46f014e78aca50cc2dcf2a5eb4",
     "09529bdaff9a0d4c76c7ab8e1cd6787f3630722514d868d35fcac5f546eb1c5e",
@@ -806,21 +807,25 @@
     "joyteractive|creative producer (r&d)|poland · belarus · serbia · ukraine · kyiv · georgia · tbilisi · remote": {
       "material": "|remote|True",
       "last_sent": "2026-09-28T10:56:30.449881+00:00"
+    },
+    "3search|paid ad creative strategist|london area, united kingdom": {
+      "material": "||",
+      "last_sent": "2026-09-28T11:13:03.510833+00:00"
     }
   },
   "last_run": {
-    "source_file": "careerops_ats_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 1,
-    "duplicate": 0,
+    "discovered": 13,
+    "duplicate": 1,
     "geography": 0,
-    "remote": 0,
+    "remote": 5,
     "restricted": 0,
-    "language": 0,
-    "domain": 0,
+    "language": 1,
+    "domain": 1,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 7,
+    "off_mission_role": 4,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
