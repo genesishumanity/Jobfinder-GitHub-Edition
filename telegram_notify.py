@@ -308,6 +308,55 @@ def international_remote_status(job):
     return "⚪ İtalya/uluslararası uygunluğu ilanda net değil"
 
 
+# Precision layer (2026-09-28). A dry run over two weeks of listings showed
+# about half of what passed the gates above was still unusable for a Turkish
+# citizen targeting remote work or Milan/Istanbul:
+# - titles outside the craft (copywriting, SAP, media buying, UX/UI, 3D,
+#   visual merchandising, on-camera UGC creators) or tied to a US city/language
+# - "Anywhere" listings whose text is a US employment package (401(k),
+#   US work authorization, US time-zone hours, US Hispanic market)
+# - listings whose location names only countries he can't work from.
+WRONG_ROLE_TITLE = re.compile(
+    r"\b(?:copy(?:writer|writing)?|sap|media buyer|visual merchandising|ux|ui|uxui|3d|"
+    r"bilingual|creator remote|dog creator|onsite|on-site|applied ai|"
+    r"la|nyc|new york|los angeles|san francisco|chicago|austin)\b",
+    re.I,
+)
+# UGC titles are creator/influencer gigs unless they carry a senior craft word
+# ("Creative Lead (Social & UGC)" stays).
+UGC_TITLE = re.compile(r"\bugc\b|user[- ]generated", re.I)
+UGC_SENIOR = re.compile(r"\b(?:lead|director|strateg\w*|producer|head)\b", re.I)
+US_EMPLOYMENT = re.compile(
+    r"401\(k\)|\bW-?2\b|"
+    r"authori[sz]ed to work (?:for any employer )?in the (?:US|U\.S\.?|United States)|"
+    r"\b(?:PST|PT|EST|ET|CST|MST) hours\b|US Hispanic|"
+    r"health,? dental,? (?:and )?vision|dental,? (?:and )?vision|hourly pay range|tier 1 cities",
+    re.I,
+)
+# Places a location may name and still be workable: remote-open regions,
+# Turkey (home) and Italy (target).
+WORKABLE_PLACE = re.compile(
+    r"worldwide|anywhere|global|international|emea|europe|european union|"
+    r"turkey|türkiye|turkiye|istanbul|i̇stanbul|ankara|izmir|italy|italia|milan|milano|lombard",
+    re.I,
+)
+GENERIC_LOCATION = re.compile(r"\b(?:remote|hybrid|work from home|wfh|flexible|multiple locations)\b", re.I)
+
+
+def precision_blocked(job):
+    """Return a reason string when a listing can't be a fit, else None."""
+    title = str(job.get("title", ""))
+    if WRONG_ROLE_TITLE.search(title) or (UGC_TITLE.search(title) and not UGC_SENIOR.search(title)):
+        return "wrong_role"
+    if US_EMPLOYMENT.search(str(job.get("description", ""))):
+        return "us_employment"
+    location = str(job.get("location", ""))
+    leftover = re.sub(r"[^\w]+", " ", GENERIC_LOCATION.sub(" ", location)).strip()
+    if leftover and not WORKABLE_PLACE.search(location):
+        return "country_restricted"
+    return None
+
+
 # Signals that a role closes fast: contract/freelance hiring skips most of a
 # full-time loop, worldwide contractor roles have no visa step, and applying
 # in the first days of a posting beats the applicant pile.
@@ -442,6 +491,9 @@ def main():
                 counts["off_mission_role"] += 1
             elif on_camera_gig_blocked(job):
                 counts["on_camera_gig"] += 1
+            elif precision_blocked(job):
+                reason = precision_blocked(job)
+                counts[reason] = counts.get(reason, 0) + 1
             elif language_blocked(job):
                 counts["language"] += 1
             elif dead_link(job):
