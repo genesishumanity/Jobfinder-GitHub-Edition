@@ -546,6 +546,27 @@ def test_precision_gate_blocks_unusable_listings():
         assert precision_blocked(ok) is None, ok
 
 
+def test_gemini_stops_calling_after_quota_error(monkeypatch):
+    import io
+    import urllib.error
+    import gemini_scorer
+
+    monkeypatch.setenv("GEMINI_API_KEY", "test-key")
+    monkeypatch.setenv("CANDIDATE_PROFILE", "creative strategist")
+    monkeypatch.setattr(gemini_scorer, "_UNAVAILABLE", False)
+    calls = []
+
+    def quota(*args, **kwargs):
+        calls.append(1)
+        raise urllib.error.HTTPError("https://x", 429, "quota", {}, io.BytesIO(b"quota"))
+
+    monkeypatch.setattr(gemini_scorer.urllib.request, "urlopen", quota)
+    job = {"title": "Creative Strategist", "company": "X", "description": "remote"}
+    assert gemini_scorer.score_job(job) is None
+    assert gemini_scorer.score_job(job) is None
+    assert len(calls) == 1
+
+
 def test_mandate_2026_09_29_gate_and_brief():
     from telegram_notify import precision_blocked, role_brief
 
