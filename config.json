@@ -47,7 +47,10 @@
       "content creative lead",
       "performance creative strategist",
       "creative operations",
-      "creative ops"
+      "creative ops",
+      "ai creative strategist",
+      "brand creative strategist",
+      "ai content creative"
     ],
     "exclude": [
       "intern",
@@ -84,29 +87,29 @@
   "search_terms": {
     "linkedin": [
       "creative strategist",
+      "AI creative",
       "creative producer",
-      "AI creative producer",
-      "AI video",
-      "generative AI creative",
+      "integrated creative",
+      "creative technologist",
       "creative lead",
-      "performance creative strategist",
-      "creative operations"
+      "brand creative",
+      "performance creative strategist"
     ],
     "indeed": [
       "creative strategist",
+      "AI creative",
       "creative producer",
-      "AI creative producer",
-      "AI video",
-      "creative lead",
-      "creative operations"
+      "integrated creative",
+      "creative technologist",
+      "creative lead"
     ],
     "glassdoor": [],
     "ziprecruiter": [],
     "google_jobs": [
       "creative strategist remote",
-      "AI creative producer",
-      "creative lead remote",
-      "creative operations remote"
+      "AI creative remote",
+      "creative technologist remote",
+      "creative lead remote"
     ],
     "hiring_cafe": [],
     "calcareers": [],
