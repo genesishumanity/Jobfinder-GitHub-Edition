@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-29 10:57 UTC",
+  "scraped_at": "2026-09-29 16:58 UTC",
   "total": 1,
-  "new_count": 1,
+  "new_count": 0,
   "jobs": [
     {
       "company": "Cervo Bianco SRL",
@@ -22,24 +22,5 @@
       "ats": "Indeed"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "Cervo Bianco SRL",
-      "title": "Creative Director — Interior Architecture & Design",
-      "location": "Milano, LOM, IT",
-      "url": "https://it.indeed.com/viewjob?jk=3afc5835bf60b109",
-      "direct_url": "http://it.indeed.com/job/creative-director-interior-architecture-design-3afc5835bf60b109",
-      "company_url": "https://it.indeed.com/cmp/Cervo-Bianco-Srl",
-      "date_posted": "2026-09-29",
-      "description": "**The Role**\n\nWe're looking for a **visionary Creative Director** to lead our design voice. You'll set the creative direction across all projects, inspire and **mentor our design team**, and be the face of the Cervo Bianco aesthetic with clients and partners. This is a role for someone who pairs a rare artistic eye with the technical depth and business sense to bring ambitious ideas to life.\n\n**What You'll Do**\n\n* Define and evolve the studio's creative vision and signature design language across every project.\n* Lead concept development from first sketch to final installation, making sure every space reflects our standard of excellence.\n* Present concepts to high\\-net\\-worth clients, developers, and brand partners with confidence and storytelling flair.\n* Mentor and grow a team of interior architects, designers, and visualizers, building a culture of creativity and accountability.\n* Curate materials, finishes, furniture, lighting, and art, and build relationships with artisans, galleries, and luxury suppliers.\n* Work closely with architects, engineers, and contractors to protect design intent through execution.\n* Balance creative ambition with budgets, timelines, and profitability.\n* Shape the studio's brand presence through portfolios, publications, awards, and events\n\n**Who You Are**\n\n* Degree in Interior Design, Interior Architecture, or Architecture.\n* **8\\+ years** of experience in **luxury interior design**, with at **least 4–5 years in a senior creative or leadership role**.\n* A strong portfolio of high\\-end residential, hospitality, or commercial projects that shows a distinctive point of view.\n* Deep knowledge of spatial planning, materials, joinery, lighting, and craftsmanship.\n* Excellent command of AutoCAD is essential, along with solid working knowledge of 3ds Max, V\\-Ray, and other visualization tools (such as SketchUp, Rhino, Revit, and the Adobe Creative Suite) to guide and review the team's technical and rendering work.\n* A natural leader who inspires people rather than manages them.\n* Polished, articulate, and comfortable in front of demanding clients.\n* Culturally curious, with a sharp eye on art, fashion, architecture, and global design movements.\n\n**Bonus Points**\n\n* Published work or industry awards.\n* Experience with international projects or luxury hospitality brands.\n* Experience designing custom furniture or product collections.\n* **Fluent in Italian and English;** additional languages are a plus.\n\nRetribuzione: €2\\.000,00 \\- €3\\.000,00 al mese\n\nBenefit:\n\n* Bevande gratis\n* Computer aziendale\n\nIstruzione:\n\n* Laurea magistrale (o specialistica) (Preferenziale)\n\nEsperienza:\n\n* luxuary interior design: 8 anni (Obbligatorio)\n* senior creative or leadership role: 4 anni (Obbligatorio)\n\nLingua:\n\n* Inglese (Obbligatorio)\n* Italiano (Obbligatorio)\n\nDisponibilità a viaggiare:\n\n* 50% (Preferenziale)\n\nSede di lavoro: In presenza",
-      "salary": "",
-      "salary_source": "",
-      "salary_currency": "",
-      "job_type": "fulltime",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "emails": "",
-      "ats": "Indeed"
-    }
-  ]
+  "new_jobs": []
 }
