@@ -844,26 +844,26 @@
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "remote_boards_jobs.json",
     "min_fit": 0.0,
-    "discovered": 7,
-    "duplicate": 0,
+    "discovered": 14,
+    "duplicate": 10,
     "geography": 0,
-    "remote": 1,
-    "restricted": 0,
+    "remote": 0,
+    "restricted": 1,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 4,
+    "off_mission_role": 1,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 1,
+    "delivered": 0,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "country_restricted": 1
+    "wrong_role": 2
   }
 }
