@@ -36,6 +36,7 @@
     "23ef37f8c77e23e8341e554f68da99b2a41d0c8fe43c2492763e82053665b909",
     "25a51ff6b8959ab12f193c921ead5e1f64129687b591fbf959f64123978e0ace",
     "25fa1eebef54386590b0f78bc29582e5c7e619d215d3307afdaa460471c1f33f",
+    "282057ffe6259ee5267709015c2288d2670e0a6fc331768a2a8d7f4f42ac6185",
     "28694672b0e36782e1bbe9df5858045bf4f3fd7426bdf0adb94aa090cd4fbdb5",
     "2888decb99e41645af5fdf7fcf2679ac40393c9e6eda104ca0408c0397d33ab3",
     "2aff894afff7bfddfea60abec6665c7c050ca40fca63a12511a440fcbb2b54f6",
@@ -111,6 +112,7 @@
     "7e0b462ac1f900571979bd57ccba4cb8070343227d4497388ebc44d36656d7b2",
     "7eb3256b2d284b01cc0de89c871e46f97543dc484ba980a19e3994b17fd23e66",
     "80a8da42555c0a4cae0354118e90bafb718a9dc91d8810d51574abeebb41813b",
+    "827fdadc266d0f8371f96b30be9646adb0d85dd0617c87d41a0a3e35121c3901",
     "8306631c05c558c62602ac8af15a34cc4ed8309bcd9d3ee03159620c58bd8699",
     "83724640e329aa55552f71e16f9719573f884fc4053b1b98614843745e81669b",
     "8403a90f5fc1744f4389821737a58f8f11c2cdf42d79e814691ae45e43fca48d",
@@ -841,28 +843,37 @@
     "nizmara consulting & executive search|creative director (relocation to bahrain required)|istanbul, türkiye": {
       "material": "||",
       "last_sent": "2026-09-29T12:45:17.784566+00:00"
+    },
+    "superside|lead creative strategist (performance marketing)|anywhere": {
+      "material": "||True",
+      "last_sent": "2026-09-29T18:03:25.231603+00:00"
+    },
+    "superside|director of creative strategy|anywhere": {
+      "material": "||True",
+      "last_sent": "2026-09-29T18:03:27.787115+00:00"
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "remote_boards_jobs.json",
     "min_fit": 0.0,
-    "discovered": 0,
-    "duplicate": 0,
+    "discovered": 16,
+    "duplicate": 10,
     "geography": 0,
     "remote": 0,
-    "restricted": 0,
+    "restricted": 1,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 1,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 2,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0
+    "ledger_errors": 0,
+    "wrong_role": 2
   }
 }
