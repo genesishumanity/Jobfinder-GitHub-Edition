@@ -546,6 +546,28 @@ def test_precision_gate_blocks_unusable_listings():
         assert precision_blocked(ok) is None, ok
 
 
+def test_mandate_2026_09_29_gate_and_brief():
+    from telegram_notify import precision_blocked, role_brief
+
+    # Down-ranked craft/junior roles, forced relocation, unspoken languages.
+    for title in ["Video Editor", "Social Media Manager", "Junior Creative Strategist",
+                  "Graphic Designer", "Marketing Coordinator"]:
+        assert precision_blocked({"title": title, "location": "Remote"}) == "wrong_role", title
+    assert precision_blocked({"title": "Creative Director (Relocation to Bahrain Required)",
+                              "location": "Istanbul, Türkiye"}) == "country_restricted"
+    assert precision_blocked({"title": "Creative Lead", "location": "Milan, Italy",
+                              "description": "Fluent in Italian and English."}) == "language_required"
+    assert precision_blocked({"title": "Creative Lead", "location": "Remote",
+                              "description": "Fluent English; Italian is a plus."}) is None
+
+    stretch = role_brief({"title": "Associate Creative Director", "description": "8+ years agency experience required."})
+    assert stretch["priority"] == "Stretch" and "long agency tenure" in stretch["gaps"]
+    primary = role_brief({"title": "AI Creative Strategist", "location": "Worldwide",
+                          "description": "Concept development and generative AI prototyping for campaigns."})
+    assert primary["priority"] == "Apply now"
+    assert "generative AI" in primary["fits"] and primary["angle"].startswith("AI previs")
+
+
 def test_contact_links_are_linkedin_people_searches():
     from telegram_notify import contact_links, label
 

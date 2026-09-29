@@ -317,7 +317,11 @@ def international_remote_status(job):
 #   US work authorization, US time-zone hours, US Hispanic market)
 # - listings whose location names only countries he can't work from.
 WRONG_ROLE_TITLE = re.compile(
-    r"\b(?:copy(?:writer|writing)?|sap|media buyer|visual merchandising|ux|ui|uxui|3d|"
+    # Mandate 2026-09-29 down-rank list: execution-only craft, social/media
+    # management, engineering and junior/coordinator roles.
+    r"\b(?:graphic designer|(?:senior |lead )?(?:creative |visual |motion )?designer|videographer|camera operator|video editor|social media manager|"
+    r"software engineer|ml engineer|machine learning engineer|developer|coordinator|junior|intern|"
+    r"copy(?:writer|writing)?|sap|media buyer|visual merchandising|ux|ui|uxui|3d|"
     r"bilingual|creator remote|dog creator|onsite|on-site|applied ai|"
     r"la|nyc|new york|los angeles|san francisco|chicago|austin)\b",
     re.I,
@@ -343,9 +347,24 @@ WORKABLE_PLACE = re.compile(
 GENERIC_LOCATION = re.compile(r"\b(?:remote|hybrid|work from home|wfh|flexible|multiple locations)\b", re.I)
 
 
+# Required relocation anywhere but Italy/Turkey, and required languages the
+# candidate doesn't speak (English and Turkish are fine).
+RELOCATION_TITLE = re.compile(r"relocat\w*\s+to\s+(?!italy|milan|turkey|türkiye|istanbul)\w+", re.I)
+REQUIRED_LANGUAGE = re.compile(
+    r"(?:fluent|fluency|native|proficien\w*|business[- ]level)\s+(?:in\s+)?(?:\w+\s+and\s+)?"
+    r"(?:italian|german|french|spanish|dutch|arabic|portuguese|polish)\b"
+    r"|\b(?:italian|german|french|spanish|dutch|arabic|portuguese|polish)\s+(?:is\s+)?(?:required|mandatory|essential|native)",
+    re.I,
+)
+
+
 def precision_blocked(job):
     """Return a reason string when a listing can't be a fit, else None."""
     title = str(job.get("title", ""))
+    if RELOCATION_TITLE.search(title):
+        return "country_restricted"
+    if REQUIRED_LANGUAGE.search(str(job.get("description", ""))):
+        return "language_required"
     if WRONG_ROLE_TITLE.search(title) or (UGC_TITLE.search(title) and not UGC_SENIOR.search(title)):
         return "wrong_role"
     if US_EMPLOYMENT.search(str(job.get("description", ""))):
@@ -396,6 +415,72 @@ def landing_signals(job, today=None):
     return tags
 
 
+# Role brief (WebGPT job search mandate, 2026-09-29). Rule-based and derived
+# only from the listing text: it never invents experience, metrics or contacts.
+STRETCH_TITLE = re.compile(
+    r"\b(?:associate creative director|acd|creative director|head of creative|"
+    r"executive creative|group creative director|vp\b|chief)",
+    re.I,
+)
+FIT_SIGNALS = (
+    ("creative strategy", r"creative strateg"),
+    ("concept development", r"\bconcept|ideation"),
+    ("storytelling", r"storytell|narrative"),
+    ("treatments/storyboards", r"storyboard|treatment"),
+    ("film/video production", r"\bfilm\b|video|production"),
+    ("generative AI", r"generative|gen ?ai|\bai\b|midjourney|runway|kling"),
+    ("rapid prototyping", r"prototyp|experiment"),
+    ("brand strategy", r"brand strateg|positioning"),
+    ("integrated campaigns", r"integrated|campaign"),
+    ("pitching", r"\bpitch"),
+    ("zero-to-one", r"zero[- ]to[- ]one|0 ?(?:to|→) ?1|from scratch|build(?:ing)? the"),
+    ("creative systems/ops", r"creative (?:ops|operations|systems|automation)|workflow"),
+)
+GAP_SIGNALS = (
+    ("long agency tenure", r"\b(?:[7-9]|1\d)\+? years|agency (?:background|experience) (?:is )?required"),
+    ("large paid-media budget", r"media budget|ad spend|\$\d+[mk]\+? (?:in )?(?:annual )?(?:spend|budget)|roas"),
+    ("people management", r"manage (?:a )?team of|direct reports|people management"),
+    ("specialist craft depth", r"expert in (?:after effects|cinema 4d|figma)|motion design expert"),
+)
+PORTFOLIO_ANGLES = (
+    (r"generative|gen ?ai|\bai\b|previs|prototyp", "AI previs case (Atorie / Dolce Glow)"),
+    (r"brand|strateg|positioning|campaign", "strategy-led concept (Atorie 'good enough.')"),
+    (r"video|film|production|social|ugc|content", "produced social/video work (MADA)"),
+    (r"product|system|workflow|automation|tool", "live AI product built solo (INSPIRE)"),
+)
+
+
+def role_brief(job):
+    title = str(job.get("title", ""))
+    text = " ".join(str(job.get(k, "")) for k in ("title", "description")).lower()
+    stretch = bool(STRETCH_TITLE.search(title))
+    fits = [name for name, pat in FIT_SIGNALS if re.search(pat, text, re.I)][:3]
+    gaps = [name for name, pat in GAP_SIGNALS if re.search(pat, text, re.I)]
+    angle = next((a for pat, a in PORTFOLIO_ANGLES if re.search(pat, text, re.I)), "strongest concept case")
+    if stretch:
+        priority = "Stretch"
+    elif landing_signals(job) or len(fits) >= 2:
+        priority = "Apply now"
+    else:
+        priority = "Targeted outreach"
+    owner = "Head of Creative / Creative Director" if re.search(r"creative|brand|art", title, re.I) else "Head of Marketing / Growth"
+    return {"priority": priority, "fits": fits, "gaps": gaps, "angle": angle, "owner": owner}
+
+
+PRIORITY_RANK = {"Apply now": 2, "Targeted outreach": 1, "Stretch": 0}
+
+
+def brief_lines(job):
+    b = role_brief(job)
+    return "\n".join([
+        f"🎯 Öncelik: {b['priority']}",
+        "✓ Uyum: " + (", ".join(b["fits"]) or "ilan metni kısa, doğrula"),
+        "△ Eksik/risk: " + (", ".join(b["gaps"]) or "belirgin değil"),
+        f"📁 Göster: {b['angle']}",
+        f"✉️ Kime: {b['owner']} · Açı: 15 dk tek sayfa fikir + {b['angle'].split(' (')[0]}",
+    ])
+
+
 # One-tap LinkedIn people searches for whoever owns the hire. These are plain
 # search URLs the user opens in their own account: nothing is scraped and no
 # message is sent automatically.
@@ -435,6 +520,7 @@ def label(job, score=None):
         f"Maaş: {salary or 'belirtilmemiş'}",
         "Yayın: " + str(job.get("posted_at") or job.get("date_posted") or "belirtilmemiş"),
         language_status(job),
+        brief_lines(job),
         url,
         contact_links(job),
     ]).rstrip()
@@ -528,7 +614,10 @@ def main():
                     candidates.append((score, job))
 
     # Fast-landing roles first (contract, worldwide, fresh), then fit.
-    candidates.sort(key=lambda pair: (len(landing_signals(pair[1])), pair[0], bool(pair[1].get("salary"))), reverse=True)
+    candidates.sort(key=lambda pair: (
+        PRIORITY_RANK[role_brief(pair[1])["priority"]],
+        len(landing_signals(pair[1])), pair[0], bool(pair[1].get("salary")),
+    ), reverse=True)
     if len(candidates) > per_run_cap:
         counts["capped"] = len(candidates) - per_run_cap
         candidates = candidates[:per_run_cap]
