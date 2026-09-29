@@ -1,32 +1,44 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-09-29 12:44 UTC*
+*Last updated: 2026-09-29 13:33 UTC*
 
-**7 new role(s)** since last run · 45 total in last 168h
+**10 new role(s)** since last run · 45 total in last 168h
 
-### [Creative Performance Strategist - US](https://www.linkedin.com/jobs/view/4456218549/) — Major Players | B Corp™
-- 📍 **Location:** Greater London, England, United Kingdom
+### [Generative AI Designer](https://www.linkedin.com/jobs/view/4466248886/) — Tramas+
+- 📍 **Location:** Greater Sevilla Metropolitan Area
 - 🕒 **Posted:** 2026-09-29
 
-### [Senior Creative Digital Strategist (m/w/d) in Hamburg &#8211; Hybrid](https://www.linkedin.com/jobs/view/4471284117/) — KlickPiloten
-- 📍 **Location:** Hamburg, Hamburg, Germany
-- 🕒 **Posted:** 2026-09-29
+### [Senior Creative](https://www.linkedin.com/jobs/view/4472741200/) — Monks
+- 📍 **Location:** Madrid, Community of Madrid, Spain
+- 🕒 **Posted:** 2026-09-28
 
-### [Brand Activation Project Manager](https://www.linkedin.com/jobs/view/4462961980/) — Panerai
-- 📍 **Location:** Milan, Lombardy, Italy
-- 🕒 **Posted:** 2026-09-29
+### [Creative Director - Wellness & Lifestyle](https://www.linkedin.com/jobs/view/4472745450/) — Dragons Group
+- 📍 **Location:** Barcelona, Catalonia, Spain
+- 🕒 **Posted:** 2026-09-28
 
-### [Creative Director (Relocation to Bahrain Required)](https://www.linkedin.com/jobs/view/4471901437/) — Nizmara Consulting & Executive Search
+### [Associate Creative Director](https://www.linkedin.com/jobs/view/4463103745/) — REMEDY EDGE™ SPAIN
+- 📍 **Location:** Barcelona, Catalonia, Spain
+- 🕒 **Posted:** 2026-09-25
+
+### [Digital Workforce (AI Automation) Consultant](https://www.linkedin.com/jobs/view/4470174205/) — cognera ai
 - 📍 **Location:** Istanbul, Türkiye
-- 🕒 **Posted:** 2026-09-29
+- 🕒 **Posted:** 2026-09-25
 
-### [Performance Marketing Manager](https://www.linkedin.com/jobs/view/4473217809/) — Pine Games
-- 📍 **Location:** Greater Istanbul
-- 🕒 **Posted:** 2026-09-29
+### [Creative Director](https://www.linkedin.com/jobs/view/4471123613/) — Audible
+- 📍 **Location:** London, England, United Kingdom
+- 🕒 **Posted:** 2026-09-24
 
-### [Performance Marketing Associate Director](https://www.linkedin.com/jobs/view/4445898389/) — OneIngage
-- 📍 **Location:** Üsküdar, Istanbul, Türkiye
-- 🕒 **Posted:** 2026-09-29
+### [Creative Technologist (m|w|d)](https://www.linkedin.com/jobs/view/4469385261/) — Wiethe Content GmbH
+- 📍 **Location:** Bremen, Bremen, Germany
+- 🕒 **Posted:** 2026-09-24
 
-### [Influencer Marketing Project Manager](https://www.linkedin.com/jobs/view/4441825129/) — Yours
-- 📍 **Location:** Beyoglu, Istanbul, Türkiye
-- 🕒 **Posted:** 2026-09-29
+### [Senior Creative Director (m/w/d)](https://www.linkedin.com/jobs/view/4469761291/) — ZEINpharma I The Healthspan Company
+- 📍 **Location:** Rüsselsheim, Hesse, Germany
+- 🕒 **Posted:** 2026-09-24
+
+### [Social Creative & Art Director](https://www.linkedin.com/jobs/view/4460484248/) — We Are Social
+- 📍 **Location:** Madrid, Community of Madrid, Spain
+- 🕒 **Posted:** 2026-09-24
+
+### [Creative Lead – Prop Trading](https://www.linkedin.com/jobs/view/4470698798/) — ThinkMarkets
+- 📍 **Location:** London, England, United Kingdom
+- 🕒 **Posted:** 2026-09-23
