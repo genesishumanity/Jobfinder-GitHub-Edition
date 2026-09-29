@@ -54,6 +54,7 @@
     "3881257f8e250d69bbadcdb613ddc096010b938c67ccbe18019ad89585b6f53f",
     "3b3e485768cfc2513b8f0b537aa4acb8bf3e2bc9b1f04b67bcc368c7162435a1",
     "3bb4feafff7e0643e6df23b5cc34f752073d3027efa32833b60109ec80f72414",
+    "3bbf2d0abbdfd161464a011a19fdae2c5df28eeaefc9c4a148f0368115036e0c",
     "3c67202c39195aa88f626535e7f299eb7e187eb0eb1adc43ac8402176daa0032",
     "3cc8843f43d2677812e48b10916668799c9e2939c6207754383d091f9f6595b6",
     "3d31ac8b74579ef04d3f147df86e28d7ee87f566db8cd50c8a713a78009bee24",
@@ -831,12 +832,16 @@
     "levelup|senior creative designer|atasehir, istanbul, türkiye": {
       "material": "||",
       "last_sent": "2026-09-29T04:37:42.001781+00:00"
+    },
+    "cervo bianco srl|creative director — interior architecture & design|milano, lom, it": {
+      "material": "|On-site|False",
+      "last_sent": "2026-09-29T10:57:20.682550+00:00"
     }
   },
   "last_run": {
-    "source_file": "google_jobs.json",
+    "source_file": "indeed_jobs.json",
     "min_fit": 0.0,
-    "discovered": 0,
+    "discovered": 1,
     "duplicate": 0,
     "geography": 0,
     "remote": 0,
@@ -850,7 +855,7 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
