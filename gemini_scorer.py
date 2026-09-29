@@ -57,10 +57,16 @@ def _gemini_api_key():
     return os.environ.get("GEMINI_API_KEY", "").strip()
 
 
+# Circuit breaker: once the free tier answers 429 (quota) or 503 (overloaded),
+# stop calling Gemini for the rest of the run instead of retrying per job.
+_UNAVAILABLE = False
+
+
 def score_job(job):
     """Returns a 0-100 float score, or None if not configured / on any failure."""
+    global _UNAVAILABLE
     api_key = _gemini_api_key()
-    if not api_key:
+    if not api_key or _UNAVAILABLE:
         return None
     profile = _read_first("CANDIDATE_PROFILE", "candidate_profile.md")
     if not profile.strip():
@@ -104,6 +110,9 @@ def score_job(job):
         except Exception:
             pass
         print(f"  WARNING: Gemini scoring failed, falling back to keyword score: HTTPError {exc.code}: {detail or exc}")
+        if exc.code in (429, 503):
+            _UNAVAILABLE = True
+            print("  Gemini unavailable (quota/overload): keyword score for the rest of this run")
         return None
     except (
         urllib.error.URLError,
