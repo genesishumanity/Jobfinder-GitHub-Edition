@@ -1,36 +1,32 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-09-29 04:37 UTC*
+*Last updated: 2026-09-29 12:44 UTC*
 
-**8 new role(s)** since last run · 44 total in last 168h
+**7 new role(s)** since last run · 45 total in last 168h
 
-### [Creative Strategist Social Advertising (META) (m/w/d)](https://www.linkedin.com/jobs/view/4470891823/) — AAADS
-- 📍 **Location:** Cologne, North Rhine-Westphalia, Germany
-- 🕒 **Posted:** 2026-09-28
+### [Creative Performance Strategist - US](https://www.linkedin.com/jobs/view/4456218549/) — Major Players | B Corp™
+- 📍 **Location:** Greater London, England, United Kingdom
+- 🕒 **Posted:** 2026-09-29
 
-### [Senior Creative Strategist (m/w/d)](https://www.linkedin.com/jobs/view/4471512332/) — Creative Dreams GmbH
-- 📍 **Location:** Düsseldorf, North Rhine-Westphalia, Germany
-- 🕒 **Posted:** 2026-09-28
+### [Senior Creative Digital Strategist (m/w/d) in Hamburg &#8211; Hybrid](https://www.linkedin.com/jobs/view/4471284117/) — KlickPiloten
+- 📍 **Location:** Hamburg, Hamburg, Germany
+- 🕒 **Posted:** 2026-09-29
 
-### [Senior Creative Strategist (m/w/d)](https://www.linkedin.com/jobs/view/4470882560/) — Creative Dreams GmbH
-- 📍 **Location:** Düsseldorf, North Rhine-Westphalia, Germany
-- 🕒 **Posted:** 2026-09-28
+### [Brand Activation Project Manager](https://www.linkedin.com/jobs/view/4462961980/) — Panerai
+- 📍 **Location:** Milan, Lombardy, Italy
+- 🕒 **Posted:** 2026-09-29
 
-### [Creative Strategist, Elgato](https://www.linkedin.com/jobs/view/4464302437/) — Corsair
-- 📍 **Location:** Munich, Bavaria, Germany
-- 🕒 **Posted:** 2026-09-28
+### [Creative Director (Relocation to Bahrain Required)](https://www.linkedin.com/jobs/view/4471901437/) — Nizmara Consulting & Executive Search
+- 📍 **Location:** Istanbul, Türkiye
+- 🕒 **Posted:** 2026-09-29
 
-### [Senior Creative Designer](https://www.linkedin.com/jobs/view/4471209378/) — LEVELUP
-- 📍 **Location:** Atasehir, Istanbul, Türkiye
-- 🕒 **Posted:** 2026-09-28
-
-### [Media & Digital Marketing Manager](https://www.linkedin.com/jobs/view/4471516841/) — Philips
+### [Performance Marketing Manager](https://www.linkedin.com/jobs/view/4473217809/) — Pine Games
 - 📍 **Location:** Greater Istanbul
-- 🕒 **Posted:** 2026-09-28
+- 🕒 **Posted:** 2026-09-29
 
-### [AI Creative (m|w|d)](https://www.linkedin.com/jobs/view/4469368892/) — Wiethe Content GmbH
-- 📍 **Location:** Bremen, Bremen, Germany
-- 🕒 **Posted:** 2026-09-24
+### [Performance Marketing Associate Director](https://www.linkedin.com/jobs/view/4445898389/) — OneIngage
+- 📍 **Location:** Üsküdar, Istanbul, Türkiye
+- 🕒 **Posted:** 2026-09-29
 
-### [AI Artist](https://www.linkedin.com/jobs/view/4470450820/) — Wolfstreet
-- 📍 **Location:** Amsterdam Area
-- 🕒 **Posted:** 2026-09-22
+### [Influencer Marketing Project Manager](https://www.linkedin.com/jobs/view/4441825129/) — Yours
+- 📍 **Location:** Beyoglu, Istanbul, Türkiye
+- 🕒 **Posted:** 2026-09-29
