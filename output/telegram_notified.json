@@ -183,6 +183,7 @@
     "f3305292ef57a6cf23810d9cae34e0501c2e7fc18546e6e057423913e0d97f23",
     "f33228d6496c871bcca895b91ed4ad31bc30eddf9252bf5dc16f2a8cc1214371",
     "f33c813b6b8f7ce5512a040bda5f8b274528493203ee4277585097e478b37e24",
+    "f35f0e4c56da3f6ccca6bc2e63a2b7e3ef3e9f98fc60b40ef74f6e53ecf54413",
     "f4059d3223c4eb712348510d4753053156ccc88a8789de34cdb0d0fd8e9161e2",
     "f41d2cabcb06c0087c92687884354b097a9c5acaee9ade337da7bf97bbebc706",
     "f6dfd5bdee21f57ac7e547e84ea4f7cf55a5415917091db33978bc7ce516cb95",
@@ -826,16 +827,20 @@
     "kirin|freelance ai artist - image & brand|argentina, chile, turkey": {
       "material": "||True",
       "last_sent": "2026-09-28T12:01:55.212132+00:00"
+    },
+    "levelup|senior creative designer|atasehir, istanbul, türkiye": {
+      "material": "||",
+      "last_sent": "2026-09-29T04:37:42.001781+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 14,
-    "duplicate": 11,
+    "discovered": 8,
+    "duplicate": 0,
     "geography": 0,
-    "remote": 0,
-    "restricted": 1,
+    "remote": 4,
+    "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
@@ -845,10 +850,10 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "wrong_role": 1
+    "country_restricted": 2
   }
 }

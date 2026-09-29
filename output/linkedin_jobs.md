@@ -1,20 +1,36 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-09-28 12:45 UTC*
+*Last updated: 2026-09-29 04:37 UTC*
 
-**4 new role(s)** since last run · 47 total in last 168h
+**8 new role(s)** since last run · 44 total in last 168h
 
-### [Senior Art Director / Creative Director - AI Fashion Production (m|w|d)](https://www.linkedin.com/jobs/view/4361170203/) — Wiethe Content GmbH
+### [Creative Strategist Social Advertising (META) (m/w/d)](https://www.linkedin.com/jobs/view/4470891823/) — AAADS
+- 📍 **Location:** Cologne, North Rhine-Westphalia, Germany
+- 🕒 **Posted:** 2026-09-28
+
+### [Senior Creative Strategist (m/w/d)](https://www.linkedin.com/jobs/view/4471512332/) — Creative Dreams GmbH
+- 📍 **Location:** Düsseldorf, North Rhine-Westphalia, Germany
+- 🕒 **Posted:** 2026-09-28
+
+### [Senior Creative Strategist (m/w/d)](https://www.linkedin.com/jobs/view/4470882560/) — Creative Dreams GmbH
+- 📍 **Location:** Düsseldorf, North Rhine-Westphalia, Germany
+- 🕒 **Posted:** 2026-09-28
+
+### [Creative Strategist, Elgato](https://www.linkedin.com/jobs/view/4464302437/) — Corsair
+- 📍 **Location:** Munich, Bavaria, Germany
+- 🕒 **Posted:** 2026-09-28
+
+### [Senior Creative Designer](https://www.linkedin.com/jobs/view/4471209378/) — LEVELUP
+- 📍 **Location:** Atasehir, Istanbul, Türkiye
+- 🕒 **Posted:** 2026-09-28
+
+### [Media & Digital Marketing Manager](https://www.linkedin.com/jobs/view/4471516841/) — Philips
+- 📍 **Location:** Greater Istanbul
+- 🕒 **Posted:** 2026-09-28
+
+### [AI Creative (m|w|d)](https://www.linkedin.com/jobs/view/4469368892/) — Wiethe Content GmbH
 - 📍 **Location:** Bremen, Bremen, Germany
-- 🕒 **Posted:** 2026-09-28
+- 🕒 **Posted:** 2026-09-24
 
-### [Influencer Marketing Project Manager](https://www.linkedin.com/jobs/view/4441825129/) — Yours
-- 📍 **Location:** Beyoglu, Istanbul, Türkiye
-- 🕒 **Posted:** 2026-09-28
-
-### [Creative Strategist & Storyteller - YouTube + Instagram](https://www.linkedin.com/jobs/view/4468535142/) — Natulim
-- 📍 **Location:** Barcelona, Catalonia, Spain
-- 🕒 **Posted:** 2026-09-22
-
-### [Performance Creative Strategist (all genders)(EN)](https://www.linkedin.com/jobs/view/4467887716/) — Contabo
-- 📍 **Location:** Germany
+### [AI Artist](https://www.linkedin.com/jobs/view/4470450820/) — Wolfstreet
+- 📍 **Location:** Amsterdam Area
 - 🕒 **Posted:** 2026-09-22
