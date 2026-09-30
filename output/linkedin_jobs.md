@@ -1,24 +1,28 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-09-30 04:38 UTC*
+*Last updated: 2026-09-30 12:47 UTC*
 
-**5 new role(s)** since last run · 45 total in last 168h
+**6 new role(s)** since last run · 43 total in last 168h
 
-### [Content Producer Specialist](https://www.linkedin.com/jobs/view/4446133747/) — Zegna
+### [Creative Strategist (m/w/d)](https://www.linkedin.com/jobs/view/4472121076/) — RealStudio
+- 📍 **Location:** Germany
+- 🕒 **Posted:** 2026-09-30
+
+### [Creative Technologist (m|w|d)](https://www.linkedin.com/jobs/view/4472121048/) — Wiethe Content GmbH
+- 📍 **Location:** Bremen, Bremen, Germany
+- 🕒 **Posted:** 2026-09-30
+
+### [Senior Creative Strategist](https://www.linkedin.com/jobs/view/4473738616/) — Hello Agency
+- 📍 **Location:** Budapest, Hungary
+- 🕒 **Posted:** 2026-09-30
+
+### [AI Creative (m|w|d)](https://www.linkedin.com/jobs/view/4472107735/) — Wiethe Content GmbH
+- 📍 **Location:** Bremen, Bremen, Germany
+- 🕒 **Posted:** 2026-09-30
+
+### [Paid ADV & Performance Marketing Manager](https://www.linkedin.com/jobs/view/4473755841/) — IDA
 - 📍 **Location:** Milan, Lombardy, Italy
-- 🕒 **Posted:** 2026-09-29
+- 🕒 **Posted:** 2026-09-30
 
-### [Sr. Performance Marketing Executive](https://www.linkedin.com/jobs/view/4471917264/) — Adsera
-- 📍 **Location:** Şişli, Istanbul, Türkiye
-- 🕒 **Posted:** 2026-09-29
-
-### [Growth & Performance Marketing Manager](https://www.linkedin.com/jobs/view/4471762625/) — FTD
-- 📍 **Location:** Sisli, Istanbul, Türkiye
-- 🕒 **Posted:** 2026-09-29
-
-### [AI CREATIVE & CONTENT SPECIALIST (M/W/D)](https://www.linkedin.com/jobs/view/4470149088/) — Des Wahnsinns Fette Beute GmbH
-- 📍 **Location:** Düsseldorf, North Rhine-Westphalia, Germany
-- 🕒 **Posted:** 2026-09-25
-
-### [Art Director (m/w/d) Brand, AI & Packaging](https://www.linkedin.com/jobs/view/4468997005/) — Qstar GmbH
-- 📍 **Location:** Hamburg, Hamburg, Germany
-- 🕒 **Posted:** 2026-09-23
+### [Motion Designer, Performance Marketing (New Grad)](https://www.linkedin.com/jobs/view/4351193430/) — Peak
+- 📍 **Location:** Istanbul, Türkiye
+- 🕒 **Posted:** 2026-09-30
