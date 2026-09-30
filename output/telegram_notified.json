@@ -70,6 +70,7 @@
     "4285cdb15e3f766e6adb7942b04ad15186bf3f3e23e0414068c45016869a73fa",
     "436182ae2768bce4b7a5a29c1e7f9fad638590a7046165414f681644d02402c2",
     "47decccdfd0f7d70ad7691537edab089cbdf448f165da8d871fd804b49258ee4",
+    "48bee580504d8bc9f98df6794cfc322928b4d8775fc6caade68fb80bf02a297d",
     "49f144467cea9b720b9e33aff8877baee603e2253bc717d5a5d041ea34af7a68",
     "4a4d4c5bd03c30f4bbdf776932917efa2297df4212ba67495dc920fe339218ae",
     "4a64a02340c74b7b2359933ef57895bd7da62282f623f746d29c5be4b0cf4898",
@@ -851,26 +852,30 @@
     "superside|director of creative strategy|anywhere": {
       "material": "||True",
       "last_sent": "2026-09-29T18:03:27.787115+00:00"
+    },
+    "22dogs|ai creative technologist|milano, lom, it": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-30T04:57:45.302203+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "indeed_jobs.json",
     "min_fit": 0.0,
-    "discovered": 5,
+    "discovered": 1,
     "duplicate": 0,
     "geography": 0,
-    "remote": 2,
+    "remote": 0,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 3,
+    "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0

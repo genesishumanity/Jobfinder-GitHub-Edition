@@ -1,8 +1,26 @@
 {
-  "scraped_at": "2026-09-29 16:58 UTC",
-  "total": 1,
-  "new_count": 0,
+  "scraped_at": "2026-09-30 04:57 UTC",
+  "total": 2,
+  "new_count": 1,
   "jobs": [
+    {
+      "company": "22Dogs",
+      "title": "AI Creative Technologist",
+      "location": "Milano, LOM, IT",
+      "url": "https://it.indeed.com/viewjob?jk=042a87645305283a",
+      "direct_url": "https://22dogstudio.com/careers/ai-creative-technologist",
+      "company_url": "https://it.indeed.com/cmp/22dogs",
+      "date_posted": "2026-09-29",
+      "description": "At 22DOGS, we are passionate about creating world\\-class visual effects and fostering a collaborative, creative environment. With studios in Milan, Tenerife and Toronto, we bring together top\\-tier talent and innovative workflows to deliver exceptional results for film, television, and advertising.\n  \n\nWe are currently looking for talented Creative Technologists to join our growing team on an initial freelance, fully remote basis. This is an exciting opportunity for someone eager to explore the intersection of art and technology, leveraging cutting\\-edge AI and VFX tools to craft innovative visuals that push creative boundaries.\n**Job Description**\nThe Creative Technologist leverages Generative Artificial Intelligence (GenAI) to create, enhance, and integrate visual assets that support the creative vision of Clients and the Visual Effects Supervisor. The Technologist is responsible for the aesthetic integrity, technical reliability, and creative consistency of all AI\\-generated imagery delivered for a task or project.\n  \n\nUnder the guidance of the Head of Department, Department leads and Visual Effect Supervisors, the Creative Technologist produces high\\-quality AI\\-generated visual assets that meet the project’s creative direction, using a combination of AI\\-driven tools, custom nodes and workflows, curated datasets, stills, animated imagery, CG renders, and digitally enhanced elements.  \n\n**Key Responsibilities**  \n\n  \n\n* Generate high\\-quality visuals and assets using AI\\-driven tools and pipelines, including image generation, model prompting, fine\\-tuning, dataset creation, upscaling, and iterative visual exploration.\n* Collaborate with Head of Department, supervisors and artists across departments to create and integrate AI\\-generated elements into final shots.\n* Maintain visual consistency across assigned shots and sequences, ensuring style, colour, quality, and creative intent are aligned.\n* Build, adapt, and optimize Generative AI workflows \\- particularly within ComfyUI \\- along with GenAI tools, and assist in identifying creative and technical solutions.\n* Contribute to internal R\\&D by testing emerging models, tools, and techniques and sharing findings with the wider team.\n* Maintain high standards of visual quality, realism, and production readiness.\n  \n\n  \n\n**Required Skills and Qualifications**  \n\n  \n\n  \n\n* Strong working knowledge of GenAI platforms and tools ( such as ComfyUI, image\\-to\\-image, image\\-to\\-video, video to video workflows, LoRA training and customization).\n* Working knowledge of Compositing in Nuke on film or commercial projects.\n* Strong artistic skills in composition, realism, style matching, lighting, and colour grading.\n* Ability to work well under pressure, adapt quickly, and meet tight deadlines.\n* Strong communication and collaboration skills across departments.\n  \n  \n\n**What We Offer**  \n\n  \n\n  \n\n* Opportunity to work in a creative, international studio environment.\n* Hands\\-on experience and mentorship from an experienced HR team.\n* Continuous learning and professional development opportunities.\n* Supportive workplace culture focused on collaboration, growth, and innovation.\n  \n  \n\n**Why Join Us?**\n  \n\nAt 22DOGS, you’ll be part of an ambitious and international VFX studio where artistry and innovation meet. We value creativity, teamwork, and continuous learning — offering you the chance to grow your skills, lead exceptional artists, and help shape the future of visual storytelling.\n  \n\n**How to Apply**\n  \n\nIf you’re passionate about VFX and ready to take the next step in your career, — we look forward to meeting you.",
+      "salary": "",
+      "salary_source": "",
+      "salary_currency": "",
+      "job_type": "",
+      "is_remote": true,
+      "work_arrangement": "Remote in-state eligible",
+      "emails": "",
+      "ats": "Indeed"
+    },
     {
       "company": "Cervo Bianco SRL",
       "title": "Creative Director — Interior Architecture & Design",
@@ -22,5 +40,24 @@
       "ats": "Indeed"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "22Dogs",
+      "title": "AI Creative Technologist",
+      "location": "Milano, LOM, IT",
+      "url": "https://it.indeed.com/viewjob?jk=042a87645305283a",
+      "direct_url": "https://22dogstudio.com/careers/ai-creative-technologist",
+      "company_url": "https://it.indeed.com/cmp/22dogs",
+      "date_posted": "2026-09-29",
+      "description": "At 22DOGS, we are passionate about creating world\\-class visual effects and fostering a collaborative, creative environment. With studios in Milan, Tenerife and Toronto, we bring together top\\-tier talent and innovative workflows to deliver exceptional results for film, television, and advertising.\n  \n\nWe are currently looking for talented Creative Technologists to join our growing team on an initial freelance, fully remote basis. This is an exciting opportunity for someone eager to explore the intersection of art and technology, leveraging cutting\\-edge AI and VFX tools to craft innovative visuals that push creative boundaries.\n**Job Description**\nThe Creative Technologist leverages Generative Artificial Intelligence (GenAI) to create, enhance, and integrate visual assets that support the creative vision of Clients and the Visual Effects Supervisor. The Technologist is responsible for the aesthetic integrity, technical reliability, and creative consistency of all AI\\-generated imagery delivered for a task or project.\n  \n\nUnder the guidance of the Head of Department, Department leads and Visual Effect Supervisors, the Creative Technologist produces high\\-quality AI\\-generated visual assets that meet the project’s creative direction, using a combination of AI\\-driven tools, custom nodes and workflows, curated datasets, stills, animated imagery, CG renders, and digitally enhanced elements.  \n\n**Key Responsibilities**  \n\n  \n\n* Generate high\\-quality visuals and assets using AI\\-driven tools and pipelines, including image generation, model prompting, fine\\-tuning, dataset creation, upscaling, and iterative visual exploration.\n* Collaborate with Head of Department, supervisors and artists across departments to create and integrate AI\\-generated elements into final shots.\n* Maintain visual consistency across assigned shots and sequences, ensuring style, colour, quality, and creative intent are aligned.\n* Build, adapt, and optimize Generative AI workflows \\- particularly within ComfyUI \\- along with GenAI tools, and assist in identifying creative and technical solutions.\n* Contribute to internal R\\&D by testing emerging models, tools, and techniques and sharing findings with the wider team.\n* Maintain high standards of visual quality, realism, and production readiness.\n  \n\n  \n\n**Required Skills and Qualifications**  \n\n  \n\n  \n\n* Strong working knowledge of GenAI platforms and tools ( such as ComfyUI, image\\-to\\-image, image\\-to\\-video, video to video workflows, LoRA training and customization).\n* Working knowledge of Compositing in Nuke on film or commercial projects.\n* Strong artistic skills in composition, realism, style matching, lighting, and colour grading.\n* Ability to work well under pressure, adapt quickly, and meet tight deadlines.\n* Strong communication and collaboration skills across departments.\n  \n  \n\n**What We Offer**  \n\n  \n\n  \n\n* Opportunity to work in a creative, international studio environment.\n* Hands\\-on experience and mentorship from an experienced HR team.\n* Continuous learning and professional development opportunities.\n* Supportive workplace culture focused on collaboration, growth, and innovation.\n  \n  \n\n**Why Join Us?**\n  \n\nAt 22DOGS, you’ll be part of an ambitious and international VFX studio where artistry and innovation meet. We value creativity, teamwork, and continuous learning — offering you the chance to grow your skills, lead exceptional artists, and help shape the future of visual storytelling.\n  \n\n**How to Apply**\n  \n\nIf you’re passionate about VFX and ready to take the next step in your career, — we look forward to meeting you.",
+      "salary": "",
+      "salary_source": "",
+      "salary_currency": "",
+      "job_type": "",
+      "is_remote": true,
+      "work_arrangement": "Remote in-state eligible",
+      "emails": "",
+      "ats": "Indeed"
+    }
+  ]
 }
