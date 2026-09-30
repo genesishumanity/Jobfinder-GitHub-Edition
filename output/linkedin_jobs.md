@@ -1,44 +1,24 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-09-29 13:33 UTC*
+*Last updated: 2026-09-30 04:38 UTC*
 
-**10 new role(s)** since last run · 45 total in last 168h
+**5 new role(s)** since last run · 45 total in last 168h
 
-### [Generative AI Designer](https://www.linkedin.com/jobs/view/4466248886/) — Tramas+
-- 📍 **Location:** Greater Sevilla Metropolitan Area
+### [Content Producer Specialist](https://www.linkedin.com/jobs/view/4446133747/) — Zegna
+- 📍 **Location:** Milan, Lombardy, Italy
 - 🕒 **Posted:** 2026-09-29
 
-### [Senior Creative](https://www.linkedin.com/jobs/view/4472741200/) — Monks
-- 📍 **Location:** Madrid, Community of Madrid, Spain
-- 🕒 **Posted:** 2026-09-28
+### [Sr. Performance Marketing Executive](https://www.linkedin.com/jobs/view/4471917264/) — Adsera
+- 📍 **Location:** Şişli, Istanbul, Türkiye
+- 🕒 **Posted:** 2026-09-29
 
-### [Creative Director - Wellness & Lifestyle](https://www.linkedin.com/jobs/view/4472745450/) — Dragons Group
-- 📍 **Location:** Barcelona, Catalonia, Spain
-- 🕒 **Posted:** 2026-09-28
+### [Growth & Performance Marketing Manager](https://www.linkedin.com/jobs/view/4471762625/) — FTD
+- 📍 **Location:** Sisli, Istanbul, Türkiye
+- 🕒 **Posted:** 2026-09-29
 
-### [Associate Creative Director](https://www.linkedin.com/jobs/view/4463103745/) — REMEDY EDGE™ SPAIN
-- 📍 **Location:** Barcelona, Catalonia, Spain
+### [AI CREATIVE & CONTENT SPECIALIST (M/W/D)](https://www.linkedin.com/jobs/view/4470149088/) — Des Wahnsinns Fette Beute GmbH
+- 📍 **Location:** Düsseldorf, North Rhine-Westphalia, Germany
 - 🕒 **Posted:** 2026-09-25
 
-### [Digital Workforce (AI Automation) Consultant](https://www.linkedin.com/jobs/view/4470174205/) — cognera ai
-- 📍 **Location:** Istanbul, Türkiye
-- 🕒 **Posted:** 2026-09-25
-
-### [Creative Director](https://www.linkedin.com/jobs/view/4471123613/) — Audible
-- 📍 **Location:** London, England, United Kingdom
-- 🕒 **Posted:** 2026-09-24
-
-### [Creative Technologist (m|w|d)](https://www.linkedin.com/jobs/view/4469385261/) — Wiethe Content GmbH
-- 📍 **Location:** Bremen, Bremen, Germany
-- 🕒 **Posted:** 2026-09-24
-
-### [Senior Creative Director (m/w/d)](https://www.linkedin.com/jobs/view/4469761291/) — ZEINpharma I The Healthspan Company
-- 📍 **Location:** Rüsselsheim, Hesse, Germany
-- 🕒 **Posted:** 2026-09-24
-
-### [Social Creative & Art Director](https://www.linkedin.com/jobs/view/4460484248/) — We Are Social
-- 📍 **Location:** Madrid, Community of Madrid, Spain
-- 🕒 **Posted:** 2026-09-24
-
-### [Creative Lead – Prop Trading](https://www.linkedin.com/jobs/view/4470698798/) — ThinkMarkets
-- 📍 **Location:** London, England, United Kingdom
+### [Art Director (m/w/d) Brand, AI & Packaging](https://www.linkedin.com/jobs/view/4468997005/) — Qstar GmbH
+- 📍 **Location:** Hamburg, Hamburg, Germany
 - 🕒 **Posted:** 2026-09-23
