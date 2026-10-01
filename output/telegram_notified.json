@@ -40,6 +40,7 @@
     "28694672b0e36782e1bbe9df5858045bf4f3fd7426bdf0adb94aa090cd4fbdb5",
     "2888decb99e41645af5fdf7fcf2679ac40393c9e6eda104ca0408c0397d33ab3",
     "2aff894afff7bfddfea60abec6665c7c050ca40fca63a12511a440fcbb2b54f6",
+    "2c7e1386dc87f1b4d6c60882cac82873f33dcfdf619ded9229fedec8dcfc1071",
     "2cf01f269f2b9a39e4423d1d2bcb5fb56550ce7a7c1eb47715021287154cc0b4",
     "2d57ad3714d79bda4d521137bde14b36e363ec39d9d4517ac9cac5673964534c",
     "2e1ec38b979185437c68cca713be8c112baa841803435ba2f1d887b3052d3d5f",
@@ -66,6 +67,7 @@
     "404ee83524ea0cee41e10acf7df602af147a3e3f83ebcc0ce688a25255419e6b",
     "41231e842fba1bc80c0167cdfc8ca2f214e1b5b3be7e21b418835c691e2c2cdf",
     "41c43b6944b1bce60491cd6fc30c8a635469eec7cd52cea019222686c817fa8a",
+    "41ec337cac6da3d9952e630bf5ce855e110b414bb9467065ec6edf84e7a5302c",
     "42374aa8085ce259f1013144d9e9432443eb611b65bbaf039a6c54f582722a64",
     "4285cdb15e3f766e6adb7942b04ad15186bf3f3e23e0414068c45016869a73fa",
     "436182ae2768bce4b7a5a29c1e7f9fad638590a7046165414f681644d02402c2",
@@ -135,6 +137,7 @@
     "a1e08675cca9bb3f30e205db4ea8fa139dbb7364fa18198b65fad089e37c077c",
     "a355b7ff66da044f82e5f4f711aa7378e0e5c4ee4b6fcfa903021e77d363e75e",
     "a3a577fd023324f92f312e7abfcd42964389918815a800873e21fb789ce3ae80",
+    "a42aef43e7cd2415b7f0055eba5a547b13e7701f900766220b2a77fc1c0b683b",
     "aa7e73dc8a3ad092476e8e3550cbe7bad8339307d91a1be56494534d6c4bcbb9",
     "ab4e85fce5a02d7f6c2785b0989d89fc0654ca323778e517de98f2e2f6781f96",
     "ac4f933c66d449ccdb8e8d91a64951c8599979a1b0213e1bc9753509980d3bf6",
@@ -856,18 +859,30 @@
     "22dogs|ai creative technologist|milano, lom, it": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-30T04:57:45.302203+00:00"
+    },
+    "srv studio|senior art director|istanbul, türkiye": {
+      "material": "||",
+      "last_sent": "2026-10-01T04:41:43.785639+00:00"
+    },
+    "oliver | the brandtech group|senior art director|istanbul, türkiye": {
+      "material": "||",
+      "last_sent": "2026-10-01T04:41:46.819509+00:00"
+    },
+    "lepub|creative director|milan, lombardy, italy": {
+      "material": "||",
+      "last_sent": "2026-10-01T04:41:49.890190+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
     "discovered": 16,
-    "duplicate": 12,
+    "duplicate": 0,
     "geography": 0,
-    "remote": 0,
-    "restricted": 1,
+    "remote": 8,
+    "restricted": 0,
     "language": 0,
-    "domain": 0,
+    "domain": 1,
     "gig_marketplace": 0,
     "untrusted_source": 0,
     "off_mission_role": 1,
@@ -875,10 +890,12 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 3,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "wrong_role": 2
+    "language_required": 1,
+    "wrong_role": 1,
+    "country_restricted": 1
   }
 }
