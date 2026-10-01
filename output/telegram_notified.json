@@ -84,6 +84,7 @@
     "55bddbf8147b66e719dd1ece4190dacd5487246ec8d8aff8acd94ea3d867038a",
     "55d7b77fbd51ccd6c8257925e4d3c86aeaf880f68e5a330e398277770054a0b1",
     "58948922a037e92de4af11f09faee390293efb23c875bfa9a2140c68ea6b09f0",
+    "5bfcd797b32933554e4dc0ef5f4fd3674116264a12c18e763f27a7a7857cec92",
     "5d0e9dfa238cce6a793b284287d1177b9f32d9701f6afd99cbbbcc5a7877ce0c",
     "5e3733e046d83ed5f8f226b35e1ff1382dfb44f0e02db9c415bc33fdc47c39ff",
     "60f5e60227e71aeb7199ca2440f9c8ef6515d42288acec7b0fab04c5c114811e",
@@ -871,16 +872,20 @@
     "lepub|creative director|milan, lombardy, italy": {
       "material": "||",
       "last_sent": "2026-10-01T04:41:49.890190+00:00"
+    },
+    "bal|creative director|istanbul, türkiye": {
+      "material": "||",
+      "last_sent": "2026-10-01T12:47:22.457228+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 14,
-    "duplicate": 10,
+    "discovered": 9,
+    "duplicate": 0,
     "geography": 0,
-    "remote": 0,
-    "restricted": 1,
+    "remote": 6,
+    "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
@@ -890,10 +895,10 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "wrong_role": 2
+    "country_restricted": 1
   }
 }

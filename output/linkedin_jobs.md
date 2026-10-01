@@ -1,68 +1,40 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-10-01 04:41 UTC*
+*Last updated: 2026-10-01 12:47 UTC*
 
-**16 new role(s)** since last run · 48 total in last 168h
+**9 new role(s)** since last run · 52 total in last 168h
 
-### [Creative Strategist (m/w/d) bei bamtoo in Berlin](https://www.linkedin.com/jobs/view/4463949761/) — bamtoo
-- 📍 **Location:** Mitte, Berlin, Germany
-- 🕒 **Posted:** 2026-09-30
-
-### [Senior Strategist (Brand & Creative)](https://www.linkedin.com/jobs/view/4472499927/) — Boldspace | B Corp™
-- 📍 **Location:** London Area, United Kingdom
-- 🕒 **Posted:** 2026-09-30
-
-### [Creative Strategist/Art](https://www.linkedin.com/jobs/view/4472625175/) — Mastercard
-- 📍 **Location:** Milan, Lombardy, Italy
-- 🕒 **Posted:** 2026-09-30
-
-### [Creative Director](https://www.linkedin.com/jobs/view/4472352544/) — LePub
-- 📍 **Location:** Milan, Lombardy, Italy
-- 🕒 **Posted:** 2026-09-30
-
-### [Creative Technologist (AI)](https://www.linkedin.com/jobs/view/4473776855/) — Build Halt
+### [Head of Creative](https://www.linkedin.com/jobs/view/4474134188/) — itsu
 - 📍 **Location:** London, England, United Kingdom
-- 🕒 **Posted:** 2026-09-30
+- 🕒 **Posted:** 2026-10-01
 
-### [Creative Lead](https://www.linkedin.com/jobs/view/4473917044/) — Sphere Digital Recruitment Group
-- 📍 **Location:** London Area, United Kingdom
-- 🕒 **Posted:** 2026-09-30
+### [Design Technologist, eShop Content Services](https://www.linkedin.com/jobs/view/4455796758/) — Amazon
+- 📍 **Location:** London, England, United Kingdom
+- 🕒 **Posted:** 2026-10-01
 
-### [Senior Creative Strategist – Paid Social / Online Video (m/f/d)](https://www.linkedin.com/jobs/view/4436528713/) — AutoScout24
-- 📍 **Location:** Berlin, Berlin, Germany
-- 🕒 **Posted:** 2026-09-30
+### [Creative Technologist (m|w|d)](https://www.linkedin.com/jobs/view/4474111755/) — Wiethe Content GmbH
+- 📍 **Location:** Bremen, Bremen, Germany
+- 🕒 **Posted:** 2026-10-01
 
-### [Creative Strategist](https://www.linkedin.com/jobs/view/4473771990/) — Yepoda
-- 📍 **Location:** Berlin, Berlin, Germany
-- 🕒 **Posted:** 2026-09-30
+### [Creative Strategist (m/w/d)](https://www.linkedin.com/jobs/view/4474130341/) — EPP-Design GmbH & Co. KG
+- 📍 **Location:** Flein, Baden-Württemberg, Germany
+- 🕒 **Posted:** 2026-10-01
 
-### [Producer Content & Brand Experience (m/w/d)](https://www.linkedin.com/jobs/view/4472615373/) — 6PM
-- 📍 **Location:** Berlin, Berlin, Germany
-- 🕒 **Posted:** 2026-09-30
+### [AI Creative (m|w|d)](https://www.linkedin.com/jobs/view/4474112806/) — Wiethe Content GmbH
+- 📍 **Location:** Bremen, Bremen, Germany
+- 🕒 **Posted:** 2026-10-01
 
-### [SENIOR CREATIVE DESIGNER – BRAND, MOTION & GENERATIVE AI](https://www.linkedin.com/jobs/view/4471756295/) — Cobalto Agency
-- 📍 **Location:** Bergamo, Lombardy, Italy
-- 🕒 **Posted:** 2026-09-30
+### [Creative Director](https://www.linkedin.com/jobs/view/4474158282/) — BAL
+- 📍 **Location:** Istanbul, Türkiye
+- 🕒 **Posted:** 2026-10-01
 
-### [Team Lead Creative Direction & Design (m/w/d)](https://www.linkedin.com/jobs/view/4472197776/) — Ehrhardt + Partner GmbH & Co. KG
-- 📍 **Location:** Boppard, Rhineland-Palatinate, Germany
-- 🕒 **Posted:** 2026-09-30
+### [Growth & Performance Marketing Manager](https://www.linkedin.com/jobs/view/4471762625/) — FTD
+- 📍 **Location:** Sisli, Istanbul, Türkiye
+- 🕒 **Posted:** 2026-09-29
 
-### [Senior Creative Designer](https://www.linkedin.com/jobs/view/4473906641/) — Float Health
-- 📍 **Location:** Lisbon, Lisbon, Portugal
-- 🕒 **Posted:** 2026-09-30
-
-### [Senior Specialist, Creative Strategy & Performance (Paid Marketing)](https://www.linkedin.com/jobs/view/4472301543/) — Docplanner
+### [AI Creative Specialist | jij maakt beeld en video met de blik van een fotograaf | 2 vacatures](https://www.linkedin.com/jobs/view/4470840993/) — Wehkamp Retail Group
 - 📍 **Location:** Amsterdam, North Holland, Netherlands
-- 🕒 **Posted:** 2026-09-30
+- 🕒 **Posted:** 2026-09-28
 
-### [Senior Art Director](https://www.linkedin.com/jobs/view/4463893304/) — OLIVER | The Brandtech Group
-- 📍 **Location:** Istanbul, Türkiye
-- 🕒 **Posted:** 2026-09-30
-
-### [Senior Art Director](https://www.linkedin.com/jobs/view/4472183446/) — SRV Studio
-- 📍 **Location:** Istanbul, Türkiye
-- 🕒 **Posted:** 2026-09-30
-
-### [AI CREATIVE & CONTENT SPECIALIST (M/W/D)](https://www.linkedin.com/jobs/view/4470149088/) — Des Wahnsinns Fette Beute GmbH
-- 📍 **Location:** Düsseldorf, North Rhine-Westphalia, Germany
-- 🕒 **Posted:** 2026-09-25
+### [Creative Strategist, Elgato](https://www.linkedin.com/jobs/view/4464302437/) — Corsair
+- 📍 **Location:** Munich, Bavaria, Germany
+- 🕒 **Posted:** 2026-09-28
