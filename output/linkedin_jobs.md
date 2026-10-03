@@ -1,36 +1,20 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-10-02 12:45 UTC*
+*Last updated: 2026-10-03 04:38 UTC*
 
-**8 new role(s)** since last run · 52 total in last 168h
+**4 new role(s)** since last run · 46 total in last 168h
 
-### [UGC Strategist (Performance)](https://www.linkedin.com/jobs/view/4474715869/) — Major Players | B Corp™
-- 📍 **Location:** City Of London, England, United Kingdom
+### [Generative AI Artist](https://www.linkedin.com/jobs/view/4474771238/) — Wolfstreet
+- 📍 **Location:** Amsterdam Area
 - 🕒 **Posted:** 2026-10-02
 
-### [AI artist](https://www.linkedin.com/jobs/view/4474363798/) — SAL GORDA Productions
-- 📍 **Location:** Madrid, Community of Madrid, Spain
+### [Brand Marketing Specialist](https://www.linkedin.com/jobs/view/4474792832/) — Meta Global Solutions UK
+- 📍 **Location:** Istanbul, Türkiye
 - 🕒 **Posted:** 2026-10-02
 
-### [Senior Creative (Native-level English)](https://www.linkedin.com/jobs/view/4473147250/) — Dragons Group
-- 📍 **Location:** Barcelona, Catalonia, Spain
+### [Video Content Producer / Videographer](https://www.linkedin.com/jobs/view/4473171525/) — Favor Dijital Reklam Ajansı
+- 📍 **Location:** Istanbul, Türkiye
 - 🕒 **Posted:** 2026-10-02
 
-### [Creative Lead](https://www.linkedin.com/jobs/view/4474599719/) — ESTÁ PASANDO ENTERTAINMENT S.L.
-- 📍 **Location:** Madrid, Community of Madrid, Spain
-- 🕒 **Posted:** 2026-10-02
-
-### [MID/SENIOR ART DIRECTOR](https://www.linkedin.com/jobs/view/4474732370/) — Simbiosi Creative
-- 📍 **Location:** Milan, Lombardy, Italy
-- 🕒 **Posted:** 2026-10-02
-
-### [Senior Performance Marketing Specialist](https://www.linkedin.com/jobs/view/4473129457/) — Farmatek
-- 📍 **Location:** Beşiktaş, Istanbul, Türkiye
-- 🕒 **Posted:** 2026-10-02
-
-### [Creative Strategist (m/w/d)](https://www.linkedin.com/jobs/view/4474130341/) — EPP-Design GmbH & Co. KG
-- 📍 **Location:** Flein, Baden-Württemberg, Germany
-- 🕒 **Posted:** 2026-10-01
-
-### [Creative Strategist - Direct Response - Hamburg Vollzeit](https://www.linkedin.com/jobs/view/4471782523/) — maorika
+### [Senior Creative Digital Strategist (m/w/d) in Hamburg &#8211; Hybrid](https://www.linkedin.com/jobs/view/4471284117/) — KlickPiloten
 - 📍 **Location:** Hamburg, Hamburg, Germany
 - 🕒 **Posted:** 2026-09-29
