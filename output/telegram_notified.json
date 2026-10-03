@@ -129,6 +129,7 @@
     "8932e936a49f84f2c434417f829683b266ce0351ab51f443444dd4dd8931840b",
     "89444f82f6d7975d5b7b99b473bfa6ffc0a99c9bbe4e983f9aeac9582a47d66a",
     "8a152e3e8dc1901d1fe6aa0a54808cac49fe3f2c01ecf79c359831bb16b8b0fc",
+    "8c16a575cde2dcb14240bb4b9e6e68081d4821067b0475dd1f3f8bf60be650d7",
     "8c17a3c7b7604452428329b12255e853c8e282595c682aa7529d9ed9ca221f3e",
     "8c17c8de00f5a7967e805e844672600fba7556b11948be116a8f23f018a2eba9",
     "8d7b56f5c21da5a9bcc39656df22947542cc529b0cd66573c0480b78aeaee772",
@@ -896,29 +897,33 @@
     "kettle|associate creative director, design|worldwide": {
       "material": "140000-170000 USD||True",
       "last_sent": "2026-10-03T06:07:37.100756+00:00"
+    },
+    "hi̇tup|creative strategist,growth marketing (istanbul/bağcılar,6/12-month contract)|bagcilar, istanbul, türkiye": {
+      "material": "||",
+      "last_sent": "2026-10-03T16:00:57.632845+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 18,
-    "duplicate": 13,
-    "geography": 0,
-    "remote": 0,
-    "restricted": 2,
+    "discovered": 8,
+    "duplicate": 0,
+    "geography": 1,
+    "remote": 4,
+    "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 1,
+    "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "wrong_role": 2
+    "country_restricted": 2
   }
 }
