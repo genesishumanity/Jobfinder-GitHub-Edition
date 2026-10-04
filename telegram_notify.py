@@ -358,13 +358,31 @@ REQUIRED_LANGUAGE = re.compile(
 )
 
 
+# Craft-led art direction and design-leadership titles (mandate down-ranks
+# specialist art-direction and pure design roles); concept-led AD stays.
+CRAFT_TITLE = re.compile(
+    r"\bart director\b|\bdesign\b.*\b(?:director|head|lead)\b|\b(?:director|head|lead)\b.*\bdesign\b",
+    re.I,
+)
+# A listing written in Italian expects an Italian speaker even if it never
+# says "Italian required" (found 2026-10-02: Simbiosi Creative).
+ITALIAN_TEXT = re.compile(
+    r"\b(?:cerchiamo|requisiti|esperienza|offriamo|lavorerai|stretto contatto|il nostro|la nostra|"
+    r"candidatura|conoscenza|competenze|responsabilità)\b",
+    re.I,
+)
+
+
 def precision_blocked(job):
     """Return a reason string when a listing can't be a fit, else None."""
     title = str(job.get("title", ""))
     if RELOCATION_TITLE.search(title):
         return "country_restricted"
-    if REQUIRED_LANGUAGE.search(str(job.get("description", ""))):
+    description = str(job.get("description", ""))
+    if REQUIRED_LANGUAGE.search(description) or len(set(m.lower() for m in ITALIAN_TEXT.findall(description))) >= 3:
         return "language_required"
+    if CRAFT_TITLE.search(title) and not re.search(r"conceptual|creative technolog", title, re.I):
+        return "wrong_role"
     if WRONG_ROLE_TITLE.search(title) or (UGC_TITLE.search(title) and not UGC_SENIOR.search(title)):
         return "wrong_role"
     if US_EMPLOYMENT.search(str(job.get("description", ""))):

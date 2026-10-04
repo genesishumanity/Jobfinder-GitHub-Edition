@@ -589,6 +589,23 @@ def test_mandate_2026_09_29_gate_and_brief():
     assert "generative AI" in primary["fits"] and primary["angle"].startswith("AI previs")
 
 
+def test_daily_check_2026_10_04_leaks():
+    from telegram_notify import precision_blocked
+
+    # Delivered 2026-10-01..03 and out of mandate.
+    for title in ["Senior Art Director", "Associate Creative Director, Design",
+                  "Head of Brand Design and Creative"]:
+        assert precision_blocked({"title": title, "location": "Worldwide"}) == "wrong_role", title
+    italian = ("Cerchiamo un Art Director freelance che lavori a stretto contatto con il team. "
+               "Requisiti: esperienza nel social-first.")
+    assert precision_blocked({"title": "Creative Lead", "location": "Milan, Italy",
+                              "description": italian}) == "language_required"
+    # Still allowed.
+    for title in ["Conceptual Art Director", "Creative Performance Lead", "Creative Director",
+                  "Creative Strategist, Growth Marketing"]:
+        assert precision_blocked({"title": title, "location": "Worldwide"}) is None, title
+
+
 def test_contact_links_are_linkedin_people_searches():
     from telegram_notify import contact_links, label
 
