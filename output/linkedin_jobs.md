@@ -1,44 +1,36 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-10-05 11:39 UTC*
+*Last updated: 2026-10-05 20:51 UTC*
 
-**10 new role(s)** since last run · 47 total in last 168h
+**8 new role(s)** since last run · 46 total in last 168h
 
-### [Creative Strategist](https://www.linkedin.com/jobs/view/4475545638/) — Charlie Oscar
+### [Creative Strategist](https://www.linkedin.com/jobs/view/4473637562/) — Yunicorn Ventures
+- 📍 **Location:** Germany
+- 🕒 **Posted:** 2026-10-05
+
+### [Senior Creative](https://www.linkedin.com/jobs/view/4474602071/) — LADbible Group
 - 📍 **Location:** London Area, United Kingdom
 - 🕒 **Posted:** 2026-10-05
 
-### [Creative Strategist für Paid Social (m/w/d)](https://www.linkedin.com/jobs/view/4475558080/) — Freiheit Media GmbH
-- 📍 **Location:** Hamburg, Hamburg, Germany
+### [Creative Concepter & Strategist (Mensch)](https://www.linkedin.com/jobs/view/4473681218/) — WPP Media
+- 📍 **Location:** Düsseldorf, North Rhine-Westphalia, Germany
 - 🕒 **Posted:** 2026-10-05
 
-### [Brand Lead Consumer Healthcare - Milan](https://www.linkedin.com/jobs/view/4475519492/) — Opella
+### [Creative Video Producer](https://www.linkedin.com/jobs/view/4457112103/) — Condé Nast
 - 📍 **Location:** Milan, Lombardy, Italy
 - 🕒 **Posted:** 2026-10-05
 
-### [YouTube Growth & Content Strategist](https://www.linkedin.com/jobs/view/4473610851/) — Muse İstanbul
-- 📍 **Location:** Istanbul, Istanbul, Türkiye
+### [Creative Lead](https://www.linkedin.com/jobs/view/4473671136/) — INC – PR Agency Content First
+- 📍 **Location:** Milan, Lombardy, Italy
 - 🕒 **Posted:** 2026-10-05
 
-### [Creative Strategist, Growth Marketing (Istanbul, 12-month Contract)](https://www.linkedin.com/jobs/view/4438315533/) — Canva
-- 📍 **Location:** Istanbul, Istanbul, Türkiye
-- 🕒 **Posted:** 2026-10-05
-
-### [AI Video Production Artist](https://www.linkedin.com/jobs/view/4473631427/) — gilan°
+### [Performance Marketing Expert](https://www.linkedin.com/jobs/view/4473665027/) — Next Gen App Studio
 - 📍 **Location:** Istanbul, Türkiye
 - 🕒 **Posted:** 2026-10-05
 
-### [Senior Integrated Producer (German Speaker)](https://www.linkedin.com/jobs/view/4466360682/) — Jellyfish
-- 📍 **Location:** Berlin, Berlin, Germany
-- 🕒 **Posted:** 2026-10-03
-
-### [AI Artist](https://www.linkedin.com/jobs/view/4473349653/) — Publicis Production
-- 📍 **Location:** London, England, United Kingdom
+### [Creative Director FMCG Brands Culinary (m/w/d)](https://www.linkedin.com/jobs/view/4474759341/) — ROMAN KLIS
+- 📍 **Location:** Berlin, Germany
 - 🕒 **Posted:** 2026-10-02
 
-### [Creative Strategist (m/w/d)](https://www.linkedin.com/jobs/view/4473485928/) — RealStudio
-- 📍 **Location:** Germany
-- 🕒 **Posted:** 2026-09-30
-
-### [Creative Strategist](https://www.linkedin.com/jobs/view/4473771990/) — Yepoda
-- 📍 **Location:** Berlin, Berlin, Germany
-- 🕒 **Posted:** 2026-09-30
+### [Creative Strategist (m/w/d)](https://www.linkedin.com/jobs/view/4474782467/) — Pammys
+- 📍 **Location:** Hamburg, Germany
+- 🕒 **Posted:** 2026-10-02
