@@ -56,6 +56,7 @@
     "3775e9148ec77c1d3cfcefd8d8fa3e24ec97620c454361446d1a0798ebc7f11b",
     "3881257f8e250d69bbadcdb613ddc096010b938c67ccbe18019ad89585b6f53f",
     "3b3e485768cfc2513b8f0b537aa4acb8bf3e2bc9b1f04b67bcc368c7162435a1",
+    "3b90886fb591b65c451fdda0b0f83efe1ea47e9fe8100b416e1c69fafad6c79e",
     "3bb4feafff7e0643e6df23b5cc34f752073d3027efa32833b60109ec80f72414",
     "3bbf2d0abbdfd161464a011a19fdae2c5df28eeaefc9c4a148f0368115036e0c",
     "3c67202c39195aa88f626535e7f299eb7e187eb0eb1adc43ac8402176daa0032",
@@ -100,6 +101,7 @@
     "672187185730c3f26ef14675c11ef2e20d077fd0042f0e0960c33a9675881167",
     "68b1d5fc19f7aea36e897a9e668f1272a04deaa70b6248fdff2319db6180b35c",
     "69279272f447c10eaf6ca75bb71bcf0522db4aa416cde50b2a4003f64f91b784",
+    "693056e13fa2668de9b3eaa9ad3ec7a17ad002cb1263b936de681cc5b0ecfa89",
     "6a38875c7e7a3e060ad06f338ff17a5f561b7f3b9fb4e74b6062a404d7683adf",
     "6a3c6c64e9ade5a1604a96d18581e82663960e15ad45f3026b8edebbb3f48041",
     "6bcd95a735f89ed6cdeaf4f22cc19b5f1cbd2e831a388defa2f15f0ac356d8a4",
@@ -901,29 +903,37 @@
     "hi̇tup|creative strategist,growth marketing (istanbul/bağcılar,6/12-month contract)|bagcilar, istanbul, türkiye": {
       "material": "||",
       "last_sent": "2026-10-03T16:00:57.632845+00:00"
+    },
+    "canva|creative strategist, growth marketing (istanbul, 12-month contract)|istanbul, istanbul, türkiye": {
+      "material": "||",
+      "last_sent": "2026-10-05T11:39:49.887764+00:00"
+    },
+    "gilan°|ai video production artist|istanbul, türkiye": {
+      "material": "||",
+      "last_sent": "2026-10-05T11:39:53.401619+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 18,
-    "duplicate": 10,
+    "discovered": 10,
+    "duplicate": 0,
     "geography": 0,
-    "remote": 0,
-    "restricted": 2,
+    "remote": 3,
+    "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 1,
+    "off_mission_role": 3,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 2,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "wrong_role": 5
+    "country_restricted": 2
   }
 }
