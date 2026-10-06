@@ -929,18 +929,18 @@
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "remote_boards_jobs.json",
     "min_fit": 0.0,
-    "discovered": 1,
-    "duplicate": 0,
+    "discovered": 17,
+    "duplicate": 10,
     "geography": 0,
     "remote": 0,
-    "restricted": 0,
+    "restricted": 2,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 1,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
@@ -949,6 +949,6 @@
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "language_required": 1
+    "wrong_role": 4
   }
 }
