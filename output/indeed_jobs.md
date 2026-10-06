@@ -1,6 +1,9 @@
 # 🟦 Indeed — Creative Leadership Roles
-*Last updated: 2026-10-05 22:56 UTC*
+*Last updated: 2026-10-06 11:32 UTC*
 
-**0 new role(s)** since last run · 3 total in last 168h
+**1 new role(s)** since last run · 2 total in last 168h
 
-No new roles since the last run.
+### [Senior Art Director](https://it.indeed.com/viewjob?jk=8e91ca074b307e2c) — SunTimes
+- 📍 **Location:** Milano, LOM, IT
+- **Work mode:** Remote in-state eligible
+- 🕒 **Posted:** 2026-10-06
