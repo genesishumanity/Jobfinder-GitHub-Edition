@@ -73,6 +73,7 @@
     "42374aa8085ce259f1013144d9e9432443eb611b65bbaf039a6c54f582722a64",
     "4285cdb15e3f766e6adb7942b04ad15186bf3f3e23e0414068c45016869a73fa",
     "436182ae2768bce4b7a5a29c1e7f9fad638590a7046165414f681644d02402c2",
+    "46c83a376eb0e404ae57efb33676206d8981892d56a58784a7426020b6cc6283",
     "47decccdfd0f7d70ad7691537edab089cbdf448f165da8d871fd804b49258ee4",
     "48bee580504d8bc9f98df6794cfc322928b4d8775fc6caade68fb80bf02a297d",
     "49f144467cea9b720b9e33aff8877baee603e2253bc717d5a5d041ea34af7a68",
@@ -120,6 +121,7 @@
     "7cbc38f7654c38f556989e03b72460c7fe66cb6b384530582040011c95a5901e",
     "7ddcba8ae49e6734ca6e8f7c5b116597ad8e2e2c9a1c8db9f1a6d5dad0dc5ded",
     "7dea06f30b37263c5e2a70381980f717b96cc79a587e6352b9df8467f0b7ec83",
+    "7df642ce61cba2f4ec851930031e3a06ab2463956749d8dc73df522d27e94d4e",
     "7e0b462ac1f900571979bd57ccba4cb8070343227d4497388ebc44d36656d7b2",
     "7eb3256b2d284b01cc0de89c871e46f97543dc484ba980a19e3994b17fd23e66",
     "80a8da42555c0a4cae0354118e90bafb718a9dc91d8810d51574abeebb41813b",
@@ -916,29 +918,37 @@
     "h2o united|ai artist|besiktas, istanbul, türkiye": {
       "material": "||",
       "last_sent": "2026-10-06T11:25:21.534537+00:00"
+    },
+    "shortical|ai video creator / ai filmmaker|worldwide": {
+      "material": "||True",
+      "last_sent": "2026-10-06T12:15:42.502704+00:00"
+    },
+    "userwise services|senior ua creative strategist - mobile games|turkey": {
+      "material": "||True",
+      "last_sent": "2026-10-06T12:15:45.060465+00:00"
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "remote_boards_jobs.json",
     "min_fit": 0.0,
-    "discovered": 1,
-    "duplicate": 0,
+    "discovered": 19,
+    "duplicate": 9,
     "geography": 0,
     "remote": 0,
-    "restricted": 0,
+    "restricted": 2,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 1,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 2,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "language_required": 1
+    "wrong_role": 5
   }
 }
