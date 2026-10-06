@@ -1,28 +1,24 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-10-06 11:25 UTC*
+*Last updated: 2026-10-06 18:31 UTC*
 
-**6 new role(s)** since last run · 47 total in last 168h
+**5 new role(s)** since last run · 45 total in last 168h
 
-### [Creative Director - Wellness & Lifestyle](https://www.linkedin.com/jobs/view/4476169611/) — Dragons Group
-- 📍 **Location:** Barcelona, Catalonia, Spain
+### [Senior Creative Concepter & Strategist (Mensch)](https://www.linkedin.com/jobs/view/4474053778/) — WPP Media
+- 📍 **Location:** Düsseldorf, North Rhine-Westphalia, Germany
 - 🕒 **Posted:** 2026-10-06
 
-### [Performance Marketing & Media Specialist – Paid Media & Lead Generation”](https://www.linkedin.com/jobs/view/4473652936/) — MetaDig - Performance digitali
-- 📍 **Location:** Sesto San Giovanni, Lombardy, Italy
+### [Creative Director – Social & Performance Marketing (m/w/d)](https://www.linkedin.com/jobs/view/4476319530/) — Instaffo
+- 📍 **Location:** Hamburg, Hamburg, Germany
 - 🕒 **Posted:** 2026-10-06
 
-### [AI Artist](https://www.linkedin.com/jobs/view/4474030309/) — H2O United
-- 📍 **Location:** Besiktas, Istanbul, Türkiye
+### [Creative Lead (w/m/d) Social Media](https://www.linkedin.com/jobs/view/4474079100/) — ENKIME
+- 📍 **Location:** Berlin, Berlin, Germany
 - 🕒 **Posted:** 2026-10-06
 
-### [Creative Strategist & Producer - Consumer](https://www.linkedin.com/jobs/view/4474633229/) — Kraken
+### [Creative Strategist](https://www.linkedin.com/jobs/view/4474084859/) — Koonei
+- 📍 **Location:** Italy
+- 🕒 **Posted:** 2026-10-06
+
+### [AI Artist](https://www.linkedin.com/jobs/view/4473349653/) — Publicis Production
 - 📍 **Location:** London, England, United Kingdom
-- 🕒 **Posted:** 2026-10-05
-
-### [AI Strategist & Solution Designer](https://www.linkedin.com/jobs/view/4473617631/) — Reply
-- 📍 **Location:** Milan, Lombardy, Italy
-- 🕒 **Posted:** 2026-10-05
-
-### [Art Director (Brand Creative)](https://www.linkedin.com/jobs/view/4474786524/) — DEPT®
-- 📍 **Location:** Budapest, Budapest, Hungary
 - 🕒 **Posted:** 2026-10-02
