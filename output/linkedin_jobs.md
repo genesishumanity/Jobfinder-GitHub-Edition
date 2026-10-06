@@ -1,36 +1,28 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-10-05 20:51 UTC*
+*Last updated: 2026-10-06 11:25 UTC*
 
-**8 new role(s)** since last run · 46 total in last 168h
+**6 new role(s)** since last run · 47 total in last 168h
 
-### [Creative Strategist](https://www.linkedin.com/jobs/view/4473637562/) — Yunicorn Ventures
-- 📍 **Location:** Germany
+### [Creative Director - Wellness & Lifestyle](https://www.linkedin.com/jobs/view/4476169611/) — Dragons Group
+- 📍 **Location:** Barcelona, Catalonia, Spain
+- 🕒 **Posted:** 2026-10-06
+
+### [Performance Marketing & Media Specialist – Paid Media & Lead Generation”](https://www.linkedin.com/jobs/view/4473652936/) — MetaDig - Performance digitali
+- 📍 **Location:** Sesto San Giovanni, Lombardy, Italy
+- 🕒 **Posted:** 2026-10-06
+
+### [AI Artist](https://www.linkedin.com/jobs/view/4474030309/) — H2O United
+- 📍 **Location:** Besiktas, Istanbul, Türkiye
+- 🕒 **Posted:** 2026-10-06
+
+### [Creative Strategist & Producer - Consumer](https://www.linkedin.com/jobs/view/4474633229/) — Kraken
+- 📍 **Location:** London, England, United Kingdom
 - 🕒 **Posted:** 2026-10-05
 
-### [Senior Creative](https://www.linkedin.com/jobs/view/4474602071/) — LADbible Group
-- 📍 **Location:** London Area, United Kingdom
-- 🕒 **Posted:** 2026-10-05
-
-### [Creative Concepter & Strategist (Mensch)](https://www.linkedin.com/jobs/view/4473681218/) — WPP Media
-- 📍 **Location:** Düsseldorf, North Rhine-Westphalia, Germany
-- 🕒 **Posted:** 2026-10-05
-
-### [Creative Video Producer](https://www.linkedin.com/jobs/view/4457112103/) — Condé Nast
+### [AI Strategist & Solution Designer](https://www.linkedin.com/jobs/view/4473617631/) — Reply
 - 📍 **Location:** Milan, Lombardy, Italy
 - 🕒 **Posted:** 2026-10-05
 
-### [Creative Lead](https://www.linkedin.com/jobs/view/4473671136/) — INC – PR Agency Content First
-- 📍 **Location:** Milan, Lombardy, Italy
-- 🕒 **Posted:** 2026-10-05
-
-### [Performance Marketing Expert](https://www.linkedin.com/jobs/view/4473665027/) — Next Gen App Studio
-- 📍 **Location:** Istanbul, Türkiye
-- 🕒 **Posted:** 2026-10-05
-
-### [Creative Director FMCG Brands Culinary (m/w/d)](https://www.linkedin.com/jobs/view/4474759341/) — ROMAN KLIS
-- 📍 **Location:** Berlin, Germany
-- 🕒 **Posted:** 2026-10-02
-
-### [Creative Strategist (m/w/d)](https://www.linkedin.com/jobs/view/4474782467/) — Pammys
-- 📍 **Location:** Hamburg, Germany
+### [Art Director (Brand Creative)](https://www.linkedin.com/jobs/view/4474786524/) — DEPT®
+- 📍 **Location:** Budapest, Budapest, Hungary
 - 🕒 **Posted:** 2026-10-02

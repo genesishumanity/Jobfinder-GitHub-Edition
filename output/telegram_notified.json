@@ -94,6 +94,7 @@
     "61433b6da949307f8bf2a3e15570c1a77401ad7af34bb2eb0d859bd3723ae3a3",
     "61f0c3e8d93bb3fa118a45ea8a4996ed40296feb752d453c8045af3c4d4c0ac8",
     "62e163cf5c2f85f9a5f6996eaf7349dd05d3d7333bdab416ace2b6425ae4b463",
+    "63a4184bebbe7c4323c95b67d4938e99f2deba7ab0271ee4d421794f6f902252",
     "6504040a184d337c61e4995218ca01746d259e12ecff159081b6d0d9ff61f37e",
     "651954f8898dbbaea0f0cba139310a2ed813ce73f8d7a8029474c663bfc6be19",
     "66108eec87c72ad52cd32943cb9bff8b25d99be77e995849edf8a2e3731f6df3",
@@ -911,29 +912,34 @@
     "gilan°|ai video production artist|istanbul, türkiye": {
       "material": "||",
       "last_sent": "2026-10-05T11:39:53.401619+00:00"
+    },
+    "h2o united|ai artist|besiktas, istanbul, türkiye": {
+      "material": "||",
+      "last_sent": "2026-10-06T11:25:21.534537+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 17,
-    "duplicate": 9,
+    "discovered": 6,
+    "duplicate": 0,
     "geography": 0,
     "remote": 0,
-    "restricted": 2,
+    "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 1,
+    "off_mission_role": 2,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "wrong_role": 5
+    "country_restricted": 2,
+    "wrong_role": 1
   }
 }
