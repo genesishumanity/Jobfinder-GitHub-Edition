@@ -1,0 +1,54 @@
+{
+  "at": "2026-10-07T13:50:24.599707+00:00",
+  "queries": [
+    {
+      "source": "GoogleJobs",
+      "query": "creative director jobs in Milan",
+      "location": "",
+      "lane": "core",
+      "raw": 0,
+      "errors": 0,
+      "unique_relevant": 0,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": []
+    },
+    {
+      "source": "GoogleJobs",
+      "query": "creative strategist jobs in Milan",
+      "location": "",
+      "lane": "core",
+      "raw": 0,
+      "errors": 0,
+      "unique_relevant": 0,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": []
+    },
+    {
+      "source": "GoogleJobs",
+      "query": "creative director jobs in Istanbul",
+      "location": "",
+      "lane": "core",
+      "raw": 0,
+      "errors": 0,
+      "unique_relevant": 0,
+      "target_remote_not_restricted": 0,
+      "explicit_international": 0,
+      "eligibility_unknown": 0,
+      "incremental_vs_core_this_run": null,
+      "historically_new_target_remote": 0,
+      "new_incremental_vs_core": null,
+      "job_hashes": []
+    }
+  ],
+  "scope": "Observed title-matched results; incremental counts compare this run only, not historical novelty. Eligibility unknown is not confirmed suitable."
+}
