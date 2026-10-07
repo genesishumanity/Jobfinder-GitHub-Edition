@@ -1,24 +1,28 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-10-06 18:31 UTC*
+*Last updated: 2026-10-07 11:25 UTC*
 
-**5 new role(s)** since last run · 45 total in last 168h
+**6 new role(s)** since last run · 48 total in last 168h
 
-### [Senior Creative Concepter & Strategist (Mensch)](https://www.linkedin.com/jobs/view/4474053778/) — WPP Media
-- 📍 **Location:** Düsseldorf, North Rhine-Westphalia, Germany
-- 🕒 **Posted:** 2026-10-06
+### [(Senior) Creative Strategist (m/w/d)](https://www.linkedin.com/jobs/view/4476539974/) — Adbaker GmbH
+- 📍 **Location:** Cologne, North Rhine-Westphalia, Germany
+- 🕒 **Posted:** 2026-10-07
 
-### [Creative Director – Social & Performance Marketing (m/w/d)](https://www.linkedin.com/jobs/view/4476319530/) — Instaffo
-- 📍 **Location:** Hamburg, Hamburg, Germany
-- 🕒 **Posted:** 2026-10-06
+### [Growth Marketing Senior Specialist](https://www.linkedin.com/jobs/view/4476590105/) — United Racing
+- 📍 **Location:** Bakırköy, Istanbul, Türkiye
+- 🕒 **Posted:** 2026-10-07
 
-### [Creative Lead (w/m/d) Social Media](https://www.linkedin.com/jobs/view/4474079100/) — ENKIME
-- 📍 **Location:** Berlin, Berlin, Germany
-- 🕒 **Posted:** 2026-10-06
-
-### [Creative Strategist](https://www.linkedin.com/jobs/view/4474084859/) — Koonei
-- 📍 **Location:** Italy
-- 🕒 **Posted:** 2026-10-06
-
-### [AI Artist](https://www.linkedin.com/jobs/view/4473349653/) — Publicis Production
+### [Creative Director, Fundraising and Mobilization (Evergreen)](https://www.linkedin.com/jobs/view/4474969832/) — Blue State
 - 📍 **Location:** London, England, United Kingdom
-- 🕒 **Posted:** 2026-10-02
+- 🕒 **Posted:** 2026-10-06
+
+### [Creative Strategist](https://www.linkedin.com/jobs/view/4476377882/) — Independant Marketing Consultant
+- 📍 **Location:** Lisbon, Portugal
+- 🕒 **Posted:** 2026-10-06
+
+### [Senior Art Director](https://www.linkedin.com/jobs/view/4476396228/) — Sun-TIMES Srl
+- 📍 **Location:** Milan, Lombardy, Italy
+- 🕒 **Posted:** 2026-10-06
+
+### [Senior Creative Strategist – Paid Social / Online Video (m/f/d)](https://www.linkedin.com/jobs/view/4436528713/) — AutoScout24
+- 📍 **Location:** Berlin, Berlin, Germany
+- 🕒 **Posted:** 2026-09-30
