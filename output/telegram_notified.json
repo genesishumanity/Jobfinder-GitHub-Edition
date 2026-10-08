@@ -45,6 +45,7 @@
     "2c7e1386dc87f1b4d6c60882cac82873f33dcfdf619ded9229fedec8dcfc1071",
     "2cf01f269f2b9a39e4423d1d2bcb5fb56550ce7a7c1eb47715021287154cc0b4",
     "2d57ad3714d79bda4d521137bde14b36e363ec39d9d4517ac9cac5673964534c",
+    "2df7525aea33552db0895257af142136e673f50273260501f0a3a657d7c99ebc",
     "2e1ec38b979185437c68cca713be8c112baa841803435ba2f1d887b3052d3d5f",
     "2e9fe8e8839a48a661c1280150451306d156b1f07f74d4f4ce0d47a80a48fa6e",
     "301acf53292ba7e8de6e720fa4df10a1376d2c94bbec2a37dfa4d95ed6826fce",
@@ -941,28 +942,35 @@
     "ruby-labs|lead creative producer|ukraine · north macedonia · turkey · kazakhstan · european union · serbia · georgia · remote": {
       "material": "|remote|True",
       "last_sent": "2026-10-08T13:21:38.378653+00:00"
+    },
+    "quantum orbit labs|video edit product owner & ai creative technologist|sarıyer, istanbul, türkiye": {
+      "material": "||",
+      "last_sent": "2026-10-08T18:58:39.691325+00:00"
     }
   },
   "last_run": {
-    "source_file": "google_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 0,
+    "discovered": 8,
     "duplicate": 0,
     "geography": 0,
-    "remote": 0,
+    "remote": 3,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 1,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0
+    "ledger_errors": 0,
+    "country_restricted": 1,
+    "language_required": 1,
+    "wrong_role": 1
   }
 }
