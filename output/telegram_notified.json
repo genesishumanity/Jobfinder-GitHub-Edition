@@ -213,6 +213,7 @@
     "fb5b6c70c516d6d1dbe44f4be71003eff84864b49a2f0f12a299fb91b06fce1c",
     "fd9608a8a1c8a13cd996d37fbe37556d4de6c092f2272764fcb3a7ce46cbeebd",
     "fed6b6c52e62ef09e2fd9ca6e6ce065d66e36306bc2b75627465513e953a0bae",
+    "fee4d090044b255931a082c15e41faadf4f9d5be4c969f499a203cff568d2916",
     "ffbbcc6d18944ea46619b9f4368a9e277b7ff77b75f1f2a793be390868c23247",
     "fileneresearchinstitute|audiencecontentstrategydirectorfilenewitxorco||httpswwwlinkedincomjobsview4463919758",
     "golinketchum|associatecreativedirector||httpswwwlinkedincomjobsview4464808195",
@@ -936,29 +937,33 @@
     "growthfull|ai art generator ai arti̇st|sariyer, istanbul, türkiye": {
       "material": "||",
       "last_sent": "2026-10-08T11:30:11.007368+00:00"
+    },
+    "ruby-labs|lead creative producer|ukraine · north macedonia · turkey · kazakhstan · european union · serbia · georgia · remote": {
+      "material": "|remote|True",
+      "last_sent": "2026-10-08T13:21:38.378653+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "careerops_ats_jobs.json",
     "min_fit": 0.0,
-    "discovered": 18,
-    "duplicate": 11,
+    "discovered": 5,
+    "duplicate": 1,
     "geography": 0,
     "remote": 0,
-    "restricted": 2,
+    "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
-    "untrusted_source": 0,
-    "off_mission_role": 1,
+    "untrusted_source": 1,
+    "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "wrong_role": 4
+    "country_restricted": 2
   }
 }
