@@ -111,6 +111,7 @@
     "6fd690a4840cc6132d48c9892669420b82b25353cf4b5ac2d3be8dccad8859d3",
     "70d3e473afd6814768db240251e99c2767964620ca1b51b334a3b68d30df4cc0",
     "711584d3ce0e03aab64b3b4feaac69eb8ab3568f7a436ec3f24f74cb73ac24d1",
+    "7332ae09c86eca6c32e3ec05b7b834c9c331618afaa0b064f9c926dd152c511e",
     "756859c485442a986ff5405d4fc1fdefda3142b4efd4f33089eef043bc9adb2d",
     "75fd325cc2d34ef02abb0da51707dd5b58208c2f3e9593cf56b12646f5231bbc",
     "763b6f38acfaba760733d282f8d852f016389ac9e6c885751d4c989181059be2",
@@ -931,29 +932,33 @@
     "xperteez technology|🌍 brand & creative strategy expert, remote- contract|worldwide": {
       "material": "150-350 USD||True",
       "last_sent": "2026-10-07T12:07:35.711429+00:00"
+    },
+    "growthfull|ai art generator ai arti̇st|sariyer, istanbul, türkiye": {
+      "material": "||",
+      "last_sent": "2026-10-08T11:30:11.007368+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 18,
-    "duplicate": 11,
+    "discovered": 7,
+    "duplicate": 0,
     "geography": 0,
-    "remote": 0,
-    "restricted": 2,
+    "remote": 3,
+    "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 1,
+    "off_mission_role": 2,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "wrong_role": 4
+    "wrong_role": 1
   }
 }
