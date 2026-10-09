@@ -48,6 +48,7 @@
     "2df7525aea33552db0895257af142136e673f50273260501f0a3a657d7c99ebc",
     "2e1ec38b979185437c68cca713be8c112baa841803435ba2f1d887b3052d3d5f",
     "2e9fe8e8839a48a661c1280150451306d156b1f07f74d4f4ce0d47a80a48fa6e",
+    "2f886fa1741cbdf059a7e26edf52843522113636fc09370e6bb9787df95771d0",
     "301acf53292ba7e8de6e720fa4df10a1376d2c94bbec2a37dfa4d95ed6826fce",
     "304138998c9646f333dd2338acf04266330497e718703df52dcb3de6168663e4",
     "30779deb0817ba14853f100afe47b22c630e60e9703781ec525b89882cb6920b",
@@ -946,29 +947,32 @@
     "quantum orbit labs|video edit product owner & ai creative technologist|sarıyer, istanbul, türkiye": {
       "material": "||",
       "last_sent": "2026-10-08T18:58:39.691325+00:00"
+    },
+    "future is now|creative operations lead|istanbul, türkiye": {
+      "material": "||",
+      "last_sent": "2026-10-09T11:27:07.649594+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 18,
-    "duplicate": 11,
+    "discovered": 4,
+    "duplicate": 0,
     "geography": 0,
     "remote": 0,
-    "restricted": 2,
+    "restricted": 0,
     "language": 0,
-    "domain": 0,
+    "domain": 1,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 1,
+    "off_mission_role": 2,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0,
-    "wrong_role": 4
+    "ledger_errors": 0
   }
 }
