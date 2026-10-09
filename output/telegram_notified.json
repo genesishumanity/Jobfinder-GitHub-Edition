@@ -69,6 +69,7 @@
     "3e8564f8cdebf08fbfdd9f67d266eb8a61a3ab8d6db2c8f9685199bd3eda9854",
     "3ec75e2b62129c0e0823c1f95f91b237710ffc4ab4911d20032f3611635eb225",
     "3fe45812055a2d29aa3f82863613e1df1b2460cff17bba2af77b9feb1498abcc",
+    "403e78e28a8bcbccb38ff062c3e8a90500b9ba7aa8d1abc325274ac68abb7bc1",
     "404ee83524ea0cee41e10acf7df602af147a3e3f83ebcc0ce688a25255419e6b",
     "41231e842fba1bc80c0167cdfc8ca2f214e1b5b3be7e21b418835c691e2c2cdf",
     "41c43b6944b1bce60491cd6fc30c8a635469eec7cd52cea019222686c817fa8a",
@@ -99,6 +100,7 @@
     "61f0c3e8d93bb3fa118a45ea8a4996ed40296feb752d453c8045af3c4d4c0ac8",
     "62e163cf5c2f85f9a5f6996eaf7349dd05d3d7333bdab416ace2b6425ae4b463",
     "63a4184bebbe7c4323c95b67d4938e99f2deba7ab0271ee4d421794f6f902252",
+    "6425d2626f239ac60776a16436b7dd99d95612bdfb61c88e4315ecfca63fdcf8",
     "6504040a184d337c61e4995218ca01746d259e12ecff159081b6d0d9ff61f37e",
     "651954f8898dbbaea0f0cba139310a2ed813ce73f8d7a8029474c663bfc6be19",
     "66108eec87c72ad52cd32943cb9bff8b25d99be77e995849edf8a2e3731f6df3",
@@ -153,6 +155,7 @@
     "a355b7ff66da044f82e5f4f711aa7378e0e5c4ee4b6fcfa903021e77d363e75e",
     "a3a577fd023324f92f312e7abfcd42964389918815a800873e21fb789ce3ae80",
     "a42aef43e7cd2415b7f0055eba5a547b13e7701f900766220b2a77fc1c0b683b",
+    "aa225d66812bc9ddf996dfdff78c1a62fe48b303ea4e2e6049f5e51473144f7b",
     "aa7e73dc8a3ad092476e8e3550cbe7bad8339307d91a1be56494534d6c4bcbb9",
     "ab4e85fce5a02d7f6c2785b0989d89fc0654ca323778e517de98f2e2f6781f96",
     "ac4f933c66d449ccdb8e8d91a64951c8599979a1b0213e1bc9753509980d3bf6",
@@ -956,15 +959,27 @@
     "caliber brands|creative strategist – d2c|dubai, united arab emirates": {
       "material": "||",
       "last_sent": "2026-10-09T11:57:34.747941+00:00"
+    },
+    "elevar growth|senior creative producer|dubai, du, united arab emirates": {
+      "material": "|On-site|False",
+      "last_sent": "2026-10-09T21:20:54.615970+00:00"
+    },
+    "berrychino|creative director|dubai, du, united arab emirates": {
+      "material": "$8000–$15k/mo|On-site|False",
+      "last_sent": "2026-10-09T21:20:57.855519+00:00"
+    },
+    "storeys real estate|creative director – content & media|dubai, du, united arab emirates": {
+      "material": "|On-site|False",
+      "last_sent": "2026-10-09T21:21:01.266876+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "indeed_jobs.json",
     "min_fit": 0.0,
-    "discovered": 5,
+    "discovered": 4,
     "duplicate": 0,
     "geography": 0,
-    "remote": 1,
+    "remote": 0,
     "restricted": 0,
     "language": 0,
     "domain": 0,
@@ -975,11 +990,10 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 3,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "country_restricted": 3,
-    "wrong_role": 1
+    "language_required": 1
   }
 }
