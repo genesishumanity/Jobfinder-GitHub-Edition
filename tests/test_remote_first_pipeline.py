@@ -452,26 +452,37 @@ def test_off_mission_role_ai_lead_excludes_lead_generation():
         assert not off_mission_role({"title": title}), title
 
 
-def test_milan_roles_pass_in_any_arrangement():
+def test_dubai_roles_pass_in_any_arrangement():
     import telegram_notify
-    onsite = {"location": "Milan, Lombardy, Italy", "work_arrangement": "On-site",
+    onsite = {"location": "Dubai, United Arab Emirates", "work_arrangement": "On-site",
               "description": "Associate Creative Director", "is_remote": False}
     assert final_filter.eligible_location(onsite)
     assert telegram_notify.remote_plausible(onsite)
     assert telegram_notify.international_remote_status(onsite).startswith("📍")
-    assert not final_filter.eligible_location({"location": "Rome, Lazio, Italy", "work_arrangement": "On-site",
-                                               "description": "Creative director", "is_remote": False})
 
 
-def test_milan_geos_always_scanned():
+def test_istanbul_and_milan_offices_are_out_2026_10_09():
+    from telegram_notify import precision_blocked
+    # Leaked 2026-10-05..09: Istanbul/Milan office roles. Can wants remote or Dubai only.
+    for job in [
+        {"title": "Creative Strategist, Growth Marketing (Istanbul, 12-month Contract)",
+         "location": "Istanbul, Istanbul, Türkiye", "description": "Join our global team."},
+        {"title": "Creative Operations Lead", "location": "Istanbul, Türkiye"},
+        {"title": "AI Video Production Artist", "location": "Istanbul, Türkiye", "description": "remote-friendly tools"},
+        {"title": "Associate Creative Director", "location": "Milan, Lombardy, Italy", "work_arrangement": "Hybrid"},
+    ]:
+        assert not final_filter.eligible_location(job), job
+    assert precision_blocked({"title": "Senior UA Creative Strategist - Mobile Games", "location": "Turkey"}) == "country_restricted"
+    assert final_filter.eligible_location({"title": "Creative Lead", "location": "Istanbul, Türkiye", "is_remote": True})
+
+
+def test_dubai_geos_always_scanned():
     import discovery_lanes
     cfg = discovery_lanes.expand_config({"discovery_lanes": {"enabled": True}}, slot=3)
-    assert any("Milan" in g["location"] for g in cfg["locations"]["linkedin"])
-    assert any("Milano" in g["location"] for g in cfg["locations"]["indeed"])
-    assert any("stanbul" in g["location"] for g in cfg["locations"]["indeed"])
-    assert any("Istanbul" in g["location"] for g in cfg["locations"]["linkedin"])
-    assert final_filter.eligible_location({"location": "Istanbul, Istanbul, Türkiye", "work_arrangement": "Hybrid",
-                                           "description": "Creative director", "is_remote": False})
+    assert any("Dubai" in g["location"] for g in cfg["locations"]["linkedin"])
+    assert any("Dubai" in g["location"] for g in cfg["locations"]["indeed"])
+    assert not any("Milan" in g["location"] or "stanbul" in g["location"]
+                   for src in ("linkedin", "indeed") for g in cfg["locations"][src])
 
 
 def test_us_restriction_in_title_is_rejected():
@@ -538,8 +549,7 @@ def test_precision_gate_blocks_unusable_listings():
     for ok in [
         {"title": "Creative Lead (Social & UGC)", "location": "Remote"},
         {"title": "AI Creative Producer", "location": "Europe"},
-        {"title": "Creative Strategist", "location": "Istanbul, Istanbul, Türkiye"},
-        {"title": "Associate Creative Director", "location": "Milan, Lombardy, Italy"},
+        {"title": "Creative Strategist", "location": "Dubai, United Arab Emirates"},
         {"title": "Creative Producer", "location": "Worldwide"},
         {"title": "Creative Producer", "location": ""},
     ]:
@@ -575,8 +585,8 @@ def test_mandate_2026_09_29_gate_and_brief():
                   "Graphic Designer", "Marketing Coordinator"]:
         assert precision_blocked({"title": title, "location": "Remote"}) == "wrong_role", title
     assert precision_blocked({"title": "Creative Director (Relocation to Bahrain Required)",
-                              "location": "Istanbul, Türkiye"}) == "country_restricted"
-    assert precision_blocked({"title": "Creative Lead", "location": "Milan, Italy",
+                              "location": "Dubai, UAE"}) == "country_restricted"
+    assert precision_blocked({"title": "Creative Lead", "location": "Dubai, UAE",
                               "description": "Fluent in Italian and English."}) == "language_required"
     assert precision_blocked({"title": "Creative Lead", "location": "Remote",
                               "description": "Fluent English; Italian is a plus."}) is None
@@ -598,7 +608,7 @@ def test_daily_check_2026_10_04_leaks():
         assert precision_blocked({"title": title, "location": "Worldwide"}) == "wrong_role", title
     italian = ("Cerchiamo un Art Director freelance che lavori a stretto contatto con il team. "
                "Requisiti: esperienza nel social-first.")
-    assert precision_blocked({"title": "Creative Lead", "location": "Milan, Italy",
+    assert precision_blocked({"title": "Creative Lead", "location": "Dubai, UAE",
                               "description": italian}) == "language_required"
     # Still allowed.
     for title in ["Conceptual Art Director", "Creative Performance Lead", "Creative Director",
