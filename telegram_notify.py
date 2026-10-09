@@ -51,8 +51,8 @@ HYBRID_ROLE_PATTERN = re.compile(
 
 
 def remote_plausible(job):
-    from final_filter import milan_local
-    if milan_local(job):
+    from final_filter import dubai_local
+    if dubai_local(job):
         return True
     arrangement = str(job.get("work_arrangement", "")).lower()
     location = str(job.get("location", "")).lower()
@@ -282,9 +282,9 @@ def fit(job):
 
 
 def international_remote_status(job):
-    from final_filter import milan_local
-    if milan_local(job):
-        return "📍 Milano/İstanbul yerel rol — ofis/hibrit de uygun"
+    from final_filter import dubai_local
+    if dubai_local(job):
+        return "📍 Dubai yerel rol — ofis/hibrit de uygun"
     text = " ".join(str(job.get(key, "")) for key in (
         "title", "location", "description", "work_arrangement"
     )).lower()
@@ -337,19 +337,19 @@ US_EMPLOYMENT = re.compile(
     r"health,? dental,? (?:and )?vision|dental,? (?:and )?vision|hourly pay range|tier 1 cities",
     re.I,
 )
-# Places a location may name and still be workable: remote-open regions,
-# Turkey (home) and Italy (target).
+# Places a location may name and still be workable: remote-open regions and
+# Dubai/UAE (where Can lives). Country-locked remote (e.g. "Turkey") is out.
 WORKABLE_PLACE = re.compile(
     r"worldwide|anywhere|global|international|emea|europe|european union|"
-    r"turkey|türkiye|turkiye|istanbul|i̇stanbul|ankara|izmir|italy|italia|milan|milano|lombard",
+    r"dubai|abu dhabi|sharjah|united arab emirates|\buae\b",
     re.I,
 )
 GENERIC_LOCATION = re.compile(r"\b(?:remote|hybrid|work from home|wfh|flexible|multiple locations)\b", re.I)
 
 
-# Required relocation anywhere but Italy/Turkey, and required languages the
+# Required relocation anywhere but the UAE, and required languages the
 # candidate doesn't speak (English and Turkish are fine).
-RELOCATION_TITLE = re.compile(r"relocat\w*\s+to\s+(?!italy|milan|turkey|türkiye|istanbul)\w+", re.I)
+RELOCATION_TITLE = re.compile(r"relocat\w*\s+to\s+(?!dubai|uae|united arab emirates)\w+", re.I)
 REQUIRED_LANGUAGE = re.compile(
     r"(?:fluent|fluency|native|proficien\w*|business[- ]level)\s+(?:in\s+)?(?:\w+\s+and\s+)?"
     r"(?:italian|german|french|spanish|dutch|arabic|portuguese|polish)\b"

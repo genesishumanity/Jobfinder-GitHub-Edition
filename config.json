@@ -132,13 +132,8 @@
         "f_WT": "2"
       },
       {
-        "name": "Milan",
-        "location": "Milan, Lombardy, Italy",
-        "geoId": ""
-      },
-      {
-        "name": "Istanbul",
-        "location": "Istanbul, Türkiye",
+        "name": "Dubai",
+        "location": "Dubai, United Arab Emirates",
         "geoId": ""
       }
     ],
@@ -148,24 +143,16 @@
         "country": "worldwide"
       },
       {
-        "location": "Milano, Lombardia",
-        "country": "Italy"
-      },
-      {
-        "location": "İstanbul",
-        "country": "Turkey"
+        "location": "Dubai",
+        "country": "United Arab Emirates"
       }
     ],
     "glassdoor": [],
     "ziprecruiter": [],
     "google_jobs": [
       {
-        "location": "Milan, Italy",
-        "country": "Italy"
-      },
-      {
-        "location": "Istanbul, Turkey",
-        "country": "Turkey"
+        "location": "Dubai, United Arab Emirates",
+        "country": "United Arab Emirates"
       }
     ],
     "hiring_cafe": [],
@@ -185,14 +172,9 @@
       "global",
       "emea",
       "europe",
-      "milan",
-      "milano",
-      "lombard",
-      "italy",
-      "italia",
-      "istanbul",
-      "türkiye",
-      "turkey"
+      "dubai",
+      "uae",
+      "united arab emirates"
     ]
   },
   "discovery_lanes": {
@@ -215,12 +197,8 @@
         "\\bai\\b|generative|genai"
       ],
       [
-        "Milan",
-        "milan|milano|lombard"
-      ],
-      [
-        "Istanbul",
-        "istanbul|türkiye|turkey"
+        "Dubai",
+        "dubai|uae|united arab emirates"
       ]
     ]
   },

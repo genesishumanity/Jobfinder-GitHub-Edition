@@ -7,7 +7,7 @@ LOCAL_ALIASES = re.compile(
     r"\b(london|amsterdam|germany|deutschland|hungary|magyarország|portugal|spain|españa|"
     r"berlin|munich|münchen|hamburg|frankfurt|cologne|köln|düsseldorf|stuttgart|budapest|"
     r"lisbon|lisboa|porto|madrid|barcelona|valencia|sevilla|seville|malaga|málaga|"
-    r"milan|milano|lombardy|lombardia|italy|italia|istanbul|i̇stanbul|türkiye|turkiye|turkey)\b",
+    r"dubai|abu dhabi|sharjah|united arab emirates|uae)\b",
     re.I,
 )
 US_ONLY = re.compile(
@@ -117,18 +117,15 @@ ROTATING_REMOTE_TERM_GROUPS = [
 ]
 
 
-MILAN_GEOS = {
-    "linkedin": [{"name": "Milan", "location": "Milan, Lombardy, Italy", "geoId": ""},
-                 {"name": "Istanbul", "location": "Istanbul, Türkiye", "geoId": ""}],
-    "indeed": [{"location": "Milano, Lombardia", "country": "Italy"},
-               {"location": "İstanbul", "country": "Turkey"}],
-    "google_jobs": [{"location": "Milan, Italy", "country": "Italy"}],
+LOCAL_GEOS = {
+    "linkedin": [{"name": "Dubai", "location": "Dubai, United Arab Emirates", "geoId": ""}],
+    "indeed": [{"location": "Dubai", "country": "United Arab Emirates"}],
+    "google_jobs": [{"location": "Dubai, United Arab Emirates", "country": "United Arab Emirates"}],
 }
 
 
-def _is_milan_geo(geo):
-    location = str(geo.get("location", "")).casefold()
-    return "milan" in location or "istanbul" in location or "i̇stanbul" in location
+def _is_local_geo(geo):
+    return "dubai" in str(geo.get("location", "")).casefold()
 
 
 def target_location(location):
@@ -202,7 +199,7 @@ def _prepare_remote_first(config):
             _append_terms(config, source, remote_adjacent)
 
     # Milan + Istanbul target cities: always searched, any arrangement.
-    for source, geos in MILAN_GEOS.items():
+    for source, geos in LOCAL_GEOS.items():
         for geo in geos:
             _append_geo(config, source, geo)
 
@@ -227,19 +224,19 @@ def _bounded_geos(config, slot):
         picked.append(worldwide)
     if regional:
         picked.append(regional[slot % len(regional)])
-    picked += [g for g in indeed if _is_milan_geo(g) and g not in picked]
+    picked += [g for g in indeed if _is_local_geo(g) and g not in picked]
     if picked:
         locations["indeed"] = picked
 
     linkedin = [g for g in locations.get("linkedin", []) if isinstance(g, dict)]
     global_remote = next((g for g in linkedin if str(g.get("location", "")).casefold() == "remote"), None)
-    li_regional = [g for g in linkedin if g is not global_remote and not _is_milan_geo(g)]
+    li_regional = [g for g in linkedin if g is not global_remote and not _is_local_geo(g)]
     picked = []
     if global_remote:
         picked.append(global_remote)
     if li_regional:
         picked.append(li_regional[slot % len(li_regional)])
-    picked += [g for g in linkedin if _is_milan_geo(g)]
+    picked += [g for g in linkedin if _is_local_geo(g)]
     if picked:
         locations["linkedin"] = picked
 

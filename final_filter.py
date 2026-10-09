@@ -27,12 +27,16 @@ US_LOCATION = re.compile(
 )
 TARGET_GEO = re.compile(
     r"\b(?:london|united kingdom|uk|amsterdam|netherlands|germany|deutschland|hungary|portugal|spain|europe|european|emea|"
-    r"italy|italia|milan|milano|istanbul|türkiye|turkiye|turkey)\b",
+    r"dubai|abu dhabi|sharjah|united arab emirates|uae)\b",
     re.I,
 )
-# Milan and Istanbul are target cities: roles there are wanted in any arrangement
-# (onsite and hybrid included), unlike everywhere else where remote is required.
-MILAN_LOCAL = re.compile(r"\b(?:milan|milano|lombardy|lombardia|istanbul|i̇stanbul|İstanbul)\b", re.I)
+# Dubai/UAE is the only local target (Can's call, 2026-10-09): roles there are
+# wanted in any arrangement; everywhere else, Istanbul and Milan included,
+# must be genuinely remote.
+DUBAI_LOCAL = re.compile(r"\b(?:dubai|abu dhabi|sharjah|united arab emirates|uae)\b", re.I)
+# A location field naming Turkey/Italy is an office there unless the listing
+# itself is tagged remote; a stray "global" in the prose doesn't count.
+OFFICE_GEO = re.compile(r"\b(?:istanbul|i̇stanbul|türkiye|turkiye|turkey|ankara|izmir|italy|italia|milan|milano|lombardy|lombardia|rome|roma)\b", re.I)
 OPEN_GEO = re.compile(r"\b(?:worldwide|anywhere|global|emea|europe|european|international)\b", re.I)
 
 
@@ -40,8 +44,8 @@ OPEN_GEO = re.compile(r"\b(?:worldwide|anywhere|global|emea|europe|european|inte
 US_TITLE = re.compile(r"\bremote[\s,/-]*\(?\s*(?:us|usa|u\.s\.|united states)\b|\((?:us|usa|u\.s\.)(?:[\s,/-]*only)?\)", re.I)
 
 
-def milan_local(job):
-    return bool(MILAN_LOCAL.search(str(job.get("location", ""))))
+def dubai_local(job):
+    return bool(DUBAI_LOCAL.search(str(job.get("location", ""))))
 
 LOCAL_LANGUAGE_REQUIRED = re.compile(
     r"\b(?:native|fluent|professional|working|full|business|c1|c2)\s+"
@@ -111,8 +115,10 @@ def eligible_location(job):
     # UK/EU city name.
     if US_ONLY.search(text) or US_TITLE.search(str(job.get("title", ""))):
         return False
-    if milan_local(job):
+    if dubai_local(job):
         return True
+    if OFFICE_GEO.search(location_text) and not (job.get("is_remote") is True or REMOTE.search(location_text)):
+        return False
     if NOT_REMOTE.search(text):
         return False
     if NOT_REMOTE_TAG.search(location_text):
