@@ -1,48 +1,24 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-10-09 11:57 UTC*
+*Last updated: 2026-10-09 18:27 UTC*
 
-**11 new role(s)** since last run · 31 total in last 168h
+**5 new role(s)** since last run · 29 total in last 168h
 
-### [Content Producer & Video Editor](https://www.linkedin.com/jobs/view/4475214239/) — Hyp Mobility UAE
-- 📍 **Location:** Dubai, Dubai, United Arab Emirates
+### [(Senior) Creative Strategist - Social first (w/m/d)](https://www.linkedin.com/jobs/view/4328769013/) — Zasta
+- 📍 **Location:** Berlin, Germany
 - 🕒 **Posted:** 2026-10-09
 
-### [Public Relations Specialist (Multimedia Content Producer) - 12 month Temporary Contract](https://www.linkedin.com/jobs/view/4477141910/) — Emirates
-- 📍 **Location:** Dubai, Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-10-08
+### [Senior Creative Concept (Mensch)](https://www.linkedin.com/jobs/view/4475221476/) — WPP Media
+- 📍 **Location:** Düsseldorf, North Rhine-Westphalia, Germany
+- 🕒 **Posted:** 2026-10-09
 
-### [Brand and Digital Marketing Manager](https://www.linkedin.com/jobs/view/4474410908/) — Timesworld
-- 📍 **Location:** Dubai, Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-10-07
+### [AI Designer & Creative Technologist](https://www.linkedin.com/jobs/view/4477816975/) — DEPT®
+- 📍 **Location:** Budapest, Budapest, Hungary
+- 🕒 **Posted:** 2026-10-09
 
-### [Digital Marketing & Communication Manager](https://www.linkedin.com/jobs/view/4476549556/) — Peergrowth
-- 📍 **Location:** Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-10-07
+### [Senior Creative Lead (8+ years)](https://www.linkedin.com/jobs/view/4477672292/) — FOOH.com
+- 📍 **Location:** Amsterdam, North Holland, Netherlands
+- 🕒 **Posted:** 2026-10-09
 
-### [Content Creator (Videography, Photography & Content Strategy)](https://www.linkedin.com/jobs/view/4476707638/) — Analytica
-- 📍 **Location:** Dubai, Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-10-07
-
-### [Video Editor & Videographer | AI Video Creation, Live-Action Shoots, Content Planning & Execution](https://www.linkedin.com/jobs/view/4474043755/) — AO19 Antivirus Manufacturing
-- 📍 **Location:** Dubai, Dubai, United Arab Emirates
+### [Creative Director, Fundraising and Mobilization (Evergreen)](https://www.linkedin.com/jobs/view/4474969832/) — Blue State
+- 📍 **Location:** London, England, United Kingdom
 - 🕒 **Posted:** 2026-10-06
-
-### [Creative Strategist – D2C](https://www.linkedin.com/jobs/view/4473615394/) — Caliber Brands
-- 📍 **Location:** Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-10-05
-
-### [Social Media & Content Lead](https://www.linkedin.com/jobs/view/4473652504/) — Masterminds VIP Micro-School
-- 📍 **Location:** Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-10-05
-
-### [Senior Art Director- MENA, Brand Innovation Lab](https://www.linkedin.com/jobs/view/4457386054/) — Amazon
-- 📍 **Location:** Dubai, Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-10-04
-
-### [Social Media & Digital Marketing Manager, Motorola META](https://www.linkedin.com/jobs/view/4451679572/) — Lenovo
-- 📍 **Location:** Dubai, Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-10-02
-
-### [Specialist, Performance Marketing - instashop](https://www.linkedin.com/jobs/view/4444106936/) — talabat
-- 📍 **Location:** Dubai, Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-10-02
