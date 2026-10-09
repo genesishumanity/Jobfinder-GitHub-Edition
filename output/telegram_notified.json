@@ -959,13 +959,13 @@
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "careerops_ats_jobs.json",
     "min_fit": 0.0,
-    "discovered": 17,
-    "duplicate": 8,
+    "discovered": 8,
+    "duplicate": 0,
     "geography": 0,
     "remote": 0,
-    "restricted": 2,
+    "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
@@ -979,7 +979,7 @@
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "country_restricted": 3,
-    "wrong_role": 3
+    "wrong_role": 1,
+    "country_restricted": 6
   }
 }
