@@ -974,12 +974,12 @@
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "indeed_jobs.json",
     "min_fit": 0.0,
-    "discovered": 3,
+    "discovered": 0,
     "duplicate": 0,
     "geography": 0,
-    "remote": 2,
+    "remote": 0,
     "restricted": 0,
     "language": 0,
     "domain": 0,
@@ -993,7 +993,6 @@
     "delivered": 0,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0,
-    "wrong_role": 1
+    "ledger_errors": 0
   }
 }
