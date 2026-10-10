@@ -176,6 +176,7 @@
     "baaf4df617bce8357f1e1861f38bbc19170862dd9b4e138d6693613e64891305",
     "bc07ba8c1c7d6c2d0035f0bc93142a3757d75011ac7d16807acc0b78ee340934",
     "c066913e34842df7d6e7eb5ea6aa27a119180e2ef1347d3964e1c281bec1fe4d",
+    "c3891d8add0de75b3439ace3965d81f4962ff73df71470be5aa9596d7000222f",
     "c3dc86afde4c60b8f2b57b4d68cabfda0709dd081ce311e11b23f8e982051508",
     "c661269d60761df95983362b19c043cb9cff2bc9e10a6603864d4d410062e278",
     "c8d60c39522458765879614a7ea645de2904054f38088b84a9b2186c7ebb1812",
@@ -971,30 +972,32 @@
     "storeys real estate|creative director – content & media|dubai, du, united arab emirates": {
       "material": "|On-site|False",
       "last_sent": "2026-10-09T21:21:01.266876+00:00"
+    },
+    "burga|creative director (burga men)|europe": {
+      "material": "|remote|True",
+      "last_sent": "2026-10-10T12:27:07.970610+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "careerops_ats_jobs.json",
     "min_fit": 0.0,
-    "discovered": 17,
-    "duplicate": 8,
+    "discovered": 1,
+    "duplicate": 0,
     "geography": 0,
     "remote": 0,
-    "restricted": 2,
+    "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 1,
+    "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0,
-    "country_restricted": 3,
-    "wrong_role": 3
+    "ledger_errors": 0
   }
 }
