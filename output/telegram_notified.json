@@ -155,6 +155,7 @@
     "a355b7ff66da044f82e5f4f711aa7378e0e5c4ee4b6fcfa903021e77d363e75e",
     "a3a577fd023324f92f312e7abfcd42964389918815a800873e21fb789ce3ae80",
     "a42aef43e7cd2415b7f0055eba5a547b13e7701f900766220b2a77fc1c0b683b",
+    "a86cb9da37951dcd37e9c672c036fd82e50d607d6629ec957649422c6f87222a",
     "aa225d66812bc9ddf996dfdff78c1a62fe48b303ea4e2e6049f5e51473144f7b",
     "aa7e73dc8a3ad092476e8e3550cbe7bad8339307d91a1be56494534d6c4bcbb9",
     "ab4e85fce5a02d7f6c2785b0989d89fc0654ca323778e517de98f2e2f6781f96",
@@ -976,28 +977,34 @@
     "burga|creative director (burga men)|europe": {
       "material": "|remote|True",
       "last_sent": "2026-10-10T12:27:07.970610+00:00"
+    },
+    "saas.group|ai lead / engineering manager|europe": {
+      "material": "||True",
+      "last_sent": "2026-10-11T11:39:07.603195+00:00"
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "remote_boards_jobs.json",
     "min_fit": 0.0,
-    "discovered": 0,
-    "duplicate": 0,
+    "discovered": 18,
+    "duplicate": 8,
     "geography": 0,
     "remote": 0,
-    "restricted": 0,
+    "restricted": 2,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 1,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0
+    "ledger_errors": 0,
+    "country_restricted": 3,
+    "wrong_role": 3
   }
 }
