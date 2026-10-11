@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-10-10 20:20 UTC",
+  "scraped_at": "2026-10-11 11:02 UTC",
   "total": 4,
-  "new_count": 1,
+  "new_count": 0,
   "jobs": [
     {
       "company": "GPS marketing",
@@ -76,24 +76,5 @@
       "ats": "Indeed"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "Rose Ballet Dubai",
-      "title": "UGC Creator Dubai",
-      "location": "Dubai, DU, United Arab Emirates",
-      "url": "https://ae.indeed.com/viewjob?jk=1beae23c7dde417c",
-      "direct_url": "",
-      "company_url": "https://ae.indeed.com/cmp/Rose-Ballet-Dubai",
-      "date_posted": "2026-10-10",
-      "description": "We’re looking for a talented and creative UGC Creator in Dubai to join our team and help bring the world of Rose Ballet to life through engaging, authentic, and inspiring video content.\n\nRose Ballet is a ballet school for children, and we’re looking for someone who can capture the beauty of dance, the joy of childhood, and the unique atmosphere of our studios to connect with families and grow our community.\n\n-Location: Two branches — Arabian Ranches & Festival Plaza, Dubai\n\n-Monthly compensation: AED 6,000–8,000, depending on your portfolio, experience, and skill set.\n\n-Deliverables: 20 short-form videos per month.\n\nWhat you’ll be doing:\n\n\\* Creating engaging UGC-style videos for Instagram Reels, TikTok, and other social media platforms.\n\n\\* Showcasing our ballet classes, teachers, students, and studio atmosphere.\n\n\\* Developing creative concepts that reflect our brand identity and appeal to parents.\n\n\\* Helping increase brand awareness, strengthen our online presence, and generate new leads.\n\n\\* Capturing authentic moments and creating relatable content that inspires families to discover Rose Ballet.\n\n\\* Working closely with our team to plan content and align videos with our marketing goals.\n\nWhat we’re looking for:\n\n\\* A strong portfolio of UGC, lifestyle, or social media video content.\n\n\\* Experience creating engaging short-form videos with a good understanding of current trends.\n\n\\* Excellent storytelling skills and a creative eye for detail.\n\n\\* The ability to film and edit high-quality videos independently.\n\n\\* Reliability, initiative, and a good understanding of social media marketing.\n\n\\* Availability to create content at both Dubai locations.\n\nExperience in lifestyle, education, kids’ activities, or family-oriented content is a plus.\n\nInterested?\n\nSend us your portfolio, social media links, and a short introduction about yourself. We’d love to see your work and explore how we can create something beautiful together!\n\nLet’s inspire the next generation of dancers — one video at a time.\n\nApply now to join Rose Ballet!\n\nPay: AED6,000.00 - AED7,000.00 per month\n\nWork Location: Hybrid remote in Dubai (Dubai)",
-      "salary": "$6000–$7000/mo",
-      "salary_source": "direct_data",
-      "salary_currency": "AED",
-      "job_type": "contract",
-      "is_remote": true,
-      "work_arrangement": "Remote in-state eligible",
-      "emails": "",
-      "ats": "Indeed"
-    }
-  ]
+  "new_jobs": []
 }
