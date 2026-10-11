@@ -641,3 +641,11 @@ def test_landing_signals_rank_contract_worldwide_fresh_roles():
             "description": "Full-time role.", "date_posted": "Tue, 25 Aug 2026 10:00:00 +0000"}
     assert landing_signals(slow, today) == []
     assert landing_signals({"title": "Creative Lead", "posted_at": "not a date"}, today) == []
+
+
+def test_blank_field_on_rescrape_is_not_a_resend_2026_10_10():
+    from telegram_notify import material_changed
+    assert not material_changed("150-350 USD||True", "||True")
+    assert not material_changed("150-350 USD||True", "150-350 USD||True")
+    assert material_changed("150-350 USD||True", "400-600 USD||True")
+    assert material_changed("||True", "|remote|True")
