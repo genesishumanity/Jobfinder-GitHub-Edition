@@ -262,6 +262,15 @@ def material(job):
     return "|".join(str(job.get(k, "")).strip() for k in ("salary", "work_arrangement", "is_remote"))
 
 
+def material_changed(previous, current):
+    # A field that comes back blank on a re-scrape is missing data, not a real
+    # change (2026-10-10: Xperteez re-sent after its salary dropped out).
+    old, new = previous.split("|"), current.split("|")
+    if len(old) != len(new):
+        return previous != current
+    return any(n and n != o for o, n in zip(old, new))
+
+
 def fit(job):
     # Optional real semantic score (Gemini) when GEMINI_API_KEY + CANDIDATE_PROFILE
     # are configured; falls back to the keyword-weighted score below on any
@@ -643,7 +652,7 @@ def main():
     for score, job in candidates:
         key, fingerprint = role_key(job), material(job)
         previous = records.get(key)
-        if (previous and previous["material"] == fingerprint) or (identity(job) in sent_ids and not previous):
+        if (previous and not material_changed(previous["material"], fingerprint)) or (identity(job) in sent_ids and not previous):
             counts["duplicate"] += 1
             continue
         receipt = receipt_key(key, fingerprint)
