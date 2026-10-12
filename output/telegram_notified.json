@@ -220,6 +220,7 @@
     "fb55442a884143c9d5e044244b464dc100bdf0ca83c8173bd4f611d949b12b41",
     "fb5b6c70c516d6d1dbe44f4be71003eff84864b49a2f0f12a299fb91b06fce1c",
     "fd9608a8a1c8a13cd996d37fbe37556d4de6c092f2272764fcb3a7ce46cbeebd",
+    "fddee99d7065cde209746e73f0d22ac7d306d00f1b41f8b04bdd94461f7c6554",
     "fed6b6c52e62ef09e2fd9ca6e6ce065d66e36306bc2b75627465513e953a0bae",
     "fee4d090044b255931a082c15e41faadf4f9d5be4c969f499a203cff568d2916",
     "ffbbcc6d18944ea46619b9f4368a9e277b7ff77b75f1f2a793be390868c23247",
@@ -981,16 +982,20 @@
     "saas.group|ai lead / engineering manager|europe": {
       "material": "||True",
       "last_sent": "2026-10-11T11:39:07.603195+00:00"
+    },
+    "prime royal restaurant and cafe l.l.c|head of brand & marketing (multilingual russian)|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-10-12T12:09:10.718023+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 19,
-    "duplicate": 9,
-    "geography": 0,
-    "remote": 0,
-    "restricted": 2,
+    "discovered": 11,
+    "duplicate": 0,
+    "geography": 1,
+    "remote": 2,
+    "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
@@ -1000,11 +1005,11 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "country_restricted": 3,
-    "wrong_role": 4
+    "country_restricted": 4,
+    "wrong_role": 2
   }
 }
