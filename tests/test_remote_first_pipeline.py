@@ -649,3 +649,9 @@ def test_blank_field_on_rescrape_is_not_a_resend_2026_10_10():
     assert not material_changed("150-350 USD||True", "150-350 USD||True")
     assert material_changed("150-350 USD||True", "400-600 USD||True")
     assert material_changed("||True", "|remote|True")
+
+
+def test_engineering_manager_is_wrong_role_2026_10_11():
+    from telegram_notify import precision_blocked
+    assert precision_blocked({"title": "AI Lead / Engineering Manager", "location": "Europe"}) == "wrong_role"
+    assert precision_blocked({"title": "AI Lead", "location": "Europe"}) is None
