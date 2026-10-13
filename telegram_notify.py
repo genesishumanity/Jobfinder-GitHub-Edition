@@ -331,7 +331,7 @@ WRONG_ROLE_TITLE = re.compile(
     r"\b(?:graphic designer|(?:senior |lead )?(?:creative |visual |motion )?designer|videographer|camera operator|video editor|social media manager|"
     r"software engineer|ml engineer|machine learning engineer|engineering (?:manager|lead|director)|head of engineering|developer|coordinator|junior|intern|"
     r"copy(?:writer|writing)?|sap|media buyer|visual merchandising|ux|ui|uxui|3d|"
-    r"bilingual|creator remote|dog creator|onsite|on-site|applied ai|"
+    r"bilingual|multilingual|creator remote|dog creator|onsite|on-site|applied ai|"
     r"la|nyc|new york|los angeles|san francisco|chicago|austin)\b",
     re.I,
 )
@@ -361,8 +361,8 @@ GENERIC_LOCATION = re.compile(r"\b(?:remote|hybrid|work from home|wfh|flexible|m
 RELOCATION_TITLE = re.compile(r"relocat\w*\s+to\s+(?!dubai|uae|united arab emirates)\w+", re.I)
 REQUIRED_LANGUAGE = re.compile(
     r"(?:fluent|fluency|native|proficien\w*|business[- ]level)\s+(?:in\s+)?(?:\w+\s+and\s+)?"
-    r"(?:italian|german|french|spanish|dutch|arabic|portuguese|polish)\b"
-    r"|\b(?:italian|german|french|spanish|dutch|arabic|portuguese|polish)\s+(?:is\s+)?(?:required|mandatory|essential|native)",
+    r"(?:italian|german|french|spanish|dutch|arabic|portuguese|polish|russian)\b"
+    r"|\b(?:italian|german|french|spanish|dutch|arabic|portuguese|polish|russian)\s+(?:is\s+)?(?:required|mandatory|essential|native)",
     re.I,
 )
 

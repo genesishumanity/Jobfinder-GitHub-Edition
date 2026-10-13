@@ -655,3 +655,11 @@ def test_engineering_manager_is_wrong_role_2026_10_11():
     from telegram_notify import precision_blocked
     assert precision_blocked({"title": "AI Lead / Engineering Manager", "location": "Europe"}) == "wrong_role"
     assert precision_blocked({"title": "AI Lead", "location": "Europe"}) is None
+
+
+def test_multilingual_russian_role_is_blocked_2026_10_12():
+    from telegram_notify import precision_blocked
+    assert precision_blocked({"title": "Head of Brand & Marketing (Multilingual Russian)",
+                              "location": "Dubai, United Arab Emirates"}) == "wrong_role"
+    assert precision_blocked({"title": "Head of Brand", "location": "Dubai, UAE",
+                              "description": "Fluent Russian is required."}) == "language_required"
