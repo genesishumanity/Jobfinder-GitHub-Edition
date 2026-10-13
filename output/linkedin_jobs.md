@@ -1,48 +1,40 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-10-12 12:09 UTC*
+*Last updated: 2026-10-13 12:14 UTC*
 
-**11 new role(s)** since last run · 32 total in last 168h
+**9 new role(s)** since last run · 30 total in last 168h
 
-### [Creative Designer — Generative AI](https://www.linkedin.com/jobs/view/4475679694/) — Confidential
-- 📍 **Location:** Abu Dhabi Emirate, United Arab Emirates
-- 🕒 **Posted:** 2026-10-12
+### [Creative Strategist](https://www.linkedin.com/jobs/view/4476034213/) — 99ads
+- 📍 **Location:** Spain
+- 🕒 **Posted:** 2026-10-13
 
-### [Senior Creative Team Deutsch (d/f/m)](https://www.linkedin.com/jobs/view/4475692825/) — Jung von Matt
-- 📍 **Location:** Berlin, Berlin, Germany
-- 🕒 **Posted:** 2026-10-12
+### [Global Director of Social Media and Content](https://www.linkedin.com/jobs/view/4478751995/) — KAYALI
+- 📍 **Location:** Dubai, Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-10-13
 
-### [Creative Strategist für Paid Social (m/w/d)](https://www.linkedin.com/jobs/view/4478388994/) — Freiheit Media GmbH
-- 📍 **Location:** Hamburg, Hamburg, Germany
-- 🕒 **Posted:** 2026-10-12
+### [Creative Producer, Videographer & Editor](https://www.linkedin.com/jobs/view/4477985267/) — Fasset
+- 📍 **Location:** Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-10-13
 
-### [Head of Brand  & Marketing (Multilingual Russian)](https://www.linkedin.com/jobs/view/4475689376/) — Prime Royal Restaurant and Cafe L.L.C
+### [Senior Brand Designer / Design Lead](https://www.linkedin.com/jobs/view/4476090983/) — FundingPips
+- 📍 **Location:** Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-10-13
+
+### [Senior Creative Retail Design Manager](https://www.linkedin.com/jobs/view/4478782831/) — Parfums de Marly
+- 📍 **Location:** Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-10-13
+
+### [ID Creative Lead](https://www.linkedin.com/jobs/view/4476008841/) — Confidential
 - 📍 **Location:** Dubai, United Arab Emirates
 - 🕒 **Posted:** 2026-10-12
 
-### [Senior Art Director](https://www.linkedin.com/jobs/view/4475678943/) — Salt
+### [Director, Brand Growth](https://www.linkedin.com/jobs/view/4477582120/) — Wego.com
 - 📍 **Location:** Dubai, United Arab Emirates
 - 🕒 **Posted:** 2026-10-12
 
-### [Global Head of Creative Design](https://www.linkedin.com/jobs/view/4465732598/) — Confidential Careers
-- 📍 **Location:** Dubai, United Arab Emirates
+### [Director Brand Growth](https://www.linkedin.com/jobs/view/4478529765/) — TALENTMATE
+- 📍 **Location:** Dubai, Dubai, United Arab Emirates
 - 🕒 **Posted:** 2026-10-12
 
-### [Senior Creative Lead (8+ years)](https://www.linkedin.com/jobs/view/4477672292/) — FOOH.com
-- 📍 **Location:** Amsterdam, North Holland, Netherlands
-- 🕒 **Posted:** 2026-10-09
-
-### [Creative Strategist (m/w/d)](https://www.linkedin.com/jobs/view/4477801971/) — Pammys
-- 📍 **Location:** Hamburg, Germany
-- 🕒 **Posted:** 2026-10-09
-
-### [Creative Strategist](https://www.linkedin.com/jobs/view/4476917870/) — Jacidi
-- 📍 **Location:** Valencia, Carabobo State, Venezuela
-- 🕒 **Posted:** 2026-10-07
-
-### [Senior Creative Strategist im E-Commerce 100% (m/w/d)](https://www.linkedin.com/jobs/view/4474023251/) — SHEKO
-- 📍 **Location:** Hamburg, Hamburg, Germany
-- 🕒 **Posted:** 2026-10-06
-
-### [Creative Director - Wellness & Lifestyle](https://www.linkedin.com/jobs/view/4476169611/) — Dragons Group
-- 📍 **Location:** Barcelona, Catalonia, Spain
+### [Lead Creative Producer](https://www.linkedin.com/jobs/view/4476326493/) — THE PRODUCTION FACTORY
+- 📍 **Location:** London Area, United Kingdom
 - 🕒 **Posted:** 2026-10-06

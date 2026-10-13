@@ -54,6 +54,7 @@
     "30779deb0817ba14853f100afe47b22c630e60e9703781ec525b89882cb6920b",
     "34583679523f1bc47393ae8c144e0edc9c4255e7a3867585dddba2fd846f616e",
     "349b8f27bb127606649a11f50c02a231573c5641ac311ed2d90146a32b7ba277",
+    "35593602a0c748fee95121629ba52873431b8a943a2ccda4cf3a86745855104b",
     "364797e380ead785f99c2028d3472892dd511d455256bf1c986c9c40f4bf5f7c",
     "365b6b8e652420a1a6ccfbed7f211872a38570e59cbba6f47e4ca9a589e188bd",
     "3775e9148ec77c1d3cfcefd8d8fa3e24ec97620c454361446d1a0798ebc7f11b",
@@ -155,6 +156,7 @@
     "a355b7ff66da044f82e5f4f711aa7378e0e5c4ee4b6fcfa903021e77d363e75e",
     "a3a577fd023324f92f312e7abfcd42964389918815a800873e21fb789ce3ae80",
     "a42aef43e7cd2415b7f0055eba5a547b13e7701f900766220b2a77fc1c0b683b",
+    "a618e7a86fe4ac64ae1d90639338cfdab653baf0203bb0381497e93df2810dd7",
     "a86cb9da37951dcd37e9c672c036fd82e50d607d6629ec957649422c6f87222a",
     "aa225d66812bc9ddf996dfdff78c1a62fe48b303ea4e2e6049f5e51473144f7b",
     "aa7e73dc8a3ad092476e8e3550cbe7bad8339307d91a1be56494534d6c4bcbb9",
@@ -986,6 +988,14 @@
     "prime royal restaurant and cafe l.l.c|head of brand & marketing (multilingual russian)|dubai, united arab emirates": {
       "material": "||",
       "last_sent": "2026-10-12T12:09:10.718023+00:00"
+    },
+    "parfums de marly|senior creative retail design manager|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-10-13T12:14:58.299653+00:00"
+    },
+    "confidential|id creative lead|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-10-13T12:15:01.204742+00:00"
     }
   },
   "last_run": {
@@ -1005,7 +1015,7 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 2,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
