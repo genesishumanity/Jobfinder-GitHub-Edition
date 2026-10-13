@@ -1,8 +1,26 @@
 {
-  "scraped_at": "2026-10-12 23:15 UTC",
-  "total": 2,
-  "new_count": 0,
+  "scraped_at": "2026-10-13 12:12 UTC",
+  "total": 3,
+  "new_count": 1,
   "jobs": [
+    {
+      "company": "GPS marketing",
+      "title": "Graphic Designer & AI Creative Specialist",
+      "location": "Dubai, DU, United Arab Emirates",
+      "url": "https://ae.indeed.com/viewjob?jk=284b0e2d599cca1a",
+      "direct_url": "",
+      "company_url": "https://ae.indeed.com/cmp/Gps-Marketing-3",
+      "date_posted": "2026-10-09",
+      "description": "**GPS Marketing Agency Is Hiring: Arabic-Speaking Graphic Designer & AI Creative Specialist**\n\nGPS Marketing Agency is looking for a creative Graphic Designer with strong digital marketing and AI skills to join our team in Dubai.\n\nThe ideal candidate must be fluent in Arabic, have previous marketing agency experience, and be able to create stylish, high-quality designs across different industries.\n\n**Requirements:**\n\n* Fluent Arabic is mandatory, including professional writing and proofreading.\n* Good English communication skills.\n* Previous experience in a digital marketing, advertising, or creative agency.\n* Strong graphic design skills and a creative portfolio.\n* Proficiency in Adobe Photoshop and Illustrator. Knowledge of Adobe InDesign, After Effects, Premiere Pro, Figma, and Canva is an advantage.\n* Professional experience with AI creative tools such as Adobe Firefly, Midjourney, ChatGPT, or other AI image-generation and design tools.\n* Ability to use AI tools effectively to generate, edit, and enhance visuals while maintaining professional design quality.\n* Knowledge of Figma or other UI/UX design tools is a plus.\n\n**Responsibilities:**\n\n* Create social media posts, carousels, banners, and digital advertisements.\n* Develop Arabic and English marketing creatives for real estate, healthcare, and corporate brands.\n* Use AI tools to generate and enhance creative content.\n* Maintain brand consistency and deliver high-quality designs on time.\n* Collaborate with the marketing team and communicate with clients.\n\n**Position Details:**\n\nLocation: JLT, Dubai — On-site\n\nSalary: AED 6,000 per month\n\nHow to Apply: Send your CV and portfolio to digital@gpsmarketing.agency.\n\nApplications without a portfolio or the required Arabic proficiency will not be considered.\n\nPay: AED6,000.00 - AED8,000.00 per month\n\nApplication Question(s):\n\n* Are you in Dubai?\n* When can you start?\n* Add the link to your Portfolio (MUST)\n* Do you have previous work experience in a digital marketing, advertising, or creative agency?\n* Are you fluent in Arabic and able to independently write and proofread professional Arabic marketing content?\n* Which design and AI tools have you used professionally?\n* Do you have professional experience creating social media designs and marketing creatives for brands or clients?\n* What is your visa status and expiration date?\n\nExperience:\n\n* UI UX design: 2 years (Required)\n\nWork Location: In person",
+      "salary": "$6000–$8000/mo",
+      "salary_source": "direct_data",
+      "salary_currency": "AED",
+      "job_type": "fulltime",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "emails": "digital@gpsmarketing.agency",
+      "ats": "Indeed"
+    },
     {
       "company": "Elevar Growth",
       "title": "Senior Creative Producer",
@@ -40,5 +58,24 @@
       "ats": "Indeed"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "GPS marketing",
+      "title": "Graphic Designer & AI Creative Specialist",
+      "location": "Dubai, DU, United Arab Emirates",
+      "url": "https://ae.indeed.com/viewjob?jk=284b0e2d599cca1a",
+      "direct_url": "",
+      "company_url": "https://ae.indeed.com/cmp/Gps-Marketing-3",
+      "date_posted": "2026-10-09",
+      "description": "**GPS Marketing Agency Is Hiring: Arabic-Speaking Graphic Designer & AI Creative Specialist**\n\nGPS Marketing Agency is looking for a creative Graphic Designer with strong digital marketing and AI skills to join our team in Dubai.\n\nThe ideal candidate must be fluent in Arabic, have previous marketing agency experience, and be able to create stylish, high-quality designs across different industries.\n\n**Requirements:**\n\n* Fluent Arabic is mandatory, including professional writing and proofreading.\n* Good English communication skills.\n* Previous experience in a digital marketing, advertising, or creative agency.\n* Strong graphic design skills and a creative portfolio.\n* Proficiency in Adobe Photoshop and Illustrator. Knowledge of Adobe InDesign, After Effects, Premiere Pro, Figma, and Canva is an advantage.\n* Professional experience with AI creative tools such as Adobe Firefly, Midjourney, ChatGPT, or other AI image-generation and design tools.\n* Ability to use AI tools effectively to generate, edit, and enhance visuals while maintaining professional design quality.\n* Knowledge of Figma or other UI/UX design tools is a plus.\n\n**Responsibilities:**\n\n* Create social media posts, carousels, banners, and digital advertisements.\n* Develop Arabic and English marketing creatives for real estate, healthcare, and corporate brands.\n* Use AI tools to generate and enhance creative content.\n* Maintain brand consistency and deliver high-quality designs on time.\n* Collaborate with the marketing team and communicate with clients.\n\n**Position Details:**\n\nLocation: JLT, Dubai — On-site\n\nSalary: AED 6,000 per month\n\nHow to Apply: Send your CV and portfolio to digital@gpsmarketing.agency.\n\nApplications without a portfolio or the required Arabic proficiency will not be considered.\n\nPay: AED6,000.00 - AED8,000.00 per month\n\nApplication Question(s):\n\n* Are you in Dubai?\n* When can you start?\n* Add the link to your Portfolio (MUST)\n* Do you have previous work experience in a digital marketing, advertising, or creative agency?\n* Are you fluent in Arabic and able to independently write and proofread professional Arabic marketing content?\n* Which design and AI tools have you used professionally?\n* Do you have professional experience creating social media designs and marketing creatives for brands or clients?\n* What is your visa status and expiration date?\n\nExperience:\n\n* UI UX design: 2 years (Required)\n\nWork Location: In person",
+      "salary": "$6000–$8000/mo",
+      "salary_source": "direct_data",
+      "salary_currency": "AED",
+      "job_type": "fulltime",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "emails": "digital@gpsmarketing.agency",
+      "ats": "Indeed"
+    }
+  ]
 }
