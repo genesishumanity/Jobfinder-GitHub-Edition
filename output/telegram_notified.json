@@ -120,6 +120,7 @@
     "756859c485442a986ff5405d4fc1fdefda3142b4efd4f33089eef043bc9adb2d",
     "75fd325cc2d34ef02abb0da51707dd5b58208c2f3e9593cf56b12646f5231bbc",
     "763b6f38acfaba760733d282f8d852f016389ac9e6c885751d4c989181059be2",
+    "763c1e5f7897cc68b8894320336865280dd69c333abbf9299a79df64da256701",
     "77026877345971723a79c08168714fda49af7df15be5ecbd475e16ebd001204e",
     "770c0aded5dee11efdb618e9831bbca0c5c52c362a198188303305f626c68dd3",
     "78fab0d2dc3b2d08d7334a6269cc21fd9a61eb6a03a6e791a2ea76242fdd0c30",
@@ -217,6 +218,7 @@
     "f35f0e4c56da3f6ccca6bc2e63a2b7e3ef3e9f98fc60b40ef74f6e53ecf54413",
     "f4059d3223c4eb712348510d4753053156ccc88a8789de34cdb0d0fd8e9161e2",
     "f41d2cabcb06c0087c92687884354b097a9c5acaee9ade337da7bf97bbebc706",
+    "f61fda107e55daa9abcc56500f828406e74eb504da4be44a3f4a10c18297c2d1",
     "f6dfd5bdee21f57ac7e547e84ea4f7cf55a5415917091db33978bc7ce516cb95",
     "fa485288b55811ce0cc4744dcb4b35e3773f1621b26b2326837b7be70d434b08",
     "fb55442a884143c9d5e044244b464dc100bdf0ca83c8173bd4f611d949b12b41",
@@ -996,30 +998,39 @@
     "confidential|id creative lead|dubai, united arab emirates": {
       "material": "||",
       "last_sent": "2026-10-13T12:15:01.204742+00:00"
+    },
+    "chairon house|creative lead|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-10-14T17:21:35.250717+00:00"
+    },
+    "al-futtaim|head of creative lab | al- futtaim automotive|dubai, dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-10-14T17:21:39.080288+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 19,
-    "duplicate": 7,
+    "discovered": 22,
+    "duplicate": 0,
     "geography": 0,
-    "remote": 0,
-    "restricted": 2,
+    "remote": 6,
+    "restricted": 0,
     "language": 0,
-    "domain": 0,
+    "domain": 1,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 1,
+    "off_mission_role": 4,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 2,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "country_restricted": 4,
-    "wrong_role": 5
+    "country_restricted": 6,
+    "wrong_role": 2,
+    "language_required": 1
   }
 }
