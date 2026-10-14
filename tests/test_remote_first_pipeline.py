@@ -663,3 +663,10 @@ def test_multilingual_russian_role_is_blocked_2026_10_12():
                               "location": "Dubai, United Arab Emirates"}) == "wrong_role"
     assert precision_blocked({"title": "Head of Brand", "location": "Dubai, UAE",
                               "description": "Fluent Russian is required."}) == "language_required"
+
+
+def test_interior_and_retail_design_roles_are_wrong_role_2026_10_13():
+    from telegram_notify import precision_blocked
+    for title in ["Senior Creative Retail Design Manager", "ID Creative Lead", "Interior Design Creative Lead"]:
+        assert precision_blocked({"title": title, "location": "Dubai, United Arab Emirates"}) == "wrong_role", title
+    assert precision_blocked({"title": "Creative Lead", "location": "Dubai, United Arab Emirates"}) is None

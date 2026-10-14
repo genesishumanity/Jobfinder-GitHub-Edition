@@ -330,7 +330,7 @@ WRONG_ROLE_TITLE = re.compile(
     # management, engineering and junior/coordinator roles.
     r"\b(?:graphic designer|(?:senior |lead )?(?:creative |visual |motion )?designer|videographer|camera operator|video editor|social media manager|"
     r"software engineer|ml engineer|machine learning engineer|engineering (?:manager|lead|director)|head of engineering|developer|coordinator|junior|intern|"
-    r"copy(?:writer|writing)?|sap|media buyer|visual merchandising|ux|ui|uxui|3d|"
+    r"copy(?:writer|writing)?|sap|media buyer|visual merchandising|retail design|interior\w*|id creative|ux|ui|uxui|3d|"
     r"bilingual|multilingual|creator remote|dog creator|onsite|on-site|applied ai|"
     r"la|nyc|new york|los angeles|san francisco|chicago|austin)\b",
     re.I,
