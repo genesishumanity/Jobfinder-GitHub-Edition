@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-10-13 21:34 UTC",
+  "scraped_at": "2026-10-14 09:45 UTC",
   "total": 4,
-  "new_count": 1,
+  "new_count": 0,
   "jobs": [
     {
       "company": "GPS marketing",
@@ -76,24 +76,5 @@
       "ats": "Indeed"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "5 Team Carpentry & Flooring LLC",
-      "title": "Senior Art Director – Events & Exhibitions",
-      "location": "Dubai, DU, United Arab Emirates",
-      "url": "https://ae.indeed.com/viewjob?jk=302f77375f41523a",
-      "direct_url": "",
-      "company_url": "",
-      "date_posted": "2026-10-13",
-      "description": "**Job Description:**\n\nWe are seeking a visionary Creative Art Director to lead creative concepts and visual direction for exhibitions, events, brand activations, and experiential campaigns. The ideal candidate will transform client briefs into innovative, visually compelling experiences while ensuring brand consistency and practical execution.\n\n**Key Responsibilities:**\n\n* Develop creative concepts, themes, and visual directions for events and exhibitions.\n* Lead 2D/3D design, branding, stage concepts, and exhibition stand aesthetics.\n* Guide designers and coordinate with project, production, and fabrication teams.\n* Present creative proposals and design concepts to clients.\n* Ensure design quality, brand alignment, feasibility, and timely delivery.\n\n**Requirements:**\n\n* Proven experience in creative direction, preferably in events and exhibitions.\n* Strong understanding of branding, spatial design, visual storytelling, and event aesthetics.\n* Proficiency in relevant design software and presentation tools.\n* Excellent creative leadership, communication, and client presentation skills.\n* A strong portfolio of events, exhibitions, and experiential projects is mandatory.\n\n**Apply Now:** Submit your CV and creative portfolio showcasing your best work.\n\nPay: AED8,000.00 - AED10,000.00 per month\n\nWork Location: In person",
-      "salary": "$8000–$10k/mo",
-      "salary_source": "direct_data",
-      "salary_currency": "AED",
-      "job_type": "fulltime",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "emails": "",
-      "ats": "Indeed"
-    }
-  ]
+  "new_jobs": []
 }
