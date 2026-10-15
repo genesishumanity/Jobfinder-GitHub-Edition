@@ -1,6 +1,11 @@
 # 🟦 Indeed — Creative Leadership Roles
-*Last updated: 2026-10-14 20:21 UTC*
+*Last updated: 2026-10-15 09:27 UTC*
 
-**0 new role(s)** since last run · 2 total in last 168h
+**1 new role(s)** since last run · 3 total in last 168h
 
-No new roles since the last run.
+### [Senior Art Director – Events & Exhibitions](https://ae.indeed.com/viewjob?jk=302f77375f41523a) — 5 Team Carpentry & Flooring LLC
+- 📍 **Location:** Dubai, DU, United Arab Emirates
+- 💰 **Salary:** $8000–$10k/mo
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-13
