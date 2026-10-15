@@ -1,24 +1,32 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-10-15 09:20 UTC*
+*Last updated: 2026-10-15 17:15 UTC*
 
-**5 new role(s)** since last run · 34 total in last 168h
+**7 new role(s)** since last run · 34 total in last 168h
 
-### [Creative AI Lead (m|w|d)](https://www.linkedin.com/jobs/view/4479766949/) — Wiethe Content GmbH
-- 📍 **Location:** Bremen, Bremen, Germany
+### [Creative Lead (Strategy & Story)](https://www.linkedin.com/jobs/view/4479802839/) — SWAMP
+- 📍 **Location:** London Area, United Kingdom
 - 🕒 **Posted:** 2026-10-15
 
-### [Events/Project Director - Luxury Brand Experiences | Fashion, Beauty & Lifestyle](https://www.linkedin.com/jobs/view/4477050599/) — HRsource
+### [Creative Producer](https://www.linkedin.com/jobs/view/4458522223/) — Fuse Energy
+- 📍 **Location:** London, England, United Kingdom
+- 🕒 **Posted:** 2026-10-15
+
+### [Senior Integrated Producer](https://www.linkedin.com/jobs/view/4477098382/) — Dragons Group
+- 📍 **Location:** Barcelona, Catalonia, Spain
+- 🕒 **Posted:** 2026-10-15
+
+### [Creative Lead](https://www.linkedin.com/jobs/view/4479836714/) — CuspAI
+- 📍 **Location:** Berlin, Berlin, Germany
+- 🕒 **Posted:** 2026-10-15
+
+### [Senior Creative Manager](https://www.linkedin.com/jobs/view/4477071621/) — Chalhoub Group
+- 📍 **Location:** Dubai, Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-10-15
+
+### [Senior Creative Designer & Content Producer](https://www.linkedin.com/jobs/view/4479813550/) — BYD EUROPE
+- 📍 **Location:** Dubai, Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-10-15
+
+### [Global Head of Creative Design](https://www.linkedin.com/jobs/view/4465732598/) — Confidential Careers
 - 📍 **Location:** Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-10-15
-
-### [Performance Marketing Manager, Dubai](https://www.linkedin.com/jobs/view/4479781490/) — Emerald Zebra Recruitment & Executive Search
-- 📍 **Location:** Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-10-15
-
-### [Creative Strategist](https://www.linkedin.com/jobs/view/4479556324/) — Independant Marketing Consultant
-- 📍 **Location:** Lisbon, Portugal
-- 🕒 **Posted:** 2026-10-14
-
-### [Content Creation Lead](https://www.linkedin.com/jobs/view/4478392737/) — Sova
-- 📍 **Location:** Lisbon Metropolitan Area
 - 🕒 **Posted:** 2026-10-12

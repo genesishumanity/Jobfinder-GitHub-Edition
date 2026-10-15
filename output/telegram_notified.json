@@ -195,6 +195,7 @@
     "d5b326e3fb2d953aca09c0e0ec892e80ae48281df5040cf38c2b0ff22df56dca",
     "d6844104a10e2954ef5eebda2404b1e9ce0fe6a8965f451fb6bb26355696713e",
     "d6eb1d576e146eb4e4fe70b5622a1a1aa0499b5357e912cf59e2dbd7ffdf864c",
+    "d8727b6dd8b107ab501b8f658c8c2ad4536ebaaf1e42a94b833936af140d5f14",
     "dd7867a44c9d32838fb49bcccd57d80754409736711c2a18691f120fa4865a30",
     "dentsu|seniorartdirectorsocialtemporaryworker||httpswwwlinkedincomjobsview4456067070",
     "driftai|creativedirectorbrand||httpswwwlinkedincomjobsview4466314316",
@@ -1011,16 +1012,20 @@
     "chalhoub group|senior creative manager|dubai, du, united arab emirates": {
       "material": "|On-site|False",
       "last_sent": "2026-10-15T15:20:51.971008+00:00"
+    },
+    "chalhoub group|senior creative manager|dubai, dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-10-15T17:16:04.153293+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 17,
-    "duplicate": 6,
+    "discovered": 7,
+    "duplicate": 0,
     "geography": 0,
-    "remote": 0,
-    "restricted": 2,
+    "remote": 1,
+    "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
@@ -1030,11 +1035,11 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "country_restricted": 4,
-    "wrong_role": 4
+    "country_restricted": 2,
+    "wrong_role": 2
   }
 }
