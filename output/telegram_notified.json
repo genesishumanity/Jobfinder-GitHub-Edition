@@ -96,6 +96,7 @@
     "5d0e9dfa238cce6a793b284287d1177b9f32d9701f6afd99cbbbcc5a7877ce0c",
     "5e3733e046d83ed5f8f226b35e1ff1382dfb44f0e02db9c415bc33fdc47c39ff",
     "5f4c6277c395e411767ef6723e0e5f1484ddb804fff6e7399f23cd61f410cdb7",
+    "60364abb1ba76bb75ad70b6ab25531b0c7b78ef3baeba37c7ac883496542183a",
     "60f5e60227e71aeb7199ca2440f9c8ef6515d42288acec7b0fab04c5c114811e",
     "61433b6da949307f8bf2a3e15570c1a77401ad7af34bb2eb0d859bd3723ae3a3",
     "61f0c3e8d93bb3fa118a45ea8a4996ed40296feb752d453c8045af3c4d4c0ac8",
@@ -1006,12 +1007,16 @@
     "al-futtaim|head of creative lab | al- futtaim automotive|dubai, dubai, united arab emirates": {
       "material": "||",
       "last_sent": "2026-10-14T17:21:39.080288+00:00"
+    },
+    "chalhoub group|senior creative manager|dubai, du, united arab emirates": {
+      "material": "|On-site|False",
+      "last_sent": "2026-10-15T15:20:51.971008+00:00"
     }
   },
   "last_run": {
-    "source_file": "google_jobs.json",
+    "source_file": "indeed_jobs.json",
     "min_fit": 0.0,
-    "discovered": 0,
+    "discovered": 1,
     "duplicate": 0,
     "geography": 0,
     "remote": 0,
@@ -1025,7 +1030,7 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
