@@ -83,6 +83,7 @@
     "48bee580504d8bc9f98df6794cfc322928b4d8775fc6caade68fb80bf02a297d",
     "49f144467cea9b720b9e33aff8877baee603e2253bc717d5a5d041ea34af7a68",
     "4a4d4c5bd03c30f4bbdf776932917efa2297df4212ba67495dc920fe339218ae",
+    "4a4eb0b26ff541238f806cf07707e8d4fa4d1e2c17b7e7cfbf6797529e8aa789",
     "4a64a02340c74b7b2359933ef57895bd7da62282f623f746d29c5be4b0cf4898",
     "4d9c8119c010f62bdb94ae42d51fecd2ea28ffba98f92769b1f3fd549c9f2cb3",
     "4eaeb89b1857809998401434ea15e7f167b822cc38a8611521f95c9cd3edfa7a",
@@ -1016,28 +1017,34 @@
     "chalhoub group|senior creative manager|dubai, dubai, united arab emirates": {
       "material": "||",
       "last_sent": "2026-10-15T17:16:04.153293+00:00"
+    },
+    "clario|creative producer (ai-driven)|worldwide": {
+      "material": "||True",
+      "last_sent": "2026-10-16T15:37:06.404029+00:00"
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "remote_boards_jobs.json",
     "min_fit": 0.0,
-    "discovered": 0,
-    "duplicate": 0,
+    "discovered": 18,
+    "duplicate": 6,
     "geography": 0,
     "remote": 0,
-    "restricted": 0,
+    "restricted": 2,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 1,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0
+    "ledger_errors": 0,
+    "country_restricted": 4,
+    "wrong_role": 4
   }
 }
