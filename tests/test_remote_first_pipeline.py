@@ -670,3 +670,13 @@ def test_interior_and_retail_design_roles_are_wrong_role_2026_10_13():
     for title in ["Senior Creative Retail Design Manager", "ID Creative Lead", "Interior Design Creative Lead"]:
         assert precision_blocked({"title": title, "location": "Dubai, United Arab Emirates"}) == "wrong_role", title
     assert precision_blocked({"title": "Creative Lead", "location": "Dubai, United Arab Emirates"}) is None
+
+
+def test_same_role_with_location_variants_is_one_key_2026_10_15():
+    from telegram_notify import normalize_key, role_key
+    a = role_key({"company": "Chalhoub Group", "title": "Senior Creative Manager", "location": "Dubai, DU, United Arab Emirates"})
+    b = role_key({"company": "Chalhoub Group", "title": "Senior Creative Manager", "location": "Dubai, Dubai, United Arab Emirates"})
+    assert a == b == "chalhoub group|senior creative manager|dubai, united arab emirates"
+    # Titles may contain "|"; only the location segment is normalized.
+    assert normalize_key("al-futtaim|head of creative lab | al- futtaim automotive|dubai, dubai, united arab emirates") \
+        == "al-futtaim|head of creative lab | al- futtaim automotive|dubai, united arab emirates"

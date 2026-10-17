@@ -254,8 +254,25 @@ def identity(job):
     return hashlib.sha256(raw.encode()).hexdigest()
 
 
+def _norm_location(location):
+    # LinkedIn writes the same city as "Dubai, Dubai, UAE" and "Dubai, DU, UAE"
+    # (2026-10-15: Chalhoub sent twice); drop region codes and repeats.
+    parts = [p.strip() for p in location.split(",")]
+    seen = []
+    for part in parts:
+        if len(part) > 2 and part not in seen:
+            seen.append(part)
+    return ", ".join(seen)
+
+
+def normalize_key(key):
+    # Titles can contain "|" themselves, so the location is the last segment.
+    head, sep, location = key.rpartition("|")
+    return head + sep + _norm_location(location) if sep else key
+
+
 def role_key(job):
-    return "|".join(re.sub(r"\s+", " ", str(job.get(k, "")).strip().casefold()) for k in ("company", "title", "location"))
+    return normalize_key("|".join(re.sub(r"\s+", " ", str(job.get(k, "")).strip().casefold()) for k in ("company", "title", "location")))
 
 
 def material(job):
@@ -598,7 +615,10 @@ def main():
     new_jobs = data.get("new_jobs", [])
     state = load_json(STATE_PATH, {"ids": [], "records": {}})
     sent_ids = set(state.get("ids", []))
-    records = state.setdefault("records", {})
+    records = {}
+    for old_key, record in sorted(state.get("records", {}).items(), key=lambda kv: str(kv[1].get("last_sent", "")) if isinstance(kv[1], dict) else ""):
+        records[normalize_key(old_key)] = record
+    state["records"] = records
     counts = dict(discovered=len(new_jobs), duplicate=0, geography=0, remote=0, restricted=0,
                   language=0, domain=0, gig_marketplace=0, untrusted_source=0, off_mission_role=0, on_camera_gig=0, dead_link=0, low_fit=0, capped=0, delivered=0, failed=0)
     from delivery_ledger import Ledger, receipt_key

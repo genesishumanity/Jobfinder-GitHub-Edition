@@ -25,8 +25,7 @@ def load_json(path, fallback):
         return fallback
 
 
-def role_key(job):
-    return "|".join(re.sub(r"\s+", " ", str(job.get(k, "")).strip().casefold()) for k in ("company", "title", "location"))
+from telegram_notify import normalize_key, role_key  # noqa: E402  (shared dedupe key)
 
 
 # The 8 approved role families (see discovery_lanes.ADJACENT_TERMS / docs/
@@ -83,6 +82,7 @@ def build_digest(days=7):
     cutoff = datetime.now(timezone.utc) - timedelta(days=days)
     delivered = []
     for key, record in notified.get("records", {}).items():
+        key = normalize_key(key)
         sent_at = record.get("last_sent", "")
         try:
             sent_dt = datetime.fromisoformat(sent_at.replace("Z", "+00:00"))
