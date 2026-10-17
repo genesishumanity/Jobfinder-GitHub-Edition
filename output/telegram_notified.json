@@ -238,7 +238,7 @@
     "veronicabeard|associateartdirector||httpswwwlinkedincomjobsview4466314085"
   ],
   "records": {
-    "bilderfest gmbh|creative producer:in|münchen, by, de": {
+    "bilderfest gmbh|creative producer:in|münchen": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-11T18:54:25.965543+00:00"
     },
@@ -258,7 +258,7 @@
       "material": "||",
       "last_sent": "2026-09-13T15:50:38.741380+00:00"
     },
-    "lassie|growth marketing manager - paid social (berlin, germany)|berlin, berlin, germany": {
+    "lassie|growth marketing manager - paid social (berlin, germany)|berlin, germany": {
       "material": "||",
       "last_sent": "2026-09-14T02:34:05.109583+00:00"
     },
@@ -302,7 +302,7 @@
       "material": "$7,000–$12,000 USD per month||",
       "last_sent": "2026-09-14T16:32:28.589694+00:00"
     },
-    "whatnot|performance creative lead, europe|berlin, berlin, germany": {
+    "whatnot|performance creative lead, europe|berlin, germany": {
       "material": "||",
       "last_sent": "2026-09-14T16:32:32.841520+00:00"
     },
@@ -317,10 +317,6 @@
     "coalition technologies|remote ugc & marketing content creator|anywhere": {
       "material": "PLN 187.12–PLN 374.23 a day|Remote in-state eligible|True",
       "last_sent": "2026-09-14T16:51:34.747863+00:00"
-    },
-    "crossing hurdles|ugc creator | $15/hr remote|anywhere": {
-      "material": "20.8K–31.2K a year|Remote in-state eligible|True",
-      "last_sent": "2026-09-16T01:43:59.955835+00:00"
     },
     "buzzybooth.com|female ugc creator / spokesperson / presenter / actress (english speaker) remote|anywhere": {
       "material": "|Remote in-state eligible|True",
@@ -346,25 +342,13 @@
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-14T16:51:55.450745+00:00"
     },
-    "visit.org|marketing creative lead|es": {
+    "visit.org|marketing creative lead|": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-14T16:56:55.289469+00:00"
     },
     "nextdeavor|generative ai producer (creative)|anywhere": {
       "material": "156,000–171,371 a year|Remote in-state eligible|True",
       "last_sent": "2026-09-14T17:46:30.189683+00:00"
-    },
-    "marketplace operations inc.|remote ai creative lead for direct-response video ads|anywhere": {
-      "material": "||None",
-      "last_sent": "2026-09-16T17:45:11.179288+00:00"
-    },
-    "forbes advisor|ai creative lead (remote)|anywhere": {
-      "material": "||None",
-      "last_sent": "2026-09-18T18:47:09.421208+00:00"
-    },
-    "forbes media llc|ai creative lead|anywhere": {
-      "material": "||None",
-      "last_sent": "2026-09-16T17:45:05.187205+00:00"
     },
     "forbes advisor|creative director, paid social (remote)|anywhere": {
       "material": "|Remote in-state eligible|True",
@@ -385,14 +369,6 @@
     "hoka|remote global social creative lead|anywhere": {
       "material": "70K–85K a year|Remote in-state eligible|True",
       "last_sent": "2026-09-14T17:46:52.911606+00:00"
-    },
-    "right side up|creative lead|anywhere": {
-      "material": "||None",
-      "last_sent": "2026-09-16T17:45:27.074151+00:00"
-    },
-    "hirelatam|remote short-form video editor & creative lead|anywhere": {
-      "material": "||None",
-      "last_sent": "2026-09-16T17:45:31.333522+00:00"
     },
     "24-mag|remote | brand & creative strategy specialist (marketing collateral) — $70–$110/hour|anywhere": {
       "material": "|Remote in-state eligible|True",
@@ -542,10 +518,6 @@
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-15T19:42:51.942441+00:00"
     },
-    "servicenow|associate creative director – core brand|anywhere": {
-      "material": "|Remote in-state eligible|True",
-      "last_sent": "2026-09-16T02:47:37.426363+00:00"
-    },
     "upwork|hands-on creative lead — video, design, ai & luxury social content - contract to hire|anywhere": {
       "material": "25–50 an hour|Remote in-state eligible|True",
       "last_sent": "2026-09-16T00:51:57.771574+00:00"
@@ -554,9 +526,17 @@
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-16T00:52:00.816731+00:00"
     },
+    "crossing hurdles|ugc creator | $15/hr remote|anywhere": {
+      "material": "20.8K–31.2K a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T01:43:59.955835+00:00"
+    },
     "upwork|need someone to create 0:30-01:00min ugc video with himself/herself talking about a product|anywhere": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-16T01:44:02.538444+00:00"
+    },
+    "servicenow|associate creative director – core brand|anywhere": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-09-16T02:47:37.426363+00:00"
     },
     "major players | b corp™|creative performance strategist - us|greater london, england, united kingdom": {
       "material": "||",
@@ -570,17 +550,29 @@
       "material": "||",
       "last_sent": "2026-09-16T17:11:15.801185+00:00"
     },
+    "forbes media llc|ai creative lead|anywhere": {
+      "material": "||None",
+      "last_sent": "2026-09-16T17:45:05.187205+00:00"
+    },
+    "marketplace operations inc.|remote ai creative lead for direct-response video ads|anywhere": {
+      "material": "||None",
+      "last_sent": "2026-09-16T17:45:11.179288+00:00"
+    },
     "nbcuniversal|sr. producer, creative strategy [remote]|anywhere": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-16T17:45:15.008433+00:00"
     },
-    "perfeos|visual ai creative lead|anywhere": {
-      "material": "30K–60K a year|Remote in-state eligible|True",
-      "last_sent": "2026-09-17T00:52:36.733597+00:00"
-    },
     "aquent|associate creative director (bilingual spanish and english) [aq-17266]|anywhere": {
       "material": "100–103 an hour|Remote in-state eligible|True",
       "last_sent": "2026-09-16T17:45:22.614892+00:00"
+    },
+    "right side up|creative lead|anywhere": {
+      "material": "||None",
+      "last_sent": "2026-09-16T17:45:27.074151+00:00"
+    },
+    "hirelatam|remote short-form video editor & creative lead|anywhere": {
+      "material": "||None",
+      "last_sent": "2026-09-16T17:45:31.333522+00:00"
     },
     "article group|freelance associate creative director, design keynotes & events (contract)|anywhere": {
       "material": "|Remote in-state eligible|True",
@@ -658,6 +650,10 @@
       "material": "148K–260K a year|Remote in-state eligible|True",
       "last_sent": "2026-09-16T23:42:34.549294+00:00"
     },
+    "perfeos|visual ai creative lead|anywhere": {
+      "material": "30K–60K a year|Remote in-state eligible|True",
+      "last_sent": "2026-09-17T00:52:36.733597+00:00"
+    },
     "able group|remote creative producer — data-driven d2c ads|anywhere": {
       "material": "65K–100K a year|Remote in-state eligible|True",
       "last_sent": "2026-09-17T00:52:40.109114+00:00"
@@ -722,6 +718,10 @@
       "material": "||",
       "last_sent": "2026-09-18T17:39:38.715660+00:00"
     },
+    "forbes advisor|ai creative lead (remote)|anywhere": {
+      "material": "||None",
+      "last_sent": "2026-09-18T18:47:09.421208+00:00"
+    },
     "javasmarketing|organic marketer & ai ugc creator|anywhere": {
       "material": "10–30 an hour|Remote in-state eligible|True",
       "last_sent": "2026-09-18T18:47:12.150814+00:00"
@@ -778,7 +778,7 @@
       "material": "|remote|True",
       "last_sent": "2026-09-21T04:42:54.556200+00:00"
     },
-    "directive|associate creative director, copy (remote canada)|irvine, ca, us": {
+    "directive|associate creative director, copy (remote canada)|irvine": {
       "material": "$115k–$125k/yr|Remote in-state eligible|True",
       "last_sent": "2026-09-21T18:57:54.413467+00:00"
     },
@@ -794,7 +794,7 @@
       "material": "|remote|True",
       "last_sent": "2026-09-23T20:36:39.541412+00:00"
     },
-    "hims & hers|creative lead, paid social|los alamitos, ca, us": {
+    "hims & hers|creative lead, paid social|los alamitos": {
       "material": "$140k–$170k/yr|Remote in-state eligible|True",
       "last_sent": "2026-09-23T22:54:20.286830+00:00"
     },
@@ -802,7 +802,7 @@
       "material": "||True",
       "last_sent": "2026-09-24T00:59:40.805571+00:00"
     },
-    "ozean international inc|content marketing & ugc coordinator (part-time)|san marino, ca, us": {
+    "ozean international inc|content marketing & ugc coordinator (part-time)|san marino": {
       "material": "$28–$30/hr|Remote in-state eligible|True",
       "last_sent": "2026-09-24T15:55:26.958539+00:00"
     },
@@ -818,7 +818,7 @@
       "material": "||True",
       "last_sent": "2026-09-28T09:53:45.272063+00:00"
     },
-    "spotify|creative lead - visual merchandising|sweden, uk": {
+    "spotify|creative lead - visual merchandising|sweden": {
       "material": "||True",
       "last_sent": "2026-09-28T09:53:48.292172+00:00"
     },
@@ -870,7 +870,7 @@
       "material": "||",
       "last_sent": "2026-09-29T04:37:42.001781+00:00"
     },
-    "cervo bianco srl|creative director — interior architecture & design|milano, lom, it": {
+    "cervo bianco srl|creative director — interior architecture & design|milano, lom": {
       "material": "|On-site|False",
       "last_sent": "2026-09-29T10:57:20.682550+00:00"
     },
@@ -886,7 +886,7 @@
       "material": "||True",
       "last_sent": "2026-09-29T18:03:27.787115+00:00"
     },
-    "22dogs|ai creative technologist|milano, lom, it": {
+    "22dogs|ai creative technologist|milano, lom": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-09-30T04:57:45.302203+00:00"
     },
@@ -926,7 +926,7 @@
       "material": "||",
       "last_sent": "2026-10-03T16:00:57.632845+00:00"
     },
-    "canva|creative strategist, growth marketing (istanbul, 12-month contract)|istanbul, istanbul, türkiye": {
+    "canva|creative strategist, growth marketing (istanbul, 12-month contract)|istanbul, türkiye": {
       "material": "||",
       "last_sent": "2026-10-05T11:39:49.887764+00:00"
     },
@@ -945,10 +945,6 @@
     "userwise services|senior ua creative strategist - mobile games|turkey": {
       "material": "||True",
       "last_sent": "2026-10-06T12:15:45.060465+00:00"
-    },
-    "xperteez technology|🌍 brand & creative strategy expert, remote- contract|worldwide": {
-      "material": "||True",
-      "last_sent": "2026-10-10T20:45:10.721316+00:00"
     },
     "growthfull|ai art generator ai arti̇st|sariyer, istanbul, türkiye": {
       "material": "||",
@@ -970,21 +966,25 @@
       "material": "||",
       "last_sent": "2026-10-09T11:57:34.747941+00:00"
     },
-    "elevar growth|senior creative producer|dubai, du, united arab emirates": {
+    "elevar growth|senior creative producer|dubai, united arab emirates": {
       "material": "|On-site|False",
       "last_sent": "2026-10-09T21:20:54.615970+00:00"
     },
-    "berrychino|creative director|dubai, du, united arab emirates": {
+    "berrychino|creative director|dubai, united arab emirates": {
       "material": "$8000–$15k/mo|On-site|False",
       "last_sent": "2026-10-09T21:20:57.855519+00:00"
     },
-    "storeys real estate|creative director – content & media|dubai, du, united arab emirates": {
+    "storeys real estate|creative director – content & media|dubai, united arab emirates": {
       "material": "|On-site|False",
       "last_sent": "2026-10-09T21:21:01.266876+00:00"
     },
     "burga|creative director (burga men)|europe": {
       "material": "|remote|True",
       "last_sent": "2026-10-10T12:27:07.970610+00:00"
+    },
+    "xperteez technology|🌍 brand & creative strategy expert, remote- contract|worldwide": {
+      "material": "||True",
+      "last_sent": "2026-10-10T20:45:10.721316+00:00"
     },
     "saas.group|ai lead / engineering manager|europe": {
       "material": "||True",
@@ -1006,15 +1006,11 @@
       "material": "||",
       "last_sent": "2026-10-14T17:21:35.250717+00:00"
     },
-    "al-futtaim|head of creative lab | al- futtaim automotive|dubai, dubai, united arab emirates": {
+    "al-futtaim|head of creative lab | al- futtaim automotive|dubai, united arab emirates": {
       "material": "||",
       "last_sent": "2026-10-14T17:21:39.080288+00:00"
     },
-    "chalhoub group|senior creative manager|dubai, du, united arab emirates": {
-      "material": "|On-site|False",
-      "last_sent": "2026-10-15T15:20:51.971008+00:00"
-    },
-    "chalhoub group|senior creative manager|dubai, dubai, united arab emirates": {
+    "chalhoub group|senior creative manager|dubai, united arab emirates": {
       "material": "||",
       "last_sent": "2026-10-15T17:16:04.153293+00:00"
     },
@@ -1024,18 +1020,18 @@
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "indeed_jobs.json",
     "min_fit": 0.0,
-    "discovered": 18,
-    "duplicate": 7,
+    "discovered": 0,
+    "duplicate": 0,
     "geography": 0,
     "remote": 0,
-    "restricted": 2,
+    "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 1,
+    "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
@@ -1043,8 +1039,6 @@
     "delivered": 0,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0,
-    "country_restricted": 4,
-    "wrong_role": 4
+    "ledger_errors": 0
   }
 }
