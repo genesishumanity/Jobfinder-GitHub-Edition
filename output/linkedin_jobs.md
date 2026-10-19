@@ -1,24 +1,32 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-10-19 10:09 UTC*
+*Last updated: 2026-10-19 19:00 UTC*
 
-**5 new role(s)** since last run · 38 total in last 168h
+**7 new role(s)** since last run · 41 total in last 168h
 
-### [Senior Creative Lead/Manager](https://www.linkedin.com/jobs/view/4467366782/) — 3Search
-- 📍 **Location:** London Area, United Kingdom
+### [Senior Creative Strategist (m/w/d)](https://www.linkedin.com/jobs/view/4478291756/) — Dreamlight Labs GmbH
+- 📍 **Location:** Germany
 - 🕒 **Posted:** 2026-10-19
 
-### [Creative Strategist](https://www.linkedin.com/jobs/view/4478267499/) — Kijimea (SYNformulas GmbH)
+### [Creative Strategist für Paid Social (m/w/d)](https://www.linkedin.com/jobs/view/4480970489/) — Freiheit Media GmbH
+- 📍 **Location:** Hamburg, Hamburg, Germany
+- 🕒 **Posted:** 2026-10-19
+
+### [Senior Video & Creative Producer (m/w/d) - Start Up](https://www.linkedin.com/jobs/view/4478273700/) — Logicc
+- 📍 **Location:** Hamburg, Hamburg, Germany
+- 🕒 **Posted:** 2026-10-19
+
+### [Creative Strategist, Elgato](https://www.linkedin.com/jobs/view/4464302437/) — Corsair
 - 📍 **Location:** Munich, Bavaria, Germany
 - 🕒 **Posted:** 2026-10-19
 
-### [Performance Marketing/Marketer](https://www.linkedin.com/jobs/view/4480945610/) — Steer Well Auto
-- 📍 **Location:** Sharjah Emirate, United Arab Emirates
+### [Creative Video Producer (Videography & Editing)](https://www.linkedin.com/jobs/view/4478299025/) — O Gold
+- 📍 **Location:** Dubai, Dubai, United Arab Emirates
 - 🕒 **Posted:** 2026-10-19
 
-### [Digital Marketing & Content Specialist](https://www.linkedin.com/jobs/view/4480961236/) — Kayana | Ordering & Payment Solutions
-- 📍 **Location:** Dubai, United Arab Emirates
+### [Performance Marketing Lead](https://www.linkedin.com/jobs/view/4478280421/) — Honora Ventures Consultancy LLC
+- 📍 **Location:** Dubai, Dubai, United Arab Emirates
 - 🕒 **Posted:** 2026-10-19
 
-### [Head of Creative Content](https://www.linkedin.com/jobs/view/4460766319/) — Fever
-- 📍 **Location:** Madrid, Community of Madrid, Spain
-- 🕒 **Posted:** 2026-10-17
+### [Senior Creative Strategist](https://www.linkedin.com/jobs/view/4460688106/) — Quince
+- 📍 **Location:** Berlin, Berlin, Germany
+- 🕒 **Posted:** 2026-10-14
