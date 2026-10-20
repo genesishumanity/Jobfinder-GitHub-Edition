@@ -1,8 +1,26 @@
 {
-  "scraped_at": "2026-10-20 09:39 UTC",
-  "total": 1,
-  "new_count": 0,
+  "scraped_at": "2026-10-20 15:23 UTC",
+  "total": 2,
+  "new_count": 1,
   "jobs": [
+    {
+      "company": "TechBiz Global GmbH",
+      "title": "Direct-Response Creative Strategist (YouTube Ads)",
+      "location": "Dubai, DU, United Arab Emirates",
+      "url": "https://ae.indeed.com/viewjob?jk=bb30c9100f557723",
+      "direct_url": "https://jobs.techbiz.global/l/en/o/direct-response-creative-strategist-youtube-ads?source=Indeed",
+      "company_url": "https://ae.indeed.com/cmp/Techbiz-Global-Gmbh",
+      "date_posted": "2026-10-20",
+      "description": "We’re looking for a **creative strategist** who understands direct response at a serious level and can develop and script YouTube ads and mini VSLs for competitive e-commerce markets.\n\nYou’ll be responsible for research, angle development, hook writing, scripting, and iterating based on performance data. Your scripts go through our AI production team, so the output is fast and the feedback loop is short.\n\nYou’ll be working across multiple 8 and 9-figure brands simultaneously. The work is demanding and the bar is high.\n\n  \n\n* 2+ years writing direct response video ads for YouTube or Facebook\n\n* A real understanding of Eugene Schwartz’s awareness stages and how to apply them to cold traffic\n* Experience scripting hooks, mini VSLs, and full ad concepts\n* The ability to look at performance data and use it to build the next creative\n* Proven spend behind your work - creatives you’ve written that have run profitably at scale\n* Comfort using AI tools as part of your day-to-day workflow\n\nExperience in compliance-sensitive categories like supplements or weight loss is a bonus. So is familiarity with unique mechanism development and RMBC.",
+      "salary": "",
+      "salary_source": "",
+      "salary_currency": "",
+      "job_type": "fulltime",
+      "is_remote": true,
+      "work_arrangement": "Remote in-state eligible",
+      "emails": "",
+      "ats": "Indeed"
+    },
     {
       "company": "Chalhoub Group",
       "title": "Senior Creative Manager",
@@ -22,5 +40,24 @@
       "ats": "Indeed"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "TechBiz Global GmbH",
+      "title": "Direct-Response Creative Strategist (YouTube Ads)",
+      "location": "Dubai, DU, United Arab Emirates",
+      "url": "https://ae.indeed.com/viewjob?jk=bb30c9100f557723",
+      "direct_url": "https://jobs.techbiz.global/l/en/o/direct-response-creative-strategist-youtube-ads?source=Indeed",
+      "company_url": "https://ae.indeed.com/cmp/Techbiz-Global-Gmbh",
+      "date_posted": "2026-10-20",
+      "description": "We’re looking for a **creative strategist** who understands direct response at a serious level and can develop and script YouTube ads and mini VSLs for competitive e-commerce markets.\n\nYou’ll be responsible for research, angle development, hook writing, scripting, and iterating based on performance data. Your scripts go through our AI production team, so the output is fast and the feedback loop is short.\n\nYou’ll be working across multiple 8 and 9-figure brands simultaneously. The work is demanding and the bar is high.\n\n  \n\n* 2+ years writing direct response video ads for YouTube or Facebook\n\n* A real understanding of Eugene Schwartz’s awareness stages and how to apply them to cold traffic\n* Experience scripting hooks, mini VSLs, and full ad concepts\n* The ability to look at performance data and use it to build the next creative\n* Proven spend behind your work - creatives you’ve written that have run profitably at scale\n* Comfort using AI tools as part of your day-to-day workflow\n\nExperience in compliance-sensitive categories like supplements or weight loss is a bonus. So is familiarity with unique mechanism development and RMBC.",
+      "salary": "",
+      "salary_source": "",
+      "salary_currency": "",
+      "job_type": "fulltime",
+      "is_remote": true,
+      "work_arrangement": "Remote in-state eligible",
+      "emails": "",
+      "ats": "Indeed"
+    }
+  ]
 }

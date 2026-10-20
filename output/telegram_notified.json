@@ -147,6 +147,7 @@
     "8c16a575cde2dcb14240bb4b9e6e68081d4821067b0475dd1f3f8bf60be650d7",
     "8c17a3c7b7604452428329b12255e853c8e282595c682aa7529d9ed9ca221f3e",
     "8c17c8de00f5a7967e805e844672600fba7556b11948be116a8f23f018a2eba9",
+    "8d70279a2a47405c413176eb4630a2c62a69d21450ca5483e22f36d4966403f1",
     "8d7b56f5c21da5a9bcc39656df22947542cc529b0cd66573c0480b78aeaee772",
     "90a5e796d74a0dd0eb639a87ae574d8e5705c107c91d1677cb7f1e91f0280806",
     "97757b6a2faf2b6e572376dd5f4ce6a73181f05cc2c3e0640a61e437bf535de4",
@@ -1017,12 +1018,16 @@
     "clario|creative producer (ai-driven)|worldwide": {
       "material": "||True",
       "last_sent": "2026-10-16T15:37:06.404029+00:00"
+    },
+    "techbiz global gmbh|direct-response creative strategist (youtube ads)|dubai, united arab emirates": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-10-20T15:24:05.279904+00:00"
     }
   },
   "last_run": {
-    "source_file": "google_jobs.json",
+    "source_file": "indeed_jobs.json",
     "min_fit": 0.0,
-    "discovered": 0,
+    "discovered": 1,
     "duplicate": 0,
     "geography": 0,
     "remote": 0,
@@ -1036,7 +1041,7 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
