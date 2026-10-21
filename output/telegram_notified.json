@@ -114,6 +114,7 @@
     "693056e13fa2668de9b3eaa9ad3ec7a17ad002cb1263b936de681cc5b0ecfa89",
     "6a38875c7e7a3e060ad06f338ff17a5f561b7f3b9fb4e74b6062a404d7683adf",
     "6a3c6c64e9ade5a1604a96d18581e82663960e15ad45f3026b8edebbb3f48041",
+    "6a7b3e06549a53b990b50b49ad2ae14d0f322ab14f6b764bbbf50c8bcc678a05",
     "6bcd95a735f89ed6cdeaf4f22cc19b5f1cbd2e831a388defa2f15f0ac356d8a4",
     "6fd690a4840cc6132d48c9892669420b82b25353cf4b5ac2d3be8dccad8859d3",
     "70d3e473afd6814768db240251e99c2767964620ca1b51b334a3b68d30df4cc0",
@@ -1022,28 +1023,34 @@
     "techbiz global gmbh|direct-response creative strategist (youtube ads)|dubai, united arab emirates": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-10-20T15:24:05.279904+00:00"
+    },
+    "techbiz global|direct-response creative strategist (youtube ads)|worldwide": {
+      "material": "||True",
+      "last_sent": "2026-10-21T10:39:50.424795+00:00"
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "remote_boards_jobs.json",
     "min_fit": 0.0,
-    "discovered": 1,
-    "duplicate": 0,
+    "discovered": 19,
+    "duplicate": 8,
     "geography": 0,
     "remote": 0,
-    "restricted": 0,
+    "restricted": 2,
     "language": 0,
-    "domain": 1,
+    "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 1,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0
+    "ledger_errors": 0,
+    "country_restricted": 4,
+    "wrong_role": 3
   }
 }
