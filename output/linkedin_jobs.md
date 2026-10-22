@@ -1,28 +1,33 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-10-21 17:24 UTC*
+*Last updated: 2026-10-22 09:31 UTC*
 
-**6 new role(s)** since last run · 30 total in last 168h
+**7 new role(s)** since last run · 36 total in last 168h
 
-### [Senior Specialist, Creative Strategy & Performance (Paid Marketing)](https://www.linkedin.com/jobs/view/4472301543/) — Docplanner
-- 📍 **Location:** Amsterdam, North Holland, Netherlands
+### [Creative Strategist – eCom Performance Ads](https://www.linkedin.com/jobs/view/4480014350/) — Boost Ecom Ads
+- 📍 **Location:** Hungary
+- 💰 **Salary:** $1,500-$2,000 USD /mo
+- 🕒 **Posted:** 2026-10-22
+
+### [Creative Concepter & Strategist (Mensch)](https://www.linkedin.com/jobs/view/4473681218/) — WPP Media
+- 📍 **Location:** Düsseldorf, North Rhine-Westphalia, Germany
+- 🕒 **Posted:** 2026-10-22
+
+### [Creative Strategist & Storyteller - YouTube + Instagram](https://www.linkedin.com/jobs/view/4480008591/) — Natulim
+- 📍 **Location:** Barcelona, Catalonia, Spain
+- 🕒 **Posted:** 2026-10-22
+
+### [Creative Producer para Instagram y Youtube](https://www.linkedin.com/jobs/view/4480004633/) — Natulim
+- 📍 **Location:** Barcelona, Catalonia, Spain
+- 🕒 **Posted:** 2026-10-22
+
+### [Performance Marketing Specialist – Dubai](https://www.linkedin.com/jobs/view/4482440404/) — Telescope Media Group
+- 📍 **Location:** Dubai, Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-10-22
+
+### [Senior Creative Strategist - E-Commerce (m/w/d)](https://www.linkedin.com/jobs/view/4479429808/) — Pammys
+- 📍 **Location:** Hamburg, Hamburg, Germany
 - 🕒 **Posted:** 2026-10-21
 
-### [Senior Creative](https://www.linkedin.com/jobs/view/4472741200/) — Monks
-- 📍 **Location:** Madrid, Community of Madrid, Spain
-- 🕒 **Posted:** 2026-10-21
-
-### [Senior Creative Brand Specialist](https://www.linkedin.com/jobs/view/4481137593/) — LYNX Beleggen
-- 📍 **Location:** Amsterdam, North Holland, Netherlands
-- 🕒 **Posted:** 2026-10-21
-
-### [Senior Specialist, Creative Strategy & Performance (Paid Marketing)](https://www.linkedin.com/jobs/view/4472305361/) — Docplanner
-- 📍 **Location:** Berlin, Berlin, Germany
-- 🕒 **Posted:** 2026-10-21
-
-### [Marketing Lead](https://www.linkedin.com/jobs/view/4478990513/) — Grandseal
-- 📍 **Location:** Sharjah Emirate, United Arab Emirates
-- 🕒 **Posted:** 2026-10-21
-
-### [Creative Video Producer (Videography & Editing)](https://www.linkedin.com/jobs/view/4479429286/) — O Gold
+### [Creative Project Manager](https://www.linkedin.com/jobs/view/4479457107/) — Getty Images
 - 📍 **Location:** Dubai, Dubai, United Arab Emirates
 - 🕒 **Posted:** 2026-10-21
