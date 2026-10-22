@@ -202,6 +202,7 @@
     "dd7867a44c9d32838fb49bcccd57d80754409736711c2a18691f120fa4865a30",
     "dentsu|seniorartdirectorsocialtemporaryworker||httpswwwlinkedincomjobsview4456067070",
     "driftai|creativedirectorbrand||httpswwwlinkedincomjobsview4466314316",
+    "e3bd57680aa5da239f69c3006456e0cc0cac5cea60abe6921b0768c586ca2e20",
     "e42b9f8a354eea2c22562e1cabc3f7f8e723fea1dd6690223d640d0e6d8c4791",
     "e48601605426431477d5a7e566592720a64c4d073537d0071d8591f1c15366c3",
     "e4d6157d2cfe77ebbf93ac4f851c60d78d34ea6798a733172ac055cab8cbc78d",
@@ -1027,29 +1028,34 @@
     "techbiz global|direct-response creative strategist (youtube ads)|worldwide": {
       "material": "||True",
       "last_sent": "2026-10-21T10:39:50.424795+00:00"
+    },
+    "mercury|creative director - brand narrative|anywhere in the world": {
+      "material": "||True",
+      "last_sent": "2026-10-22T10:42:07.450475+00:00"
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "remote_boards_jobs.json",
     "min_fit": 0.0,
-    "discovered": 1,
-    "duplicate": 0,
+    "discovered": 18,
+    "duplicate": 7,
     "geography": 0,
     "remote": 0,
-    "restricted": 0,
+    "restricted": 2,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 1,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "wrong_role": 1
+    "country_restricted": 4,
+    "wrong_role": 3
   }
 }
