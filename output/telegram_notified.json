@@ -59,6 +59,7 @@
     "365b6b8e652420a1a6ccfbed7f211872a38570e59cbba6f47e4ca9a589e188bd",
     "3775e9148ec77c1d3cfcefd8d8fa3e24ec97620c454361446d1a0798ebc7f11b",
     "3881257f8e250d69bbadcdb613ddc096010b938c67ccbe18019ad89585b6f53f",
+    "3a45b18efcb5f06966837a8218f67b59c2f0123dd4e9e12ddc8058a904af729b",
     "3b3e485768cfc2513b8f0b537aa4acb8bf3e2bc9b1f04b67bcc368c7162435a1",
     "3b90886fb591b65c451fdda0b0f83efe1ea47e9fe8100b416e1c69fafad6c79e",
     "3bb4feafff7e0643e6df23b5cc34f752073d3027efa32833b60109ec80f72414",
@@ -1032,30 +1033,33 @@
     "mercury|creative director - brand narrative|anywhere in the world": {
       "material": "||True",
       "last_sent": "2026-10-22T10:42:07.450475+00:00"
+    },
+    "subko specialty coffee roasters, bakehouse and fine cacao|creative brand strategy & content lead|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-10-22T17:20:02.542457+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 18,
-    "duplicate": 8,
+    "discovered": 5,
+    "duplicate": 0,
     "geography": 0,
-    "remote": 0,
-    "restricted": 2,
+    "remote": 3,
+    "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 1,
+    "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "country_restricted": 4,
-    "wrong_role": 3
+    "language_required": 1
   }
 }
