@@ -184,6 +184,7 @@
     "b9f08c690da05ac86b0e201db1ad0c1dc2570171dafe878f95b33d580c742da5",
     "baaf4df617bce8357f1e1861f38bbc19170862dd9b4e138d6693613e64891305",
     "bc07ba8c1c7d6c2d0035f0bc93142a3757d75011ac7d16807acc0b78ee340934",
+    "bdd93298d9adb382200c3015ddc096ec2a776dc57a170b30d6f5c325d6fa8c20",
     "c066913e34842df7d6e7eb5ea6aa27a119180e2ef1347d3964e1c281bec1fe4d",
     "c3891d8add0de75b3439ace3965d81f4962ff73df71470be5aa9596d7000222f",
     "c3dc86afde4c60b8f2b57b4d68cabfda0709dd081ce311e11b23f8e982051508",
@@ -1037,28 +1038,34 @@
     "subko specialty coffee roasters, bakehouse and fine cacao|creative brand strategy & content lead|dubai, united arab emirates": {
       "material": "||",
       "last_sent": "2026-10-22T17:20:02.542457+00:00"
+    },
+    "techbiz global|creative strategist (youtube ads)|worldwide": {
+      "material": "||True",
+      "last_sent": "2026-10-22T20:52:22.892960+00:00"
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "remote_boards_jobs.json",
     "min_fit": 0.0,
-    "discovered": 0,
-    "duplicate": 0,
+    "discovered": 19,
+    "duplicate": 8,
     "geography": 0,
     "remote": 0,
-    "restricted": 0,
+    "restricted": 2,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 1,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0
+    "ledger_errors": 0,
+    "country_restricted": 4,
+    "wrong_role": 3
   }
 }
