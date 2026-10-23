@@ -6,6 +6,7 @@
     "02aeb9d5cf11b47f913c53385f7f9159f0aabcb259a461611cb7519729d2b13f",
     "0399ed2db4b22a7f860c9a99f3bf133d136b3857b058cc0ad83008dfd4eec391",
     "0479d90bc39b93c962333a3ce3ba9df8d22817de2e55107f465f198d73817ec0",
+    "063b7a90ada47cc2370c029807e2f98476d8b52d92f6951e96e5944dd0a9e142",
     "070466bd1dede6390056b5edfd9aff3449ef0e46f014e78aca50cc2dcf2a5eb4",
     "09529bdaff9a0d4c76c7ab8e1cd6787f3630722514d868d35fcac5f546eb1c5e",
     "095f55ef3ff91415b1423177e84e956d328e3a0b9b4fc172f6d29fb760b4ebe9",
@@ -1047,15 +1048,19 @@
     "avi-spl middle east|creative technologist, av experience required|dubai, united arab emirates": {
       "material": "||",
       "last_sent": "2026-10-23T09:27:54.323680+00:00"
+    },
+    "avi-spl|creative technologist, av experience required|dubai, united arab emirates": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-10-23T09:37:23.415168+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "indeed_jobs.json",
     "min_fit": 0.0,
-    "discovered": 3,
+    "discovered": 1,
     "duplicate": 0,
     "geography": 0,
-    "remote": 2,
+    "remote": 0,
     "restricted": 0,
     "language": 0,
     "domain": 0,
