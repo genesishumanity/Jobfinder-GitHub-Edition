@@ -169,6 +169,7 @@
     "aa7e73dc8a3ad092476e8e3550cbe7bad8339307d91a1be56494534d6c4bcbb9",
     "ab4e85fce5a02d7f6c2785b0989d89fc0654ca323778e517de98f2e2f6781f96",
     "ac4f933c66d449ccdb8e8d91a64951c8599979a1b0213e1bc9753509980d3bf6",
+    "acc78a0840c8b2cc04fb0c2aac62923a9c481f94401dc4a4f5e8c7e3a345425f",
     "acf97042bf7f313412eeab871391388b5b50fcda2e9ec02bfda7561b393d6684",
     "ad25b7bbb07f46840f8622d88105efd88b87abc3a2f6bd7cb63186967ca5aca9",
     "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466009878",
@@ -1052,30 +1053,33 @@
     "avi-spl|creative technologist, av experience required|dubai, united arab emirates": {
       "material": "|Remote in-state eligible|True",
       "last_sent": "2026-10-23T09:37:23.415168+00:00"
+    },
+    "subko specialty coffee roasters, bakehouse and fine cacao|creative brand strategy and content lead|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-10-23T17:37:45.739283+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 19,
-    "duplicate": 9,
+    "discovered": 5,
+    "duplicate": 0,
     "geography": 0,
-    "remote": 0,
-    "restricted": 2,
+    "remote": 1,
+    "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 1,
+    "off_mission_role": 2,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "country_restricted": 4,
-    "wrong_role": 3
+    "wrong_role": 1
   }
 }
