@@ -195,6 +195,7 @@
     "caeba3a133c12812fb1be3811bad986b2abc77413b4f68950b961b4653fc454f",
     "cbf3e51edde019b3fbaa034d325973265c356d08583dae02d4b85d93f367a29f",
     "cd09e5b9bcd19bbcde1f9043a0e56d586d38e61162f71a7f47c62f30c805fb5d",
+    "d27d1a5b63864d8dea9e88907d30966f2abad6c53de16c601e053afb66ff560f",
     "d3ffea68f3a98accf23a5b5c8d6d6181a15648f519d6264e4d8d2e5180cde15a",
     "d50a6ac2db90210fcb7f4c5bcc45072b10d1154b7f48516662bbe7e33530394c",
     "d5b326e3fb2d953aca09c0e0ec892e80ae48281df5040cf38c2b0ff22df56dca",
@@ -1042,21 +1043,25 @@
     "techbiz global|creative strategist (youtube ads)|worldwide": {
       "material": "||True",
       "last_sent": "2026-10-22T20:52:22.892960+00:00"
+    },
+    "avi-spl middle east|creative technologist, av experience required|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-10-23T09:27:54.323680+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 19,
-    "duplicate": 8,
+    "discovered": 3,
+    "duplicate": 0,
     "geography": 0,
-    "remote": 0,
-    "restricted": 2,
+    "remote": 2,
+    "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 1,
+    "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
@@ -1064,8 +1069,6 @@
     "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0,
-    "country_restricted": 4,
-    "wrong_role": 3
+    "ledger_errors": 0
   }
 }
