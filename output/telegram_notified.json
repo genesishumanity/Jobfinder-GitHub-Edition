@@ -159,6 +159,7 @@
     "9b9f77a7c4dbd8b7cb2e5e1794d0409f2d62d9b3d9b7bb7a1b9d16fe78fab9ce",
     "9d6b2d5976243f584d9733dc3119dd47caa552a6ece4af26da30daff80c7f3e1",
     "a01dad5b7c310b1220c31f589ed4a27c21cf82c051e3b02244dbd7460d195650",
+    "a1b821178c6de90a449202f4e79aafc3414a917d9e836b9f43f5531ceaefbc5d",
     "a1e08675cca9bb3f30e205db4ea8fa139dbb7364fa18198b65fad089e37c077c",
     "a355b7ff66da044f82e5f4f711aa7378e0e5c4ee4b6fcfa903021e77d363e75e",
     "a3a577fd023324f92f312e7abfcd42964389918815a800873e21fb789ce3ae80",
@@ -187,6 +188,7 @@
     "baaf4df617bce8357f1e1861f38bbc19170862dd9b4e138d6693613e64891305",
     "bc07ba8c1c7d6c2d0035f0bc93142a3757d75011ac7d16807acc0b78ee340934",
     "bdd93298d9adb382200c3015ddc096ec2a776dc57a170b30d6f5c325d6fa8c20",
+    "c0598e6375cbf2f040119e0b297c2529b8877a73bb488086a656085cc8e36d41",
     "c066913e34842df7d6e7eb5ea6aa27a119180e2ef1347d3964e1c281bec1fe4d",
     "c0b7350ddae35d25c7a171a64ffc80c5dc245fb5b51b99243cf01472d09188ce",
     "c3891d8add0de75b3439ace3965d81f4962ff73df71470be5aa9596d7000222f",
@@ -1062,30 +1064,37 @@
     "the greater change|creative director - real estate / tech & longevity|dubai, united arab emirates": {
       "material": "||",
       "last_sent": "2026-10-24T09:09:49.312025+00:00"
+    },
+    "linear|creative producer|europe · european union · remote": {
+      "material": "|remote|True",
+      "last_sent": "2026-10-24T10:54:27.100496+00:00"
+    },
+    "linear|creative producer|north america · united states · europe · european union · remote": {
+      "material": "|remote|True",
+      "last_sent": "2026-10-24T10:54:30.146106+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "careerops_ats_jobs.json",
     "min_fit": 0.0,
-    "discovered": 20,
-    "duplicate": 10,
+    "discovered": 3,
+    "duplicate": 0,
     "geography": 0,
     "remote": 0,
-    "restricted": 2,
+    "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 1,
+    "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 2,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "country_restricted": 4,
-    "wrong_role": 3
+    "country_restricted": 1
   }
 }
