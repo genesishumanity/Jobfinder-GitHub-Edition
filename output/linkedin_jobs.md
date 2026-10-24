@@ -1,24 +1,16 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-10-23 17:37 UTC*
+*Last updated: 2026-10-24 09:09 UTC*
 
-**5 new role(s)** since last run · 35 total in last 168h
+**3 new role(s)** since last run · 37 total in last 168h
 
-### [Brand and AI Creative Designer](https://www.linkedin.com/jobs/view/4482847853/) — TUI
-- 📍 **Location:** Palma, Balearic Islands, Spain
-- 🕒 **Posted:** 2026-10-23
-
-### [Creative Brand Strategy And Content Lead](https://www.linkedin.com/jobs/view/4482873962/) — Subko Specialty Coffee Roasters, Bakehouse and Fine Cacao
+### [Creative Director - Real Estate / Tech & Longevity](https://www.linkedin.com/jobs/view/4483188818/) — The Greater Change
 - 📍 **Location:** Dubai, Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-10-23
+- 🕒 **Posted:** 2026-10-24
 
-### [Content & Social Media Lead](https://www.linkedin.com/jobs/view/4482866405/) — Kayana | Ordering & Payment Solutions
+### [Creative Content Designer – AI Video Creator & Social Media](https://www.linkedin.com/jobs/view/4481032737/) — Caartl
 - 📍 **Location:** Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-10-23
+- 🕒 **Posted:** 2026-10-24
 
-### [Specialist, Performance Marketing - instashop](https://www.linkedin.com/jobs/view/4444106936/) — talabat
-- 📍 **Location:** Dubai, Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-10-23
-
-### [Producer – TV & Integrated Productions](https://www.linkedin.com/jobs/view/4478283227/) — TBWA\NEBOKO
-- 📍 **Location:** Amsterdam, North Holland, Netherlands
+### [Innovation Brand Designer](https://www.linkedin.com/jobs/view/4444427036/) — Savills
+- 📍 **Location:** Lisbon, Lisbon, Portugal
 - 🕒 **Posted:** 2026-10-19

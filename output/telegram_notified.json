@@ -188,6 +188,7 @@
     "bc07ba8c1c7d6c2d0035f0bc93142a3757d75011ac7d16807acc0b78ee340934",
     "bdd93298d9adb382200c3015ddc096ec2a776dc57a170b30d6f5c325d6fa8c20",
     "c066913e34842df7d6e7eb5ea6aa27a119180e2ef1347d3964e1c281bec1fe4d",
+    "c0b7350ddae35d25c7a171a64ffc80c5dc245fb5b51b99243cf01472d09188ce",
     "c3891d8add0de75b3439ace3965d81f4962ff73df71470be5aa9596d7000222f",
     "c3dc86afde4c60b8f2b57b4d68cabfda0709dd081ce311e11b23f8e982051508",
     "c661269d60761df95983362b19c043cb9cff2bc9e10a6603864d4d410062e278",
@@ -1057,6 +1058,10 @@
     "subko specialty coffee roasters, bakehouse and fine cacao|creative brand strategy and content lead|dubai, united arab emirates": {
       "material": "||",
       "last_sent": "2026-10-23T17:37:45.739283+00:00"
+    },
+    "the greater change|creative director - real estate / tech & longevity|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-10-24T09:09:49.312025+00:00"
     }
   },
   "last_run": {
@@ -1076,7 +1081,7 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
