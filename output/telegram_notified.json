@@ -37,6 +37,7 @@
     "203af9b1c832f9b54c037ae29bf523112cdcaf4599924a2e2b520bcf6c0c2d5f",
     "20d7436f19a7702f39e9b3395b6112ae0106b2d6daa1a773c69349c2d646afae",
     "23ef37f8c77e23e8341e554f68da99b2a41d0c8fe43c2492763e82053665b909",
+    "24a4fbbdbde97376b3135c4c3290f71442ee6cf2995961ab58359f40483f3508",
     "25a51ff6b8959ab12f193c921ead5e1f64129687b591fbf959f64123978e0ace",
     "25fa1eebef54386590b0f78bc29582e5c7e619d215d3307afdaa460471c1f33f",
     "282057ffe6259ee5267709015c2288d2670e0a6fc331768a2a8d7f4f42ac6185",
@@ -1072,30 +1073,32 @@
     "linear|creative producer|north america · united states · europe · european union · remote": {
       "material": "|remote|True",
       "last_sent": "2026-10-24T10:54:30.146106+00:00"
+    },
+    "the greater change|creative director - real estate tech and longevity|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-10-24T16:09:27.044218+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 20,
-    "duplicate": 10,
+    "discovered": 2,
+    "duplicate": 0,
     "geography": 0,
-    "remote": 0,
-    "restricted": 2,
+    "remote": 1,
+    "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 1,
+    "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0,
-    "country_restricted": 4,
-    "wrong_role": 3
+    "ledger_errors": 0
   }
 }
