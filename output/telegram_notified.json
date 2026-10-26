@@ -36,6 +36,7 @@
     "1fd432d736ccb772062afe840e11ace00f13d775e62c05c80fa8adca3e52a807",
     "203af9b1c832f9b54c037ae29bf523112cdcaf4599924a2e2b520bcf6c0c2d5f",
     "20d7436f19a7702f39e9b3395b6112ae0106b2d6daa1a773c69349c2d646afae",
+    "22a7e624fd435361c171ffc49e097a1b46f1f618ee3b19f4c16f2d69e1770279",
     "23ef37f8c77e23e8341e554f68da99b2a41d0c8fe43c2492763e82053665b909",
     "24a4fbbdbde97376b3135c4c3290f71442ee6cf2995961ab58359f40483f3508",
     "25a51ff6b8959ab12f193c921ead5e1f64129687b591fbf959f64123978e0ace",
@@ -54,6 +55,7 @@
     "301acf53292ba7e8de6e720fa4df10a1376d2c94bbec2a37dfa4d95ed6826fce",
     "304138998c9646f333dd2338acf04266330497e718703df52dcb3de6168663e4",
     "30779deb0817ba14853f100afe47b22c630e60e9703781ec525b89882cb6920b",
+    "31d6f3c4f0ef46ad31638f019b3004cee417c3da2df391745138e7851314c425",
     "34583679523f1bc47393ae8c144e0edc9c4255e7a3867585dddba2fd846f616e",
     "349b8f27bb127606649a11f50c02a231573c5641ac311ed2d90146a32b7ba277",
     "35593602a0c748fee95121629ba52873431b8a943a2ccda4cf3a86745855104b",
@@ -84,6 +86,7 @@
     "46c83a376eb0e404ae57efb33676206d8981892d56a58784a7426020b6cc6283",
     "47decccdfd0f7d70ad7691537edab089cbdf448f165da8d871fd804b49258ee4",
     "48bee580504d8bc9f98df6794cfc322928b4d8775fc6caade68fb80bf02a297d",
+    "493a33e67d05bfb196e20506ed7735a92c4cebae5dbce8d60d7defa9e1ebc6c6",
     "49f144467cea9b720b9e33aff8877baee603e2253bc717d5a5d041ea34af7a68",
     "4a4d4c5bd03c30f4bbdf776932917efa2297df4212ba67495dc920fe339218ae",
     "4a4eb0b26ff541238f806cf07707e8d4fa4d1e2c17b7e7cfbf6797529e8aa789",
@@ -1077,16 +1080,28 @@
     "the greater change|creative director - real estate tech and longevity|dubai, united arab emirates": {
       "material": "||",
       "last_sent": "2026-10-24T16:09:27.044218+00:00"
+    },
+    "atkinsréalis|creative lead – landscape architecture|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-10-26T10:23:29.757327+00:00"
+    },
+    "puffy|ai video creator|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-10-26T10:23:33.072068+00:00"
+    },
+    "redmal digital|brand & creative director|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-10-26T10:23:36.044444+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 18,
-    "duplicate": 8,
+    "discovered": 7,
+    "duplicate": 0,
     "geography": 0,
-    "remote": 0,
-    "restricted": 2,
+    "remote": 1,
+    "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
@@ -1096,11 +1111,11 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 3,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "country_restricted": 4,
-    "wrong_role": 3
+    "us_employment": 1,
+    "wrong_role": 1
   }
 }
