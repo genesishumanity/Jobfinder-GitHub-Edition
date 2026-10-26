@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-10-25 19:17 UTC",
-  "total": 4,
-  "new_count": 0,
+  "scraped_at": "2026-10-26 10:33 UTC",
+  "total": 6,
+  "new_count": 2,
   "jobs": [
     {
       "company": "TechBiz Global GmbH",
@@ -16,6 +16,42 @@
       "salary_source": "",
       "salary_currency": "",
       "job_type": "fulltime",
+      "is_remote": true,
+      "work_arrangement": "Remote in-state eligible",
+      "emails": "",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Dubai Police",
+      "title": "AI Video Production Team (4 Roles Open)",
+      "location": "Dubai, DU, United Arab Emirates",
+      "url": "https://ae.indeed.com/viewjob?jk=296b0e9e9a539459",
+      "direct_url": "",
+      "company_url": "https://ae.indeed.com/cmp/Dubai-Police",
+      "date_posted": "2026-10-26",
+      "description": "We are scaling our media pipeline and hiring a powerhouse team of 4 AI Video Specialists to produce high-end, cinematic AI video content. We are looking for creators who understand that AI tools generate the frames, but human artistry makes the film.\n\nPositions: AI Video Directors / Editors (3 Openings)\n\nLooking for technical creatives who can act as a \"Director in the prompt box\" and polished post-production editors.  \nWhat you need:\n\n* Cinematic AI Prompting: Ability to control generative engines like a real director. Your text/image-to-video prompts must explicitly control camera movements (e.g., orbits, pans, tilts), lighting setups (e.g., volumetric, high-contrast, cinematic styles), and audio/mood dynamics.\n* Character & Scene Consistency: Mastery of maintaining asset continuity across multiple generations and tools (e.g., Runway, Sora, Midjourney, Kling, or specialized pipelines).\n* Traditional Post-Production: Advanced editing skills using industry software (such as Adobe Premiere Pro or After Effects).\n* Pacing & Sound Design: Ability to clean up AI outputs, fix continuity flaws, build seamless shot transitions, and layer high-quality sound effects/music.\n\nGeneral Requirements:\n\n* A portfolio or showreel showcasing actual AI-generated video work is mandatory.\n* Deep understanding of structural prompting frameworks to keep generation iterations cost-effective.\n* Already located in the UAE.\n\nPreferred Qualifications (Not Mandatory):\n\n* Scriptwriting experience\n* Proficiency in the Arabic language\n\nالراتب المدفوع: AED١٣٬٠٠٠٫٠٠ لكل شهر\n\nالتعليم:\n\n* بكالوريوس (مطلوب)\n\nالموقع:\n\n* Dubai (مطلوب)\n\nموقع العمل: بشكل شخصي",
+      "salary": "$13k/mo",
+      "salary_source": "direct_data",
+      "salary_currency": "AED",
+      "job_type": "fulltime",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "emails": "",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Espace Real Estate",
+      "title": "Personal Content Creator & AI Video Specialist",
+      "location": "Dubai, DU, United Arab Emirates",
+      "url": "https://ae.indeed.com/viewjob?jk=3a49f1d6611a54cb",
+      "direct_url": "",
+      "company_url": "https://ae.indeed.com/cmp/Espace-Real-Estate",
+      "date_posted": "2026-10-26",
+      "description": "WE’RE HIRING: PERSONAL CONTENT CREATOR & AI VIDEO SPECIALIST\n\nDubai, UAE | Full-time\n\nI’m a luxury real estate broker specializing in high-end villas on Palm Jumeirah, Dubai. I’m looking for a creative, ambitious Content Creator to work directly with me and help build my personal brand.\n\nResponsibilities:\n\n\\* Film and edit high-quality Instagram Reels and short-form videos.\n\n\\* Accompany me to luxury properties, viewings, and locations across Dubai.\n\n\\* Develop creative ideas, scripts, captions, and storytelling.\n\n\\* Use AI tools to create innovative video effects, visuals, and engaging content.\n\n\\* Help grow my Instagram audience and generate qualified real estate leads.\n\nRequirements:\n\n\\* Strong filming and video editing skills.\n\n\\* Experience with Instagram Reels and AI content creation tools.\n\n\\* Creative mindset and ability to generate ideas independently.\n\n\\* Good written English.\n\n\\* Experience in luxury real estate or personal branding is a plus.\n\nSalary & Benefits:\n\n\\* AED 8,000–12,000/month, depending on experience.\n\n\\* Performance bonuses for successful content and qualified leads.\n\n\\* Additional bonuses for deals generated through social media.\n\n\\* Medical insurance and opportunities for salary growth.\n\nMost importantly, I’m looking for someone who brings fresh ideas, takes initiative, and understands how to turn content into real business results.\n\nTo apply: Send your CV, portfolio, examples of AI-generated content, and Instagram profile via DM or email.\n\nPay: AED8,000.00 - AED12,000.00 per month\n\nWork Location: Hybrid remote in Dubai",
+      "salary": "$8000–$12k/mo",
+      "salary_source": "direct_data",
+      "salary_currency": "AED",
+      "job_type": "fulltime, contract",
       "is_remote": true,
       "work_arrangement": "Remote in-state eligible",
       "emails": "",
@@ -76,5 +112,42 @@
       "ats": "Indeed"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "Dubai Police",
+      "title": "AI Video Production Team (4 Roles Open)",
+      "location": "Dubai, DU, United Arab Emirates",
+      "url": "https://ae.indeed.com/viewjob?jk=296b0e9e9a539459",
+      "direct_url": "",
+      "company_url": "https://ae.indeed.com/cmp/Dubai-Police",
+      "date_posted": "2026-10-26",
+      "description": "We are scaling our media pipeline and hiring a powerhouse team of 4 AI Video Specialists to produce high-end, cinematic AI video content. We are looking for creators who understand that AI tools generate the frames, but human artistry makes the film.\n\nPositions: AI Video Directors / Editors (3 Openings)\n\nLooking for technical creatives who can act as a \"Director in the prompt box\" and polished post-production editors.  \nWhat you need:\n\n* Cinematic AI Prompting: Ability to control generative engines like a real director. Your text/image-to-video prompts must explicitly control camera movements (e.g., orbits, pans, tilts), lighting setups (e.g., volumetric, high-contrast, cinematic styles), and audio/mood dynamics.\n* Character & Scene Consistency: Mastery of maintaining asset continuity across multiple generations and tools (e.g., Runway, Sora, Midjourney, Kling, or specialized pipelines).\n* Traditional Post-Production: Advanced editing skills using industry software (such as Adobe Premiere Pro or After Effects).\n* Pacing & Sound Design: Ability to clean up AI outputs, fix continuity flaws, build seamless shot transitions, and layer high-quality sound effects/music.\n\nGeneral Requirements:\n\n* A portfolio or showreel showcasing actual AI-generated video work is mandatory.\n* Deep understanding of structural prompting frameworks to keep generation iterations cost-effective.\n* Already located in the UAE.\n\nPreferred Qualifications (Not Mandatory):\n\n* Scriptwriting experience\n* Proficiency in the Arabic language\n\nالراتب المدفوع: AED١٣٬٠٠٠٫٠٠ لكل شهر\n\nالتعليم:\n\n* بكالوريوس (مطلوب)\n\nالموقع:\n\n* Dubai (مطلوب)\n\nموقع العمل: بشكل شخصي",
+      "salary": "$13k/mo",
+      "salary_source": "direct_data",
+      "salary_currency": "AED",
+      "job_type": "fulltime",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "emails": "",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Espace Real Estate",
+      "title": "Personal Content Creator & AI Video Specialist",
+      "location": "Dubai, DU, United Arab Emirates",
+      "url": "https://ae.indeed.com/viewjob?jk=3a49f1d6611a54cb",
+      "direct_url": "",
+      "company_url": "https://ae.indeed.com/cmp/Espace-Real-Estate",
+      "date_posted": "2026-10-26",
+      "description": "WE’RE HIRING: PERSONAL CONTENT CREATOR & AI VIDEO SPECIALIST\n\nDubai, UAE | Full-time\n\nI’m a luxury real estate broker specializing in high-end villas on Palm Jumeirah, Dubai. I’m looking for a creative, ambitious Content Creator to work directly with me and help build my personal brand.\n\nResponsibilities:\n\n\\* Film and edit high-quality Instagram Reels and short-form videos.\n\n\\* Accompany me to luxury properties, viewings, and locations across Dubai.\n\n\\* Develop creative ideas, scripts, captions, and storytelling.\n\n\\* Use AI tools to create innovative video effects, visuals, and engaging content.\n\n\\* Help grow my Instagram audience and generate qualified real estate leads.\n\nRequirements:\n\n\\* Strong filming and video editing skills.\n\n\\* Experience with Instagram Reels and AI content creation tools.\n\n\\* Creative mindset and ability to generate ideas independently.\n\n\\* Good written English.\n\n\\* Experience in luxury real estate or personal branding is a plus.\n\nSalary & Benefits:\n\n\\* AED 8,000–12,000/month, depending on experience.\n\n\\* Performance bonuses for successful content and qualified leads.\n\n\\* Additional bonuses for deals generated through social media.\n\n\\* Medical insurance and opportunities for salary growth.\n\nMost importantly, I’m looking for someone who brings fresh ideas, takes initiative, and understands how to turn content into real business results.\n\nTo apply: Send your CV, portfolio, examples of AI-generated content, and Instagram profile via DM or email.\n\nPay: AED8,000.00 - AED12,000.00 per month\n\nWork Location: Hybrid remote in Dubai",
+      "salary": "$8000–$12k/mo",
+      "salary_source": "direct_data",
+      "salary_currency": "AED",
+      "job_type": "fulltime, contract",
+      "is_remote": true,
+      "work_arrangement": "Remote in-state eligible",
+      "emails": "",
+      "ats": "Indeed"
+    }
+  ]
 }

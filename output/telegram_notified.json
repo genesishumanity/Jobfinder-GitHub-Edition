@@ -10,6 +10,7 @@
     "070466bd1dede6390056b5edfd9aff3449ef0e46f014e78aca50cc2dcf2a5eb4",
     "09529bdaff9a0d4c76c7ab8e1cd6787f3630722514d868d35fcac5f546eb1c5e",
     "095f55ef3ff91415b1423177e84e956d328e3a0b9b4fc172f6d29fb760b4ebe9",
+    "0ad36f4361cf92448998a92667539c396157a5af4b5ad2d9ec8ae7aed4624eb0",
     "0b1e9ab1b577ef0c7ab4919c4351900a68f0ff27ec63d821aed274c72bdce9d4",
     "0bf8eb82beb1085e3d6533d3a2444430a0a4f7eee201775df8516ed32da046e1",
     "0ea82b4228bbbce31e79e67b8230cdccb7308b08ed2b052a7bee8acb08d8103c",
@@ -58,6 +59,7 @@
     "31d6f3c4f0ef46ad31638f019b3004cee417c3da2df391745138e7851314c425",
     "34583679523f1bc47393ae8c144e0edc9c4255e7a3867585dddba2fd846f616e",
     "349b8f27bb127606649a11f50c02a231573c5641ac311ed2d90146a32b7ba277",
+    "3500b69ab0036745f63c33683864b1a585ab76e8e21946bfc6baa8a564346847",
     "35593602a0c748fee95121629ba52873431b8a943a2ccda4cf3a86745855104b",
     "364797e380ead785f99c2028d3472892dd511d455256bf1c986c9c40f4bf5f7c",
     "365b6b8e652420a1a6ccfbed7f211872a38570e59cbba6f47e4ca9a589e188bd",
@@ -1092,30 +1094,36 @@
     "redmal digital|brand & creative director|dubai, united arab emirates": {
       "material": "||",
       "last_sent": "2026-10-26T10:23:36.044444+00:00"
+    },
+    "espace real estate|personal content creator & ai video specialist|dubai, united arab emirates": {
+      "material": "$8000–$12k/mo|Remote in-state eligible|True",
+      "last_sent": "2026-10-26T10:33:28.250456+00:00"
+    },
+    "dubai police|ai video production team (4 roles open)|dubai, united arab emirates": {
+      "material": "$13k/mo|On-site|False",
+      "last_sent": "2026-10-26T10:33:32.543663+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "indeed_jobs.json",
     "min_fit": 0.0,
-    "discovered": 7,
+    "discovered": 2,
     "duplicate": 0,
     "geography": 0,
-    "remote": 1,
+    "remote": 0,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 1,
+    "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 3,
+    "delivered": 2,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0,
-    "us_employment": 1,
-    "wrong_role": 1
+    "ledger_errors": 0
   }
 }
