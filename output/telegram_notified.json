@@ -167,6 +167,7 @@
     "9a899ff0e1cb85d3e1f42d861a939be7745015be1bfca8cd7076b9dc502c9e09",
     "9b9f77a7c4dbd8b7cb2e5e1794d0409f2d62d9b3d9b7bb7a1b9d16fe78fab9ce",
     "9d6b2d5976243f584d9733dc3119dd47caa552a6ece4af26da30daff80c7f3e1",
+    "9f4e5f06293af1d61c119eefef4acdfd5d651bdf2006708aad017dc3c0f47066",
     "a01dad5b7c310b1220c31f589ed4a27c21cf82c051e3b02244dbd7460d195650",
     "a1b821178c6de90a449202f4e79aafc3414a917d9e836b9f43f5531ceaefbc5d",
     "a1e08675cca9bb3f30e205db4ea8fa139dbb7364fa18198b65fad089e37c077c",
@@ -1110,30 +1111,34 @@
     "kehan perfumes|creative director|dubai, united arab emirates": {
       "material": "$6000–$12k/mo|On-site|False",
       "last_sent": "2026-10-27T10:04:54.284834+00:00"
+    },
+    "the hanging house|creative lead|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-10-28T18:26:57.011243+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 15,
-    "duplicate": 6,
-    "geography": 0,
-    "remote": 0,
-    "restricted": 2,
+    "discovered": 9,
+    "duplicate": 0,
+    "geography": 1,
+    "remote": 1,
+    "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 1,
+    "off_mission_role": 2,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
     "country_restricted": 3,
-    "wrong_role": 3
+    "wrong_role": 1
   }
 }
