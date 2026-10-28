@@ -1,9 +1,10 @@
 # 🟦 Indeed — Creative Leadership Roles
-*Last updated: 2026-10-27 21:00 UTC*
+*Last updated: 2026-10-28 10:51 UTC*
 
-**1 new role(s)** since last run · 5 total in last 168h
+**1 new role(s)** since last run · 6 total in last 168h
 
-### [Senior Art Director](https://ae.indeed.com/viewjob?jk=a0b5e182f949b940) — Monks
+### [Creative Lead – Landscape Architecture](https://ae.indeed.com/viewjob?jk=ea54af059ace2296) — AtkinsRéalis
 - 📍 **Location:** Dubai, DU, United Arab Emirates
 - **Work mode:** On-site
-- 🕒 **Posted:** 2026-10-27
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-26
