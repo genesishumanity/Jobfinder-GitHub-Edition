@@ -1,12 +1,29 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-10-29 11:14 UTC*
+*Last updated: 2026-10-29 18:35 UTC*
 
-**2 new role(s)** since last run · 35 total in last 168h
+**6 new role(s)** since last run · 37 total in last 168h
 
-### [Creative Strategist Social Advertising (META) (m/w/d)](https://www.linkedin.com/jobs/view/4482558052/) — AAADS
-- 📍 **Location:** Cologne, North Rhine-Westphalia, Germany
-- 🕒 **Posted:** 2026-10-28
+### [Head of Creative](https://www.linkedin.com/jobs/view/4484987765/) — Cambridge Audio
+- 📍 **Location:** London Area, United Kingdom
+- 🕒 **Posted:** 2026-10-29
 
-### [Associate Creative Director](https://www.linkedin.com/jobs/view/4483525780/) — Saatchi & Saatchi Health
+### [Senior AI Creative Designer](https://www.linkedin.com/jobs/view/4363153766/) — Fever
+- 📍 **Location:** Madrid, Community of Madrid, Spain
+- 🕒 **Posted:** 2026-10-29
+
+### [Creative Producer](https://www.linkedin.com/jobs/view/4484986296/) — FC Barcelona
+- 📍 **Location:** Barcelona, Catalonia, Spain
+- 🕒 **Posted:** 2026-10-29
+
+### [Creative Strategist – eCom Performance Ads](https://www.linkedin.com/jobs/view/4484965808/) — Boost Ecom Ads
+- 📍 **Location:** Hungary
+- 💰 **Salary:** $1,500-$2,000 USD /mo
+- 🕒 **Posted:** 2026-10-29
+
+### [Senior Creative Director](https://www.linkedin.com/jobs/view/4484939679/) — TAIT
 - 📍 **Location:** Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-10-26
+- 🕒 **Posted:** 2026-10-29
+
+### [Brand and AI Creative Designer](https://www.linkedin.com/jobs/view/4482847853/) — TUI
+- 📍 **Location:** Palma, Balearic Islands, Spain
+- 🕒 **Posted:** 2026-10-23
