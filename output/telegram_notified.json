@@ -171,6 +171,7 @@
     "a01dad5b7c310b1220c31f589ed4a27c21cf82c051e3b02244dbd7460d195650",
     "a1b821178c6de90a449202f4e79aafc3414a917d9e836b9f43f5531ceaefbc5d",
     "a1e08675cca9bb3f30e205db4ea8fa139dbb7364fa18198b65fad089e37c077c",
+    "a32d74c9bb02ca0b47d3eb70d0ba786db182af74120e225e08fad3e7e5e96bbf",
     "a355b7ff66da044f82e5f4f711aa7378e0e5c4ee4b6fcfa903021e77d363e75e",
     "a3a577fd023324f92f312e7abfcd42964389918815a800873e21fb789ce3ae80",
     "a42aef43e7cd2415b7f0055eba5a547b13e7701f900766220b2a77fc1c0b683b",
@@ -1115,30 +1116,32 @@
     "the hanging house|creative lead|dubai, united arab emirates": {
       "material": "||",
       "last_sent": "2026-10-28T18:26:57.011243+00:00"
+    },
+    "tait|senior creative director|dubai, united arab emirates": {
+      "material": "|On-site|False",
+      "last_sent": "2026-10-29T11:08:07.811785+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "indeed_jobs.json",
     "min_fit": 0.0,
-    "discovered": 15,
-    "duplicate": 6,
+    "discovered": 1,
+    "duplicate": 0,
     "geography": 0,
     "remote": 0,
-    "restricted": 2,
+    "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 1,
+    "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0,
-    "country_restricted": 3,
-    "wrong_role": 3
+    "ledger_errors": 0
   }
 }
