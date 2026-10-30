@@ -1,11 +1,10 @@
 # 🟦 Indeed — Creative Leadership Roles
-*Last updated: 2026-10-30 11:03 UTC*
+*Last updated: 2026-10-30 21:06 UTC*
 
-**1 new role(s)** since last run · 4 total in last 168h
+**1 new role(s)** since last run · 5 total in last 168h
 
-### [Creative Director(Content Strategist)](https://ae.indeed.com/viewjob?jk=4267c8ef9cacd555) — Peak Trust Global Real Estate LLC
+### [Creative Lead – Landscape Architecture](https://ae.indeed.com/viewjob?jk=ea54af059ace2296) — AtkinsRéalis
 - 📍 **Location:** Dubai, DU, United Arab Emirates
-- 💰 **Salary:** $8000/mo
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-30
+- 🕒 **Posted:** 2026-10-26
