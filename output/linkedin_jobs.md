@@ -1,29 +1,44 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-10-29 18:35 UTC*
+*Last updated: 2026-10-30 10:58 UTC*
 
-**6 new role(s)** since last run · 37 total in last 168h
+**10 new role(s)** since last run · 42 total in last 168h
 
-### [Head of Creative](https://www.linkedin.com/jobs/view/4484987765/) — Cambridge Audio
-- 📍 **Location:** London Area, United Kingdom
+### [Performance Creative Strategist - Germany](https://www.linkedin.com/jobs/view/4484823956/) — Eucalyptus
+- 📍 **Location:** Berlin Metropolitan Area
+- 🕒 **Posted:** 2026-10-30
+
+### [Creative Technologist (d/w/m)](https://www.linkedin.com/jobs/view/4484805324/) — la red GmbH
+- 📍 **Location:** Hamburg, Hamburg, Germany
+- 🕒 **Posted:** 2026-10-30
+
+### [Brand Strategist](https://www.linkedin.com/jobs/view/4483426662/) — Walls Nation
+- 📍 **Location:** Dubai, Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-10-30
+
+### [Marketing Lead](https://www.linkedin.com/jobs/view/4485306529/) — Generation.H
+- 📍 **Location:** Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-10-30
+
+### [Creative Producer](https://www.linkedin.com/jobs/view/4474464012/) — FLIGHTSTORY
+- 📍 **Location:** Greater London, England, United Kingdom
 - 🕒 **Posted:** 2026-10-29
 
-### [Senior AI Creative Designer](https://www.linkedin.com/jobs/view/4363153766/) — Fever
-- 📍 **Location:** Madrid, Community of Madrid, Spain
-- 🕒 **Posted:** 2026-10-29
-
-### [Creative Producer](https://www.linkedin.com/jobs/view/4484986296/) — FC Barcelona
+### [Creative Lead](https://www.linkedin.com/jobs/view/4483062398/) — Ogilvy
 - 📍 **Location:** Barcelona, Catalonia, Spain
 - 🕒 **Posted:** 2026-10-29
 
-### [Creative Strategist – eCom Performance Ads](https://www.linkedin.com/jobs/view/4484965808/) — Boost Ecom Ads
-- 📍 **Location:** Hungary
-- 💰 **Salary:** $1,500-$2,000 USD /mo
-- 🕒 **Posted:** 2026-10-29
-
-### [Senior Creative Director](https://www.linkedin.com/jobs/view/4484939679/) — TAIT
+### [AI Lead](https://www.linkedin.com/jobs/view/4483023909/) — BrandAid Marketing Platform
 - 📍 **Location:** Dubai, United Arab Emirates
 - 🕒 **Posted:** 2026-10-29
 
-### [Brand and AI Creative Designer](https://www.linkedin.com/jobs/view/4482847853/) — TUI
-- 📍 **Location:** Palma, Balearic Islands, Spain
-- 🕒 **Posted:** 2026-10-23
+### [Digital Marketing & Social Media Manager](https://www.linkedin.com/jobs/view/4484722155/) — Frank Porter
+- 📍 **Location:** Dubai, Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-10-28
+
+### [Senior Creative Producer - Jaded Man](https://www.linkedin.com/jobs/view/4473631171/) — Jaded London
+- 📍 **Location:** London, England, United Kingdom
+- 🕒 **Posted:** 2026-10-26
+
+### [Creative Strategist](https://www.linkedin.com/jobs/view/4478267499/) — Kijimea (SYNformulas GmbH)
+- 📍 **Location:** Munich, Bavaria, Germany
+- 🕒 **Posted:** 2026-10-26
