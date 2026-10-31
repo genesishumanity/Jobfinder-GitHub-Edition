@@ -1,11 +1,10 @@
 # 🟦 Indeed — Creative Leadership Roles
-*Last updated: 2026-10-31 15:53 UTC*
+*Last updated: 2026-10-31 20:19 UTC*
 
-**1 new role(s)** since last run · 5 total in last 168h
+**1 new role(s)** since last run · 4 total in last 168h
 
-### [Personal Content Creator & AI Video Specialist](https://ae.indeed.com/viewjob?jk=3a49f1d6611a54cb) — Espace Real Estate
+### [Creative Lead – Landscape Architecture](https://ae.indeed.com/viewjob?jk=ea54af059ace2296) — AtkinsRéalis
 - 📍 **Location:** Dubai, DU, United Arab Emirates
-- 💰 **Salary:** $8000–$12k/mo
 - **Work mode:** On-site
-- **Job type:** fulltime, contract
+- **Job type:** fulltime
 - 🕒 **Posted:** 2026-10-26
