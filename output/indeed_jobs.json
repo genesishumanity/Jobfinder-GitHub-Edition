@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-10-31 10:37 UTC",
-  "total": 4,
-  "new_count": 0,
+  "scraped_at": "2026-10-31 15:53 UTC",
+  "total": 5,
+  "new_count": 1,
   "jobs": [
     {
       "company": "Peak Trust Global Real Estate LLC",
@@ -34,6 +34,24 @@
       "salary_source": "",
       "salary_currency": "",
       "job_type": "",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "emails": "",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Espace Real Estate",
+      "title": "Personal Content Creator & AI Video Specialist",
+      "location": "Dubai, DU, United Arab Emirates",
+      "url": "https://ae.indeed.com/viewjob?jk=3a49f1d6611a54cb",
+      "direct_url": "",
+      "company_url": "https://ae.indeed.com/cmp/Espace-Real-Estate",
+      "date_posted": "2026-10-26",
+      "description": "WE’RE HIRING: PERSONAL CONTENT CREATOR & AI VIDEO SPECIALIST\n\nDubai, UAE | Full-time\n\nI’m a luxury real estate broker specializing in high-end villas on Palm Jumeirah, Dubai. I’m looking for a creative, ambitious Content Creator to work directly with me and help build my personal brand.\n\nResponsibilities:\n\n\\* Film and edit high-quality Instagram Reels and short-form videos.\n\n\\* Accompany me to luxury properties, viewings, and locations across Dubai.\n\n\\* Develop creative ideas, scripts, captions, and storytelling.\n\n\\* Use AI tools to create innovative video effects, visuals, and engaging content.\n\n\\* Help grow my Instagram audience and generate qualified real estate leads.\n\nRequirements:\n\n\\* Strong filming and video editing skills.\n\n\\* Experience with Instagram Reels and AI content creation tools.\n\n\\* Creative mindset and ability to generate ideas independently.\n\n\\* Good written English.\n\n\\* Experience in luxury real estate or personal branding is a plus.\n\nSalary & Benefits:\n\n\\* AED 8,000–12,000/month, depending on experience.\n\n\\* Performance bonuses for successful content and qualified leads.\n\n\\* Additional bonuses for deals generated through social media.\n\n\\* Medical insurance and opportunities for salary growth.\n\nMost importantly, I’m looking for someone who brings fresh ideas, takes initiative, and understands how to turn content into real business results.\n\nTo apply: Send your CV, portfolio, examples of AI-generated content, and Instagram profile via DM or email.\n\nPay: AED8,000.00 - AED12,000.00 per month\n\nWork Location: Hybrid remote in Dubai",
+      "salary": "$8000–$12k/mo",
+      "salary_source": "direct_data",
+      "salary_currency": "AED",
+      "job_type": "fulltime, contract",
       "is_remote": false,
       "work_arrangement": "On-site",
       "emails": "",
@@ -76,5 +94,24 @@
       "ats": "Indeed"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "Espace Real Estate",
+      "title": "Personal Content Creator & AI Video Specialist",
+      "location": "Dubai, DU, United Arab Emirates",
+      "url": "https://ae.indeed.com/viewjob?jk=3a49f1d6611a54cb",
+      "direct_url": "",
+      "company_url": "https://ae.indeed.com/cmp/Espace-Real-Estate",
+      "date_posted": "2026-10-26",
+      "description": "WE’RE HIRING: PERSONAL CONTENT CREATOR & AI VIDEO SPECIALIST\n\nDubai, UAE | Full-time\n\nI’m a luxury real estate broker specializing in high-end villas on Palm Jumeirah, Dubai. I’m looking for a creative, ambitious Content Creator to work directly with me and help build my personal brand.\n\nResponsibilities:\n\n\\* Film and edit high-quality Instagram Reels and short-form videos.\n\n\\* Accompany me to luxury properties, viewings, and locations across Dubai.\n\n\\* Develop creative ideas, scripts, captions, and storytelling.\n\n\\* Use AI tools to create innovative video effects, visuals, and engaging content.\n\n\\* Help grow my Instagram audience and generate qualified real estate leads.\n\nRequirements:\n\n\\* Strong filming and video editing skills.\n\n\\* Experience with Instagram Reels and AI content creation tools.\n\n\\* Creative mindset and ability to generate ideas independently.\n\n\\* Good written English.\n\n\\* Experience in luxury real estate or personal branding is a plus.\n\nSalary & Benefits:\n\n\\* AED 8,000–12,000/month, depending on experience.\n\n\\* Performance bonuses for successful content and qualified leads.\n\n\\* Additional bonuses for deals generated through social media.\n\n\\* Medical insurance and opportunities for salary growth.\n\nMost importantly, I’m looking for someone who brings fresh ideas, takes initiative, and understands how to turn content into real business results.\n\nTo apply: Send your CV, portfolio, examples of AI-generated content, and Instagram profile via DM or email.\n\nPay: AED8,000.00 - AED12,000.00 per month\n\nWork Location: Hybrid remote in Dubai",
+      "salary": "$8000–$12k/mo",
+      "salary_source": "direct_data",
+      "salary_currency": "AED",
+      "job_type": "fulltime, contract",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "emails": "",
+      "ats": "Indeed"
+    }
+  ]
 }
