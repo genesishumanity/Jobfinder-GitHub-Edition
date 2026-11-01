@@ -180,6 +180,7 @@
     "aa225d66812bc9ddf996dfdff78c1a62fe48b303ea4e2e6049f5e51473144f7b",
     "aa7e73dc8a3ad092476e8e3550cbe7bad8339307d91a1be56494534d6c4bcbb9",
     "ab4e85fce5a02d7f6c2785b0989d89fc0654ca323778e517de98f2e2f6781f96",
+    "abc611882ba6649570b8c8b8a04f607689b4b7061d78b7dd69ae25351632cefa",
     "ac4f933c66d449ccdb8e8d91a64951c8599979a1b0213e1bc9753509980d3bf6",
     "acc78a0840c8b2cc04fb0c2aac62923a9c481f94401dc4a4f5e8c7e3a345425f",
     "acf97042bf7f313412eeab871391388b5b50fcda2e9ec02bfda7561b393d6684",
@@ -204,6 +205,7 @@
     "c0598e6375cbf2f040119e0b297c2529b8877a73bb488086a656085cc8e36d41",
     "c066913e34842df7d6e7eb5ea6aa27a119180e2ef1347d3964e1c281bec1fe4d",
     "c0b7350ddae35d25c7a171a64ffc80c5dc245fb5b51b99243cf01472d09188ce",
+    "c2445d49cdb46d1f9d799d2e1d557070797eae7787d2642f2f2b6d79a2126dd7",
     "c3891d8add0de75b3439ace3965d81f4962ff73df71470be5aa9596d7000222f",
     "c3dc86afde4c60b8f2b57b4d68cabfda0709dd081ce311e11b23f8e982051508",
     "c661269d60761df95983362b19c043cb9cff2bc9e10a6603864d4d410062e278",
@@ -1140,13 +1142,21 @@
     "espace real estate|personal content creator & ai video specialist|dubai, united arab emirates": {
       "material": "$8000–$12k/mo|On-site|False",
       "last_sent": "2026-10-31T15:53:31.990455+00:00"
+    },
+    "yamu|creative strategist (freelance)|afghanistan, algeria, angola, anguilla, antigua and barbuda, argentina, armenia, aruba, azerbaijan, bahamas, bahrain, bangladesh, barbados, belize, benin, bermuda, bhutan, bolivia, bonaire, sint eustatius and saba, botswana, brazil, british indian ocean territory, brunei darussalam, burkina faso, burundi, cabo verde, cambodia, cameroon, cayman islands, central african republic, chad, chile, china, colombia, comoros, congo, the democratic republic of the, costa rica, cuba, côte d'ivoire, djibouti, dominica, dominican republic, ecuador, egypt, el salvador, equatorial guinea, eritrea, eswatini, ethiopia, falkland islands (malvinas), gabon, gambia, georgia, ghana, grenada, guatemala, guinea, guinea-bissau, guyana, haiti, honduras, hong kong, india, indonesia, iran, iraq, israel, jamaica, japan, jordan, kazakhstan, kenya, kuwait, kyrgyzstan, lao people's democratic republic, lebanon, lesotho, liberia, libya, macao, madagascar, malawi, malaysia, maldives, mali, mauritania, mauritius, mayotte, mexico, mongolia, montserrat, morocco, mozambique, myanmar, namibia, nepal, nicaragua, niger, nigeria, oman, pakistan, palestine, state of, panama, paraguay, peru, philippines, puerto rico, qatar, russian federation, rwanda, réunion, saint helena, ascension and tristan da cunha, saint kitts and nevis, saint lucia, saint vincent and the grenadines, sao tome and principe, saudi arabia, senegal, seychelles, sierra leone, singapore, somalia, south africa, south georgia and the south sandwich islands, south korea, south sudan, sri lanka, sudan, suriname, syrian arab republic, taiwan, tajikistan, tanzania, thailand, timor-leste, togo, trinidad and tobago, tunisia, turkey, turkmenistan, turks and caicos islands, uganda, united arab emirates, uruguay, uzbekistan, venezuela, vietnam, virgin islands, british, u.s., western sahara, yemen, zambia, zimbabwe": {
+      "material": "||True",
+      "last_sent": "2026-11-01T12:06:21.927452+00:00"
+    },
+    "rz hr studio|creative strategist – dtc health & wellness|afghanistan, albania, andorra, armenia, austria, azerbaijan, bahrain, bangladesh, belarus, belgium, bhutan, bosnia and herzegovina, brunei darussalam, bulgaria, cambodia, china, croatia, cyprus, czechia, denmark, estonia, faroe islands, finland, france, georgia, germany, gibraltar, greece, guernsey, holy see (vatican city state), hong kong, hungary, iceland, india, indonesia, iran, iraq, ireland, isle of man, israel, italy, japan, jersey, jordan, kazakhstan, kosovo, kuwait, kyrgyzstan, lao people's democratic republic, latvia, lebanon, liechtenstein, lithuania, luxembourg, macao, malaysia, maldives, malta, moldova, monaco, mongolia, montenegro, myanmar, nepal, netherlands, north macedonia, norway, oman, pakistan, palestine, state of, philippines, poland, portugal, qatar, romania, russian federation, san marino, saudi arabia, serbia, singapore, slovakia, slovenia, south korea, spain, sri lanka, svalbard and jan mayen, sweden, switzerland, syrian arab republic, taiwan, tajikistan, thailand, timor-leste, turkey, turkmenistan, ukraine, united arab emirates, united kingdom, uzbekistan, vietnam, yemen, åland islands": {
+      "material": "7000-12000 USD||True",
+      "last_sent": "2026-11-01T12:06:25.535718+00:00"
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "remote_boards_jobs.json",
     "min_fit": 0.0,
-    "discovered": 1,
-    "duplicate": 1,
+    "discovered": 12,
+    "duplicate": 3,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
@@ -1154,14 +1164,16 @@
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 1,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 2,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0
+    "ledger_errors": 0,
+    "country_restricted": 5,
+    "wrong_role": 1
   }
 }
