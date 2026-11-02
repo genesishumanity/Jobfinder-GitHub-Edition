@@ -140,6 +140,7 @@
     "770c0aded5dee11efdb618e9831bbca0c5c52c362a198188303305f626c68dd3",
     "78fab0d2dc3b2d08d7334a6269cc21fd9a61eb6a03a6e791a2ea76242fdd0c30",
     "7916d0e8bf00068b34906759714c1c8ab64a86c6697b46c7358a890421ab8090",
+    "7a9c0052a66b69ffee5a6d8c8947ff4c60d31672bfe11874abe3f4c96ff5cf6c",
     "7c7a338df5d89ea9fb56d7ddadf720728ab839c6a6ad7c7eef017d606baa0ef6",
     "7cbc38f7654c38f556989e03b72460c7fe66cb6b384530582040011c95a5901e",
     "7ddcba8ae49e6734ca6e8f7c5b116597ad8e2e2c9a1c8db9f1a6d5dad0dc5ded",
@@ -1165,31 +1166,33 @@
     "paired|creative strategist for a us dtc brand|afghanistan, albania, algeria, andorra, angola, anguilla, antarctica, antigua and barbuda, argentina, armenia, aruba, austria, azerbaijan, bahamas, bahrain, barbados, belarus, belgium, belize, benin, bermuda, bolivia, bonaire, sint eustatius and saba, bosnia and herzegovina, botswana, bouvet island, brazil, bulgaria, burkina faso, burundi, cabo verde, cameroon, cayman islands, central african republic, chad, chile, colombia, comoros, congo, the democratic republic of the, cook islands, costa rica, croatia, cuba, curaçao, cyprus, czechia, côte d'ivoire, denmark, djibouti, dominica, dominican republic, ecuador, egypt, el salvador, equatorial guinea, eritrea, estonia, eswatini, ethiopia, falkland islands (malvinas), faroe islands, finland, france, french guiana, french southern territories, gabon, gambia, georgia, germany, ghana, gibraltar, greece, greenland, grenada, guadeloupe, guatemala, guernsey, guinea, guinea-bissau, guyana, haiti, heard island and mcdonald islands, holy see (vatican city state), honduras, hungary, iceland, iran, iraq, ireland, isle of man, israel, italy, jamaica, jersey, jordan, kazakhstan, kenya, kosovo, kuwait, kyrgyzstan, latvia, lebanon, lesotho, liberia, libya, liechtenstein, lithuania, luxembourg, madagascar, malawi, mali, malta, martinique, mauritania, mauritius, mayotte, mexico, moldova, monaco, montenegro, montserrat, morocco, mozambique, namibia, netherlands, nicaragua, niger, nigeria, north macedonia, norway, oman, palestine, state of, panama, paraguay, peru, poland, portugal, puerto rico, qatar, romania, rwanda, réunion, saint barthélemy, saint helena, ascension and tristan da cunha, saint kitts and nevis, saint lucia, saint martin (french part), saint pierre and miquelon, saint vincent and the grenadines, san marino, sao tome and principe, saudi arabia, senegal, serbia, seychelles, sierra leone, sint maarten (dutch part), slovakia, slovenia, somalia, south africa, south georgia and the south sandwich islands, south sudan, spain, sudan, suriname, svalbard and jan mayen, sweden, switzerland, syrian arab republic, tajikistan, tanzania, togo, trinidad and tobago, tunisia, turkey, turkmenistan, turks and caicos islands, uganda, ukraine, united arab emirates, united kingdom, uruguay, uzbekistan, venezuela, virgin islands, british, u.s., western sahara, yemen, zambia, zimbabwe, åland islands": {
       "material": "||True",
       "last_sent": "2026-11-01T21:24:22.005126+00:00"
+    },
+    "experts plus recruitment services|senior manager-creative lead|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-11-02T12:46:05.528333+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 18,
-    "duplicate": 6,
+    "discovered": 8,
+    "duplicate": 0,
     "geography": 0,
-    "remote": 0,
+    "remote": 3,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 1,
+    "off_mission_role": 3,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 3,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "country_restricted": 4,
-    "wrong_role": 3,
-    "language_required": 1
+    "country_restricted": 1
   }
 }
