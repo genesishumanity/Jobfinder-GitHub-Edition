@@ -1,36 +1,28 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-11-02 12:45 UTC*
+*Last updated: 2026-11-03 12:03 UTC*
 
-**8 new role(s)** since last run · 45 total in last 168h
+**6 new role(s)** since last run · 37 total in last 168h
 
-### [AI Video Creator & Automation Specialist (m/w/d)](https://www.linkedin.com/jobs/view/4485467500/) — easycosmetic Recruiting GmbH
-- 📍 **Location:** Berlin, Berlin, Germany
-- 🕒 **Posted:** 2026-11-02
-
-### [Creative Strategist für Paid Social (m/w/d)](https://www.linkedin.com/jobs/view/4486124804/) — Freiheit Media GmbH
-- 📍 **Location:** Hamburg, Hamburg, Germany
-- 🕒 **Posted:** 2026-11-02
-
-### [Senior Manager-Creative Lead](https://www.linkedin.com/jobs/view/4486129470/) — Experts Plus Recruitment Services
-- 📍 **Location:** Dubai, Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-02
-
-### [Brand Marketing Manager](https://www.linkedin.com/jobs/view/4477387189/) — SARA Group
+### [Senior Art Director](https://www.linkedin.com/jobs/view/4486826481/) — Create Group
 - 📍 **Location:** Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-11-03
+
+### [Lead AI Producer](https://www.linkedin.com/jobs/view/4486131481/) — MITO AI
+- 📍 **Location:** Spain
 - 🕒 **Posted:** 2026-11-02
 
-### [Digital Marketing Lead (Video, Animation & Content)](https://www.linkedin.com/jobs/view/4484302831/) — Al Abbar Group
-- 📍 **Location:** Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-02
+### [Creative Strategist für Google Ads (m/w/d) - 100% remote](https://www.linkedin.com/jobs/view/4479391499/) — Beilmann Marketing
+- 📍 **Location:** Germany
+- 🕒 **Posted:** 2026-10-31
 
-### [Art Director (Brand and Visual)](https://www.linkedin.com/jobs/view/4486141969/) — Deep Knowledge Group
-- 📍 **Location:** Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-02
+### [Creative Producer](https://www.linkedin.com/jobs/view/4484986296/) — FC Barcelona
+- 📍 **Location:** Barcelona, Catalonia, Spain
+- 🕒 **Posted:** 2026-10-29
 
-### [Performance Creative Strategist](https://www.linkedin.com/jobs/view/4440044851/) — Instaffo
-- 📍 **Location:** Berlin, Berlin, Germany
-- 🕒 **Posted:** 2026-11-01
+### [Digital Marketing & Multimedia Executive](https://www.linkedin.com/jobs/view/4483051289/) — Grandseal
+- 📍 **Location:** Sharjah Emirate, United Arab Emirates
+- 🕒 **Posted:** 2026-10-29
 
-### [Creative Strategist Italien 100% (m/w/d)](https://www.linkedin.com/jobs/view/4481882934/) — SHEKO
-- 📍 **Location:** Hamburg, Hamburg, Germany
+### [Creative Producer & Photographer (w/m/d)](https://www.linkedin.com/jobs/view/4484090286/) — CTS EVENTIM AG & Co. KGaA
+- 📍 **Location:** Berlin, Germany
 - 🕒 **Posted:** 2026-10-27
