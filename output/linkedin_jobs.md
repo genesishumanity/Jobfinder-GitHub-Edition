@@ -1,28 +1,28 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-11-03 12:03 UTC*
+*Last updated: 2026-11-03 19:38 UTC*
 
-**6 new role(s)** since last run · 37 total in last 168h
+**6 new role(s)** since last run · 35 total in last 168h
 
-### [Senior Art Director](https://www.linkedin.com/jobs/view/4486826481/) — Create Group
+### [Creative Strategist (m/w/d)](https://www.linkedin.com/jobs/view/4485015204/) — RealStudio
+- 📍 **Location:** Berlin, Berlin, Germany
+- 🕒 **Posted:** 2026-11-03
+
+### [Creative Strategist](https://www.linkedin.com/jobs/view/4486078018/) — Publicis Groupe NL
+- 📍 **Location:** Amsterdam, North Holland, Netherlands
+- 🕒 **Posted:** 2026-11-03
+
+### [Creative Producer (w/m/d)](https://www.linkedin.com/jobs/view/4484691450/) — Hirschen Group
+- 📍 **Location:** Cologne, North Rhine-Westphalia, Germany
+- 🕒 **Posted:** 2026-11-03
+
+### [Senior Creative Brand Specialist](https://www.linkedin.com/jobs/view/4481137593/) — LYNX Beleggen
+- 📍 **Location:** Amsterdam, North Holland, Netherlands
+- 🕒 **Posted:** 2026-11-03
+
+### [Global Head of Branding](https://www.linkedin.com/jobs/view/4487048144/) — Confidentiel
 - 📍 **Location:** Dubai, United Arab Emirates
 - 🕒 **Posted:** 2026-11-03
 
-### [Lead AI Producer](https://www.linkedin.com/jobs/view/4486131481/) — MITO AI
-- 📍 **Location:** Spain
-- 🕒 **Posted:** 2026-11-02
-
-### [Creative Strategist für Google Ads (m/w/d) - 100% remote](https://www.linkedin.com/jobs/view/4479391499/) — Beilmann Marketing
-- 📍 **Location:** Germany
-- 🕒 **Posted:** 2026-10-31
-
-### [Creative Producer](https://www.linkedin.com/jobs/view/4484986296/) — FC Barcelona
-- 📍 **Location:** Barcelona, Catalonia, Spain
-- 🕒 **Posted:** 2026-10-29
-
-### [Digital Marketing & Multimedia Executive](https://www.linkedin.com/jobs/view/4483051289/) — Grandseal
-- 📍 **Location:** Sharjah Emirate, United Arab Emirates
-- 🕒 **Posted:** 2026-10-29
-
-### [Creative Producer & Photographer (w/m/d)](https://www.linkedin.com/jobs/view/4484090286/) — CTS EVENTIM AG & Co. KGaA
-- 📍 **Location:** Berlin, Germany
-- 🕒 **Posted:** 2026-10-27
+### [Branding Project Lead](https://www.linkedin.com/jobs/view/4484680082/) — Bukhash Brothers
+- 📍 **Location:** Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-11-03

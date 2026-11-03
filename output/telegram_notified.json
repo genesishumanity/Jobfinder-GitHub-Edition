@@ -38,6 +38,7 @@
     "1fd432d736ccb772062afe840e11ace00f13d775e62c05c80fa8adca3e52a807",
     "203af9b1c832f9b54c037ae29bf523112cdcaf4599924a2e2b520bcf6c0c2d5f",
     "20d7436f19a7702f39e9b3395b6112ae0106b2d6daa1a773c69349c2d646afae",
+    "2299218b3653923b28769268f79142d2246cd19badcc3249ca5add89d1cbd389",
     "22a7e624fd435361c171ffc49e097a1b46f1f618ee3b19f4c16f2d69e1770279",
     "23ef37f8c77e23e8341e554f68da99b2a41d0c8fe43c2492763e82053665b909",
     "24a4fbbdbde97376b3135c4c3290f71442ee6cf2995961ab58359f40483f3508",
@@ -1170,26 +1171,30 @@
     "experts plus recruitment services|senior manager-creative lead|dubai, united arab emirates": {
       "material": "||",
       "last_sent": "2026-11-02T12:46:05.528333+00:00"
+    },
+    "confidentiel|global head of branding|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-11-03T19:38:21.355646+00:00"
     }
   },
   "last_run": {
-    "source_file": "google_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 0,
+    "discovered": 6,
     "duplicate": 0,
     "geography": 0,
-    "remote": 0,
+    "remote": 4,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 1,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
