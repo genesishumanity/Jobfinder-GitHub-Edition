@@ -164,6 +164,7 @@
     "8c17c8de00f5a7967e805e844672600fba7556b11948be116a8f23f018a2eba9",
     "8d70279a2a47405c413176eb4630a2c62a69d21450ca5483e22f36d4966403f1",
     "8d7b56f5c21da5a9bcc39656df22947542cc529b0cd66573c0480b78aeaee772",
+    "8f8f948194d3e854cb7bb79a85e61499468063e4250f6759c8e28548e7d3f234",
     "90a5e796d74a0dd0eb639a87ae574d8e5705c107c91d1677cb7f1e91f0280806",
     "97757b6a2faf2b6e572376dd5f4ce6a73181f05cc2c3e0640a61e437bf535de4",
     "995d061b4f22608ee317235f935b4dbfd1dc8e3776d3399f74f9711bdd84e725",
@@ -1175,13 +1176,17 @@
     "confidentiel|global head of branding|dubai, united arab emirates": {
       "material": "||",
       "last_sent": "2026-11-03T19:38:21.355646+00:00"
+    },
+    "gr0|creative strategist (contractor - pacific coast hours)|remote": {
+      "material": "|remote|True",
+      "last_sent": "2026-11-04T14:24:34.020840+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "careerops_ats_jobs.json",
     "min_fit": 0.0,
-    "discovered": 14,
-    "duplicate": 8,
+    "discovered": 1,
+    "duplicate": 0,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
@@ -1194,12 +1199,9 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0,
-    "country_restricted": 4,
-    "language_required": 1,
-    "wrong_role": 1
+    "ledger_errors": 0
   }
 }
