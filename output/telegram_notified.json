@@ -1183,9 +1183,9 @@
     }
   },
   "last_run": {
-    "source_file": "google_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 0,
+    "discovered": 3,
     "duplicate": 0,
     "geography": 0,
     "remote": 0,
@@ -1194,7 +1194,7 @@
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 1,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
@@ -1202,6 +1202,8 @@
     "delivered": 0,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0
+    "ledger_errors": 0,
+    "country_restricted": 1,
+    "wrong_role": 1
   }
 }
