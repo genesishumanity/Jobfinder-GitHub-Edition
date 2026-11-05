@@ -1,16 +1,20 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-11-04 19:55 UTC*
+*Last updated: 2026-11-05 12:31 UTC*
 
-**3 new role(s)** since last run · 36 total in last 168h
+**4 new role(s)** since last run · 37 total in last 168h
 
-### [Senior Creative Strategist](https://www.linkedin.com/jobs/view/4460688106/) — Quince
-- 📍 **Location:** Berlin, Berlin, Germany
-- 🕒 **Posted:** 2026-11-04
+### [Senior Creative Strategist im E-Commerce 100% (m/w/d)](https://www.linkedin.com/jobs/view/4485585311/) — SHEKO
+- 📍 **Location:** Hamburg, Hamburg, Germany
+- 🕒 **Posted:** 2026-11-05
 
-### [AI Video Creator & Video Editor](https://www.linkedin.com/jobs/view/4487258195/) — YAZ Media
-- 📍 **Location:** Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-04
+### [AI Artist (all genders)](https://www.linkedin.com/jobs/view/4486711212/) — ABOUT YOU
+- 📍 **Location:** Hamburg, Hamburg, Germany
+- 🕒 **Posted:** 2026-11-05
 
-### [Performance Marketing Manager](https://www.linkedin.com/jobs/view/4485086580/) — Salt
-- 📍 **Location:** Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-04
+### [Creative Design Lead](https://www.linkedin.com/jobs/view/4487736172/) — Omnitel
+- 📍 **Location:** Greater Barcelona Metropolitan Area
+- 🕒 **Posted:** 2026-11-05
+
+### [(Senior) Art Director Creative AI & Image (m/w/d)](https://www.linkedin.com/jobs/view/4485586703/) — DESIGNERDOCK München GmbH
+- 📍 **Location:** Munich, Bavaria, Germany
+- 🕒 **Posted:** 2026-10-30
