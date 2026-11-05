@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-11-04 22:14 UTC",
+  "scraped_at": "2026-11-05 12:46 UTC",
   "total": 2,
-  "new_count": 1,
+  "new_count": 0,
   "jobs": [
     {
       "company": "Peak Trust Global Real Estate LLC",
@@ -40,24 +40,5 @@
       "ats": "Indeed"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "Nazart",
-      "title": "Senior AI Video Editor & Generative Video Specialist",
-      "location": "Dubai, DU, United Arab Emirates",
-      "url": "https://ae.indeed.com/viewjob?jk=9b6ec7becd9cc66e",
-      "direct_url": "",
-      "company_url": "https://ae.indeed.com/cmp/Nazart",
-      "date_posted": "2026-11-02",
-      "description": "Senior AI Video Editor & Generative Video Specialist\n\nDepartment: Marketing\n\nSeniority Level: Senior\n\nReports to: Marketing Manager\n\nEmployment Type: Full-Time\n\n1. Job Overview\n\nWe are looking for a highly skilled and creative Senior AI Video Editor & Generative Video Specialist to lead the production and post-production of high-quality video content using professional editing software, artificial intelligence tools, and generative video technologies.\n\nThe ideal candidate combines strong video editing expertise, creative storytelling, visual design, and hands-on experience with AI-powered production workflows. This role is responsible for transforming marketing briefs, campaign concepts, product information, and brand strategies into compelling video content that strengthens brand awareness, drives engagement, and supports commercial objectives.\n\nThe candidate will be expected to independently manage projects from concept development to final delivery, while continuously exploring new AI technologies to improve creative quality, production speed, and cost efficiency.\n\n2. Key Responsibilities\n\nA. Video Editing and Post-Production\n\nEdit high-quality videos for social media, digital advertising, e-commerce, corporate communications, and brand campaigns.\n\nProduce short-form and long-form content, including Reels, TikTok videos, YouTube content, promotional videos, product showcases, and corporate videos.\n\nApply professional techniques in storytelling, pacing, transitions, sound design, color correction, color grading, and visual effects.\n\nTransform raw footage, scripts, product assets, and creative briefs into polished, publication-ready videos.\n\nAdapt master videos into multiple formats, aspect ratios, lengths, languages, and platform-specific versions.\n\nMaintain consistent visual quality and brand identity across all video deliverables.\n\nB. AI-Powered Video Production\n\nUse generative AI tools to create original video sequences, visual concepts, backgrounds, environments, animations, and supporting footage.\n\nDevelop AI-assisted workflows for image-to-video, text-to-video, video enhancement, scene generation, and creative experimentation.\n\nLeverage AI tools for voiceovers, subtitles, transcription, dubbing, translation, audio enhancement, and localization.\n\nUse AI-powered tools for rotoscoping, object removal, background replacement, upscaling, frame interpolation, and other post-production tasks where appropriate.\n\nCreate realistic and visually consistent AI-generated assets while maintaining quality control over motion, lighting, anatomy, product details, and continuity.\n\nEvaluate emerging AI video platforms and identify opportunities to integrate new technologies into the marketing production process.\n\nEnsure that AI-generated content meets brand standards, platform requirements, copyright obligations, and applicable usage restrictions.\n\nC. Creative Development and Storytelling\n\nCollaborate with the Marketing Manager and wider marketing team to translate campaign objectives into creative video concepts.\n\nDevelop storyboards, visual references, editing approaches, and production plans based on campaign briefs.\n\nPropose innovative ways to communicate product benefits, brand values, cultural stories, and commercial messages through video.\n\nCreate engaging opening hooks, clear narratives, and strong calls to action appropriate to each campaign objective.\n\nExperiment with creative formats, AI-generated visual styles, motion graphics, and new storytelling techniques.\n\nMaintain a strong understanding of visual trends, platform behavior, and evolving digital content formats.\n\nD. Performance Marketing and Social Media Content\n\nProduce video creatives for paid media campaigns across relevant digital advertising platforms.\n\nDevelop multiple creative variations for A/B testing, including different hooks, messages, visuals, durations, and calls to action.\n\nCollaborate with the Paid Media and Performance Specialist to improve creative effectiveness based on campaign performance.\n\nDevelop platform-specific content optimized for audience retention, completion rates, engagement, click-through rates, and conversions.\n\nAnalyze video performance and apply insights to future creative decisions.\n\nSupport organic social media content production with consistent, timely, and engaging video assets.\n\nE. E-commerce and Product Marketing\n\nProduce product demonstration videos, promotional videos, product explainers, and e-commerce advertising creatives.\n\nCreate AI-assisted product visuals and video assets while preserving the accuracy of product appearance, materials, proportions, packaging, and branding.\n\nSupport the creation of promotional bundles, seasonal campaigns, product launches, and other commercial initiatives.\n\nDevelop reusable creative templates and scalable video formats for recurring marketing campaigns.\n\nCollaborate with design and e-commerce teams to ensure that visual assets support product presentation and conversion objectives.\n\nF. Workflow Management and Quality Control\n\nManage multiple projects simultaneously while meeting agreed deadlines and creative priorities.\n\nMaintain organized project files, source assets, editable timelines, export versions, and final deliverables.\n\nEstablish efficient workflows for AI-assisted production, editing, feedback, revisions, and asset management.\n\nEnsure that all deliverables meet technical specifications, brand guidelines, and quality standards before publication.\n\nIdentify opportunities to reduce production time, external production costs, and repetitive manual work through automation and AI.\n\nDocument effective workflows and share best practices with the marketing team.\n\nG. Collaboration and Creative Leadership\n\nWork closely with the Marketing Manager, Social Media Manager, Paid Media Specialist, Brand Designer, and other relevant stakeholders.\n\nProvide creative recommendations and technical guidance on video production and AI-generated content.\n\nManage feedb",
-      "salary": "",
-      "salary_source": "",
-      "salary_currency": "",
-      "job_type": "fulltime",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "emails": "",
-      "ats": "Indeed"
-    }
-  ]
+  "new_jobs": []
 }
