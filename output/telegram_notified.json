@@ -18,6 +18,7 @@
     "0ea82b4228bbbce31e79e67b8230cdccb7308b08ed2b052a7bee8acb08d8103c",
     "0f5b300f8096a27b244681633471455ab8c440f97d565d1e460dfc3db7afdcbe",
     "0f6914f842640851f2a01e20604773a4c0bde6d7b85a33754b2c7480008359fe",
+    "0fc0031bf180fb2d757a9df4f0b35ded4aba36100ad60f252aa3992d58a3d82f",
     "1263cdcc27d981318bd87db116880eb3c04d435fdd3d817f3aa42da7a9a2de4d",
     "129f3e7787ce79b1adc1e8498ed23eea910efb8eb6c66f58a41269b634860054",
     "12af6f1306108fb81fd5e13b8bde70478b6dab829c351d8f3bfe9bfee19e089d",
@@ -1190,29 +1191,32 @@
     "feverup|head of brand partnerships- middle east & africa|dubai, united arab emirates": {
       "material": "|On-site|False",
       "last_sent": "2026-11-06T12:31:35.645435+00:00"
+    },
+    "designlab experience|creative strategist|dubai, united arab emirates": {
+      "material": "|On-site|False",
+      "last_sent": "2026-11-06T21:46:54.136694+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "indeed_jobs.json",
     "min_fit": 0.0,
-    "discovered": 10,
+    "discovered": 1,
     "duplicate": 0,
     "geography": 0,
-    "remote": 2,
+    "remote": 0,
     "restricted": 0,
     "language": 0,
-    "domain": 1,
+    "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 6,
+    "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0,
-    "country_restricted": 1
+    "ledger_errors": 0
   }
 }
