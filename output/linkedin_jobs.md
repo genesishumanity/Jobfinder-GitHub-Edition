@@ -1,32 +1,44 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-11-06 12:17 UTC*
+*Last updated: 2026-11-06 19:32 UTC*
 
-**7 new role(s)** since last run · 30 total in last 168h
+**10 new role(s)** since last run · 32 total in last 168h
 
-### [Digital Marketing Manager](https://www.linkedin.com/jobs/view/4488113436/) — faham
+### [Senior Creative Strategist](https://www.linkedin.com/jobs/view/4487306613/) — Wise
+- 📍 **Location:** London, England, United Kingdom
+- 🕒 **Posted:** 2026-11-06
+
+### [Executive Creative Director (m/w/d)](https://www.linkedin.com/jobs/view/4487317786/) — IQVIA
+- 📍 **Location:** Cologne, North Rhine-Westphalia, Germany
+- 🕒 **Posted:** 2026-11-06
+
+### [Lead Brand Designer](https://www.linkedin.com/jobs/view/4488188123/) — Synthesia
+- 📍 **Location:** Munich, Bavaria, Germany
+- 🕒 **Posted:** 2026-11-06
+
+### [Creative Project Manager / Producer](https://www.linkedin.com/jobs/view/4488155254/) — Talon.One
+- 📍 **Location:** Berlin, Berlin, Germany
+- 🕒 **Posted:** 2026-11-06
+
+### [Manager, Global Brand Marketing](https://www.linkedin.com/jobs/view/4482453091/) — Huda Beauty
 - 📍 **Location:** Dubai, Dubai, United Arab Emirates
 - 🕒 **Posted:** 2026-11-06
 
-### [Creative Strategist](https://www.linkedin.com/jobs/view/4485838589/) — New Beginning
+### [AI Workflow Specialist (On-site in Dubai)](https://www.linkedin.com/jobs/view/4486242367/) — Puffy
 - 📍 **Location:** Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-11-06
+
+### [Senior Creative Strategist im E-Commerce 100% (m/w/d)](https://www.linkedin.com/jobs/view/4485585311/) — SHEKO
+- 📍 **Location:** Hamburg, Hamburg, Germany
 - 🕒 **Posted:** 2026-11-05
 
-### [Senior Creative Strategist](https://www.linkedin.com/jobs/view/4460689092/) — Quince
-- 📍 **Location:** Madrid, Community of Madrid, Spain
+### [Senior Integrated Producer (German Speaker)](https://www.linkedin.com/jobs/view/4487596334/) — Muzazco Official
+- 📍 **Location:** Berlin, Berlin, Germany
 - 🕒 **Posted:** 2026-11-05
 
-### [Creative Director Branding (f/m/d)- Schwerpunkt MCG & Fashion](https://www.linkedin.com/jobs/view/4487788092/) — Mutabor
-- 📍 **Location:** Greater Hamburg Area
-- 🕒 **Posted:** 2026-11-05
+### [Creative AI Lead (m|w|d)](https://www.linkedin.com/jobs/view/4484645738/) — Wiethe Content GmbH
+- 📍 **Location:** Bremen, Bremen, Germany
+- 🕒 **Posted:** 2026-11-03
 
-### [Creative Strategist (Barcelona)](https://www.linkedin.com/jobs/view/4486922002/) — Kiloverse
-- 📍 **Location:** Barcelona, Catalonia, Spain
-- 🕒 **Posted:** 2026-11-05
-
-### [Senior Creative 360](https://www.linkedin.com/jobs/view/4485095455/) — Auren Personas - Selección & Executive Search
-- 📍 **Location:** Madrid, Community of Madrid, Spain
-- 🕒 **Posted:** 2026-11-04
-
-### [Creative Director FMCG Brands Culinary (m/w/d)](https://www.linkedin.com/jobs/view/4395671203/) — ROMAN KLIS
-- 📍 **Location:** Herrenberg, Baden-Württemberg, Germany
-- 🕒 **Posted:** 2026-11-01
+### [Senior Performance Marketing Manager](https://www.linkedin.com/jobs/view/4484683106/) — Sand Dollar Dubai Beachwear Boutique
+- 📍 **Location:** Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-11-03
