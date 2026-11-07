@@ -234,6 +234,7 @@
     "dd7867a44c9d32838fb49bcccd57d80754409736711c2a18691f120fa4865a30",
     "dentsu|seniorartdirectorsocialtemporaryworker||httpswwwlinkedincomjobsview4456067070",
     "driftai|creativedirectorbrand||httpswwwlinkedincomjobsview4466314316",
+    "e0d52a986aeb073fca8c0f61a9ec100389312343f3739d3bdb48223ab4daffeb",
     "e3bd57680aa5da239f69c3006456e0cc0cac5cea60abe6921b0768c586ca2e20",
     "e42b9f8a354eea2c22562e1cabc3f7f8e723fea1dd6690223d640d0e6d8c4791",
     "e48601605426431477d5a7e566592720a64c4d073537d0071d8591f1c15366c3",
@@ -1195,15 +1196,19 @@
     "designlab experience|creative strategist|dubai, united arab emirates": {
       "material": "|On-site|False",
       "last_sent": "2026-11-06T21:46:54.136694+00:00"
+    },
+    "links outsource l.l.c-fz|ai creative specialist|dubai, united arab emirates": {
+      "material": "$7000–$12k/mo|On-site|False",
+      "last_sent": "2026-11-07T11:22:24.717277+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "indeed_jobs.json",
     "min_fit": 0.0,
-    "discovered": 1,
+    "discovered": 2,
     "duplicate": 0,
     "geography": 0,
-    "remote": 1,
+    "remote": 0,
     "restricted": 0,
     "language": 0,
     "domain": 0,
@@ -1214,9 +1219,10 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0
+    "ledger_errors": 0,
+    "wrong_role": 1
   }
 }
