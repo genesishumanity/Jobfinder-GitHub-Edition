@@ -184,6 +184,7 @@
     "a42aef43e7cd2415b7f0055eba5a547b13e7701f900766220b2a77fc1c0b683b",
     "a618e7a86fe4ac64ae1d90639338cfdab653baf0203bb0381497e93df2810dd7",
     "a86cb9da37951dcd37e9c672c036fd82e50d607d6629ec957649422c6f87222a",
+    "aa21db1d87664d517aee9e0e748e09f3fddea676b09d690409813408d0453966",
     "aa225d66812bc9ddf996dfdff78c1a62fe48b303ea4e2e6049f5e51473144f7b",
     "aa7e73dc8a3ad092476e8e3550cbe7bad8339307d91a1be56494534d6c4bcbb9",
     "ab0b065ed8a9393b435bd76a140ad1f66c964907a2e1ce6c0fb67c1c45f1535b",
@@ -1200,13 +1201,17 @@
     "links outsource l.l.c-fz|ai creative specialist|dubai, united arab emirates": {
       "material": "$7000–$12k/mo|On-site|False",
       "last_sent": "2026-11-07T11:22:24.717277+00:00"
+    },
+    "superside|ai creative technologist|afghanistan, albania, algeria, andorra, angola, antarctica, armenia, austria, azerbaijan, bahrain, belarus, belgium, benin, bosnia and herzegovina, botswana, bouvet island, bulgaria, burkina faso, burundi, cabo verde, cameroon, central african republic, chad, comoros, congo, the democratic republic of the, cook islands, croatia, curaçao, cyprus, czechia, côte d'ivoire, denmark, djibouti, egypt, equatorial guinea, eritrea, estonia, eswatini, ethiopia, faroe islands, finland, france, french guiana, french southern territories, gabon, gambia, georgia, germany, ghana, gibraltar, greece, greenland, guadeloupe, guernsey, guinea, guinea-bissau, heard island and mcdonald islands, holy see (vatican city state), hungary, iceland, iran, iraq, ireland, isle of man, israel, italy, jersey, jordan, kazakhstan, kenya, kosovo, kuwait, kyrgyzstan, latvia, lebanon, lesotho, liberia, libya, liechtenstein, lithuania, luxembourg, madagascar, malawi, mali, malta, martinique, mauritania, mauritius, mayotte, moldova, monaco, montenegro, morocco, mozambique, namibia, netherlands, niger, nigeria, north macedonia, norway, oman, palestine, state of, poland, portugal, qatar, romania, rwanda, réunion, saint barthélemy, saint helena, ascension and tristan da cunha, saint martin (french part), saint pierre and miquelon, san marino, sao tome and principe, saudi arabia, senegal, serbia, seychelles, sierra leone, sint maarten (dutch part), slovakia, slovenia, somalia, south africa, south sudan, spain, sudan, svalbard and jan mayen, sweden, switzerland, syrian arab republic, tajikistan, tanzania, togo, tunisia, turkey, turkmenistan, uganda, ukraine, united arab emirates, united kingdom, uzbekistan, western sahara, yemen, zambia, zimbabwe, åland islands": {
+      "material": "||True",
+      "last_sent": "2026-11-07T11:57:50.705828+00:00"
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "remote_boards_jobs.json",
     "min_fit": 0.0,
-    "discovered": 2,
-    "duplicate": 0,
+    "discovered": 14,
+    "duplicate": 6,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
@@ -1223,6 +1228,8 @@
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "wrong_role": 1
+    "wrong_role": 2,
+    "country_restricted": 4,
+    "language_required": 1
   }
 }
