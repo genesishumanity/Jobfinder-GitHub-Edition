@@ -1198,12 +1198,12 @@
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 14,
-    "duplicate": 7,
+    "discovered": 1,
+    "duplicate": 0,
     "geography": 0,
-    "remote": 0,
+    "remote": 1,
     "restricted": 0,
     "language": 0,
     "domain": 0,
@@ -1217,9 +1217,6 @@
     "delivered": 0,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0,
-    "wrong_role": 2,
-    "country_restricted": 4,
-    "language_required": 1
+    "ledger_errors": 0
   }
 }
