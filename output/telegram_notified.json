@@ -83,6 +83,7 @@
     "3fe45812055a2d29aa3f82863613e1df1b2460cff17bba2af77b9feb1498abcc",
     "403e78e28a8bcbccb38ff062c3e8a90500b9ba7aa8d1abc325274ac68abb7bc1",
     "404ee83524ea0cee41e10acf7df602af147a3e3f83ebcc0ce688a25255419e6b",
+    "40e1b693647f8d110590ffabf7a48fe2be9473b4dccdaeebf9cc1641439d1203",
     "41231e842fba1bc80c0167cdfc8ca2f214e1b5b3be7e21b418835c691e2c2cdf",
     "41c43b6944b1bce60491cd6fc30c8a635469eec7cd52cea019222686c817fa8a",
     "41ec337cac6da3d9952e630bf5ce855e110b414bb9467065ec6edf84e7a5302c",
@@ -116,6 +117,7 @@
     "60f5e60227e71aeb7199ca2440f9c8ef6515d42288acec7b0fab04c5c114811e",
     "61433b6da949307f8bf2a3e15570c1a77401ad7af34bb2eb0d859bd3723ae3a3",
     "61f0c3e8d93bb3fa118a45ea8a4996ed40296feb752d453c8045af3c4d4c0ac8",
+    "62a223907d3887e6dccd7ba13cd122c29bc936b4e4a64dcd59a4f5a1d0347ff3",
     "62e163cf5c2f85f9a5f6996eaf7349dd05d3d7333bdab416ace2b6425ae4b463",
     "63a4184bebbe7c4323c95b67d4938e99f2deba7ab0271ee4d421794f6f902252",
     "6425d2626f239ac60776a16436b7dd99d95612bdfb61c88e4315ecfca63fdcf8",
@@ -1210,13 +1212,21 @@
     "superside|ai creative technologist|emea": {
       "material": "||True",
       "last_sent": "2026-11-07T21:06:11.423901+00:00"
+    },
+    "superside|ai creative technologist|emea; remote": {
+      "material": "|remote|True",
+      "last_sent": "2026-11-08T13:16:06.930202+00:00"
+    },
+    "pentagrp|senior brand strategist|remote": {
+      "material": "|remote|True",
+      "last_sent": "2026-11-08T13:16:09.787002+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "careerops_ats_jobs.json",
     "min_fit": 0.0,
-    "discovered": 15,
-    "duplicate": 8,
+    "discovered": 3,
+    "duplicate": 0,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
@@ -1224,17 +1234,14 @@
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 1,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 2,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0,
-    "wrong_role": 2,
-    "country_restricted": 4,
-    "language_required": 1
+    "ledger_errors": 0
   }
 }
