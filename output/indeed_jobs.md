@@ -1,10 +1,6 @@
 # 🟦 Indeed — Creative Leadership Roles
-*Last updated: 2026-11-07 20:32 UTC*
+*Last updated: 2026-11-08 11:33 UTC*
 
-**1 new role(s)** since last run · 5 total in last 168h
+**0 new role(s)** since last run · 4 total in last 168h
 
-### [Brand Manager | Brand Strategy & Marketing | Catalog](https://ae.indeed.com/viewjob?jk=8019b75e8a2c1f00) — Art Dei Marmi
-- 📍 **Location:** Dubai, DU, United Arab Emirates
-- 💰 **Salary:** $10k–$15k/mo
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-06
+No new roles since the last run.
