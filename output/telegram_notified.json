@@ -213,6 +213,7 @@
     "baaf4df617bce8357f1e1861f38bbc19170862dd9b4e138d6693613e64891305",
     "bc07ba8c1c7d6c2d0035f0bc93142a3757d75011ac7d16807acc0b78ee340934",
     "bdd93298d9adb382200c3015ddc096ec2a776dc57a170b30d6f5c325d6fa8c20",
+    "bde2ed51212ce1dcfe81c9f2c4c9fa1f34488833af56caeb63b1fc6ede29a5da",
     "c04ccaa4502cd701eeeb41c0459c53177bc5ff2ae00b3e75083571e7807ab4b0",
     "c0598e6375cbf2f040119e0b297c2529b8877a73bb488086a656085cc8e36d41",
     "c066913e34842df7d6e7eb5ea6aa27a119180e2ef1347d3964e1c281bec1fe4d",
@@ -1220,31 +1221,33 @@
     "pentagrp|senior brand strategist|remote": {
       "material": "|remote|True",
       "last_sent": "2026-11-08T13:16:09.787002+00:00"
+    },
+    "noon|creative director|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-11-09T13:08:54.309695+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 15,
-    "duplicate": 8,
+    "discovered": 7,
+    "duplicate": 0,
     "geography": 0,
-    "remote": 0,
+    "remote": 2,
     "restricted": 0,
     "language": 0,
-    "domain": 0,
+    "domain": 1,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 2,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "wrong_role": 2,
-    "country_restricted": 4,
-    "language_required": 1
+    "country_restricted": 1
   }
 }
