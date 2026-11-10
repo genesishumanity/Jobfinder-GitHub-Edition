@@ -124,6 +124,7 @@
     "64948ab982246a5349be146c2ba49b83c05d32c7808f683bb1543b59291110bb",
     "6504040a184d337c61e4995218ca01746d259e12ecff159081b6d0d9ff61f37e",
     "651954f8898dbbaea0f0cba139310a2ed813ce73f8d7a8029474c663bfc6be19",
+    "65b4b24a686f98405a78cc02f903db6312da55e7bc0858cd941c8ae31bbc093d",
     "66108eec87c72ad52cd32943cb9bff8b25d99be77e995849edf8a2e3731f6df3",
     "6643c6a2a0c5fade10e211aad782ab9ad314edede45728c6b32d5992d571e0f3",
     "672187185730c3f26ef14675c11ef2e20d077fd0042f0e0960c33a9675881167",
@@ -1225,12 +1226,16 @@
     "noon|creative director|dubai, united arab emirates": {
       "material": "||",
       "last_sent": "2026-11-09T13:08:54.309695+00:00"
+    },
+    "al mallah real estate centre|ai video creator|dubai, united arab emirates": {
+      "material": "$3000/mo|On-site|False",
+      "last_sent": "2026-11-10T00:27:40.847876+00:00"
     }
   },
   "last_run": {
-    "source_file": "google_jobs.json",
+    "source_file": "indeed_jobs.json",
     "min_fit": 0.0,
-    "discovered": 0,
+    "discovered": 1,
     "duplicate": 0,
     "geography": 0,
     "remote": 0,
@@ -1244,7 +1249,7 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0

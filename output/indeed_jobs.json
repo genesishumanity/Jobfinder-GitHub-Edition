@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-11-09 13:24 UTC",
-  "total": 2,
-  "new_count": 0,
+  "scraped_at": "2026-11-10 00:27 UTC",
+  "total": 3,
+  "new_count": 1,
   "jobs": [
     {
       "company": "Designlab Experience",
@@ -15,6 +15,24 @@
       "salary": "",
       "salary_source": "",
       "salary_currency": "",
+      "job_type": "fulltime",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "emails": "",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Al Mallah Real Estate Centre",
+      "title": "AI Video Creator",
+      "location": "Dubai, DU, United Arab Emirates",
+      "url": "https://ae.indeed.com/viewjob?jk=c36dd7683b0155c5",
+      "direct_url": "",
+      "company_url": "https://ae.indeed.com/cmp/Al-Mallah-Real-Estate-Centre-1",
+      "date_posted": "2026-11-09",
+      "description": "**AI Video Creator / AI Video Maker**\n\n**Location:** Dubai, UAE  \n**Job Type:** Full-time\n\n**Job Description**\n\nWe are looking for a talented and creative AI Video Creator to join our team in Dubai. The ideal candidate should have experience in AI-powered video production, realistic animation, and professional video editing, especially for real estate projects.\n\n**Key Responsibilities**\n\n* Create high-quality AI-generated videos for luxury real estate projects.\n* Produce realistic cinematic videos of villas, buildings, hotels, and property developments.\n* Generate AI animations from images, architectural designs, and master plans.\n* Create promotional videos for marketing and social media.\n* Edit videos with professional transitions, music, and voiceovers.\n* Work with the design and marketing team to develop creative concepts.\n\n**Requirements**\n\n* Proven experience as an AI Video Creator or Video Editor.\n* Proficiency in AI video tools such as Kling AI, Runway, Sora, Pika, or similar.\n* Experience in Adobe Premiere Pro, After Effects, or other editing software.\n* Strong creativity and visual storytelling skills.\n* Real estate video production experience is preferred.\n* Must provide a portfolio of AI-generated videos.\n\nJob Details\n\n**Job Title: AI Video Creator**\n\n* Employment Type: Full-time\n* Work Location: Dubai, UAE\n* Experience: 1–3 years preferred\n* Salary: To be discussed based on experience\n\nApplication\n\nInterested candidates are invited to submit their CV and portfolio of AI video projects.\n\nPay: From AED3,000.00 per month\n\nWork Location: In person",
+      "salary": "$3000/mo",
+      "salary_source": "direct_data",
+      "salary_currency": "AED",
       "job_type": "fulltime",
       "is_remote": false,
       "work_arrangement": "On-site",
@@ -40,5 +58,24 @@
       "ats": "Indeed"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "Al Mallah Real Estate Centre",
+      "title": "AI Video Creator",
+      "location": "Dubai, DU, United Arab Emirates",
+      "url": "https://ae.indeed.com/viewjob?jk=c36dd7683b0155c5",
+      "direct_url": "",
+      "company_url": "https://ae.indeed.com/cmp/Al-Mallah-Real-Estate-Centre-1",
+      "date_posted": "2026-11-09",
+      "description": "**AI Video Creator / AI Video Maker**\n\n**Location:** Dubai, UAE  \n**Job Type:** Full-time\n\n**Job Description**\n\nWe are looking for a talented and creative AI Video Creator to join our team in Dubai. The ideal candidate should have experience in AI-powered video production, realistic animation, and professional video editing, especially for real estate projects.\n\n**Key Responsibilities**\n\n* Create high-quality AI-generated videos for luxury real estate projects.\n* Produce realistic cinematic videos of villas, buildings, hotels, and property developments.\n* Generate AI animations from images, architectural designs, and master plans.\n* Create promotional videos for marketing and social media.\n* Edit videos with professional transitions, music, and voiceovers.\n* Work with the design and marketing team to develop creative concepts.\n\n**Requirements**\n\n* Proven experience as an AI Video Creator or Video Editor.\n* Proficiency in AI video tools such as Kling AI, Runway, Sora, Pika, or similar.\n* Experience in Adobe Premiere Pro, After Effects, or other editing software.\n* Strong creativity and visual storytelling skills.\n* Real estate video production experience is preferred.\n* Must provide a portfolio of AI-generated videos.\n\nJob Details\n\n**Job Title: AI Video Creator**\n\n* Employment Type: Full-time\n* Work Location: Dubai, UAE\n* Experience: 1–3 years preferred\n* Salary: To be discussed based on experience\n\nApplication\n\nInterested candidates are invited to submit their CV and portfolio of AI video projects.\n\nPay: From AED3,000.00 per month\n\nWork Location: In person",
+      "salary": "$3000/mo",
+      "salary_source": "direct_data",
+      "salary_currency": "AED",
+      "job_type": "fulltime",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "emails": "",
+      "ats": "Indeed"
+    }
+  ]
 }
