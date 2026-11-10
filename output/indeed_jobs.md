@@ -1,10 +1,10 @@
 # 🟦 Indeed — Creative Leadership Roles
-*Last updated: 2026-11-10 13:01 UTC*
+*Last updated: 2026-11-10 21:58 UTC*
 
 **1 new role(s)** since last run · 4 total in last 168h
 
-### [AI Creative Specialist](https://ae.indeed.com/viewjob?jk=547308433753dae9) — LINKS OUTSOURCE L.L.C-FZ
+### [Marketing & Brand Strategy Manager](https://ae.indeed.com/viewjob?jk=472fbe53d89c5fa5) — CREDITCARE CREDIT MANAGEMENT LLC
 - 📍 **Location:** Dubai, DU, United Arab Emirates
-- 💰 **Salary:** $7000–$12k/mo
+- 💰 **Salary:** $5000/mo
 - **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-07
+- 🕒 **Posted:** 2026-11-06
