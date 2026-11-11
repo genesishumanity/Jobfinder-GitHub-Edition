@@ -223,6 +223,7 @@
     "c2445d49cdb46d1f9d799d2e1d557070797eae7787d2642f2f2b6d79a2126dd7",
     "c3891d8add0de75b3439ace3965d81f4962ff73df71470be5aa9596d7000222f",
     "c3dc86afde4c60b8f2b57b4d68cabfda0709dd081ce311e11b23f8e982051508",
+    "c4723cfc300cbb92dc03da04871125f622c050ba129e5076c9ee537c52512129",
     "c661269d60761df95983362b19c043cb9cff2bc9e10a6603864d4d410062e278",
     "c8d60c39522458765879614a7ea645de2904054f38088b84a9b2186c7ebb1812",
     "c956a058f73c18310e45ab1610982422e00e821b38a1eb4f7bd4d1b40fda52f5",
@@ -1235,13 +1236,17 @@
     "billionaire collections|creative director & digital marketing manager|dubai, united arab emirates": {
       "material": "$5000–$6000/mo|On-site|False",
       "last_sent": "2026-11-11T12:13:12.501202+00:00"
+    },
+    "greenpeace international|creative lead|afghanistan, albania, algeria, andorra, angola, antarctica, armenia, austria, azerbaijan, bahrain, belarus, belgium, benin, bosnia and herzegovina, botswana, bouvet island, bulgaria, burkina faso, burundi, cabo verde, cameroon, central african republic, chad, comoros, congo, the democratic republic of the, cook islands, croatia, curaçao, cyprus, czechia, côte d'ivoire, denmark, djibouti, egypt, equatorial guinea, eritrea, estonia, eswatini, ethiopia, faroe islands, finland, france, french guiana, french southern territories, gabon, gambia, georgia, germany, ghana, gibraltar, greece, greenland, guadeloupe, guernsey, guinea, guinea-bissau, heard island and mcdonald islands, holy see (vatican city state), hungary, iceland, iran, iraq, ireland, isle of man, israel, italy, jersey, jordan, kazakhstan, kenya, kosovo, kuwait, kyrgyzstan, latvia, lebanon, lesotho, liberia, libya, liechtenstein, lithuania, luxembourg, madagascar, malawi, mali, malta, martinique, mauritania, mauritius, mayotte, moldova, monaco, montenegro, morocco, mozambique, namibia, netherlands, niger, nigeria, north macedonia, norway, oman, palestine, state of, poland, portugal, qatar, romania, rwanda, réunion, saint barthélemy, saint helena, ascension and tristan da cunha, saint martin (french part), saint pierre and miquelon, san marino, sao tome and principe, saudi arabia, senegal, serbia, seychelles, sierra leone, sint maarten (dutch part), slovakia, slovenia, somalia, south africa, south sudan, spain, sudan, svalbard and jan mayen, sweden, switzerland, syrian arab republic, tajikistan, tanzania, togo, tunisia, turkey, turkmenistan, uganda, ukraine, united arab emirates, united kingdom, uzbekistan, western sahara, yemen, zambia, zimbabwe, åland islands": {
+      "material": "||True",
+      "last_sent": "2026-11-11T23:44:17.410327+00:00"
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "remote_boards_jobs.json",
     "min_fit": 0.0,
-    "discovered": 1,
-    "duplicate": 0,
+    "discovered": 15,
+    "duplicate": 6,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
@@ -1254,10 +1259,12 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "wrong_role": 1
+    "wrong_role": 3,
+    "country_restricted": 4,
+    "language_required": 1
   }
 }
