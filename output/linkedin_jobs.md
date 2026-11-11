@@ -1,32 +1,24 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-11-11 12:04 UTC*
+*Last updated: 2026-11-11 19:45 UTC*
 
-**7 new role(s)** since last run · 37 total in last 168h
+**5 new role(s)** since last run · 39 total in last 168h
 
-### [Graphic Designer — Generative AI](https://www.linkedin.com/jobs/view/4488206014/) — Confidential
-- 📍 **Location:** Abu Dhabi Emirate, United Arab Emirates
+### [Senior Global Lead - Creative & Content (m/w/d)](https://www.linkedin.com/jobs/view/4489991203/) — seca – precision for health
+- 📍 **Location:** Greater Hamburg Area
 - 🕒 **Posted:** 2026-11-11
 
-### [Creative Performance Strategist](https://www.linkedin.com/jobs/view/4478471266/) — Major Players | B Corp™
-- 📍 **Location:** London Area, United Kingdom
-- 🕒 **Posted:** 2026-11-11
-
-### [Senior Creative](https://www.linkedin.com/jobs/view/4472741200/) — Monks
-- 📍 **Location:** Madrid, Community of Madrid, Spain
-- 🕒 **Posted:** 2026-11-11
-
-### [Creative Strategist](https://www.linkedin.com/jobs/view/4489942280/) — Short Agency
+### [Performance Marketing Manager | iGaming](https://www.linkedin.com/jobs/view/4488242397/) — Game-Flow
 - 📍 **Location:** Dubai, United Arab Emirates
 - 🕒 **Posted:** 2026-11-11
 
-### [Web Designer & Digital Marketing Specialist](https://www.linkedin.com/jobs/view/4488209733/) — Würth UAE
-- 📍 **Location:** Dubai, Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-11
+### [Senior Specialist, Creative Strategy & Performance (Paid Marketing)](https://www.linkedin.com/jobs/view/4487972340/) — Jameda
+- 📍 **Location:** Amsterdam, North Holland, Netherlands
+- 🕒 **Posted:** 2026-11-09
 
-### [Lead Digital Marketing Manager](https://www.linkedin.com/jobs/view/4487845056/) — Ounass
-- 📍 **Location:** Dubai, Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-10
+### [Senior Creative Strategist im E-Commerce 100% (m/w/d)](https://www.linkedin.com/jobs/view/4485585311/) — SHEKO
+- 📍 **Location:** Hamburg, Hamburg, Germany
+- 🕒 **Posted:** 2026-11-05
 
-### [Senior Creative Strategist](https://www.linkedin.com/jobs/view/4460689092/) — Quince
-- 📍 **Location:** Madrid, Community of Madrid, Spain
+### [Senior Integrated Producer (German Speaker)](https://www.linkedin.com/jobs/view/4487596334/) — Muzazco Official
+- 📍 **Location:** Berlin, Berlin, Germany
 - 🕒 **Posted:** 2026-11-05
