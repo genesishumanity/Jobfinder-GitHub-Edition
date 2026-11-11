@@ -1,5 +1,5 @@
 # 🔎 Google Jobs — Creative Leadership Roles
-*Last updated: 2026-11-10 15:12 UTC*
+*Last updated: 2026-11-11 14:42 UTC*
 
 **0 new role(s)** since last run · 20 total in last 168h
 
