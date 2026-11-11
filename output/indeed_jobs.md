@@ -1,17 +1,11 @@
 # 🟦 Indeed — Creative Leadership Roles
-*Last updated: 2026-11-11 12:13 UTC*
+*Last updated: 2026-11-11 23:06 UTC*
 
-**2 new role(s)** since last run · 6 total in last 168h
+**1 new role(s)** since last run · 7 total in last 168h
 
-### [AI Creative Specialist](https://ae.indeed.com/viewjob?jk=547308433753dae9) — LINKS OUTSOURCE L.L.C-FZ
+### [Senior Creative Designer – Graphic Design, Motion Graphics & AI](https://ae.indeed.com/viewjob?jk=097a593efc7d3937) — AD&M International Advertising, PR and Events
 - 📍 **Location:** Dubai, DU, United Arab Emirates
-- 💰 **Salary:** $7000–$12k/mo
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-07
-
-### [Creative Director & Digital Marketing Manager](https://ae.indeed.com/viewjob?jk=95cd6ae75e59ee7b) — Billionaire Collections
-- 📍 **Location:** Dubai, DU, United Arab Emirates
-- 💰 **Salary:** $5000–$6000/mo
+- 💰 **Salary:** $6000–$8000/mo
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-10
+- 🕒 **Posted:** 2026-11-11
