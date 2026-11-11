@@ -188,6 +188,7 @@
     "a42aef43e7cd2415b7f0055eba5a547b13e7701f900766220b2a77fc1c0b683b",
     "a618e7a86fe4ac64ae1d90639338cfdab653baf0203bb0381497e93df2810dd7",
     "a86cb9da37951dcd37e9c672c036fd82e50d607d6629ec957649422c6f87222a",
+    "a8a75911610126910443468310441b84ff341b632bbd691e0370506be8190571",
     "aa21db1d87664d517aee9e0e748e09f3fddea676b09d690409813408d0453966",
     "aa225d66812bc9ddf996dfdff78c1a62fe48b303ea4e2e6049f5e51473144f7b",
     "aa7e73dc8a3ad092476e8e3550cbe7bad8339307d91a1be56494534d6c4bcbb9",
@@ -1230,30 +1231,32 @@
     "al mallah real estate centre|ai video creator|dubai, united arab emirates": {
       "material": "$3000/mo|On-site|False",
       "last_sent": "2026-11-10T00:27:40.847876+00:00"
+    },
+    "billionaire collections|creative director & digital marketing manager|dubai, united arab emirates": {
+      "material": "$5000–$6000/mo|On-site|False",
+      "last_sent": "2026-11-11T12:13:12.501202+00:00"
     }
   },
   "last_run": {
-    "source_file": "linkedin_jobs.json",
+    "source_file": "indeed_jobs.json",
     "min_fit": 0.0,
-    "discovered": 7,
-    "duplicate": 0,
+    "discovered": 2,
+    "duplicate": 1,
     "geography": 0,
-    "remote": 1,
+    "remote": 0,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 3,
+    "off_mission_role": 0,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0,
-    "country_restricted": 2,
-    "language_required": 1
+    "ledger_errors": 0
   }
 }
