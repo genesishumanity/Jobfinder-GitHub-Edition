@@ -1243,10 +1243,10 @@
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "remote_boards_jobs.json",
     "min_fit": 0.0,
-    "discovered": 0,
-    "duplicate": 0,
+    "discovered": 15,
+    "duplicate": 7,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
@@ -1262,6 +1262,9 @@
     "delivered": 0,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0
+    "ledger_errors": 0,
+    "wrong_role": 3,
+    "country_restricted": 4,
+    "language_required": 1
   }
 }
