@@ -1,24 +1,20 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-11-11 19:45 UTC*
+*Last updated: 2026-11-12 12:54 UTC*
 
-**5 new role(s)** since last run · 39 total in last 168h
+**4 new role(s)** since last run · 37 total in last 168h
 
-### [Senior Global Lead - Creative & Content (m/w/d)](https://www.linkedin.com/jobs/view/4489991203/) — seca – precision for health
-- 📍 **Location:** Greater Hamburg Area
-- 🕒 **Posted:** 2026-11-11
-
-### [Performance Marketing Manager | iGaming](https://www.linkedin.com/jobs/view/4488242397/) — Game-Flow
-- 📍 **Location:** Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-11
-
-### [Senior Specialist, Creative Strategy & Performance (Paid Marketing)](https://www.linkedin.com/jobs/view/4487972340/) — Jameda
+### [Senior Creative Brand Specialist](https://www.linkedin.com/jobs/view/4481137593/) — LYNX Beleggen
 - 📍 **Location:** Amsterdam, North Holland, Netherlands
-- 🕒 **Posted:** 2026-11-09
+- 🕒 **Posted:** 2026-11-12
 
-### [Senior Creative Strategist im E-Commerce 100% (m/w/d)](https://www.linkedin.com/jobs/view/4485585311/) — SHEKO
-- 📍 **Location:** Hamburg, Hamburg, Germany
-- 🕒 **Posted:** 2026-11-05
+### [Creative Proposal Strategist/Designer](https://www.linkedin.com/jobs/view/4488500117/) — Rayqube
+- 📍 **Location:** Dubai, Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-11-12
 
-### [Senior Integrated Producer (German Speaker)](https://www.linkedin.com/jobs/view/4487596334/) — Muzazco Official
-- 📍 **Location:** Berlin, Berlin, Germany
-- 🕒 **Posted:** 2026-11-05
+### [Social Media Content Producer & Copywriter](https://www.linkedin.com/jobs/view/4488280831/) — ROBOT24.com
+- 📍 **Location:** Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-11-12
+
+### [Performance Marketing Specialist](https://www.linkedin.com/jobs/view/4489478167/) — Confidentiel
+- 📍 **Location:** Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-11-10
