@@ -1,10 +1,11 @@
 # 🟦 Indeed — Creative Leadership Roles
-*Last updated: 2026-11-12 22:28 UTC*
+*Last updated: 2026-11-13 12:40 UTC*
 
 **1 new role(s)** since last run · 6 total in last 168h
 
-### [Marketing & Brand Strategy Manager](https://ae.indeed.com/viewjob?jk=472fbe53d89c5fa5) — CREDITCARE CREDIT MANAGEMENT LLC
+### [Creative AI Video Editor](https://ae.indeed.com/viewjob?jk=9727950f424350b9) — React Publishing and Advertising MENA
 - 📍 **Location:** Dubai, DU, United Arab Emirates
-- 💰 **Salary:** $5000/mo
+- 💰 **Salary:** $18k–$30k/mo
 - **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-06
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-13
