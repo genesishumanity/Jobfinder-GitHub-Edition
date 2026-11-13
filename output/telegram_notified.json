@@ -143,6 +143,7 @@
     "75fd325cc2d34ef02abb0da51707dd5b58208c2f3e9593cf56b12646f5231bbc",
     "763b6f38acfaba760733d282f8d852f016389ac9e6c885751d4c989181059be2",
     "763c1e5f7897cc68b8894320336865280dd69c333abbf9299a79df64da256701",
+    "76a5328a22163391092b8c3f5562d3e70a33ec03aab7242f7ae94203996e0c28",
     "77026877345971723a79c08168714fda49af7df15be5ecbd475e16ebd001204e",
     "770c0aded5dee11efdb618e9831bbca0c5c52c362a198188303305f626c68dd3",
     "78fab0d2dc3b2d08d7334a6269cc21fd9a61eb6a03a6e791a2ea76242fdd0c30",
@@ -174,6 +175,7 @@
     "8f8f948194d3e854cb7bb79a85e61499468063e4250f6759c8e28548e7d3f234",
     "90a5e796d74a0dd0eb639a87ae574d8e5705c107c91d1677cb7f1e91f0280806",
     "97757b6a2faf2b6e572376dd5f4ce6a73181f05cc2c3e0640a61e437bf535de4",
+    "995cc7b7d9d52e8b633b8779294f43ee674bd940174ddd11c05380e18d475918",
     "995d061b4f22608ee317235f935b4dbfd1dc8e3776d3399f74f9711bdd84e725",
     "9a899ff0e1cb85d3e1f42d861a939be7745015be1bfca8cd7076b9dc502c9e09",
     "9b9f77a7c4dbd8b7cb2e5e1794d0409f2d62d9b3d9b7bb7a1b9d16fe78fab9ce",
@@ -1240,31 +1242,39 @@
     "greenpeace international|creative lead|afghanistan, albania, algeria, andorra, angola, antarctica, armenia, austria, azerbaijan, bahrain, belarus, belgium, benin, bosnia and herzegovina, botswana, bouvet island, bulgaria, burkina faso, burundi, cabo verde, cameroon, central african republic, chad, comoros, congo, the democratic republic of the, cook islands, croatia, curaçao, cyprus, czechia, côte d'ivoire, denmark, djibouti, egypt, equatorial guinea, eritrea, estonia, eswatini, ethiopia, faroe islands, finland, france, french guiana, french southern territories, gabon, gambia, georgia, germany, ghana, gibraltar, greece, greenland, guadeloupe, guernsey, guinea, guinea-bissau, heard island and mcdonald islands, holy see (vatican city state), hungary, iceland, iran, iraq, ireland, isle of man, israel, italy, jersey, jordan, kazakhstan, kenya, kosovo, kuwait, kyrgyzstan, latvia, lebanon, lesotho, liberia, libya, liechtenstein, lithuania, luxembourg, madagascar, malawi, mali, malta, martinique, mauritania, mauritius, mayotte, moldova, monaco, montenegro, morocco, mozambique, namibia, netherlands, niger, nigeria, north macedonia, norway, oman, palestine, state of, poland, portugal, qatar, romania, rwanda, réunion, saint barthélemy, saint helena, ascension and tristan da cunha, saint martin (french part), saint pierre and miquelon, san marino, sao tome and principe, saudi arabia, senegal, serbia, seychelles, sierra leone, sint maarten (dutch part), slovakia, slovenia, somalia, south africa, south sudan, spain, sudan, svalbard and jan mayen, sweden, switzerland, syrian arab republic, tajikistan, tanzania, togo, tunisia, turkey, turkmenistan, uganda, ukraine, united arab emirates, united kingdom, uzbekistan, western sahara, yemen, zambia, zimbabwe, åland islands": {
       "material": "||True",
       "last_sent": "2026-11-11T23:44:17.410327+00:00"
+    },
+    "condé nast middle east|creative producer, vogue arabia|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-11-13T12:24:38.978892+00:00"
+    },
+    "takween aldar|senior ai content creator & video producer|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-11-13T12:24:42.568102+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 15,
-    "duplicate": 7,
+    "discovered": 17,
+    "duplicate": 1,
     "geography": 0,
-    "remote": 0,
+    "remote": 7,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 2,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 2,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "wrong_role": 3,
-    "country_restricted": 4,
-    "language_required": 1
+    "country_restricted": 3,
+    "language_required": 1,
+    "wrong_role": 1
   }
 }
