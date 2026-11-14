@@ -201,6 +201,7 @@
     "acc78a0840c8b2cc04fb0c2aac62923a9c481f94401dc4a4f5e8c7e3a345425f",
     "acf97042bf7f313412eeab871391388b5b50fcda2e9ec02bfda7561b393d6684",
     "ad25b7bbb07f46840f8622d88105efd88b87abc3a2f6bd7cb63186967ca5aca9",
+    "aea5ba670e1040751d3118b4f7a7144c7c5e7849fddb268e4ee0901f44ce7e86",
     "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466009878",
     "athenahealth|creativedirector||httpswwwlinkedincomjobsview4466013766",
     "b12a59585747bf75b67f7b20ac42ba05523c9f85cac362c91fc9a9e6c963daf1",
@@ -1250,13 +1251,17 @@
     "takween aldar|senior ai content creator & video producer|dubai, united arab emirates": {
       "material": "||",
       "last_sent": "2026-11-13T12:24:42.568102+00:00"
+    },
+    "115 ventures|senior creative strategist (dtc / ecommerce)|uae": {
+      "material": "7000-10000||True",
+      "last_sent": "2026-11-14T21:43:46.808556+00:00"
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "remote_boards_jobs.json",
     "min_fit": 0.0,
-    "discovered": 0,
-    "duplicate": 0,
+    "discovered": 14,
+    "duplicate": 7,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
@@ -1269,9 +1274,12 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0
+    "ledger_errors": 0,
+    "wrong_role": 2,
+    "country_restricted": 3,
+    "language_required": 1
   }
 }
