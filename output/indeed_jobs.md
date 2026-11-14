@@ -1,5 +1,5 @@
 # 🟦 Indeed — Creative Leadership Roles
-*Last updated: 2026-11-13 22:13 UTC*
+*Last updated: 2026-11-14 11:47 UTC*
 
 **0 new role(s)** since last run · 4 total in last 168h
 
