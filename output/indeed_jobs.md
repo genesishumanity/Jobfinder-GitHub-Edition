@@ -1,10 +1,11 @@
 # 🟦 Indeed — Creative Leadership Roles
-*Last updated: 2026-11-15 12:17 UTC*
+*Last updated: 2026-11-15 21:20 UTC*
 
 **1 new role(s)** since last run · 4 total in last 168h
 
-### [Head of Creative Concepts – Art & Design](https://ae.indeed.com/viewjob?jk=49a79459e97b9d35) — tashkeel
+### [Senior Creative Designer – Graphic Design, Motion Graphics & AI](https://ae.indeed.com/viewjob?jk=097a593efc7d3937) — AD&M International Advertising, PR and Events
 - 📍 **Location:** Dubai, DU, United Arab Emirates
-- 💰 **Salary:** $22k–$28k/mo
+- 💰 **Salary:** $6000–$8000/mo
 - **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-15
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-11
