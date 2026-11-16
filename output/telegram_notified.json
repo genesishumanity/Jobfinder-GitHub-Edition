@@ -1258,9 +1258,9 @@
     }
   },
   "last_run": {
-    "source_file": "careerops_ats_jobs.json",
+    "source_file": "google_jobs.json",
     "min_fit": 0.0,
-    "discovered": 2,
+    "discovered": 0,
     "duplicate": 0,
     "geography": 0,
     "remote": 0,
@@ -1277,7 +1277,6 @@
     "delivered": 0,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0,
-    "country_restricted": 2
+    "ledger_errors": 0
   }
 }
