@@ -60,6 +60,7 @@
     "301acf53292ba7e8de6e720fa4df10a1376d2c94bbec2a37dfa4d95ed6826fce",
     "304138998c9646f333dd2338acf04266330497e718703df52dcb3de6168663e4",
     "30779deb0817ba14853f100afe47b22c630e60e9703781ec525b89882cb6920b",
+    "30fb18873014ce3db88ae12f3c76346275b45cf816297a696e6a0bfc1a52a913",
     "31d6f3c4f0ef46ad31638f019b3004cee417c3da2df391745138e7851314c425",
     "34583679523f1bc47393ae8c144e0edc9c4255e7a3867585dddba2fd846f616e",
     "349b8f27bb127606649a11f50c02a231573c5641ac311ed2d90146a32b7ba277",
@@ -167,6 +168,7 @@
     "8932e936a49f84f2c434417f829683b266ce0351ab51f443444dd4dd8931840b",
     "89444f82f6d7975d5b7b99b473bfa6ffc0a99c9bbe4e983f9aeac9582a47d66a",
     "8a152e3e8dc1901d1fe6aa0a54808cac49fe3f2c01ecf79c359831bb16b8b0fc",
+    "8b3fbab4a0c9cbc8d65e0c70b13b276d61763e5ac82a5d935d29a3608041eea4",
     "8c16a575cde2dcb14240bb4b9e6e68081d4821067b0475dd1f3f8bf60be650d7",
     "8c17a3c7b7604452428329b12255e853c8e282595c682aa7529d9ed9ca221f3e",
     "8c17c8de00f5a7967e805e844672600fba7556b11948be116a8f23f018a2eba9",
@@ -1255,13 +1257,21 @@
     "115 ventures|senior creative strategist (dtc / ecommerce)|uae": {
       "material": "7000-10000||True",
       "last_sent": "2026-11-14T21:43:46.808556+00:00"
+    },
+    "paradox|ai native creative strategist - edtech (french fluent )|dubai, united arab emirates": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-11-17T00:30:57.630890+00:00"
+    },
+    "paradox|ai native creative director - edtech (french fluent )|dubai, united arab emirates": {
+      "material": "|Remote in-state eligible|True",
+      "last_sent": "2026-11-17T00:31:01.427597+00:00"
     }
   },
   "last_run": {
-    "source_file": "google_jobs.json",
+    "source_file": "indeed_jobs.json",
     "min_fit": 0.0,
-    "discovered": 0,
-    "duplicate": 0,
+    "discovered": 3,
+    "duplicate": 1,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
@@ -1274,7 +1284,7 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 2,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0
