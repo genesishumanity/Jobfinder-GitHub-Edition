@@ -1,11 +1,10 @@
 # 🟦 Indeed — Creative Leadership Roles
-*Last updated: 2026-11-17 13:53 UTC*
+*Last updated: 2026-11-17 23:40 UTC*
 
-**1 new role(s)** since last run · 5 total in last 168h
+**1 new role(s)** since last run · 4 total in last 168h
 
-### [Creative AI Video Editor](https://ae.indeed.com/viewjob?jk=9727950f424350b9) — React Publishing and Advertising MENA
+### [Head of Creative Concepts – Art & Design](https://ae.indeed.com/viewjob?jk=49a79459e97b9d35) — tashkeel
 - 📍 **Location:** Dubai, DU, United Arab Emirates
-- 💰 **Salary:** $18k–$30k/mo
+- 💰 **Salary:** $22k–$28k/mo
 - **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-13
+- 🕒 **Posted:** 2026-11-15
