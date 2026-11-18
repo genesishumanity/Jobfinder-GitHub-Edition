@@ -91,6 +91,7 @@
     "42374aa8085ce259f1013144d9e9432443eb611b65bbaf039a6c54f582722a64",
     "4285cdb15e3f766e6adb7942b04ad15186bf3f3e23e0414068c45016869a73fa",
     "436182ae2768bce4b7a5a29c1e7f9fad638590a7046165414f681644d02402c2",
+    "44b7d9775b2d6a7625f5b5e96224ea31cdcbe7725278781e552f7f5ee35fb9b3",
     "46c83a376eb0e404ae57efb33676206d8981892d56a58784a7426020b6cc6283",
     "47decccdfd0f7d70ad7691537edab089cbdf448f165da8d871fd804b49258ee4",
     "48bee580504d8bc9f98df6794cfc322928b4d8775fc6caade68fb80bf02a297d",
@@ -178,6 +179,8 @@
     "8d7b56f5c21da5a9bcc39656df22947542cc529b0cd66573c0480b78aeaee772",
     "8f8f948194d3e854cb7bb79a85e61499468063e4250f6759c8e28548e7d3f234",
     "90a5e796d74a0dd0eb639a87ae574d8e5705c107c91d1677cb7f1e91f0280806",
+    "92540d03994d9c9329bd975a468270ec3cd23661140ab8e91435f5fab00192c6",
+    "94a774e4682072df7c361918dc39ea6adab5cc7a7a9225948cb8e663561aacc3",
     "97757b6a2faf2b6e572376dd5f4ce6a73181f05cc2c3e0640a61e437bf535de4",
     "995cc7b7d9d52e8b633b8779294f43ee674bd940174ddd11c05380e18d475918",
     "995d061b4f22608ee317235f935b4dbfd1dc8e3776d3399f74f9711bdd84e725",
@@ -224,6 +227,7 @@
     "b93a29a772c116788847fb1c6f8aab324c31b92df4f08f64d02d460d67c93732",
     "b9f08c690da05ac86b0e201db1ad0c1dc2570171dafe878f95b33d580c742da5",
     "baaf4df617bce8357f1e1861f38bbc19170862dd9b4e138d6693613e64891305",
+    "bae25c61159c6ed2644ebf159dcb2e9084c32f1a0d3eba2f7de7b3bc55b27076",
     "bc07ba8c1c7d6c2d0035f0bc93142a3757d75011ac7d16807acc0b78ee340934",
     "bdd93298d9adb382200c3015ddc096ec2a776dc57a170b30d6f5c325d6fa8c20",
     "bde2ed51212ce1dcfe81c9f2c4c9fa1f34488833af56caeb63b1fc6ede29a5da",
@@ -1305,13 +1309,29 @@
     "dreamer reva information technology|regional creative director – middle east & southeast asia|dubai, united arab emirates": {
       "material": "$10k–$30k/mo|On-site|False",
       "last_sent": "2026-11-18T13:29:24.175858+00:00"
+    },
+    "flowpouch|creative strategist|afghanistan, albania, algeria, andorra, angola, anguilla, antarctica, antigua and barbuda, argentina, armenia, aruba, austria, azerbaijan, bahamas, bahrain, barbados, belarus, belgium, belize, benin, bermuda, bolivia, bonaire, sint eustatius and saba, bosnia and herzegovina, botswana, bouvet island, brazil, bulgaria, burkina faso, burundi, cabo verde, cameroon, cayman islands, central african republic, chad, chile, colombia, comoros, congo, the democratic republic of the, cook islands, costa rica, croatia, cuba, curaçao, cyprus, czechia, côte d'ivoire, denmark, djibouti, dominica, dominican republic, ecuador, egypt, el salvador, equatorial guinea, eritrea, estonia, eswatini, ethiopia, falkland islands (malvinas), faroe islands, finland, france, french guiana, french southern territories, gabon, gambia, georgia, germany, ghana, gibraltar, greece, greenland, grenada, guadeloupe, guatemala, guernsey, guinea, guinea-bissau, guyana, haiti, heard island and mcdonald islands, holy see (vatican city state), honduras, hungary, iceland, iran, iraq, ireland, isle of man, israel, italy, jamaica, jersey, jordan, kazakhstan, kenya, kosovo, kuwait, kyrgyzstan, latvia, lebanon, lesotho, liberia, libya, liechtenstein, lithuania, luxembourg, madagascar, malawi, mali, malta, martinique, mauritania, mauritius, mayotte, mexico, moldova, monaco, montenegro, montserrat, morocco, mozambique, namibia, netherlands, nicaragua, niger, nigeria, north macedonia, norway, oman, palestine, state of, panama, paraguay, peru, poland, portugal, puerto rico, qatar, romania, rwanda, réunion, saint barthélemy, saint helena, ascension and tristan da cunha, saint kitts and nevis, saint lucia, saint martin (french part), saint pierre and miquelon, saint vincent and the grenadines, san marino, sao tome and principe, saudi arabia, senegal, serbia, seychelles, sierra leone, sint maarten (dutch part), slovakia, slovenia, somalia, south africa, south georgia and the south sandwich islands, south sudan, spain, sudan, suriname, svalbard and jan mayen, sweden, switzerland, syrian arab republic, tajikistan, tanzania, togo, trinidad and tobago, tunisia, turkey, turkmenistan, turks and caicos islands, uganda, ukraine, united arab emirates, united kingdom, united states, uruguay, uzbekistan, venezuela, virgin islands, british, u.s., western sahara, yemen, zambia, zimbabwe, åland islands": {
+      "material": "||True",
+      "last_sent": "2026-11-18T14:37:33.313919+00:00"
+    },
+    "elvoro|ai creative engineer (social media)|anywhere in the world": {
+      "material": "||True",
+      "last_sent": "2026-11-18T14:37:36.346693+00:00"
+    },
+    "paradox|ai native creative strategist - edtech (french fluent 🇫🇷)|austria, belgium, bulgaria, croatia, cyprus, czechia, denmark, egypt, estonia, finland, germany, greece, hungary, ireland, italy, latvia, lebanon, lithuania, luxembourg, malta, netherlands, poland, portugal, romania, slovakia, slovenia, spain, sweden, turkey, united arab emirates": {
+      "material": "||True",
+      "last_sent": "2026-11-18T14:37:39.270029+00:00"
+    },
+    "paradox|ai native creative director - edtech (french fluent 🇫🇷)|austria, belgium, bulgaria, croatia, cyprus, czechia, denmark, egypt, estonia, finland, germany, greece, hungary, ireland, italy, latvia, lebanon, lithuania, luxembourg, malta, netherlands, poland, portugal, romania, slovakia, slovenia, spain, sweden, turkey, united arab emirates": {
+      "material": "||True",
+      "last_sent": "2026-11-18T14:37:42.087113+00:00"
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "remote_boards_jobs.json",
     "min_fit": 0.0,
-    "discovered": 3,
-    "duplicate": 1,
+    "discovered": 17,
+    "duplicate": 7,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
@@ -1324,10 +1344,12 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 1,
+    "delivered": 4,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "wrong_role": 1
+    "wrong_role": 2,
+    "country_restricted": 3,
+    "language_required": 1
   }
 }
