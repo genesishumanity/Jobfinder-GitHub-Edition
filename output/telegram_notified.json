@@ -260,6 +260,7 @@
     "dentsu|seniorartdirectorsocialtemporaryworker||httpswwwlinkedincomjobsview4456067070",
     "driftai|creativedirectorbrand||httpswwwlinkedincomjobsview4466314316",
     "e0d52a986aeb073fca8c0f61a9ec100389312343f3739d3bdb48223ab4daffeb",
+    "e1e5040789126f0283576a0969058bef4d65de08d67dc4d007ecfdd95037d5e1",
     "e3bd57680aa5da239f69c3006456e0cc0cac5cea60abe6921b0768c586ca2e20",
     "e42b9f8a354eea2c22562e1cabc3f7f8e723fea1dd6690223d640d0e6d8c4791",
     "e48601605426431477d5a7e566592720a64c4d073537d0071d8591f1c15366c3",
@@ -1325,13 +1326,17 @@
     "paradox|ai native creative director - edtech (french fluent 🇫🇷)|austria, belgium, bulgaria, croatia, cyprus, czechia, denmark, egypt, estonia, finland, germany, greece, hungary, ireland, italy, latvia, lebanon, lithuania, luxembourg, malta, netherlands, poland, portugal, romania, slovakia, slovenia, spain, sweden, turkey, united arab emirates": {
       "material": "||True",
       "last_sent": "2026-11-18T14:37:42.087113+00:00"
+    },
+    "elvoro|ai creative engineer (social media)|worldwide": {
+      "material": "||True",
+      "last_sent": "2026-11-18T23:37:55.187823+00:00"
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "remote_boards_jobs.json",
     "min_fit": 0.0,
-    "discovered": 0,
-    "duplicate": 0,
+    "discovered": 19,
+    "duplicate": 11,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
@@ -1344,9 +1349,12 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0
+    "ledger_errors": 0,
+    "wrong_role": 2,
+    "country_restricted": 4,
+    "language_required": 1
   }
 }
