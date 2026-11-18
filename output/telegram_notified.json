@@ -108,6 +108,7 @@
     "55d7b77fbd51ccd6c8257925e4d3c86aeaf880f68e5a330e398277770054a0b1",
     "57e30dbd110ba965a410dd71b528b6585f7c75fcb5d003177af35a4933468d5b",
     "58948922a037e92de4af11f09faee390293efb23c875bfa9a2140c68ea6b09f0",
+    "5b1ea7db19f22082755c2fd565bd7940f84a121ab252923a7cafda12576638b7",
     "5be21fc40f1d65204302ed044f579cd9758b0a7b7f96d256518de7cfe97b1d8f",
     "5bfcd797b32933554e4dc0ef5f4fd3674116264a12c18e763f27a7a7857cec92",
     "5d0e9dfa238cce6a793b284287d1177b9f32d9701f6afd99cbbbcc5a7877ce0c",
@@ -1300,13 +1301,17 @@
     "confidentiel|chief creative technologist|dubai, united arab emirates": {
       "material": "||",
       "last_sent": "2026-11-17T13:39:04.208170+00:00"
+    },
+    "dreamer reva information technology|regional creative director – middle east & southeast asia|dubai, united arab emirates": {
+      "material": "$10k–$30k/mo|On-site|False",
+      "last_sent": "2026-11-18T13:29:24.175858+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "indeed_jobs.json",
     "min_fit": 0.0,
-    "discovered": 14,
-    "duplicate": 7,
+    "discovered": 3,
+    "duplicate": 1,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
@@ -1319,12 +1324,10 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "wrong_role": 2,
-    "country_restricted": 4,
-    "language_required": 1
+    "wrong_role": 1
   }
 }
