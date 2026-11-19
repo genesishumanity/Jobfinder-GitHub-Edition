@@ -6,6 +6,7 @@
     "02aeb9d5cf11b47f913c53385f7f9159f0aabcb259a461611cb7519729d2b13f",
     "0399ed2db4b22a7f860c9a99f3bf133d136b3857b058cc0ad83008dfd4eec391",
     "0479d90bc39b93c962333a3ce3ba9df8d22817de2e55107f465f198d73817ec0",
+    "04f0f59f3bce9bf3d5ddcc193cbb843fff642129286d134231b65a62be67862c",
     "0519dc40b016ecb61f63690dc9b1f67eddec7b1988cf6642b9cd98ca568b346e",
     "063b7a90ada47cc2370c029807e2f98476d8b52d92f6951e96e5944dd0a9e142",
     "070466bd1dede6390056b5edfd9aff3449ef0e46f014e78aca50cc2dcf2a5eb4",
@@ -15,6 +16,7 @@
     "0b1e9ab1b577ef0c7ab4919c4351900a68f0ff27ec63d821aed274c72bdce9d4",
     "0bf1a9315d306158c71c936612262646be68ab1350be737db3fceaf83e6efda4",
     "0bf8eb82beb1085e3d6533d3a2444430a0a4f7eee201775df8516ed32da046e1",
+    "0e67a26ff5ccae1fe50ef7606b03db28c61316e65ba2c6ad223e8a9c537a3387",
     "0ea82b4228bbbce31e79e67b8230cdccb7308b08ed2b052a7bee8acb08d8103c",
     "0f5b300f8096a27b244681633471455ab8c440f97d565d1e460dfc3db7afdcbe",
     "0f6914f842640851f2a01e20604773a4c0bde6d7b85a33754b2c7480008359fe",
@@ -29,10 +31,12 @@
     "14dd235daa055ed821bb4fea77d6d39a26f52c044a1827956afba6072fe313fa",
     "1560b5fbd3b172edad37d87ad2187bc1f112efcc0145dcaca78982bd9e53a308",
     "177d1e1cce0ca12b237312dcdc08982907e8267403103e1ddf1a8eec1db127ff",
+    "1869d40d65d2e4cc6599c43816c134f7ffb37da78588a07775ab9623ca93b894",
     "18eef03a7ae2b92245b6b5bd595e9a69c506dfbbd3c4ad94739ce48410c22ebc",
     "1923aa3b7d1db177f46855cdf46c432af62dc3d7bb13dbed71201110543b2d86",
     "1994de65e83f2d2641f2a9a4f3f2874b4d5e79f57df28358b6543c8925c84735",
     "1a09a223afbc4e1e2a838c1bae2e7fddefbf0775611f0343083c85bfb41da9c0",
+    "1aa21f45a14d5f82489a98fcf57f1f55a4e251a8e8d6c3547dbe312210ad3276",
     "1afe1fca0f1b33c85fcbb6684be3653ba53e7d7c652ea144d021c151de0960dc",
     "1bf8e2bcf80bd4c457b89c22011b99bf6ea181975fcceed5d902c52aefdaa551",
     "1c5af585b3f9c724979001e9f6d5b10d07a0f494c8be3ddee76c53958f4ce26e",
@@ -100,6 +104,7 @@
     "4a4d4c5bd03c30f4bbdf776932917efa2297df4212ba67495dc920fe339218ae",
     "4a4eb0b26ff541238f806cf07707e8d4fa4d1e2c17b7e7cfbf6797529e8aa789",
     "4a64a02340c74b7b2359933ef57895bd7da62282f623f746d29c5be4b0cf4898",
+    "4ce5a1fe5ce048b28858577315993c36b8799da336e5649df0f9448d0997e462",
     "4d9c8119c010f62bdb94ae42d51fecd2ea28ffba98f92769b1f3fd549c9f2cb3",
     "4eaeb89b1857809998401434ea15e7f167b822cc38a8611521f95c9cd3edfa7a",
     "4f63f409ee0c10784743be9e3209d9607918a78dd1bd753b96deba45c4adf40d",
@@ -118,9 +123,11 @@
     "5f4c6277c395e411767ef6723e0e5f1484ddb804fff6e7399f23cd61f410cdb7",
     "5fb35fdfd6bd07ab0276a734af5cf0a122a13b1e87e7374ec54c037611022eef",
     "60364abb1ba76bb75ad70b6ab25531b0c7b78ef3baeba37c7ac883496542183a",
+    "60538fa22875333bdf1018a502b929df1223267a31827bb967796fe4ca3d1374",
     "60f5e60227e71aeb7199ca2440f9c8ef6515d42288acec7b0fab04c5c114811e",
     "61433b6da949307f8bf2a3e15570c1a77401ad7af34bb2eb0d859bd3723ae3a3",
     "61f0c3e8d93bb3fa118a45ea8a4996ed40296feb752d453c8045af3c4d4c0ac8",
+    "622cadbdb1d5f7baebe9a930e0755949171f69e318a0583b7370485b59ff58cf",
     "62a223907d3887e6dccd7ba13cd122c29bc936b4e4a64dcd59a4f5a1d0347ff3",
     "62e163cf5c2f85f9a5f6996eaf7349dd05d3d7333bdab416ace2b6425ae4b463",
     "63a4184bebbe7c4323c95b67d4938e99f2deba7ab0271ee4d421794f6f902252",
@@ -142,6 +149,7 @@
     "6fd690a4840cc6132d48c9892669420b82b25353cf4b5ac2d3be8dccad8859d3",
     "70d3e473afd6814768db240251e99c2767964620ca1b51b334a3b68d30df4cc0",
     "711584d3ce0e03aab64b3b4feaac69eb8ab3568f7a436ec3f24f74cb73ac24d1",
+    "71346dc415e62af0d50b702067d70ffa7594e6f8d156f6330e1067a5a6438e0a",
     "7332ae09c86eca6c32e3ec05b7b834c9c331618afaa0b064f9c926dd152c511e",
     "756859c485442a986ff5405d4fc1fdefda3142b4efd4f33089eef043bc9adb2d",
     "75fd325cc2d34ef02abb0da51707dd5b58208c2f3e9593cf56b12646f5231bbc",
@@ -181,6 +189,7 @@
     "90a5e796d74a0dd0eb639a87ae574d8e5705c107c91d1677cb7f1e91f0280806",
     "92540d03994d9c9329bd975a468270ec3cd23661140ab8e91435f5fab00192c6",
     "94a774e4682072df7c361918dc39ea6adab5cc7a7a9225948cb8e663561aacc3",
+    "973d92a890e0a4fdd991f005641f152a54f5952f81669a3c20a9d6d025d7109d",
     "97757b6a2faf2b6e572376dd5f4ce6a73181f05cc2c3e0640a61e437bf535de4",
     "995cc7b7d9d52e8b633b8779294f43ee674bd940174ddd11c05380e18d475918",
     "995d061b4f22608ee317235f935b4dbfd1dc8e3776d3399f74f9711bdd84e725",
@@ -276,6 +285,7 @@
     "ee02faf8a4a206adde9e4e0146c936e879ec93aa12deb2308d813c3d669284c1",
     "eed5b4caf5e1c2d2b866297dc02f6c272c8d166598d31fdb566dba72857e7541",
     "ef460aa2c120a0138a9e1c3d221674e8075346234c13516c9fb495755c654aa1",
+    "ef8d12790ac046d3c016fb2e57b4cd22cbb24cbffcf63a4b4044cb92667fe2e8",
     "f0b63bd355ba87b8a212c537165c6c9ce5541088484753579c30183229ff6dae",
     "f0bf53ef873aa9717396694565988d2e27ea9dfb92065e7fa80848c76f6d2c34",
     "f141b77463949fba295d4ef22be212f21305ac07179f2fc1b299a37d7805945a",
@@ -1330,31 +1340,71 @@
     "elvoro|ai creative engineer (social media)|worldwide": {
       "material": "||True",
       "last_sent": "2026-11-18T23:37:55.187823+00:00"
+    },
+    "condé nast|creative producer|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-11-19T13:42:57.256835+00:00"
+    },
+    "talentmate|creative lead|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-11-19T13:43:00.441649+00:00"
+    },
+    "paradox en|ai native creative strategist - edtech french fluent 🇫🇷|ajman, ajman emirate, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-11-19T13:43:03.620655+00:00"
+    },
+    "desertcart|creative lead|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-11-19T13:43:06.878258+00:00"
+    },
+    "popcorn|creative technologist — ai filmmaking & product development|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-11-19T13:43:10.046278+00:00"
+    },
+    "paradox en|ai native creative director - edtech french fluent 🇫🇷|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-11-19T13:43:13.289026+00:00"
+    },
+    "paradox en|ai native creative director - edtech french fluent 🇫🇷|sharjah, sharjah emirate, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-11-19T13:43:16.526125+00:00"
+    },
+    "paradox en|ai native creative director - edtech french fluent 🇫🇷|ajman, ajman emirate, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-11-19T13:43:19.827213+00:00"
+    },
+    "esoteric agency|creative director|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-11-19T13:43:23.077300+00:00"
+    },
+    "talentmate|creative director|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-11-19T13:43:26.719375+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 19,
-    "duplicate": 11,
+    "discovered": 27,
+    "duplicate": 1,
     "geography": 0,
-    "remote": 0,
+    "remote": 5,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 5,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 1,
+    "delivered": 10,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "wrong_role": 2,
+    "language_required": 1,
     "country_restricted": 4,
-    "language_required": 1
+    "wrong_role": 1
   }
 }
