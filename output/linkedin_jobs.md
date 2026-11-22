@@ -1,112 +1,72 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-11-19 13:42 UTC*
+*Last updated: 2026-11-22 12:58 UTC*
 
-**27 new role(s)** since last run · 47 total in last 168h
+**17 new role(s)** since last run · 48 total in last 168h
 
-### [Senior AI Artist](https://www.linkedin.com/jobs/view/4492408820/) — AKQA
+### [Performance Creative Strategist](https://www.linkedin.com/jobs/view/4440044851/) — Instaffo
 - 📍 **Location:** Berlin, Berlin, Germany
-- 🕒 **Posted:** 2026-11-19
+- 🕒 **Posted:** 2026-11-22
 
-### [Creative Duo (Senior Art Director + Senior Copywriter)](https://www.linkedin.com/jobs/view/4492155490/) — OLIVER | The Brandtech Group
+### [Senior Creative Strategist - Paid Social (w/m/d)](https://www.linkedin.com/jobs/view/4328769013/) — Zasta
+- 📍 **Location:** Berlin, Germany
+- 🕒 **Posted:** 2026-11-21
+
+### [Creative Producer para Instagram y Youtube](https://www.linkedin.com/jobs/view/4491988871/) — Natulim
 - 📍 **Location:** Barcelona, Catalonia, Spain
-- 🕒 **Posted:** 2026-11-19
+- 🕒 **Posted:** 2026-11-21
 
-### [Brand & Content Lead](https://www.linkedin.com/jobs/view/4492127992/) — Uplift People Consulting
-- 📍 **Location:** Dubai, Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-19
+### [Senior Creative (Hybrid) - Design Studios](https://www.linkedin.com/jobs/view/4492842995/) — Boston Consulting Group (BCG)
+- 📍 **Location:** Madrid, Community of Madrid, Spain
+- 🕒 **Posted:** 2026-11-21
 
-### [Associate Creative Director (Experiential)](https://www.linkedin.com/jobs/view/4492151120/) — James Patrick
-- 📍 **Location:** Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-19
+### [AI Motion Designer & Creative Technologist](https://www.linkedin.com/jobs/view/4477816975/) — DEPT®
+- 📍 **Location:** Budapest, Budapest, Hungary
+- 🕒 **Posted:** 2026-11-21
 
-### [Performance Marketing Specialist - UAE](https://www.linkedin.com/jobs/view/4491618177/) — Matrix Fitness Middle East
-- 📍 **Location:** Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-19
-
-### [AI Artist](https://www.linkedin.com/jobs/view/4492039696/) — TwentyfourSeven
-- 📍 **Location:** Barcelona, Catalonia, Spain
-- 🕒 **Posted:** 2026-11-18
-
-### [Senior Creative Producer](https://www.linkedin.com/jobs/view/4491499926/) — HYPEBEAST
+### [Creative Lead](https://www.linkedin.com/jobs/view/4492980121/) — LemFi
 - 📍 **Location:** London Area, United Kingdom
-- 🕒 **Posted:** 2026-11-18
+- 🕒 **Posted:** 2026-11-20
 
-### [Senior Global Lead - Creative & Content (m/w/d)](https://www.linkedin.com/jobs/view/4491354124/) — seca GmbH & Co. KG
-- 📍 **Location:** Hamburg, Hamburg, Germany
-- 🕒 **Posted:** 2026-11-18
+### [Creative Technologist](https://www.linkedin.com/jobs/view/4449398340/) — Lovable
+- 📍 **Location:** London Area, United Kingdom
+- 🕒 **Posted:** 2026-11-20
 
-### [Creative Technologist — AI Filmmaking & Product Development](https://www.linkedin.com/jobs/view/4490857588/) — Popcorn
+### [Senior Creative Strategist](https://www.linkedin.com/jobs/view/4492831532/) — Pivotal London
+- 📍 **Location:** Greater London, England, United Kingdom
+- 🕒 **Posted:** 2026-11-20
+
+### [Performance Creative Strategist - Germany](https://www.linkedin.com/jobs/view/4484823956/) — Eucalyptus
+- 📍 **Location:** Berlin Metropolitan Area
+- 🕒 **Posted:** 2026-11-20
+
+### [Creative Director - Real Estate / Tech & Longevity](https://www.linkedin.com/jobs/view/4491900562/) — The Greater Change
 - 📍 **Location:** Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-18
+- 🕒 **Posted:** 2026-11-20
 
-### [UGC Creative Strategist & Concept Creator - Social Heaven / trafficdesign (m/w/d)](https://www.linkedin.com/jobs/view/4490895824/) — Social Heaven
+### [Creative Director](https://www.linkedin.com/jobs/view/4492563949/) — Create Group
+- 📍 **Location:** Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-11-20
+
+### [Senior Performance Marketing Specialist](https://www.linkedin.com/jobs/view/4491944003/) — VIKST MARKETING - FZCO
+- 📍 **Location:** Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-11-20
+
+### [Senior AI Creative Designer](https://www.linkedin.com/jobs/view/4363153766/) — Fever
+- 📍 **Location:** Madrid, Community of Madrid, Spain
+- 🕒 **Posted:** 2026-11-19
+
+### [Creative Strategist (m/w/d) für Meta & TikTok](https://www.linkedin.com/jobs/view/4491624408/) — Creative Dreams GmbH
 - 📍 **Location:** Germany
-- 🕒 **Posted:** 2026-11-18
+- 🕒 **Posted:** 2026-11-19
 
-### [AI Artist](https://www.linkedin.com/jobs/view/4492035905/) — TwentyfourSeven
-- 📍 **Location:** Barcelona, Catalonia, Spain
-- 🕒 **Posted:** 2026-11-18
+### [Senior Global Brand Marketing Manager](https://www.linkedin.com/jobs/view/4492297566/) — Huda Beauty
+- 📍 **Location:** Dubai, Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-11-19
 
-### [Innovation Brand Designer](https://www.linkedin.com/jobs/view/4444427036/) — Savills
-- 📍 **Location:** Lisbon, Lisbon, Portugal
-- 🕒 **Posted:** 2026-11-18
-
-### [Director - Creative - Jumeirah Burj Al Arab](https://www.linkedin.com/jobs/view/4490852656/) — Jumeirah
-- 📍 **Location:** Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-18
-
-### [Creative Lead](https://www.linkedin.com/jobs/view/4490860519/) — desertcart
-- 📍 **Location:** Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-18
-
-### [Creative Producer](https://www.linkedin.com/jobs/view/4490858637/) — Condé Nast
-- 📍 **Location:** Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-18
-
-### [Creative Director](https://www.linkedin.com/jobs/view/4490880393/) — Esoteric Agency
-- 📍 **Location:** Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-18
-
-### [Brand Marketing and Creative Generalist at VC backed Sports Collectibles startup (£45-50k)](https://www.linkedin.com/jobs/view/4491597472/) — Jumpstart
-- 📍 **Location:** London Area, United Kingdom
+### [Senior Creative Designer](https://www.linkedin.com/jobs/view/4491136168/) — Float Health Brasil
+- 📍 **Location:** Lisboa, Lisbon, Portugal
 - 🕒 **Posted:** 2026-11-17
 
-### [AI Video Creator & Automation Specialist (m/w/d)](https://www.linkedin.com/jobs/view/4485467500/) — easycosmetic Recruiting GmbH
+### [Performance Creative Strategist - Jobbird.com](https://www.linkedin.com/jobs/view/4491104613/) — Jobster
 - 📍 **Location:** Berlin, Berlin, Germany
 - 🕒 **Posted:** 2026-11-17
-
-### [Allround creative / Art director / Creative director](https://www.linkedin.com/jobs/view/4484087131/) — noew
-- 📍 **Location:** Amsterdam, North Holland, Netherlands
-- 🕒 **Posted:** 2026-11-17
-
-### [AI Native Creative Strategist - EdTech French Fluent 🇫🇷](https://www.linkedin.com/jobs/view/4491792565/) — Paradox EN
-- 📍 **Location:** Ajman, Ajman Emirate, United Arab Emirates
-- 🕒 **Posted:** 2026-11-17
-
-### [AI Native Creative Director - EdTech French Fluent 🇫🇷](https://www.linkedin.com/jobs/view/4491564660/) — Paradox EN
-- 📍 **Location:** Dubai, Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-17
-
-### [AI Native Creative Director - EdTech French Fluent 🇫🇷](https://www.linkedin.com/jobs/view/4491785911/) — Paradox EN
-- 📍 **Location:** Sharjah, Sharjah Emirate, United Arab Emirates
-- 🕒 **Posted:** 2026-11-17
-
-### [Senior Art Director- MENA, Brand Innovation Lab](https://www.linkedin.com/jobs/view/4457386054/) — Amazon
-- 📍 **Location:** Dubai, Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-17
-
-### [AI Native Creative Director - EdTech French Fluent 🇫🇷](https://www.linkedin.com/jobs/view/4491789701/) — Paradox EN
-- 📍 **Location:** Ajman, Ajman Emirate, United Arab Emirates
-- 🕒 **Posted:** 2026-11-17
-
-### [Creative Lead](https://www.linkedin.com/jobs/view/4491558823/) — TALENTMATE
-- 📍 **Location:** Dubai, Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-17
-
-### [Creative Director](https://www.linkedin.com/jobs/view/4492001093/) — TALENTMATE
-- 📍 **Location:** Dubai, Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-17
-
-### [Creative Lead Stumble Guys](https://www.linkedin.com/jobs/view/4448620763/) — Scopely
-- 📍 **Location:** Barcelona, Catalonia, Spain
-- 🕒 **Posted:** 2026-11-13
