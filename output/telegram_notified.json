@@ -66,6 +66,7 @@
     "30779deb0817ba14853f100afe47b22c630e60e9703781ec525b89882cb6920b",
     "30fb18873014ce3db88ae12f3c76346275b45cf816297a696e6a0bfc1a52a913",
     "31d6f3c4f0ef46ad31638f019b3004cee417c3da2df391745138e7851314c425",
+    "32c6779c79610d39fc6630f6221dd6f8ad20dc93a23fd1be2bf2cd8a31367f04",
     "34583679523f1bc47393ae8c144e0edc9c4255e7a3867585dddba2fd846f616e",
     "349b8f27bb127606649a11f50c02a231573c5641ac311ed2d90146a32b7ba277",
     "3500b69ab0036745f63c33683864b1a585ab76e8e21946bfc6baa8a564346847",
@@ -1390,31 +1391,32 @@
     "create group|creative director|dubai, united arab emirates": {
       "material": "||",
       "last_sent": "2026-11-22T12:58:59.492948+00:00"
+    },
+    "alined creative|creative producer|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-11-23T15:01:01.769310+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 15,
-    "duplicate": 10,
+    "discovered": 12,
+    "duplicate": 0,
     "geography": 0,
-    "remote": 0,
+    "remote": 2,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 9,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0,
-    "country_restricted": 3,
-    "language_required": 1,
-    "wrong_role": 1
+    "ledger_errors": 0
   }
 }
