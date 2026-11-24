@@ -1,52 +1,40 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-11-23 15:00 UTC*
+*Last updated: 2026-11-24 15:05 UTC*
 
-**12 new role(s)** since last run · 53 total in last 168h
+**9 new role(s)** since last run · 42 total in last 168h
 
-### [Senior Integrated Producer](https://www.linkedin.com/jobs/view/4493779322/) — Philips
-- 📍 **Location:** Amsterdam, North Holland, Netherlands
-- 🕒 **Posted:** 2026-11-23
+### [Creative Strategist & Copywriter](https://www.linkedin.com/jobs/view/4493005678/) — NERVO
+- 📍 **Location:** Oeiras, Lisbon, Portugal
+- 🕒 **Posted:** 2026-11-24
 
-### [Integrated Producer](https://www.linkedin.com/jobs/view/4493768710/) — Philips
-- 📍 **Location:** Amsterdam, North Holland, Netherlands
-- 🕒 **Posted:** 2026-11-23
+### [Creative Strategist (M/W/D)](https://www.linkedin.com/jobs/view/4494110730/) — Wandermut
+- 📍 **Location:** Cologne, North Rhine-Westphalia, Germany
+- 🕒 **Posted:** 2026-11-24
 
-### [AI Creative (m|w|d)](https://www.linkedin.com/jobs/view/4493610654/) — Wiethe Content GmbH
-- 📍 **Location:** Bremen, Bremen, Germany
-- 🕒 **Posted:** 2026-11-23
+### [Performance Creative Strategist - Jobbird.com](https://www.linkedin.com/jobs/view/4494350286/) — Jobster
+- 📍 **Location:** Berlin, Berlin, Germany
+- 🕒 **Posted:** 2026-11-24
 
-### [Creative Strategist für Paid Social (m/w/d)](https://www.linkedin.com/jobs/view/4493631295/) — Freiheit Media GmbH
-- 📍 **Location:** Hamburg, Hamburg, Germany
-- 🕒 **Posted:** 2026-11-23
-
-### [Director, Marketing & Creative Services](https://www.linkedin.com/jobs/view/4492612237/) — Kerzner International
-- 📍 **Location:** Dubai, Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-23
-
-### [Creative Producer](https://www.linkedin.com/jobs/view/4493601901/) — Alined Creative
-- 📍 **Location:** Dubai, Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-23
-
-### [Creative Video Producer (Videography & Editing)](https://www.linkedin.com/jobs/view/4492389104/) — OGold.app
-- 📍 **Location:** Dubai, Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-23
-
-### [Senior Social Media Content Producer](https://www.linkedin.com/jobs/view/4493761063/) — 8Flamez
-- 📍 **Location:** Dubai, Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-23
-
-### [Performance Marketing Manager](https://www.linkedin.com/jobs/view/4492573570/) — James Patrick
+### [Brand and Business Lead](https://www.linkedin.com/jobs/view/4494312518/) — Private Family Office
 - 📍 **Location:** Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-20
+- 🕒 **Posted:** 2026-11-24
 
-### [AI Workflow Specialist (On-site in Dubai)](https://www.linkedin.com/jobs/view/4491600304/) — Puffy
+### [Digital Marketing & Brand Growth Manager](https://www.linkedin.com/jobs/view/4493022251/) — Homex Properties
 - 📍 **Location:** Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-11-24
+
+### [AI Workflow Specialist (All Genders)](https://www.linkedin.com/jobs/view/4493696274/) — HelloFresh
+- 📍 **Location:** Berlin, Berlin, Germany
+- 🕒 **Posted:** 2026-11-23
+
+### [Performance Creative Strategist](https://www.linkedin.com/jobs/view/4440044851/) — Instaffo
+- 📍 **Location:** Berlin, Berlin, Germany
+- 🕒 **Posted:** 2026-11-22
+
+### [Performance Marketing Manager | Al-Futtaim Automotive | Dubai](https://www.linkedin.com/jobs/view/4484461310/) — Al-Futtaim
+- 📍 **Location:** Dubai, Dubai, United Arab Emirates
 - 🕒 **Posted:** 2026-11-19
 
-### [Performance Marketing Specialist - UAE](https://www.linkedin.com/jobs/view/4491618177/) — Matrix Fitness Middle East
-- 📍 **Location:** Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-19
-
-### [Innovation Brand Designer](https://www.linkedin.com/jobs/view/4444427036/) — Savills
-- 📍 **Location:** Lisbon, Lisbon, Portugal
+### [AI Artist](https://www.linkedin.com/jobs/view/4492039696/) — TwentyfourSeven
+- 📍 **Location:** Barcelona, Catalonia, Spain
 - 🕒 **Posted:** 2026-11-18
