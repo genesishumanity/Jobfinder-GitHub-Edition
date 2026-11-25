@@ -43,6 +43,7 @@
     "1c5af585b3f9c724979001e9f6d5b10d07a0f494c8be3ddee76c53958f4ce26e",
     "1ca76a9914ed76d483480d38f5be3d28e2cd5e10e54d7909d712aafde78059a6",
     "1fd432d736ccb772062afe840e11ace00f13d775e62c05c80fa8adca3e52a807",
+    "1fec26f37c4410c05345ec2fa5d145804d8ef66120a1166d95901b8cbfe1d604",
     "203af9b1c832f9b54c037ae29bf523112cdcaf4599924a2e2b520bcf6c0c2d5f",
     "20d7436f19a7702f39e9b3395b6112ae0106b2d6daa1a773c69349c2d646afae",
     "2299218b3653923b28769268f79142d2246cd19badcc3249ca5add89d1cbd389",
@@ -1400,31 +1401,33 @@
     "mercury|executive producer - brand creative|anywhere in the world": {
       "material": "||True",
       "last_sent": "2026-11-24T03:30:06.832185+00:00"
+    },
+    "jam event services|creative director - events & experiential|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-11-25T14:41:27.352957+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 15,
-    "duplicate": 10,
+    "discovered": 7,
+    "duplicate": 0,
     "geography": 0,
-    "remote": 0,
+    "remote": 3,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 1,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "country_restricted": 3,
-    "language_required": 1,
-    "wrong_role": 1
+    "wrong_role": 2
   }
 }
