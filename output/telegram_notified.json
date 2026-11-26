@@ -69,6 +69,7 @@
     "30fb18873014ce3db88ae12f3c76346275b45cf816297a696e6a0bfc1a52a913",
     "31d6f3c4f0ef46ad31638f019b3004cee417c3da2df391745138e7851314c425",
     "32c6779c79610d39fc6630f6221dd6f8ad20dc93a23fd1be2bf2cd8a31367f04",
+    "3388bb382b49a926a2f96671fc8f7ab5aefa223887b854515977685fd103a401",
     "34583679523f1bc47393ae8c144e0edc9c4255e7a3867585dddba2fd846f616e",
     "349b8f27bb127606649a11f50c02a231573c5641ac311ed2d90146a32b7ba277",
     "3500b69ab0036745f63c33683864b1a585ab76e8e21946bfc6baa8a564346847",
@@ -1405,13 +1406,17 @@
     "jam event services|creative director - events & experiential|dubai, united arab emirates": {
       "material": "||",
       "last_sent": "2026-11-25T14:41:27.352957+00:00"
+    },
+    "zabota llc|senior creative strategist|worldwide": {
+      "material": "8000-8000 USD||True",
+      "last_sent": "2026-11-26T01:12:17.629129+00:00"
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "remote_boards_jobs.json",
     "min_fit": 0.0,
-    "discovered": 0,
-    "duplicate": 0,
+    "discovered": 15,
+    "duplicate": 9,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
@@ -1424,9 +1429,12 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0
+    "ledger_errors": 0,
+    "country_restricted": 3,
+    "language_required": 1,
+    "wrong_role": 1
   }
 }
