@@ -175,6 +175,7 @@
     "7e0b462ac1f900571979bd57ccba4cb8070343227d4497388ebc44d36656d7b2",
     "7eb3256b2d284b01cc0de89c871e46f97543dc484ba980a19e3994b17fd23e66",
     "80a8da42555c0a4cae0354118e90bafb718a9dc91d8810d51574abeebb41813b",
+    "812ad8a6b403db10a1fe8f14d92d96c9ad08abbe5dc3fa86cbc484c899d1c31f",
     "827fdadc266d0f8371f96b30be9646adb0d85dd0617c87d41a0a3e35121c3901",
     "8306631c05c558c62602ac8af15a34cc4ed8309bcd9d3ee03159620c58bd8699",
     "83724640e329aa55552f71e16f9719573f884fc4053b1b98614843745e81669b",
@@ -198,6 +199,7 @@
     "97757b6a2faf2b6e572376dd5f4ce6a73181f05cc2c3e0640a61e437bf535de4",
     "995cc7b7d9d52e8b633b8779294f43ee674bd940174ddd11c05380e18d475918",
     "995d061b4f22608ee317235f935b4dbfd1dc8e3776d3399f74f9711bdd84e725",
+    "99dff2565493ea3146a509cdff63efd802e5844c242e982778f0f061a00636c4",
     "9a899ff0e1cb85d3e1f42d861a939be7745015be1bfca8cd7076b9dc502c9e09",
     "9aed5d6ef60041e9e7813e0a5cca6d979ce22e3273cc40e8c0139afaae131204",
     "9b9f77a7c4dbd8b7cb2e5e1794d0409f2d62d9b3d9b7bb7a1b9d16fe78fab9ce",
@@ -262,6 +264,7 @@
     "cbf3e51edde019b3fbaa034d325973265c356d08583dae02d4b85d93f367a29f",
     "cc5595986163da08600f2d9352a4945f5803a8325065508e018b41b803aa361c",
     "cd09e5b9bcd19bbcde1f9043a0e56d586d38e61162f71a7f47c62f30c805fb5d",
+    "d095b5863d590df003d3cf83575529dc388260c25099336463920a62e2e648f7",
     "d22a968afb30170768f4dc158c64aeaf90a33296708887878727193af517c8b8",
     "d27d1a5b63864d8dea9e88907d30966f2abad6c53de16c601e053afb66ff560f",
     "d2ac498a2b0bf22966eba4f0d439225c21a19c34f04519f5186ec2f083a69a33",
@@ -1410,31 +1413,41 @@
     "zabota llc|senior creative strategist|worldwide": {
       "material": "8000-8000 USD||True",
       "last_sent": "2026-11-26T01:12:17.629129+00:00"
+    },
+    "salt|creative strategist|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-11-26T14:17:15.778483+00:00"
+    },
+    "talent blueprint fz llc|creative director|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-11-26T14:17:19.479532+00:00"
+    },
+    "izil beauty|global creative director|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-11-26T14:17:23.360375+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 15,
-    "duplicate": 9,
+    "discovered": 12,
+    "duplicate": 0,
     "geography": 0,
-    "remote": 0,
+    "remote": 4,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 2,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 1,
+    "delivered": 3,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "country_restricted": 3,
-    "language_required": 1,
-    "wrong_role": 1
+    "country_restricted": 3
   }
 }
