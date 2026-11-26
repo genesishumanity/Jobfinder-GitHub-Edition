@@ -150,6 +150,7 @@
     "6a3c6c64e9ade5a1604a96d18581e82663960e15ad45f3026b8edebbb3f48041",
     "6a7b3e06549a53b990b50b49ad2ae14d0f322ab14f6b764bbbf50c8bcc678a05",
     "6bcd95a735f89ed6cdeaf4f22cc19b5f1cbd2e831a388defa2f15f0ac356d8a4",
+    "6e5027d367ebd91c886552d72435d3566cf6baa59868b9a6b4e31de3717e1852",
     "6fd690a4840cc6132d48c9892669420b82b25353cf4b5ac2d3be8dccad8859d3",
     "70d3e473afd6814768db240251e99c2767964620ca1b51b334a3b68d30df4cc0",
     "711584d3ce0e03aab64b3b4feaac69eb8ab3568f7a436ec3f24f74cb73ac24d1",
@@ -1425,13 +1426,17 @@
     "izil beauty|global creative director|dubai, united arab emirates": {
       "material": "||",
       "last_sent": "2026-11-26T14:17:23.360375+00:00"
+    },
+    "dropbox|integrated campaign strategist|anywhere in the world": {
+      "material": "||True",
+      "last_sent": "2026-11-26T15:52:48.012886+00:00"
     }
   },
   "last_run": {
-    "source_file": "indeed_jobs.json",
+    "source_file": "remote_boards_jobs.json",
     "min_fit": 0.0,
-    "discovered": 2,
-    "duplicate": 1,
+    "discovered": 16,
+    "duplicate": 10,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
@@ -1444,10 +1449,12 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 1,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
+    "country_restricted": 3,
+    "language_required": 1,
     "wrong_role": 1
   }
 }
