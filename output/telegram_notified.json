@@ -214,6 +214,7 @@
     "a3a577fd023324f92f312e7abfcd42964389918815a800873e21fb789ce3ae80",
     "a42aef43e7cd2415b7f0055eba5a547b13e7701f900766220b2a77fc1c0b683b",
     "a4475656b4186e5135c6d8b724c99ec2d4d1dcfe461c60a182e12ac9be5014d6",
+    "a5e59f92c6d2f47d218967b27b89e4be4956ac14ed4c9a16a1f05fb069218fc2",
     "a618e7a86fe4ac64ae1d90639338cfdab653baf0203bb0381497e93df2810dd7",
     "a6249cc6d440452d0f2d08f8b2d36e1a1b522695158f2612f49a9f8f4db5c151",
     "a86cb9da37951dcd37e9c672c036fd82e50d607d6629ec957649422c6f87222a",
@@ -241,6 +242,7 @@
     "b6d49783ced0fc5604182c28ad7ba0b7f71859fa1c0c1931a0eca98e5dda9b69",
     "b72f47ec0d491bdfdd240f5a0b6ae5dc37a14558c26d4c81a36983655b088ef3",
     "b8a99dcf237a152937d8a8bd31b3923eb9ad651c7736bab50956495aafd32b8e",
+    "b907fbdeaaa8722cf5282b4ede66f811c840b559bf00bcabbe5fa9b555aa5ba8",
     "b93a29a772c116788847fb1c6f8aab324c31b92df4f08f64d02d460d67c93732",
     "b9f08c690da05ac86b0e201db1ad0c1dc2570171dafe878f95b33d580c742da5",
     "baaf4df617bce8357f1e1861f38bbc19170862dd9b4e138d6693613e64891305",
@@ -1430,31 +1432,38 @@
     "dropbox|integrated campaign strategist|anywhere in the world": {
       "material": "||True",
       "last_sent": "2026-11-26T15:52:48.012886+00:00"
+    },
+    "langford staffing|ai content producer — multi-brand|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-11-27T14:18:42.085078+00:00"
+    },
+    "dib|avp – head of creative (emirati talent)|dubai, united arab emirates": {
+      "material": "||",
+      "last_sent": "2026-11-27T14:18:45.010723+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "linkedin_jobs.json",
     "min_fit": 0.0,
-    "discovered": 15,
-    "duplicate": 10,
-    "geography": 0,
+    "discovered": 8,
+    "duplicate": 0,
+    "geography": 1,
     "remote": 0,
     "restricted": 0,
     "language": 0,
     "domain": 0,
     "gig_marketplace": 0,
     "untrusted_source": 0,
-    "off_mission_role": 0,
+    "off_mission_role": 3,
     "on_camera_gig": 0,
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 2,
     "failed": 0,
     "pending_reconciliation": 0,
     "ledger_errors": 0,
-    "country_restricted": 3,
     "language_required": 1,
-    "wrong_role": 1
+    "country_restricted": 1
   }
 }

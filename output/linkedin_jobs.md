@@ -1,53 +1,36 @@
 # 🔥 LinkedIn — Creative Leadership Roles
-*Last updated: 2026-11-26 14:17 UTC*
+*Last updated: 2026-11-27 14:18 UTC*
 
-**12 new role(s)** since last run · 36 total in last 168h
+**8 new role(s)** since last run · 37 total in last 168h
 
-### [Head of Creative – itsu](https://www.linkedin.com/jobs/view/4495247864/) — Inside Out® Community
-- 📍 **Location:** London Area, United Kingdom
+### [Creative Design Lead](https://www.linkedin.com/jobs/view/4494108531/) — Omnitel
+- 📍 **Location:** Greater Barcelona Metropolitan Area
+- 🕒 **Posted:** 2026-11-27
+
+### [AI Content Producer — Multi-Brand](https://www.linkedin.com/jobs/view/4495074300/) — Langford Staffing
+- 📍 **Location:** Dubai, Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-11-27
+
+### [AVP – Head of Creative (Emirati Talent)](https://www.linkedin.com/jobs/view/4494201006/) — DIB
+- 📍 **Location:** Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-11-27
+
+### [Senior Creative Retail Design Manager](https://www.linkedin.com/jobs/view/4493870583/) — Discovered MENA
+- 📍 **Location:** Dubai, United Arab Emirates
+- 🕒 **Posted:** 2026-11-27
+
+### [Sr. Creative Strategist – Paid Social (m/f/d)](https://www.linkedin.com/jobs/view/4493813983/) — HOLY
+- 📍 **Location:** Berlin, Berlin, Germany
 - 🕒 **Posted:** 2026-11-26
 
-### [Global Creative Director](https://www.linkedin.com/jobs/view/4493822087/) — izil Beauty
+### [Social Media & Content Lead — Multi-Brand](https://www.linkedin.com/jobs/view/4495060232/) — Langford Staffing
 - 📍 **Location:** Dubai, Dubai, United Arab Emirates
 - 🕒 **Posted:** 2026-11-26
 
-### [Creative Technologist](https://www.linkedin.com/jobs/view/4495248709/) — Black Forest Labs
-- 📍 **Location:** Freiburg, Baden-Württemberg, Germany
-- 💰 **Salary:** $220K - $320K
-- 🕒 **Posted:** 2026-11-26
-
-### [Senior Creative Lead/Manager](https://www.linkedin.com/jobs/view/4467366782/) — 3Search
-- 📍 **Location:** London Area, United Kingdom
-- 🕒 **Posted:** 2026-11-26
-
-### [Senior Performance Creative Strategist](https://www.linkedin.com/jobs/view/4493814217/) — Cranberry Panda
-- 📍 **Location:** London Area, United Kingdom
-- 🕒 **Posted:** 2026-11-26
-
-### [Senior Creative Strategist (Meta & TikTok Ads) - all genders](https://www.linkedin.com/jobs/view/4493818111/) — Adbaker GmbH
-- 📍 **Location:** Cologne, North Rhine-Westphalia, Germany
-- 🕒 **Posted:** 2026-11-26
-
-### [Generative AI Visualiser](https://www.linkedin.com/jobs/view/4495274346/) — WINK
-- 📍 **Location:** Amsterdam, North Holland, Netherlands
-- 🕒 **Posted:** 2026-11-26
-
-### [Creative Strategist](https://www.linkedin.com/jobs/view/4495012848/) — RZ HR Studio
-- 📍 **Location:** Amsterdam, North Holland, Netherlands
-- 🕒 **Posted:** 2026-11-26
-
-### [Creative Strategist](https://www.linkedin.com/jobs/view/4493813823/) — Salt
+### [Marketing Campaign Lead](https://www.linkedin.com/jobs/view/4493835130/) — du Pay
 - 📍 **Location:** Dubai, United Arab Emirates
 - 🕒 **Posted:** 2026-11-26
 
-### [Creative Director](https://www.linkedin.com/jobs/view/4495276513/) — Talent Blueprint FZ LLC
-- 📍 **Location:** Dubai, Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-26
-
-### [Performance Marketing Lead](https://www.linkedin.com/jobs/view/4493499449/) — Al Salah Holding
-- 📍 **Location:** Dubai, United Arab Emirates
-- 🕒 **Posted:** 2026-11-26
-
-### [Senior Creative Strategist (m/w/d) – Meta Ads | Direct Response | eCommerce - Jobbird.com](https://www.linkedin.com/jobs/view/4494940630/) — Jobster
-- 📍 **Location:** Düsseldorf, North Rhine-Westphalia, Germany
-- 🕒 **Posted:** 2026-11-25
+### [Senior Integrated Producer](https://www.linkedin.com/jobs/view/4493779322/) — Philips
+- 📍 **Location:** Amsterdam, North Holland, Netherlands
+- 🕒 **Posted:** 2026-11-23
