@@ -45,6 +45,7 @@
     "1fd432d736ccb772062afe840e11ace00f13d775e62c05c80fa8adca3e52a807",
     "1fec26f37c4410c05345ec2fa5d145804d8ef66120a1166d95901b8cbfe1d604",
     "203af9b1c832f9b54c037ae29bf523112cdcaf4599924a2e2b520bcf6c0c2d5f",
+    "20ab2852ad25e36a3a0554cf0608b4129e4ff31897d5a5c64f4e2c3448f0987e",
     "20d7436f19a7702f39e9b3395b6112ae0106b2d6daa1a773c69349c2d646afae",
     "2299218b3653923b28769268f79142d2246cd19badcc3249ca5add89d1cbd389",
     "22a7e624fd435361c171ffc49e097a1b46f1f618ee3b19f4c16f2d69e1770279",
@@ -53,6 +54,7 @@
     "25a51ff6b8959ab12f193c921ead5e1f64129687b591fbf959f64123978e0ace",
     "25fa1eebef54386590b0f78bc29582e5c7e619d215d3307afdaa460471c1f33f",
     "282057ffe6259ee5267709015c2288d2670e0a6fc331768a2a8d7f4f42ac6185",
+    "28648f59527adc4329ff16119561a837cb899ccf3be62543c3c73540bd7e2b9c",
     "28694672b0e36782e1bbe9df5858045bf4f3fd7426bdf0adb94aa090cd4fbdb5",
     "2888decb99e41645af5fdf7fcf2679ac40393c9e6eda104ca0408c0397d33ab3",
     "2aff894afff7bfddfea60abec6665c7c050ca40fca63a12511a440fcbb2b54f6",
@@ -1440,13 +1442,21 @@
     "dib|avp – head of creative (emirati talent)|dubai, united arab emirates": {
       "material": "||",
       "last_sent": "2026-11-27T14:18:45.010723+00:00"
+    },
+    "paradox group|ai native creative strategist|dubai, united arab emirates": {
+      "material": "|On-site|False",
+      "last_sent": "2026-11-28T13:40:34.450140+00:00"
+    },
+    "paradox group|ai native creative director|dubai, united arab emirates": {
+      "material": "|On-site|False",
+      "last_sent": "2026-11-28T13:40:38.189848+00:00"
     }
   },
   "last_run": {
-    "source_file": "remote_boards_jobs.json",
+    "source_file": "indeed_jobs.json",
     "min_fit": 0.0,
-    "discovered": 15,
-    "duplicate": 10,
+    "discovered": 2,
+    "duplicate": 0,
     "geography": 0,
     "remote": 0,
     "restricted": 0,
@@ -1459,12 +1469,9 @@
     "dead_link": 0,
     "low_fit": 0,
     "capped": 0,
-    "delivered": 0,
+    "delivered": 2,
     "failed": 0,
     "pending_reconciliation": 0,
-    "ledger_errors": 0,
-    "country_restricted": 3,
-    "language_required": 1,
-    "wrong_role": 1
+    "ledger_errors": 0
   }
 }
